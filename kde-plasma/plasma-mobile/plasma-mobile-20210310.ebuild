@@ -9,9 +9,11 @@ HOMEPAGE="https://www.plasma-mobile.org/"
 LICENSE="metapackage"
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE="+dialer"
+IUSE="+dialer handbook pulseaudio"
 
 RDEPEND="
 	kde-plasma/plasma-phone-components
 	dialer? ( kde-apps/plasma-dialer )
+	handbook? ( kde-apps/khelpcenter )
+	pulseaudio? ( kde-plasma/plasma-pa )
 "

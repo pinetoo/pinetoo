@@ -1,1 +1,1 @@
-USE="dialer networkmanager pulseaudio"
+USE="brightness-control dialer emoji networkmanager pulseaudio wayland wireless xcsecurity"
