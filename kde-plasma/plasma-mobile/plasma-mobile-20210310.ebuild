@@ -12,5 +12,6 @@ KEYWORDS="~arm64"
 IUSE="+dialer"
 
 RDEPEND="
+	kde-plasma/plasma-phone-components
 	dialer? ( kde-apps/plasma-dialer )
 "
