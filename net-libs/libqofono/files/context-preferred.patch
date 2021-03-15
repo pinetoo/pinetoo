@@ -1,0 +1,107 @@
+Index: libqofono-ubuntu/src/qofonoconnectioncontext.cpp
+===================================================================
+--- libqofono-ubuntu.orig/src/qofonoconnectioncontext.cpp
++++ libqofono-ubuntu/src/qofonoconnectioncontext.cpp
+@@ -117,6 +117,8 @@ void QOfonoConnectionContext::propertyCh
+     SUPER::propertyChanged(property, value);
+     if (property == QLatin1String("Active")) {
+         Q_EMIT activeChanged(value.value<bool>());
++    } else if (property == QLatin1String("Preferred")) {
++        Q_EMIT preferredChanged(value.value<bool>());
+     } else if (property == QLatin1String("Name")) {
+         Q_EMIT nameChanged(value.value<QString>());
+     } else if (property == QLatin1String("AccessPointName")) {
+@@ -147,6 +149,11 @@ bool QOfonoConnectionContext::active() c
+     return getBool("Active");
+ }
+ 
++bool QOfonoConnectionContext::preferred() const
++{
++    return getBool("Preferred");
++}
++
+ QString QOfonoConnectionContext::accessPointName() const
+ {
+     return getString("AccessPointName");
+@@ -211,6 +218,11 @@ void QOfonoConnectionContext::setActive(
+     setProperty("Active", value);
+ }
+ 
++void QOfonoConnectionContext::setPreferred(const bool value)
++{
++    setProperty("Preferred", value);
++}
++
+ void QOfonoConnectionContext::setAccessPointName(const QString &value)
+ {
+     setProperty("AccessPointName", value);
+Index: libqofono-ubuntu/src/qofonoconnectioncontext.h
+===================================================================
+--- libqofono-ubuntu.orig/src/qofonoconnectioncontext.h
++++ libqofono-ubuntu/src/qofonoconnectioncontext.h
+@@ -28,6 +28,7 @@ class QOFONOSHARED_EXPORT QOfonoConnecti
+ {
+     Q_OBJECT
+     Q_PROPERTY(bool active READ active WRITE setActive NOTIFY activeChanged)
++    Q_PROPERTY(bool preferred READ preferred WRITE setPreferred NOTIFY preferredChanged)
+     Q_PROPERTY(bool provisioning READ provisioning NOTIFY provisioningChanged)
+     Q_PROPERTY(QString accessPointName READ accessPointName WRITE setAccessPointName NOTIFY accessPointNameChanged)
+     Q_PROPERTY(QString type READ type WRITE setType NOTIFY typeChanged)
+@@ -56,6 +57,9 @@ public:
+ 
+     bool provisioning() const;
+ 
++    bool preferred() const;
++    void setPreferred(bool);
++
+     QString accessPointName() const;
+     void setAccessPointName(const QString &);
+ 
+@@ -104,6 +108,7 @@ public:
+ Q_SIGNALS:
+     void disconnectRequested();
+     void activeChanged(bool active);
++    void preferredChanged(bool preferred);
+     void provisioningChanged(bool provisioning);
+     void accessPointNameChanged(const QString &apn);
+     void nameChanged(const QString &name);
+Index: libqofono-ubuntu/test/auto/tests/tst_qofonoconnmancontext.cpp
+===================================================================
+--- libqofono-ubuntu.orig/test/auto/tests/tst_qofonoconnmancontext.cpp
++++ libqofono-ubuntu/test/auto/tests/tst_qofonoconnmancontext.cpp
+@@ -61,6 +61,7 @@ private slots:
+         QTRY_COMPARE(context->isValid(), true);
+ 
+         QSignalSpy active(context, SIGNAL(activeChanged(bool)));
++        QSignalSpy preferred(context, SIGNAL(preferredChanged(bool)));
+         QSignalSpy apn(context,SIGNAL(accessPointNameChanged(QString)));
+         QSignalSpy name(context, SIGNAL(nameChanged(QString)));
+         QSignalSpy type (context, SIGNAL(typeChanged(QString)));
+@@ -93,6 +94,10 @@ private slots:
+         QTRY_COMPARE(active.count(), 1);
+         QCOMPARE(active.takeFirst().at(0).toBool(), true);
+ 
++        context->setPreferred(true);
++        QTRY_COMPARE(preferred.count(), 1);
++        QCOMPARE(preferred.takeFirst().at(0).toBool(), true);
++
+         QTRY_COMPARE(sett6.count(), 1);
+         QCOMPARE(sett6.takeFirst().at(0).toMap()["Interface"].value<QString>().left(5),
+             QString("dummy")); // "dummy" plus number
+@@ -109,11 +114,16 @@ private slots:
+         QCOMPARE(sett.count(), 0);
+         QCOMPARE(proto.count(), 0);
+         QCOMPARE(active.count(), 0);
++        QCOMPARE(preferred.count(), 0);
+ 
+         context->setActive(false);
+         QTRY_COMPARE(active.count(), 1);
+         QCOMPARE(active.takeFirst().at(0).toBool(), false);
+ 
++        context->setPreferred(false);
++        QTRY_COMPARE(preferred.count(), 1);
++        QCOMPARE(preferred.takeFirst().at(0).toBool(), false);
++
+         delete context;
+ 
+         m->removeContext(contextid);

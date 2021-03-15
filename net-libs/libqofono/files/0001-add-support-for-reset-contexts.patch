@@ -1,0 +1,119 @@
+From 8b00dd89cb0be7319acc21a69cf477fbbad992d3 Mon Sep 17 00:00:00 2001
+From: Marius Gripsgard <marius@ubports.com>
+Date: Sat, 12 Sep 2020 20:03:14 +0200
+Subject: [PATCH] [connman] Add support for reset contexts dbus call
+
+This adds support for reset contexts dbus call
+
+See upstream ofono commit:
+https://git.kernel.org/pub/scm/network/ofono/ofono.git/commit/src/gprs.c?id=444611c086d3c333546e2645feba96020a4c030e
+---
+ src/dbus/ofono_connection_manager.xml |  1 +
+ src/qofonoconnectionmanager.cpp       | 15 +++++++++++
+ src/qofonoconnectionmanager.h         |  1 +
+ test/auto/tests/tst_qofonoconnman.cpp | 37 +++++++++++++++++++++++++++
+ 4 files changed, 54 insertions(+)
+
+diff --git a/src/dbus/ofono_connection_manager.xml b/src/dbus/ofono_connection_manager.xml
+index 6ac0965..e5156cf 100644
+--- a/src/dbus/ofono_connection_manager.xml
++++ b/src/dbus/ofono_connection_manager.xml
+@@ -18,6 +18,7 @@
+ 			<arg type="o" direction="in"/>
+ 		</method>
+ 		<method name="DeactivateAll"/>
++		<method name="ResetContexts"/>
+ 		<method name="GetContexts">
+ 			<arg type="a(oa{sv})" direction="out"/>
+ 			<annotation name="org.qtproject.QtDBus.QtTypeName.Out0" value="ObjectPathPropertiesList"/>
+diff --git a/src/qofonoconnectionmanager.cpp b/src/qofonoconnectionmanager.cpp
+index aac507c..c8fafaa 100644
+--- a/src/qofonoconnectionmanager.cpp
++++ b/src/qofonoconnectionmanager.cpp
+@@ -143,6 +143,21 @@ void QOfonoConnectionManager::removeContext(const QString &path)
+     }
+ }
+ 
++void QOfonoConnectionManager::resetContexts()
++{
++    OfonoConnectionManager *iface = (OfonoConnectionManager*)dbusInterface();
++    if (iface) {
++        QDBusPendingReply<> deactivate = iface->DeactivateAll();
++        deactivate.waitForFinished();
++        QDBusPendingReply<> reset = iface->ResetContexts();
++        reset.waitForFinished();
++        if (reset.isError()) {
++            qDebug() << reset.error();
++            Q_EMIT reportError(reset.error().message());
++        }
++    }
++}
++
+ bool QOfonoConnectionManager::attached() const
+ {
+     return getBool("Attached");
+diff --git a/src/qofonoconnectionmanager.h b/src/qofonoconnectionmanager.h
+index c937f91..9d66bcf 100644
+--- a/src/qofonoconnectionmanager.h
++++ b/src/qofonoconnectionmanager.h
+@@ -79,6 +79,7 @@ public slots:
+     void deactivateAll();
+     void addContext(const QString &type);
+     void removeContext(const QString &path);
++    void resetContexts();
+ 
+ private slots:
+     void onAddContextFinished(QDBusPendingCallWatcher *watch);
+diff --git a/test/auto/tests/tst_qofonoconnman.cpp b/test/auto/tests/tst_qofonoconnman.cpp
+index 2e06120..ada1d60 100644
+--- a/test/auto/tests/tst_qofonoconnman.cpp
++++ b/test/auto/tests/tst_qofonoconnman.cpp
+@@ -107,8 +107,45 @@ private slots:
+         QCOMPARE(rem.count(), 0);
+     }
+ 
++    void testResetContexts()
++    {
++        Q_FOREACH (QString context, m->contexts()) {
++            m->removeContext(context);
++        }
++        QTRY_VERIFY(m->contexts().isEmpty());
++
++        QSignalSpy pow(m, SIGNAL(poweredChanged(bool)));
++        QSignalSpy add(m, SIGNAL(contextAdded(QString)));
++        QSignalSpy rem(m, SIGNAL(contextRemoved(QString)));
++
++        // Add new context.
++        m->addContext(QString("internet"));
++        QTRY_COMPARE(add.count(), 1);
++        QString path = add.takeFirst().at(0).toString();
++        QOfonoConnectionContext* contextInternet = new QOfonoConnectionContext(this);
++        contextInternet->setContextPath(path);
++
++        // We activate context to make sure connman is deactivating on reset.
++        contextInternet->setActive(true);
++        QTRY_VERIFY(contextInternet->active());
++
++        // Connman needs to be powered down before calling reset.
++        m->setPowered(false);
++        QTRY_COMPARE(pow.count(), 1);
++        QCOMPARE(pow.takeFirst().at(0).toBool(), false);
++        QCOMPARE(m->powered(), false);
++
++        m->resetContexts();
++        QTRY_COMPARE(rem.count(), 1);
++    }
++
+     void cleanupTestCase()
+     {
++        QSignalSpy pow(m, SIGNAL(poweredChanged(bool)));
++        m->setPowered(true);
++        QTRY_COMPARE(pow.count(), 1);
++        QCOMPARE(pow.takeFirst().at(0).toBool(), true);
++        QCOMPARE(m->powered(), true);
+     }
+ 
+ private:
+-- 
+2.23.0
+
