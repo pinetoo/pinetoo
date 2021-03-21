@@ -12,7 +12,12 @@ KEYWORDS="~arm64"
 IUSE="+dialer handbook pulseaudio"
 
 RDEPEND="
+	app-mobilephone/spacebar
+	kde-apps/index
+	kde-apps/kclock
+	kde-apps/ktrip
 	kde-plasma/plasma-phone-components
+	media-sound/krecorder
 	dialer? ( kde-apps/plasma-dialer )
 	handbook? ( kde-apps/khelpcenter )
 	pulseaudio? ( kde-plasma/plasma-pa )
