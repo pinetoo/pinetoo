@@ -1,0 +1,76 @@
+# Copyright 1999-2020 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+KFMIN=5.60.0
+QTMIN=5.10.0
+inherit ecm kde.org
+
+MY_PV="v${PV}"
+MY_P="${PN}-${MY_PV}"
+
+DESCRIPTION="Mail client based on KDE Frameworks"
+HOMEPAGE="https://kube-project.com"
+SRC_URI="https://invent.kde.org/pim/${PN}/-/archive/${MY_PV}/${MY_P}.tar.bz2"
+
+LICENSE="GPL-2+"
+SLOT="5"
+KEYWORDS="~arm64"
+IUSE="test"
+
+RDEPEND="
+	>=app-crypt/gpgme-1.7.1:=[cxx,qt5]
+	dev-libs/kasync:5
+	>=dev-libs/sink-0.9.0:5
+	dev-qt/qtcore:5
+	dev-qt/qtdeclarative:5
+	dev-qt/qtgui:5
+	dev-qt/qtnetwork:5
+	dev-qt/qtquickcontrols:5
+	dev-qt/qtquickcontrols2:5
+	dev-qt/qtwebengine:5[widgets]
+	dev-qt/qtwidgets:5
+	kde-apps/kmime:5
+	kde-frameworks/breeze-icons:5
+	kde-frameworks/extra-cmake-modules:5
+	kde-frameworks/kcodecs:5
+	kde-frameworks/kcontacts:5
+"
+DEPEND="${RDEPEND}
+	test? ( dev-qt/qttest:5 )
+	dev-qt/qtconcurrent:5
+	dev-qt/qtwebchannel:5
+	dev-qt/qtpositioning:5
+	dev-qt/qtprintsupport:5
+	kde-frameworks/kcalendarcore:5
+	kde-frameworks/kcoreaddons:5
+	kde-frameworks/sonnet:5
+"
+
+RESTRICT+=" test"
+
+PATCHES=(
+	"${FILESDIR}/${P}-tests-optional.patch"
+	"${FILESDIR}/${P}-appdata-location.patch"
+)
+
+S="${WORKDIR}/${MY_P}"
+
+src_prepare() {
+	cmake_src_prepare
+
+	sed -e "/find_package.*Qt5/s/ Concurrent//" \
+		-i {extensions/api,framework}/src/CMakeLists.txt || die
+
+	if ! use test; then
+		sed -e "/find_package.*Qt5/s/ Test//" \
+			-i {,components/}CMakeLists.txt CMakeLists.txt \
+				{extensions/api,framework}/src/CMakeLists.txt || die
+		sed -e "/Qt5::Test/s/^/#DISABLED/" \
+			-i {extensions/api,framework}/src/CMakeLists.txt || die
+		sed -e "/set(BUILD_TESTING ON)/s/^/#DISABLED /" \
+			-e "/domain\/modeltest.cpp/s/^/#DISABLED /" \
+			-i framework/src/CMakeLists.txt || die
+	fi
+}
