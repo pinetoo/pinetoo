@@ -41,11 +41,3 @@ RDEPEND="${DEPEND}
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:5
 	>=dev-qt/qtquickcontrols2-${QTMIN}:5
 "
-
-#src_configure() {
-#	local mycmakeargs=(
-#		-DKDE_L10N_AUTO_TRANSLATIONS:BOOL=$(use nls && echo ON || echo OFF)
-#	)
-#
-#	cmake_src_configure
-#}
