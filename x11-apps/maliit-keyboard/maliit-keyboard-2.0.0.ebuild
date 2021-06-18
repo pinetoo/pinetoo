@@ -15,6 +15,7 @@ KEYWORDS="~arm64"
 IUSE="cjk spell +suggestions"
 
 DEPEND="
+	app-i18n/libpinyin
 	dev-libs/glib:2
 	x11-libs/maliit
 	dev-qt/qtcore:5
