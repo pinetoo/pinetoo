@@ -22,7 +22,7 @@ RDEPEND="
 	dev-cpp/gtest
 	dev-libs/boost
 	dev-libs/icu
-	dev-libs/protobuf"
+	dev-libs/protobuf:="
 
 DEPEND="${RDEPEND}"
 
