@@ -35,7 +35,8 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}
-	dev-qt/qtquickcontrols2"
+	dev-qt/qtquickcontrols2
+	media-fonts/noto-emoji"
 
 S="${WORKDIR}/keyboard-${PV}"
 
