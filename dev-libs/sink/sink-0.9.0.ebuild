@@ -34,6 +34,7 @@ RDEPEND="
 	>=net-libs/kimap2-0.4:5
 	>=net-misc/curl-7.20.0
 	sys-libs/readline:0=
+	>=net-libs/kdav2-0.3
 "
 DEPEND="${RDEPEND}"
 
