@@ -5,7 +5,4 @@
     <email>pinetoo@chuso.net</email>
     <name>Jesus Perez Rey</name>
   </maintainer>
-  <use>
-    <flag name="dialer">Pull <pkg>kde-apps/plasma-dialer</pkg> for the ability to make and receive phone calls</flag>
-  </use>
 </pkgmetadata>
