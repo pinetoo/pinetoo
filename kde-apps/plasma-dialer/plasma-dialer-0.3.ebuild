@@ -19,7 +19,7 @@ KEYWORDS="~arm64"
 IUSE=""
 
 RDEPEND="
-	sys-devel/gettext
+	dev-libs/libphonenumber
 	dev-qt/qtcore:5
 	>=dev-qt/qtgui-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
