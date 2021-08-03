@@ -21,7 +21,7 @@ DEPEND="
 	sys-apps/systemd
 	net-misc/atinout
 	sci-geosciences/gpsd
-	>sys-kernel/linux-pinephone-5.10.12
+	>sys-kernel/pinephone-kernel-5.10.12
 	app-mobilephone/eg25-manager
 "
 
