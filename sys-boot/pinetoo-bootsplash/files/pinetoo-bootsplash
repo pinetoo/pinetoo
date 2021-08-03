@@ -1,0 +1,7 @@
+build() {
+    add_binary /lib/firmware/bootsplash-themes/pinetoo/bootsplash /lib/firmware/bootsplash-themes/pinetoo/bootsplash
+}
+
+help() {
+    echo "This hook includes plymouth in the initramfs image."
+}
