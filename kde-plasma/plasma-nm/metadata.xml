@@ -6,6 +6,7 @@
     <name>Jesus Perez Rey</name>
   </maintainer>
   <use>
+    <flag name="mobile">Build the mobile version</flag>
     <flag name="modemmanager">Enable support for mobile broadband devices</flag>
     <flag name="openconnect">Build support for the OpenConnect VPN client</flag>
     <flag name="teamd">Enable Teamd control support</flag>
