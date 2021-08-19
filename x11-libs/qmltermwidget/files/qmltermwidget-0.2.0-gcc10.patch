@@ -1,0 +1,23 @@
+From 485f8d6d841b607ba49e55a791f7f587e4e193bc Mon Sep 17 00:00:00 2001
+From: suve <veg@svgames.pl>
+Date: Fri, 31 Jan 2020 10:13:26 +0100
+Subject: [PATCH] Fix missing #includes in TerminalCharacterDecoder
+
+---
+ lib/TerminalCharacterDecoder.cpp | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/lib/TerminalCharacterDecoder.cpp b/lib/TerminalCharacterDecoder.cpp
+index 579dedf..7ce8c78 100644
+--- a/lib/TerminalCharacterDecoder.cpp
++++ b/lib/TerminalCharacterDecoder.cpp
+@@ -22,6 +22,9 @@
+ // Own
+ #include "TerminalCharacterDecoder.h"
+ 
++// stdlib
++#include <cwctype>
++
+ // Qt
+ #include <QTextStream>
+ 
