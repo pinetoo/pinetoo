@@ -32,6 +32,7 @@ DEPEND="
 	>=kde-frameworks/kirigami-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	>=dev-qt/qttest-${QTMIN}:5
+	sys-auth/oath-toolkit
 "
 
 DEPEND="${DEPEND}"
