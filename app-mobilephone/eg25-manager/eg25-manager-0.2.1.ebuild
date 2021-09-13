@@ -8,13 +8,11 @@ inherit meson systemd
 DESCRIPTION="Manager daemon for the Quectel EG25 mobile broadband modem"
 HOMEPAGE="https://gitlab.com/mobian1/devices/eg25-manager"
 SRC_URI="https://gitlab.com/mobian1/devices/${PN}/-/archive/${PV}/${P}.tar.bz2"
-#S="${WORKDIR}/${P}"
 
 LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~arm64"
 IUSE="modemmanager ofono"
-#RESTRICT="strip"
 
 RDEPEND="
 	dev-libs/glib:2
