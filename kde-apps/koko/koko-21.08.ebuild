@@ -3,15 +3,15 @@
 
 EAPI=7
 
-EGIT_REPO_URI="https://invent.kde.org/graphics/${PN}.git"
 QTMIN=5.15.0
 KFMIN=5.79.0
 
-inherit ecm git-r3 kde.org
+inherit ecm kde.org
 
 DESCRIPTION="Image gallery application designed for desktop and touch devices"
 HOMEPAGE="https://apps.kde.org/koko/"
 SRC_URI="
+	mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz
 	http://download.geonames.org/export/dump/cities1000.zip
 	http://download.geonames.org/export/dump/admin1CodesASCII.txt
 	http://download.geonames.org/export/dump/admin2Codes.txt
