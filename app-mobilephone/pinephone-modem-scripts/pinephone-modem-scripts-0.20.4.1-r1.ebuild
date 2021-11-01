@@ -15,7 +15,8 @@ HOMEPAGE="https://gitlab.manjaro.org/manjaro-arm/packages/community/phosh/pineph
 LICENSE="LGPL-2.1+"
 SLOT="0"
 KEYWORDS="~arm64"
-IUSE=""
+IUSE="modemmanager ofono"
+REQUIRED_USE="^^ ( modemmanager ofono )"
 
 DEPEND="
 	sys-apps/systemd
@@ -23,14 +24,19 @@ DEPEND="
 	sci-geosciences/gpsd
 	>sys-kernel/pinephone-kernel-5.10.12
 	app-mobilephone/eg25-manager
+	modemmanager? ( net-misc/modemmanager )
+	ofono? ( net-misc/ofono )
 "
 
 DEPEND="${DEPEND}"
 
 src_install() {
 	exeinto /usr/bin
-	doexe pinephone-modem-setup-ofono.sh
-	newexe pinephone-modem-setup.sh pinephone-modem-setup-modemmanager.sh
+	if use ofono; then
+		newexe pinephone-modem-setup-ofono.sh pinephone-modem-setup.sh
+	else
+		doexe pinephone-modem-setup.sh
+	fi
 
 	insinto /etc/gpsd
 	newins gpsd_device-hook.sh device-hook

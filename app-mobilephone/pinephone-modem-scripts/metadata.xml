@@ -5,4 +5,8 @@
     <email>pinetoo@chuso.net</email>
     <name>Jesus Perez Rey</name>
   </maintainer>
+  <use>
+    <flag name="modemmanager">Install service for setting up the modem when using <pkg>net-misc/modemmanager</pkg></flag>
+    <flag name="ofono">Install service for setting up the modem when using <pkg>net-misc/ofono</pkg></flag>
+  </use>
 </pkgmetadata>
