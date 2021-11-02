@@ -4,10 +4,10 @@
 EAPI=7
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/core/linux-pinephone.git"
-EGIT_BRANCH="5.12-megi"
-EGIT_COMMIT="ea7df6a5d8d2691335c651013b01d83201a76d1f"
+EGIT_BRANCH="5.14-megi"
+EGIT_COMMIT="8a2f16540aa83e2a02f60cb277c5e85e78bc8ecc"
 
-KERNEL_TAG="5.12-20210715-1154"
+KERNEL_TAG="5.14-20211018-0417"
 
 inherit git-r3 kernel-build
 
@@ -21,8 +21,18 @@ KEYWORDS="~arm64"
 IUSE=""
 
 PATCHES=(
-	"${WORKDIR}/${P}/5.12.17-18.patch"
-	"${WORKDIR}/${P}/5.12.18-19.patch"
+	"${WORKDIR}/${P}/5.14.12-13.patch"
+	"${WORKDIR}/${P}/5.14.13-14.patch"
+	"${WORKDIR}/${P}/5.14.14-15.patch"
+	"${FILESDIR}/Add-supply-for-i2c-bus-to-anx7688.patch"
+	"${FILESDIR}/Workaround-broken-HDMI-HPD-signal.patch"
+	"${FILESDIR}/Return-error-from-probe-when-reading-chip-version-fails.patch"
+	"${FILESDIR}/Add-support-for-i2c-bus-supply.patch"
+	"${WORKDIR}/${P}/Allow-to-accept-HPD-status-from-other-drivers.patch"
+	"${FILESDIR}/Export-HDMI-HPD-status-over-extcon-to-other-drivers.patch"
+	"${WORKDIR}/${P}/ccu-sun50i-a64-reparent-clocks-to-lower-speed-oscillator.patch"
+	"${WORKDIR}/${P}/d1d849cae12db71aa81ceedaedc1b17a34790367.patch"
+	"${WORKDIR}/${P}/2423aac2d6f5db55da99e11fd799ee66fe6f54c6.patch"
 	"${WORKDIR}/${P}/enable-hdmi-output-pinetab.patch"
 	"${WORKDIR}/${P}/enable-jack-detection-pinetab.patch"
 	"${WORKDIR}/${P}/pinetab-bluetooth.patch"
@@ -30,10 +40,8 @@ PATCHES=(
 	"${WORKDIR}/${P}/dts-pinephone-drop-modem-power-node.patch"
 	"${WORKDIR}/${P}/media-ov5640-Implement-autofocus.patch"
 	"${WORKDIR}/${P}/0011-dts-pinetab-hardcode-mmc-numbers.patch"
-	"${WORKDIR}/${P}/0012-pinephone-fix-pogopin-i2c.patch"
 	"${WORKDIR}/${P}/0107-quirk-kernel-org-bug-210681-firmware_rome_error.patch"
 	"${WORKDIR}/${P}/0177-leds-gpio-make-max_brightness-configurable.patch"
-	"${WORKDIR}/${P}/0179-arm64-dts-allwinner-pinephone-improve-device-tree.patch"
 	"${WORKDIR}/${P}/panic-led.patch"
 	"${WORKDIR}/${P}/0001-revert-fbcon-remove-now-unusued-softback_lines-cursor-argument.patch"
 	"${WORKDIR}/${P}/0002-revert-fbcon-remove-no-op-fbcon_set_origin.patch"
