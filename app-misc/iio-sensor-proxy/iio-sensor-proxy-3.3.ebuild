@@ -16,6 +16,6 @@ IUSE=""
 
 RDEPEND="
 	dev-libs/glib:2
-	dev-libs/libgudev"
+	>=dev-libs/libgudev-237"
 
 DEPEND="${RDEPEND}"
