@@ -18,7 +18,7 @@ SRC_URI="https://github.com/megous/linux/archive/refs/tags/orange-pi-${KERNEL_TA
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~arm64"
-IUSE=""
+IUSE="systemd"
 
 PATCHES=(
 	"${WORKDIR}/${P}/5.14.12-13.patch"
@@ -69,5 +69,9 @@ src_unpack() {
 
 src_configure() {
 	cp "${WORKDIR}/${P}/config" .config || die
+	if use systemd; then
+		echo "CONFIG_BPF_SYSCALL=y" >> .config || die
+		echo "CONFIG_CGROUP_BPF=y" >> .config || die
+	fi
 	kernel-build_src_configure
 }
