@@ -6,20 +6,18 @@ EAPI=7
 ECM_HANDBOOK="forceoptional"
 ECM_TEST="forceoptional"
 PVCUT=$(ver_cut 1-3)
-KFMIN=5.75.0
+KFMIN=5.80.0
 QTMIN=5.15.2
 VIRTUALX_REQUIRED="test"
 inherit ecm kde.org
 
 DESCRIPTION="Universal document viewer based on KDE Frameworks"
-HOMEPAGE="https://okular.kde.org https://apps.kde.org/en/okular"
+HOMEPAGE="https://okular.kde.org https://apps.kde.org/okular/"
 
 LICENSE="GPL-2" # TODO: CHECK
 SLOT="5"
-KEYWORDS="~amd64 ~arm64 ~ppc64 ~x86"
+KEYWORDS="~arm64"
 IUSE="chm djvu epub +image-backend markdown mobi mobile +pdf +plucker +postscript qml share speech +tiff"
-
-REQUIRED_USE="mobile? ( qml )"
 
 DEPEND="
 	>=dev-qt/qtdbus-${QTMIN}:5
@@ -35,10 +33,12 @@ DEPEND="
 	>=kde-frameworks/kconfigwidgets-${KFMIN}:5
 	>=kde-frameworks/kcoreaddons-${KFMIN}:5
 	>=kde-frameworks/kcrash-${KFMIN}:5
+	>=kde-frameworks/ki18n-${KFMIN}:5
 	>=kde-frameworks/kio-${KFMIN}:5
 	>=kde-frameworks/kjs-${KFMIN}:5
 	>=kde-frameworks/kparts-${KFMIN}:5
 	>=kde-frameworks/kpty-${KFMIN}:5
+	>=kde-frameworks/ktextwidgets-${KFMIN}:5
 	>=kde-frameworks/kwallet-${KFMIN}:5
 	>=kde-frameworks/threadweaver-${KFMIN}:5
 	media-libs/freetype
@@ -57,7 +57,7 @@ DEPEND="
 	)
 	markdown? ( app-text/discount )
 	mobi? ( >=kde-apps/kdegraphics-mobipocket-${PVCUT}:5 )
-	pdf? ( app-text/poppler[qt5] )
+	pdf? ( app-text/poppler[nss,qt5] )
 	plucker? ( virtual/jpeg:0 )
 	postscript? ( app-text/libspectre )
 	share? ( >=kde-frameworks/purpose-${KFMIN}:5 )
@@ -74,6 +74,7 @@ RDEPEND="${DEPEND}
 
 PATCHES=(
 	"${FILESDIR}/${PN}-20.11.90-tests.patch" # bug 734138
+	"${FILESDIR}/${P}-fix-fictionbook-support.patch" # KDE-bug 439807
 )
 
 src_configure() {
