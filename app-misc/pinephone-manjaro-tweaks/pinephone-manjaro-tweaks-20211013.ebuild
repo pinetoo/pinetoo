@@ -6,7 +6,7 @@ EAPI=7
 inherit git-r3 systemd udev
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/community/phosh/${PN}.git"
-EGIT_COMMIT="0e8ed77690da8e0c6204bec1793342754197e015"
+EGIT_COMMIT="85e3b68af5a7663adf3fce2d832387482eb7afd6"
 
 DESCRIPTION="Manjaro ARM's PinePhone tweaks"
 HOMEPAGE="https://gitlab.manjaro.org/manjaro-arm/packages/community/phosh/pinephone-manjaro-tweaks"
@@ -21,12 +21,6 @@ src_install() {
 
 	exeinto /etc/dconf/profile/user
 	doexe dconf-profile-manjaro
-
-	insinto /etc/gtk-3.0
-	newins gtk3-settings.ini settings.ini
-
-	insinto /etc/pipewire/media-session.d
-	doins media-session.conf
 
 	exeinto /etc/profile.d
 	doexe manjaro-tweaks.sh gsk-renderer-gl.sh
@@ -56,5 +50,5 @@ src_install() {
 
 	systemd_dounit pinephone-setup-usb-network.service pinephone-usb-gadget.service
 
-	udev_dorules 10-pinephone-brightness.rules 10-proximity.rules 20-pinephone-led.rules 90-usb-gadget-managed.rules
+	udev_dorules 10-pinephone-brightness.rules 10-proximity.rules 20-pinephone-led.rules
 }
