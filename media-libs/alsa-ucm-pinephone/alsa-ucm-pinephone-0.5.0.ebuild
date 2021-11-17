@@ -3,7 +3,7 @@
 
 EAPI=7
 
-COMMIT="298f1a12ce441d09e834935ccee6a1f92e0efe89"
+COMMIT="0dfaa4259127228e14c968a0bdd71dc74f2de3bf"
 
 DESCRIPTION="Alsa Use Casa Manager files for the PinePhone"
 HOMEPAGE="https://github.com/dreemurrs-embedded/Pine64-Arch"
@@ -15,9 +15,14 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~arm64"
 
-RDEPEND="media-libs/alsa-ucm-conf"
+RDEPEND="
+	media-libs/alsa-ucm-conf
+	>sys-kernel/pinephone-kernel-5.14.0
+"
 
 src_install() {
+	insinto /usr/share/alsa/ucm2/simple-card
+	doins PKGBUILDS/pine64/alsa-ucm-pinephone/PinePhone.conf
 	insinto /usr/share/alsa/ucm2/PinePhone
-	doins PKGBUILDS/pine64/alsa-ucm-pinephone/*.conf
+	doins PKGBUILDS/pine64/alsa-ucm-pinephone/{HiFi,VoiceCall}.conf
 }
