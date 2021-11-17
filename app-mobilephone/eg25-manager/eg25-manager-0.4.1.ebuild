@@ -26,12 +26,6 @@ DEPEND="${RDEPEND}"
 
 BDEPEND="dev-util/meson"
 
-src_install() {
-	meson_src_install
-
-	systemd_dounit "${FILESDIR}/${PN}.service"
-}
-
 pkg_postinst() {
 	systemd_enable_service multi-user.target "${PN}.service"
 }
