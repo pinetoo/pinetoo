@@ -17,6 +17,7 @@ REQUIRED_USE="drm? ( X )"
 
 RDEPEND="dev-libs/glib:2
 	sys-apps/i2c-tools
+	sys-apps/kmod
 	virtual/udev
 	drm? ( x11-libs/libdrm )
 	introspection? ( >=dev-libs/gobject-introspection-1.54.0:= )
@@ -67,9 +68,6 @@ src_configure() {
 		# As of 0.9.9 the following no longer compile:
 		# Python3 & CFFI is already broken as of Python 3.7, with future removal;
 		# SWIG : Python3.7 breakage as well PyFileObject vs PyCodeObject
-		--disable-cffi
-		--disable-cython
-		--disable-swig
 		$(use_enable introspection)
 	)
 
