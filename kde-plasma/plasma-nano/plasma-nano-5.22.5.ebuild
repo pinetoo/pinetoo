@@ -3,7 +3,7 @@
 
 EAPI=7
 
-KFMIN=5.78.0
+KFMIN=5.82.0
 QTMIN=5.15.0
 inherit ecm kde.org
 
