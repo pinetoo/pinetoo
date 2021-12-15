@@ -1,0 +1,59 @@
+From bec75d16894963c2fe5a8005b1be16fe493fa3e3 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Kai=20L=C3=BCke?= <kailueke@riseup.net>
+Date: Wed, 1 Dec 2021 21:59:46 +0100
+Subject: [PATCH] suspend: actually check if the modem is found before
+ resetting
+
+The timeout was meant to give more time to find the modem, yet the
+callback didn't actually check if it came back but blindly issued a
+reset.
+Add a check to the callback to see if the modem was found and only
+reset if not.
+
+Fixes https://gitlab.com/mobian1/devices/eg25-manager/-/issues/28
+---
+ src/suspend.c | 19 ++++++++++++++-----
+ 1 file changed, 14 insertions(+), 5 deletions(-)
+
+diff --git a/src/suspend.c b/src/suspend.c
+index 4bace47..ade1db5 100644
+--- a/src/suspend.c
++++ b/src/suspend.c
+@@ -18,11 +18,21 @@
+ #define SD_PATH         "/org/freedesktop/login1"
+ #define SD_INTERFACE    "org.freedesktop.login1.Manager"
+ 
++static void resume_ok(struct EG25Manager *manager)
++{
++    manager->modem_state = EG25_STATE_CONFIGURED;
++    modem_resume_post(manager);
++}
++
+ static gboolean check_modem_resume(struct EG25Manager *manager)
+ {
+-    g_message("Modem wasn't probed in time, restart it!");
+-    manager->modem_recovery_timer = 0;
+-    modem_reset(manager);
++    if (manager->mm_modem) {
++        resume_ok(manager);
++    } else {
++        g_message("Modem wasn't probed in time, restart it!");
++        manager->modem_recovery_timer = 0;
++        modem_reset(manager);
++    }
+ 
+     return FALSE;
+ }
+@@ -184,8 +194,7 @@ static void signal_cb(GDBusProxy *proxy,
+              * If modem is managed by ofono, we also do resume sequence immediately
+              * as ofono handles resuming from sleep itself.
+              */
+-            manager->modem_state = EG25_STATE_CONFIGURED;
+-            modem_resume_post(manager);
++            resume_ok(manager);
+         } else {
+             manager->modem_state = EG25_STATE_RESUMING;
+             manager->modem_recovery_timer = g_timeout_add_seconds(manager->modem_recovery_timeout,
+-- 
+GitLab
+
