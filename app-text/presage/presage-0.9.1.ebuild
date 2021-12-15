@@ -6,7 +6,7 @@ EAPI=7
 inherit autotools
 
 DESCRIPTION="Intelligent predictive text entry platform"
-HOMEPAGE="https://presage.sourceforge.io/download/"
+HOMEPAGE="https://presage.sourceforge.io/"
 SRC_URI="mirror://sourceforge/${PN}/${PV}/${P}.tar.gz"
 
 LICENSE="GPL-2+"
