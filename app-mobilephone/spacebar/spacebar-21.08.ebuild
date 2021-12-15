@@ -3,13 +3,13 @@
 
 EAPI=7
 
-QTMIN=5.11.0
-KFMIN=5.59.0
+QTMIN=5.15.0
+KFMIN=5.83.0
 inherit ecm kde.org
 
 DESCRIPTION="SMS Application for Plasma Mobile"
-HOMEPAGE="https://invent.kde.org/plasma-mobile/spacebar"
-SRC_URI="mirror://kde/stable/${PN}/${PV}/${P}.tar.xz"
+HOMEPAGE="https://apps.kde.org/spacebar/"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+"
 SLOT="0"
@@ -17,6 +17,7 @@ KEYWORDS="~arm64"
 IUSE="nls"
 
 DEPEND="
+	dev-libs/libphonenumber
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtnetwork-${QTMIN}:5
@@ -25,7 +26,6 @@ DEPEND="
 	>=dev-qt/qtsql-${QTMIN}:5
 	>=dev-qt/qtwidgets-${QTMIN}:5
 	>=dev-qt/qtdbus-${QTMIN}:5
-	net-libs/telepathy-qt
 	>=kde-frameworks/kirigami-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	>=kde-frameworks/kpeople-${KFMIN}:5
@@ -34,6 +34,7 @@ DEPEND="
 	>=kde-frameworks/kcoreaddons-${KFMIN}:5
 	>=kde-frameworks/kconfig-${KFMIN}:5
 	>=kde-frameworks/kcodecs-${KFMIN}:5
+	net-libs/libqofono
 	nls? ( sys-devel/gettext )
 "
 
