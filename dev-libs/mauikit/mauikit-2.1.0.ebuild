@@ -38,5 +38,4 @@ DEPEND="
 RDEPEND="${DEPEND}
 	>=kde-frameworks/kirigami-${KFMIN}:5
 	>=kde-frameworks/purpose-${KFMIN}:5
-	x11-libs/qmltermwidget
 "
