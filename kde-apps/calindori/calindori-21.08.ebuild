@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -10,7 +10,7 @@ inherit ecm kde.org
 
 DESCRIPTION="Calendar application for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/calindori/"
-SRC_URI="mirror://kde/stable/${PN}/${P}.tar.xz"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-3+ LGPL-3+ BSD-2 CC0-1.0 CC-BY-SA-4.0"
 SLOT="0"
@@ -35,7 +35,6 @@ DEPEND="
 	>=kde-frameworks/kcalendarcore-${KFMIN}:5
 	>=kde-frameworks/kdbusaddons-${KFMIN}:5
 	>=kde-frameworks/knotifications-${KFMIN}:5
-	>=kde-frameworks/kservice-${KFMIN}:5
 	>=kde-frameworks/kpeople-${KFMIN}:5
 "
 
