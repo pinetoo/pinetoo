@@ -31,4 +31,6 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}
-	>=dev-qt/qtquickcontrols2-${QTMIN}:5"
+	>=dev-qt/qtquickcontrols2-${QTMIN}:5
+	x11-libs/qmltermwidget
+"
