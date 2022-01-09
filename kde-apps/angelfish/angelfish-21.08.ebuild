@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -9,7 +9,7 @@ inherit ecm kde.org
 
 DESCRIPTION="Web browser for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/angelfish/"
-SRC_URI="mirror://kde/stable/${PN}/${PV}/${P}.tar.xz"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+ LGPL-2 LGPL-2+ MIT"
 SLOT="0"
@@ -19,6 +19,7 @@ IUSE=""
 DEPEND="
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
+	dev-qt/qtfeedback:5
 	>=dev-qt/qtgui-${QTMIN}:5
 	>=dev-qt/qtnetwork-${QTMIN}:5
 	>=dev-qt/qtpositioning-${QTMIN}:5
