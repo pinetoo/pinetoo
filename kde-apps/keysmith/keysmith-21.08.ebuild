@@ -1,43 +1,41 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-QTMIN=5.12.0
-KFMIN=5.63.0
-
-MY_PV="v${PV}"
-MY_P="${PN}-${MY_PV}"
+QTMIN=5.15.0
+KFMIN=5.77.0
 
 inherit ecm kde.org
 
 DESCRIPTION="Image gallery application designed for desktop and touch devices"
 HOMEPAGE="https://apps.kde.org/keysmith/"
-SRC_URI="mirror://kde/stable/${PN}/${PV}/${MY_P}.tar.gz"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
-LICENSE="GPL-3+ LGPL-2.1 LGPL-3 BSD-2 CC0-1.0 CC-BY-SA-4.0"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~arm64"
 IUSE=""
 
 DEPEND="
 	>=dev-libs/libsodium-1.0.16
-	>=dev-qt/qtnetwork-${QTMIN}:5
+	>=dev-qt/qtconcurrent-${QTMIN}:5
+	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
-	>=dev-qt/qtwidgets-${QTMIN}:5
-	>=dev-qt/qtsvg-${QTMIN}:5
+	>=dev-qt/qtnetwork-${QTMIN}:5
 	>=dev-qt/qtquickcontrols2-${QTMIN}:5
-	>=dev-qt/qtcore-${QTMIN}:5
-	>=kde-frameworks/kirigami-${KFMIN}:5
-	>=kde-frameworks/ki18n-${KFMIN}:5
+	>=dev-qt/qtsvg-${QTMIN}:5
 	>=dev-qt/qttest-${QTMIN}:5
+	>=dev-qt/qtwidgets-${QTMIN}:5
+	>=kde-frameworks/kdbusaddons-${KFMIN}:5
+	>=kde-frameworks/ki18n-${KFMIN}:5
+	>=kde-frameworks/kirigami-${KFMIN}:5
+	>=kde-frameworks/kwindowsystem-${KFMIN}:5
 	sys-auth/oath-toolkit
 "
 
 DEPEND="${DEPEND}"
-
-S="${WORKDIR}/${MY_P}"
 
 src_prepare() {
 	cmake_src_prepare
