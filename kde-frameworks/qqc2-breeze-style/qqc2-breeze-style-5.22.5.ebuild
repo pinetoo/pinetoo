@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -14,7 +14,7 @@ DESCRIPTION="Breeze-inspired QQC2 Style"
 HOMEPAGE="https://invent.kde.org/plasma/qqc2-breeze-style"
 SRC_URI="mirror://kde/stable/plasma/${PV}/${P}.tar.xz"
 
-LICENSE="GPL-2 GPL-2+ GPL-3 GPL-3+ LGPL-2 LGPL-2+ LGPL-3"
+LICENSE="GPL-2+ LGPL-2.1 LGPL-2+ LGPL-3"
 SLOT="0"
 KEYWORDS="~arm64"
 IUSE=""
