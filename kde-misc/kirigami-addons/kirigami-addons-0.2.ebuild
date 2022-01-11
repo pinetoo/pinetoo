@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -7,16 +7,11 @@ KFMIN=5.70.0
 QTMIN=5.15.0
 inherit ecm kde.org
 
-MY_PV="v${PV}"
-MY_P="${PN}-${MY_PV}"
-
 DESCRIPTION="Add-ons for the Kirigami framework"
 HOMEPAGE="https://invent.kde.org/libraries/kirigami-addons"
-SRC_URI="https://invent.kde.org/libraries/${PN}/-/archive/${MY_PV}/${MY_P}.tar.bz2"
+SRC_URI="mirror://kde/unstable/${PN}/${PV}/${P}.tar.xz"
 
-S="${WORKDIR}/${MY_P}"
-
-LICENSE="GPL-2 GPL-2+ GPL-3 GPL-3+ LGPL-2+ LGPL-3"
+LICENSE="LGPL-2.1+ || ( LGPL-3 GPL-2 GPL-3 )"
 
 SLOT="0"
 
