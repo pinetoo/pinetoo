@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -11,9 +11,9 @@ MY_P="${PN}-v${PV}"
 
 DESCRIPTION="Phone book for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/phonebook/"
-SRC_URI="mirror://kde/stable/${PN}/${PV}/${P}.tar.xz"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
-LICENSE="GPL-3"
+LICENSE="GPL-3 LGPL-2+"
 SLOT="5"
 KEYWORDS="~arm64"
 IUSE=""
