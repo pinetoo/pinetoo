@@ -1,9 +1,10 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/community/plasma-mobile/plasma-mobile-settings.git"
+EGIT_COMMIT="26f977292c7f19f3079882cf223e73d78bbbbfba"
 
 inherit git-r3 gnome2-utils
 
@@ -13,7 +14,7 @@ HOMEPAGE="https://gitlab.manjaro.org/manjaro-arm/packages/community/plasma-mobil
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~arm64"
-IUSE=""
+IUSE="systemd"
 
 RDEPEND="acct-user/plasma-mobile"
 
@@ -47,10 +48,20 @@ src_install() {
 	doins 91_plasma-mobile.gschema.override
 	insinto /usr/share/libalpm/hooks/
 	newins powerdevil.hook 90-powerdevil.hook
+	insinto /usr/share/maliit/keyboard2/devices/
+	doins plasmamobile.json
+	insinto /usr/lib/udev/rules.d/
+	doins 20-pinephone-led.rules
+
+	if use systemd; then
+		insinto /etc/xdg
+		doins startkderc
+	fi
 }
 
 pkg_postinst() {
 	gnome2_schemas_update
 	einfo "Please update password for plasma-mobile user to be able to log in to Plasma Mobile:"
 	einfo "    passwd plasma-mobile"
+	einfo "or change the User in /etc/sddm.conf.d/00-plasma-mobile.conf to the one you want to use with Plasma Mobile."
 }
