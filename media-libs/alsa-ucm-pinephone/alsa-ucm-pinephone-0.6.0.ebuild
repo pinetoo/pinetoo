@@ -1,9 +1,9 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-COMMIT="0dfaa4259127228e14c968a0bdd71dc74f2de3bf"
+COMMIT="02882a28fa32e84f7c58d939af49a3e036426fa3"
 
 DESCRIPTION="Alsa Use Casa Manager files for the PinePhone"
 HOMEPAGE="https://github.com/dreemurrs-embedded/Pine64-Arch"
@@ -21,8 +21,8 @@ RDEPEND="
 "
 
 src_install() {
+	insinto /usr/share/alsa/ucm2/Pine64/PinePhone
+	doins PKGBUILDS/pine64/alsa-ucm-pinephone/{HiFi,VoiceCall}.conf
 	insinto /usr/share/alsa/ucm2/simple-card
 	doins PKGBUILDS/pine64/alsa-ucm-pinephone/PinePhone.conf
-	insinto /usr/share/alsa/ucm2/PinePhone
-	doins PKGBUILDS/pine64/alsa-ucm-pinephone/{HiFi,VoiceCall}.conf
 }
