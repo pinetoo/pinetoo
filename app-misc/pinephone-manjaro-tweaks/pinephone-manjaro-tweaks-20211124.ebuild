@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -6,7 +6,7 @@ EAPI=7
 inherit git-r3 systemd udev
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/community/phosh/${PN}.git"
-EGIT_COMMIT="85e3b68af5a7663adf3fce2d832387482eb7afd6"
+EGIT_COMMIT="03ffa5e155c3995a09ef6472cd5a8b192606e589"
 
 DESCRIPTION="Manjaro ARM's PinePhone tweaks"
 HOMEPAGE="https://gitlab.manjaro.org/manjaro-arm/packages/community/phosh/pinephone-manjaro-tweaks"
@@ -50,5 +50,5 @@ src_install() {
 
 	systemd_dounit pinephone-setup-usb-network.service pinephone-usb-gadget.service
 
-	udev_dorules 10-pinephone-brightness.rules 10-proximity.rules 20-pinephone-led.rules
+	udev_dorules 10-pinephone-brightness.rules 10-proximity.rules
 }
