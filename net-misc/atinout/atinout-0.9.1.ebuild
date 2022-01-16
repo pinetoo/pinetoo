@@ -4,7 +4,7 @@
 EAPI=7
 
 DESCRIPTION="AT commands as input are sent to modem and responses given as output"
-HOMEPAGE="https://foo.example.org/"
+HOMEPAGE="http://atinout.sourceforge.net/"
 SRC_URI="mirror://sourceforge/atinout/v${PV}/${P}.tar.gz"
 
 LICENSE="GPL-3+"
