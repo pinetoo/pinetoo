@@ -1,12 +1,12 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 ECM_HANDBOOK="forceoptional"
 ECM_TEST="forceoptional"
 PVCUT=$(ver_cut 1-3)
-KFMIN=5.80.0
+KFMIN=5.84.0
 QTMIN=5.15.2
 VIRTUALX_REQUIRED="test"
 inherit ecm kde.org
@@ -17,7 +17,7 @@ HOMEPAGE="https://okular.kde.org https://apps.kde.org/okular/"
 LICENSE="GPL-2" # TODO: CHECK
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE="chm djvu epub +image-backend markdown mobi mobile +pdf +plucker +postscript qml share speech +tiff"
+IUSE="chm crypt djvu epub +image-backend markdown mobi mobile +pdf +plucker +postscript qml share speech +tiff"
 
 DEPEND="
 	>=dev-qt/qtdbus-${QTMIN}:5
@@ -39,7 +39,6 @@ DEPEND="
 	>=kde-frameworks/kparts-${KFMIN}:5
 	>=kde-frameworks/kpty-${KFMIN}:5
 	>=kde-frameworks/ktextwidgets-${KFMIN}:5
-	>=kde-frameworks/kwallet-${KFMIN}:5
 	>=kde-frameworks/threadweaver-${KFMIN}:5
 	media-libs/freetype
 	>=media-libs/phonon-4.11.0
@@ -49,6 +48,7 @@ DEPEND="
 		dev-libs/libzip:=
 		>=kde-frameworks/khtml-${KFMIN}:5
 	)
+	crypt? ( >=kde-frameworks/kwallet-${KFMIN}:5 )
 	djvu? ( app-text/djvu )
 	epub? ( app-text/ebook-tools )
 	image-backend? (
@@ -74,7 +74,7 @@ RDEPEND="${DEPEND}
 
 PATCHES=(
 	"${FILESDIR}/${PN}-20.11.90-tests.patch" # bug 734138
-	"${FILESDIR}/${P}-fix-fictionbook-support.patch" # KDE-bug 439807
+	"${FILESDIR}/${PN}-21.08.1-optional-options.patch" # bug 810958
 )
 
 src_configure() {
@@ -83,6 +83,7 @@ src_configure() {
 		$(cmake_use_find_package chm CHM)
 		$(cmake_use_find_package chm KF5KHtml)
 		$(cmake_use_find_package chm LibZip)
+		-DWITH_KWALLET=$(usex crypt)
 		$(cmake_use_find_package djvu DjVuLibre)
 		$(cmake_use_find_package epub EPub)
 		$(cmake_use_find_package image-backend KF5KExiv2)
