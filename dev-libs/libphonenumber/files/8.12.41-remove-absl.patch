@@ -1,0 +1,385 @@
+commit 681934071b9e6981a1bfc678a5f304418d4b114c
+Author: Jesus P Rey <pinetoo@chuso.net>
+Date:   Mon Jan 17 21:09:52 2022 +0100
+
+    Revert "Some performance improvements to CPP lib based on absl packages (#2703)"
+    
+    This reverts commit 874af793779ee58b64d4d7dc302562751b33e58d.
+
+diff --git a/cpp/CMakeLists.txt b/cpp/CMakeLists.txt
+index d8463313..24869453 100644
+--- a/cpp/CMakeLists.txt
++++ b/cpp/CMakeLists.txt
+@@ -14,12 +14,7 @@
+ 
+ # Author: Philippe Liard
+ 
+-cmake_minimum_required (VERSION 3.11)
+-
+-# Pick the C++ standard to compile with.
+-# Abseil currently supports C++11, C++14, and C++17.
+-set(CMAKE_CXX_STANDARD 11)
+-set(CMAKE_CXX_STANDARD_REQUIRED ON)
++cmake_minimum_required (VERSION 2.8.5)
+ 
+ project (libphonenumber)
+ set (libphonenumber_VERSION_MAJOR 8)
+@@ -474,12 +469,6 @@ if (${USE_POSIX_THREAD} STREQUAL "ON" OR ((APPLE OR UNIX) AND ${USE_BOOST} STREQ
+   endif()
+ endif ()
+ 
+-# Safeguarding against any potential link errors as mentioned in
+-# https://github.com/abseil/abseil-cpp/issues/225
+-set(CMAKE_POSITION_INDEPENDENT_CODE TRUE)
+-list (APPEND LIBRARY_DEPS absl::strings)
+-list (APPEND COMMON_DEPS absl::synchronization)
+-
+ if (APPLE)
+   list (APPEND COMMON_DEPS ${COREFOUNDATION_LIB} ${FOUNDATION_LIB})
+ endif ()
+diff --git a/cpp/src/phonenumbers/asyoutypeformatter.cc b/cpp/src/phonenumbers/asyoutypeformatter.cc
+index fe851955..396b5378 100644
+--- a/cpp/src/phonenumbers/asyoutypeformatter.cc
++++ b/cpp/src/phonenumbers/asyoutypeformatter.cc
+@@ -29,9 +29,6 @@
+ #include "phonenumbers/stringutil.h"
+ #include "phonenumbers/unicodestring.h"
+ 
+-#include "absl/strings/str_cat.h"
+-#include "absl/strings/str_replace.h"
+-
+ namespace i18n {
+ namespace phonenumbers {
+ 
+@@ -276,7 +273,7 @@ void AsYouTypeFormatter::GetFormattingTemplate(
+   regexp_cache_.GetRegExp(number_pattern).GlobalReplace(
+       &a_phone_number, number_format);
+   // Replaces each digit with character kDigitPlaceholder.
+-  absl::StrReplaceAll({{"9", kDigitPlaceholder}}, &a_phone_number);
++  GlobalReplaceSubstring("9", kDigitPlaceholder, &a_phone_number);
+   formatting_template->setTo(a_phone_number.c_str(), a_phone_number.size());
+ }
+ 
+diff --git a/cpp/src/phonenumbers/geocoding/phonenumber_offline_geocoder.cc b/cpp/src/phonenumbers/geocoding/phonenumber_offline_geocoder.cc
+index 1e5a5bac..b2ddebcc 100644
+--- a/cpp/src/phonenumbers/geocoding/phonenumber_offline_geocoder.cc
++++ b/cpp/src/phonenumbers/geocoding/phonenumber_offline_geocoder.cc
+@@ -27,8 +27,6 @@
+ #include "phonenumbers/phonenumberutil.h"
+ #include "phonenumbers/stl_util.h"
+ 
+-#include "absl/synchronization/mutex.h"
+-
+ namespace i18n {
+ namespace phonenumbers {
+ 
+@@ -77,7 +75,6 @@ void PhoneNumberOfflineGeocoder::Init(
+ }
+ 
+ PhoneNumberOfflineGeocoder::~PhoneNumberOfflineGeocoder() {
+-  absl::MutexLock l(&mu_);
+   gtl::STLDeleteContainerPairSecondPointers(
+       available_maps_.begin(), available_maps_.end());
+ }
+@@ -195,7 +192,6 @@ const char* PhoneNumberOfflineGeocoder::GetAreaDescription(
+   const int country_calling_code = number.country_code();
+   // NANPA area is not split in C++ code.
+   const int phone_prefix = country_calling_code;
+-  absl::MutexLock l(&mu_);
+   const AreaCodeMap* const descriptions = GetPhonePrefixDescriptions(
+       phone_prefix, lang, script, region);
+   const char* description = descriptions ? descriptions->Lookup(number) : NULL;
+diff --git a/cpp/src/phonenumbers/geocoding/phonenumber_offline_geocoder.h b/cpp/src/phonenumbers/geocoding/phonenumber_offline_geocoder.h
+index ee520909..16f99bc0 100644
+--- a/cpp/src/phonenumbers/geocoding/phonenumber_offline_geocoder.h
++++ b/cpp/src/phonenumbers/geocoding/phonenumber_offline_geocoder.h
+@@ -21,7 +21,6 @@
+ #include <string>
+ 
+ #include <unicode/locid.h>  // NOLINT(build/include_order)
+-#include "absl/synchronization/mutex.h"
+ 
+ #include "phonenumbers/base/basictypes.h"
+ #include "phonenumbers/base/memory/scoped_ptr.h"
+@@ -116,12 +115,11 @@ class PhoneNumberOfflineGeocoder {
+             int prefix_language_code_pairs_size,
+             prefix_descriptions_getter get_prefix_descriptions);
+ 
+-  const AreaCodeMap* LoadAreaCodeMapFromFile(
+-      const string& filename) const ABSL_EXCLUSIVE_LOCKS_REQUIRED(mu_);
++  const AreaCodeMap* GetPhonePrefixDescriptions(int prefix,
++      const string& language, const string& script, const string& region) const;
+ 
+-  const AreaCodeMap* GetPhonePrefixDescriptions(
+-      int prefix, const string& language, const string& script,
+-      const string& region) const ABSL_EXCLUSIVE_LOCKS_REQUIRED(mu_);
++  const AreaCodeMap* LoadAreaCodeMapFromFile(
++      const string& filename) const;
+ 
+   // Returns the customary display name in the given language for the given
+   // region.
+@@ -145,7 +143,7 @@ class PhoneNumberOfflineGeocoder {
+   // 3166-1.
+   const char* GetAreaDescription(const PhoneNumber& number, const string& lang,
+                                  const string& script,
+-                                 const string& region) const ABSL_LOCKS_EXCLUDED(mu_);
++                                 const string& region) const;
+ 
+   bool MayFallBackToEnglish(const string& lang) const;
+ 
+@@ -162,8 +160,8 @@ class PhoneNumberOfflineGeocoder {
+ 
+   // A mapping from country calling codes languages pairs to the corresponding
+   // phone prefix map that has been loaded.
+-  mutable absl::Mutex mu_;
+-  mutable AreaCodeMaps available_maps_ ABSL_GUARDED_BY(mu_);
++  mutable AreaCodeMaps available_maps_;
++
+   DISALLOW_COPY_AND_ASSIGN(PhoneNumberOfflineGeocoder);
+ };
+ 
+diff --git a/cpp/src/phonenumbers/phonenumberutil.cc b/cpp/src/phonenumbers/phonenumberutil.cc
+index a4a5173c..de995198 100644
+--- a/cpp/src/phonenumbers/phonenumberutil.cc
++++ b/cpp/src/phonenumbers/phonenumberutil.cc
+@@ -47,8 +47,6 @@
+ #include "phonenumbers/utf/unicodetext.h"
+ #include "phonenumbers/utf/utf.h"
+ 
+-#include "absl/strings/str_replace.h"
+-
+ namespace i18n {
+ namespace phonenumbers {
+ 
+@@ -1175,9 +1173,10 @@ void PhoneNumberUtil::FormatByPattern(
+       const string& national_prefix = metadata->national_prefix();
+       if (!national_prefix.empty()) {
+         // Replace $NP with national prefix and $FG with the first group ($1).
+-        absl::StrReplaceAll({{"$NP", national_prefix}},
+-                            &national_prefix_formatting_rule);
+-        absl::StrReplaceAll({{"$FG", "$1"}}, &national_prefix_formatting_rule);
++        GlobalReplaceSubstring("$NP", national_prefix,
++                               &national_prefix_formatting_rule);
++        GlobalReplaceSubstring("$FG", "$1",
++                               &national_prefix_formatting_rule);
+         num_format_copy.set_national_prefix_formatting_rule(
+             national_prefix_formatting_rule);
+       } else {
+diff --git a/cpp/src/phonenumbers/regexp_adapter_re2.cc b/cpp/src/phonenumbers/regexp_adapter_re2.cc
+index ccfd28fd..77341691 100644
+--- a/cpp/src/phonenumbers/regexp_adapter_re2.cc
++++ b/cpp/src/phonenumbers/regexp_adapter_re2.cc
+@@ -27,8 +27,6 @@
+ #include "phonenumbers/base/logging.h"
+ #include "phonenumbers/stringutil.h"
+ 
+-#include "absl/strings/str_replace.h"
+-#include "absl/strings/string_view.h"
+ namespace i18n {
+ namespace phonenumbers {
+ 
+@@ -78,14 +76,14 @@ bool DispatchRE2Call(Function regex_function,
+ // when they escape dollar-signs.
+ string TransformRegularExpressionToRE2Syntax(const string& regex) {
+   string re2_regex(regex);
+-  if (absl::StrReplaceAll({{"$", "\\"}}, &re2_regex) == 0) {
++  if (GlobalReplaceSubstring("$", "\\", &re2_regex) == 0) {
+     return regex;
+   }
+   // If we replaced a dollar sign with a backslash and there are now two
+   // backslashes in the string, we assume that the dollar-sign was previously
+   // escaped and that we need to retain it. To do this, we replace pairs of
+   // backslashes with a dollar sign.
+-  absl::StrReplaceAll({{"\\\\", "$"}}, &re2_regex);
++  GlobalReplaceSubstring("\\\\", "$", &re2_regex);
+   return re2_regex;
+ }
+ 
+diff --git a/cpp/test/phonenumbers/geocoding/geocoding_data_test.cc b/cpp/test/phonenumbers/geocoding/geocoding_data_test.cc
+index 70a12077..a21eac6c 100644
+--- a/cpp/test/phonenumbers/geocoding/geocoding_data_test.cc
++++ b/cpp/test/phonenumbers/geocoding/geocoding_data_test.cc
+@@ -24,8 +24,6 @@
+ #include "phonenumbers/geocoding/geocoding_data.h"
+ #include "phonenumbers/geocoding/geocoding_test_data.h"
+ 
+-#include "absl/container/btree_set.h"
+-
+ namespace i18n {
+ namespace phonenumbers {
+ 
+@@ -65,7 +63,7 @@ void TestCountryCallingCodeLanguages(
+ 
+ void TestPrefixDescriptions(const PrefixDescriptions* descriptions) {
+   EXPECT_GT(descriptions->prefixes_size, 0);
+-  absl::btree_set<int> possible_lengths;
++  set<int> possible_lengths;
+   for (int i = 0; i < descriptions->prefixes_size; ++i) {
+     int prefix = descriptions->prefixes[i];
+     EXPECT_GT(prefix, 0);
+diff --git a/tools/cpp/CMakeLists.txt b/tools/cpp/CMakeLists.txt
+index ab2d54b3..fafa8469 100644
+--- a/tools/cpp/CMakeLists.txt
++++ b/tools/cpp/CMakeLists.txt
+@@ -14,43 +14,17 @@
+ 
+ # Author: Patrick Mezard
+ 
+-cmake_minimum_required (VERSION 3.11)
+-
+-# Pick the C++ standard to compile with.
+-# Abseil currently supports C++11, C++14, and C++17.
+-set(CMAKE_CXX_STANDARD 11)
+-set(CMAKE_CXX_STANDARD_REQUIRED ON)
++cmake_minimum_required (VERSION 2.8)
+ 
+ project (generate_geocoding_data)
+ 
+ # Helper functions dealing with finding libraries and programs this library
+ # depends on.
+-include (gtest.cmake)
+-include (FetchContent)
+-
+-# Downloading the abseil sources.
+-FetchContent_Declare(
+-    abseil-cpp
+-    GIT_REPOSITORY  https://github.com/abseil/abseil-cpp.git
+-    GIT_TAG         origin/master
+-)
+-
+-# Building the abseil binaries
+-FetchContent_GetProperties(abseil-cpp)
+-if (NOT abseil-cpp_POPULATED)
+-    FetchContent_Populate(abseil-cpp)
+-endif ()
+-
+-if (NOT abseil-cpp_POPULATED)
+-   message (FATAL_ERROR "Could not build abseil-cpp binaries.")
+-endif ()
+ 
+-# Safeguarding against any potential link errors as mentioned in
+-# https://github.com/abseil/abseil-cpp/issues/225
+-set(CMAKE_POSITION_INDEPENDENT_CODE TRUE)
+-add_subdirectory(${abseil-cpp_SOURCE_DIR} ${abseil-cpp_BINARY_DIR})
++include (gtest.cmake)
+ 
+ find_or_build_gtest ()
++
+ set (
+   SOURCES
+   "src/cpp-build/generate_geocoding_data.cc"
+@@ -64,7 +38,6 @@ endif ()
+ include_directories ("src")
+ 
+ add_executable (generate_geocoding_data ${SOURCES})
+-target_link_libraries (generate_geocoding_data absl::strings absl::btree)
+ 
+ set (TEST_SOURCES
+   "src/cpp-build/generate_geocoding_data.cc"
+@@ -81,4 +54,4 @@ endif ()
+ # Build the testing binary.
+ include_directories ("test")
+ add_executable (generate_geocoding_data_test ${TEST_SOURCES})
+-target_link_libraries (generate_geocoding_data_test absl::btree ${TEST_LIBS})
++target_link_libraries (generate_geocoding_data_test ${TEST_LIBS})
+diff --git a/tools/cpp/src/cpp-build/generate_geocoding_data.cc b/tools/cpp/src/cpp-build/generate_geocoding_data.cc
+index 205947e8..021cf5c8 100644
+--- a/tools/cpp/src/cpp-build/generate_geocoding_data.cc
++++ b/tools/cpp/src/cpp-build/generate_geocoding_data.cc
+@@ -36,9 +36,6 @@
+ 
+ #include "base/basictypes.h"
+ 
+-#include "absl/container/btree_map.h"
+-#include "absl/container/btree_set.h"
+-
+ namespace i18n {
+ namespace phonenumbers {
+ 
+@@ -164,8 +161,7 @@ bool IntToStr(int32 n, string* s) {
+ // Parses the prefix descriptions file at path, clears and fills the output
+ // prefixes phone number prefix to description mapping.
+ // Returns true on success.
+-bool ParsePrefixes(const string& path,
+-                   absl::btree_map<int32, string>* prefixes) {
++bool ParsePrefixes(const string& path, map<int32, string>* prefixes) {
+   prefixes->clear();
+   FILE* input = fopen(path.c_str(), "r");
+   if (!input) {
+@@ -342,13 +338,12 @@ void WritePrefixDescriptionsDefinition(
+ //   ...
+ // };
+ //
+-void WritePrefixDescriptions(const string& var_name,
+-                             const absl::btree_map<int, string>& prefixes,
+-                             FILE* output) {
+-  absl::btree_set<int> possible_lengths;
++void WritePrefixDescriptions(const string& var_name, const map<int, string>&
++                             prefixes, FILE* output) {
++  set<int> possible_lengths;
+   const string prefixes_name = var_name + "_prefixes";
+   fprintf(output, "const int32 %s[] = {\n", prefixes_name.c_str());
+-  for (absl::btree_map<int, string>::const_iterator it = prefixes.begin();
++  for (map<int, string>::const_iterator it = prefixes.begin();
+        it != prefixes.end(); ++it) {
+     fprintf(output, "  %d,\n", it->first);
+     possible_lengths.insert(static_cast<int>(log10(it->first) + 1));
+@@ -359,7 +354,7 @@ void WritePrefixDescriptions(const string& var_name,
+ 
+   const string desc_name = var_name + "_descriptions";
+   fprintf(output, "const char* %s[] = {\n", desc_name.c_str());
+-  for (absl::btree_map<int, string>::const_iterator it = prefixes.begin();
++  for (map<int, string>::const_iterator it = prefixes.begin();
+        it != prefixes.end(); ++it) {
+     fprintf(output, "  ");
+     WriteStringLiteral(it->second, output);
+@@ -371,7 +366,7 @@ void WritePrefixDescriptions(const string& var_name,
+ 
+   const string possible_lengths_name = var_name + "_possible_lengths";
+   fprintf(output, "const int32 %s[] = {\n ", possible_lengths_name.c_str());
+-  for (absl::btree_set<int>::const_iterator it = possible_lengths.begin();
++  for (set<int>::const_iterator it = possible_lengths.begin();
+        it != possible_lengths.end(); ++it) {
+     fprintf(output, " %d,", *it);
+   }
+@@ -399,10 +394,10 @@ void WritePrefixDescriptions(const string& var_name,
+ //   &prefix_1_en,
+ // };
+ //
+-void WritePrefixesDescriptions(
+-    const absl::btree_map<string, string>& prefix_var_names, FILE* output) {
++void WritePrefixesDescriptions(const map<string, string>& prefix_var_names,
++                               FILE* output) {
+   fprintf(output, "const char* prefix_language_code_pairs[] = {\n");
+-  for (absl::btree_map<string, string>::const_iterator it = prefix_var_names.begin();
++  for (map<string, string>::const_iterator it = prefix_var_names.begin();
+        it != prefix_var_names.end(); ++it) {
+     fprintf(output, "  \"%s\",\n", it->first.c_str());
+   }
+@@ -410,7 +405,7 @@ void WritePrefixesDescriptions(
+           "};\n"
+           "\n"
+           "const PrefixDescriptions* prefixes_descriptions[] = {\n");
+-  for (absl::btree_map<string, string>::const_iterator it = prefix_var_names.begin();
++  for (map<string, string>::const_iterator it = prefix_var_names.begin();
+        it != prefix_var_names.end(); ++it) {
+     fprintf(output, "  &%s,\n", it->second.c_str());
+   }
+@@ -568,7 +563,7 @@ bool WriteSource(const string& data_path, const string& base_name,
+           "\n");
+ 
+   // Enumerate language/script directories.
+-  absl::btree_map<string, string> prefix_vars;
++  map<string, string> prefix_vars;
+   map<int32, set<string> > country_languages;
+   vector<DirEntry> entries;
+   if (!ListDirectory(data_path, &entries)) {
+@@ -600,7 +595,7 @@ bool WriteSource(const string& data_path, const string& base_name,
+       }
+       const string path = dir_path + "/" + fname;
+ 
+-      absl::btree_map<int32, string> prefixes;
++      map<int32, string> prefixes;
+       if (!ParsePrefixes(path, &prefixes)) {
+         return false;
+       }
