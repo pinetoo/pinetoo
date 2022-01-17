@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -6,8 +6,8 @@ EAPI=7
 inherit qmake-utils
 
 DESCRIPTION="A library for accessing the ofono daemon,"
-HOMEPAGE="https://git.sailfishos.org/mer-core/libqofono"
-SRC_URI="https://git.sailfishos.org/mer-core/${PN}/-/archive/${PV}/${P}.tar.bz2"
+HOMEPAGE="https://github.com/sailfishos/libqofono"
+SRC_URI="https://github.com/sailfishos/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="LGPL-2.1"
 SLOT="0"
