@@ -5,7 +5,7 @@ EAPI=7
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/core/linux-pinephone.git"
 EGIT_BRANCH="5.16-megi"
-EGIT_COMMIT="73acb917e6a27e1df68f9bd9db982cf04d18819a"
+EGIT_COMMIT="141945dcf3f288ab40209b4b1e842b86ba491df8"
 
 KERNEL_TAG="5.16-20220110-0757"
 
@@ -20,14 +20,15 @@ KEYWORDS="~arm64"
 IUSE="systemd"
 
 PATCHES=(
-	"${WORKDIR}/${P}/ccu-sun50i-a64-reparent-clocks-to-lower-speed-oscillator.patch"
-	"${WORKDIR}/${P}/d1d849cae12db71aa81ceedaedc1b17a34790367.patch"
-	"${WORKDIR}/${P}/2423aac2d6f5db55da99e11fd799ee66fe6f54c6.patch"
+	"${WORKDIR}/${P}/${PV}.patch"
 	"${WORKDIR}/${P}/dts-pinephone-drop-modem-power-node.patch"
 	"${WORKDIR}/${P}/media-ov5640-Implement-autofocus.patch"
+	"${WORKDIR}/${P}/ccu-sun50i-a64-reparent-clocks-to-lower-speed-oscillator.patch"
+	"${WORKDIR}/${P}/pp-keyboard.patch"
 	"${WORKDIR}/${P}/0107-quirk-kernel-org-bug-210681-firmware_rome_error.patch"
 	"${WORKDIR}/${P}/0177-leds-gpio-make-max_brightness-configurable.patch"
 	"${WORKDIR}/${P}/panic-led.patch"
+	"${WORKDIR}/${P}/mmc-core-wait-for-command-setting-Power-Off-Notification-bit-to-complete.patch"
 	"${WORKDIR}/${P}/0001-revert-garbage-collect-fbdev-scrolling-acceleration.patch"
 	"${WORKDIR}/${P}/0002-revert-fbcon-remove-now-unusued-softback_lines-cursor-argument.patch"
 	"${WORKDIR}/${P}/0003-revert-fbcon-remove-no-op-fbcon_set_origin.patch"
