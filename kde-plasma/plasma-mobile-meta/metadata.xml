@@ -7,5 +7,6 @@
   </maintainer>
   <use>
     <flag name="dialer">Pull <pkg>kde-apps/plasma-dialer</pkg> for the ability to make and receive phone calls</flag>
+    <flag name="kwallet">Enable support for KWallet auto-unlocking via <pkg>kde-plasma/kwallet-pam</pkg></flag>
   </use>
 </pkgmetadata>
