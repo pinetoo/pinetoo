@@ -34,6 +34,7 @@ RDEPEND="
 	>=kde-frameworks/kpeople-${KFMIN}:5
 	media-libs/pulseaudio-qt
 	net-libs/libqofono
+	net-misc/telepathy-ofono
 	net-libs/telepathy-qt
 "
 DEPEND="${RDEPEND}"
