@@ -12,7 +12,7 @@ HOMEPAGE="https://apps.kde.org/spacebar/"
 SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+"
-SLOT="0"
+SLOT="5"
 KEYWORDS="~arm64"
 IUSE="nls"
 
@@ -35,6 +35,7 @@ DEPEND="
 	>=kde-frameworks/kconfig-${KFMIN}:5
 	>=kde-frameworks/kcodecs-${KFMIN}:5
 	net-libs/libqofono
+	net-misc/telepathy-ofono
 	nls? ( sys-devel/gettext )
 "
 

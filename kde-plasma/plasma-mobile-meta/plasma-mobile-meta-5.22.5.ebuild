@@ -14,7 +14,7 @@ KEYWORDS="~arm64"
 IUSE="+bluetooth +dialer +gtk handbook kwallet +pulseaudio systemd"
 
 RDEPEND="
-	>=app-mobilephone/spacebar-${KDE_MIN}
+	>=app-mobilephone/spacebar-${KDE_MIN}:${SLOT}
 	>=kde-apps/angelfish-${KDE_MIN}
 	kde-apps/buho
 	>=kde-apps/calindori-${KDE_MIN}
