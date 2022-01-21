@@ -45,7 +45,7 @@ RDEPEND="
 	x11-apps/maliit-keyboard
 	x11-misc/sddm
 	bluetooth? ( >=kde-plasma/bluedevil-${PV}:${SLOT} )
-	dialer? ( >=kde-apps/plasma-dialer-${PV} )
+	dialer? ( >=kde-apps/plasma-dialer-${PV}:${SLOT} )
 	gtk? ( >=kde-plasma/breeze-gtk-${PV}:${SLOT} )
 	handbook? ( >=kde-apps/khelpcenter-${PV} )
 	kwallet? ( >=kde-plasma/kwallet-pam-${PV}:${SLOT} )
