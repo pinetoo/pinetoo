@@ -13,7 +13,7 @@ HOMEPAGE="https://invent.kde.org/plasma-mobile/kalk"
 SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-3+"
-SLOT="0"
+SLOT="5"
 KEYWORDS="~arm64"
 IUSE=""
 

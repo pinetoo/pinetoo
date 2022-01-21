@@ -15,7 +15,7 @@ HOMEPAGE="https://invent.kde.org/plasma/qqc2-breeze-style"
 SRC_URI="mirror://kde/stable/plasma/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+ LGPL-2.1 LGPL-2+ LGPL-3"
-SLOT="0"
+SLOT="5"
 KEYWORDS="~arm64"
 IUSE=""
 

@@ -15,31 +15,31 @@ IUSE="+bluetooth +dialer +gtk handbook kwallet +pulseaudio systemd"
 
 RDEPEND="
 	>=app-mobilephone/spacebar-${KDE_MIN}:${SLOT}
-	>=kde-apps/angelfish-${KDE_MIN}
+	>=kde-apps/angelfish-${KDE_MIN}:${SLOT}
 	kde-apps/buho
-	>=kde-apps/calindori-${KDE_MIN}
+	>=kde-apps/calindori-${KDE_MIN}:${SLOT}
 	kde-apps/index
-	>=kde-apps/kalk-${KDE_MIN}
-	>=kde-apps/kclock-${KDE_MIN}
-	>=kde-apps/keysmith-${KDE_MIN}
-	>=kde-apps/koko-${KDE_MIN}
-	>=kde-apps/kongress-${KDE_MIN}
-	>=kde-apps/ktrip-${KDE_MIN}
-	>=kde-apps/kweather-${KDE_MIN}
+	>=kde-apps/kalk-${KDE_MIN}:${SLOT}
+	>=kde-apps/kclock-${KDE_MIN}:${SLOT}
+	>=kde-apps/keysmith-${KDE_MIN}:${SLOT}
+	>=kde-apps/koko-${KDE_MIN}:${SLOT}
+	>=kde-apps/kongress-${KDE_MIN}:${SLOT}
+	>=kde-apps/ktrip-${KDE_MIN}:${SLOT}
+	>=kde-apps/kweather-${KDE_MIN}:${SLOT}
 	kde-apps/nota
-	>=kde-apps/okular-${KDE_MIN}
-	>=kde-apps/plasma-phonebook-${KDE_MIN}
-	>=kde-apps/qmlkonsole-${KDE_MIN}
+	>=kde-apps/okular-${KDE_MIN}:${SLOT}
+	>=kde-apps/plasma-phonebook-${KDE_MIN}:${SLOT}
+	>=kde-apps/qmlkonsole-${KDE_MIN}:${SLOT}
 	kde-apps/station
-	>=kde-plasma/discover-${PV}
-	>=kde-plasma/plasma-phone-components-${PV}
-	>=kde-plasma/plasma-settings-${KDE_MIN}
+	>=kde-plasma/discover-${PV}:${SLOT}
+	>=kde-plasma/plasma-phone-components-${PV}:${SLOT}
+	>=kde-plasma/plasma-settings-${KDE_MIN}:${SLOT}
 	>=kde-plasma/powerdevil-${PV}:${SLOT}
-	>=kde-misc/kdeconnect-${KDE_MIN}
+	>=kde-misc/kdeconnect-${KDE_MIN}:${SLOT}
 	kde-misc/plymouth-shim
 	mail-client/kube
 	media-gfx/megapixels
-	>=media-sound/krecorder-${KDE_MIN}
+	>=media-sound/krecorder-${KDE_MIN}:${SLOT}
 	media-sound/vvave
 	net-im/neochat
 	x11-apps/maliit-keyboard
@@ -47,8 +47,8 @@ RDEPEND="
 	bluetooth? ( >=kde-plasma/bluedevil-${PV}:${SLOT} )
 	dialer? ( >=kde-apps/plasma-dialer-${PV}:${SLOT} )
 	gtk? ( >=kde-plasma/breeze-gtk-${PV}:${SLOT} )
-	handbook? ( >=kde-apps/khelpcenter-${PV} )
+	handbook? ( >=kde-apps/khelpcenter-${PV}:${SLOT} )
 	kwallet? ( >=kde-plasma/kwallet-pam-${PV}:${SLOT} )
-	pulseaudio? ( >=kde-plasma/plasma-pa-${PV} )
+	pulseaudio? ( >=kde-plasma/plasma-pa-${PV}:${SLOT} )
 	systemd? ( media-gfx/bootsplash-systemd )
 "

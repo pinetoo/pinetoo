@@ -12,7 +12,7 @@ HOMEPAGE="https://invent.kde.org/plasma-mobile/plasma-settings"
 SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="|| ( GPL-2 GPL-3 ) LGPL-2.1"
-SLOT="0"
+SLOT="5"
 KEYWORDS="~arm64"
 IUSE=""
 

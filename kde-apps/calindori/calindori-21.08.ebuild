@@ -13,7 +13,7 @@ HOMEPAGE="https://apps.kde.org/calindori/"
 SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-3+ LGPL-3+ BSD-2 CC0-1.0 CC-BY-SA-4.0"
-SLOT="0"
+SLOT="5"
 KEYWORDS="~arm64"
 IUSE=""
 

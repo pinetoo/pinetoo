@@ -12,7 +12,7 @@ HOMEPAGE="https://apps.kde.org/kclock/"
 SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+ LGPL-2.1+ CC-BY-4.0"
-SLOT="0"
+SLOT="5"
 KEYWORDS="~arm64"
 IUSE=""
 
