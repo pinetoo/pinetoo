@@ -1,1 +1,1 @@
-USE="brightness-control dialer drm emoji idn mobile networkmanager pulseaudio screencast wayland wireless xcsecurity -ppp"
+USE="mobile tslib wireless"
