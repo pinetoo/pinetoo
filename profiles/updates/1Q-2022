@@ -1,1 +1,5 @@
 move kde-misc/kpublictransport dev-libs/kpublictransport
+move kde-apps/buho maui-apps/buho
+move kde-apps/index maui-apps/index
+move kde-apps/nota maui-apps/nota
+move kde-apps/station maui-apps/station

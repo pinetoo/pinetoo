@@ -16,9 +16,7 @@ IUSE="+bluetooth +dialer +gtk handbook kwallet +pulseaudio systemd"
 RDEPEND="
 	>=app-mobilephone/spacebar-${KDE_MIN}:${SLOT}
 	>=kde-apps/angelfish-${KDE_MIN}:${SLOT}
-	kde-apps/buho
 	>=kde-apps/calindori-${KDE_MIN}:${SLOT}
-	kde-apps/index
 	>=kde-apps/kalk-${KDE_MIN}:${SLOT}
 	>=kde-apps/kclock-${KDE_MIN}:${SLOT}
 	>=kde-apps/keysmith-${KDE_MIN}:${SLOT}
@@ -26,11 +24,9 @@ RDEPEND="
 	>=kde-apps/kongress-${KDE_MIN}:${SLOT}
 	>=kde-apps/ktrip-${KDE_MIN}:${SLOT}
 	>=kde-apps/kweather-${KDE_MIN}:${SLOT}
-	kde-apps/nota
 	>=kde-apps/okular-${KDE_MIN}:${SLOT}
 	>=kde-apps/plasma-phonebook-${KDE_MIN}:${SLOT}
 	>=kde-apps/qmlkonsole-${KDE_MIN}:${SLOT}
-	kde-apps/station
 	>=kde-plasma/discover-${PV}:${SLOT}
 	>=kde-plasma/plasma-phone-components-${PV}:${SLOT}
 	>=kde-plasma/plasma-settings-${KDE_MIN}:${SLOT}
@@ -38,6 +34,10 @@ RDEPEND="
 	>=kde-misc/kdeconnect-${KDE_MIN}:${SLOT}
 	kde-misc/plymouth-shim
 	mail-client/kube
+	maui-apps/buho
+	maui-apps/index
+	maui-apps/nota
+	maui-apps/station
 	media-gfx/megapixels
 	>=media-sound/krecorder-${KDE_MIN}:${SLOT}
 	media-sound/vvave
