@@ -19,7 +19,7 @@ KEYWORDS="~arm64"
 
 IUSE=""
 
-RDEPEND="
+DEPEND="
 	~dev-libs/mauikit-${PV}
 	~dev-libs/mauikit-accounts-${PV}
 	~dev-libs/mauikit-filebrowsing-${PV}
@@ -38,7 +38,7 @@ RDEPEND="
 	>=media-libs/taglib-1.4
 "
 
-DEPEND="${RDEPEND}
+RDEPEND="${DEPEND}
 	>=kde-frameworks/kirigami-${KFMIN}:5
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:5
 	>=dev-qt/qtmultimedia-${QTMIN}:5
