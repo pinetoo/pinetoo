@@ -6,7 +6,11 @@
     <name>Jesus Perez Rey</name>
   </maintainer>
   <use>
-    <flag name="dialer">Pull <pkg>kde-apps/plasma-dialer</pkg> for the ability to make and receive phone calls</flag>
+    <flag name="dialer">Pull <pkg>kde-apps/plasma-dialer</pkg> for making and receiving phone calls</flag>
+    <flag name="education">Pull <pkg>kde-apps/kalgebra</pkg></flag>
+    <flag name="games">Pull <pkg>games-kids/gcompris</pkg></flag>
     <flag name="kwallet">Enable support for KWallet auto-unlocking via <pkg>kde-plasma/kwallet-pam</pkg></flag>
+    <flag name="sms">Pull <pkg>app-mobilephone/spacebar</pkg> for sending and managing text messages.</flag>
+    <flag name="webengine">Enable packages requiring <pkg>dev-qt/qtwebengine</pkg></flag>
   </use>
 </pkgmetadata>

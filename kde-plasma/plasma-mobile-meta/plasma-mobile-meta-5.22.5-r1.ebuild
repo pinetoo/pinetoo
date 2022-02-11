@@ -11,13 +11,15 @@ HOMEPAGE="https://www.plasma-mobile.org/"
 LICENSE="metapackage"
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE="+bluetooth +dialer +gtk handbook kwallet +pulseaudio systemd"
+IUSE="accessibility +bluetooth +dialer education games +gtk handbook kwallet +pulseaudio +sms systemd webengine"
 
 RDEPEND="
-	>=app-mobilephone/spacebar-${KDE_MIN}:${SLOT}
+	>=kde-apps/alligator-${KDE_MIN}:${SLOT}
 	>=kde-apps/angelfish-${KDE_MIN}:${SLOT}
 	>=kde-apps/calindori-${KDE_MIN}:${SLOT}
+	>=kde-apps/itinerary-${KDE_MIN}:${SLOT}
 	>=kde-apps/kalk-${KDE_MIN}:${SLOT}
+	>=kde-apps/kasts-${KDE_MIN}:${SLOT}
 	>=kde-apps/kclock-${KDE_MIN}:${SLOT}
 	>=kde-apps/keysmith-${KDE_MIN}:${SLOT}
 	>=kde-apps/koko-${KDE_MIN}:${SLOT}
@@ -26,6 +28,7 @@ RDEPEND="
 	>=kde-apps/kweather-${KDE_MIN}:${SLOT}
 	>=kde-apps/okular-${KDE_MIN}:${SLOT}
 	>=kde-apps/plasma-phonebook-${KDE_MIN}:${SLOT}
+	kde-apps/plasma-camera
 	>=kde-apps/qmlkonsole-${KDE_MIN}:${SLOT}
 	>=kde-plasma/discover-${PV}:${SLOT}
 	>=kde-plasma/plasma-phone-components-${PV}:${SLOT}
@@ -35,20 +38,31 @@ RDEPEND="
 	kde-misc/plymouth-shim
 	mail-client/kube
 	maui-apps/buho
+	maui-apps/clip
+	maui-apps/communicator
 	maui-apps/index
 	maui-apps/nota
+	maui-apps/pix
+	maui-apps/shelf
 	maui-apps/station
 	media-gfx/megapixels
+	>=media-sound/audiotube-${KDE_MIN}:${SLOT}
+	>=media-sound/elisa-${KDE_MIN}:${SLOT}
 	>=media-sound/krecorder-${KDE_MIN}:${SLOT}
 	media-sound/vvave
+	net-im/kaidan
 	net-im/neochat
 	x11-apps/maliit-keyboard
 	x11-misc/sddm
+	accessibility? ( >=app-accessibility/kontrast-${KDE_MIN}:${SLOT} )
 	bluetooth? ( >=kde-plasma/bluedevil-${PV}:${SLOT} )
 	dialer? ( >=kde-apps/plasma-dialer-${PV}:${SLOT} )
+	education? ( webengine? ( >=kde-apps/kalgebra-${KDE_MIN}:${SLOT} ) )
+	games? ( games-kids/gcompris )
 	gtk? ( >=kde-plasma/breeze-gtk-${PV}:${SLOT} )
 	handbook? ( >=kde-apps/khelpcenter-${PV}:${SLOT} )
 	kwallet? ( >=kde-plasma/kwallet-pam-${PV}:${SLOT} )
 	pulseaudio? ( >=kde-plasma/plasma-pa-${PV}:${SLOT} )
+	sms? ( >=app-mobilephone/spacebar-${KDE_MIN}:${SLOT} )
 	systemd? ( media-gfx/bootsplash-systemd )
 "
