@@ -37,9 +37,6 @@ src_install() {
 	insinto /etc/systemd/logind.conf.d
 	doins ignore-power-key.conf
 
-	insinto /usr/share/feedbackd/themes
-	doins manjaro.json
-
 	insinto /usr/share/glib-2.0/schemas
 	doins 90_manjaro.gschema.override
 
