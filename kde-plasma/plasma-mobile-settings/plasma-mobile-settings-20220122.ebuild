@@ -3,13 +3,13 @@
 
 EAPI=7
 
-EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/community/plasma-mobile/plasma-mobile-settings.git"
-EGIT_COMMIT="26f977292c7f19f3079882cf223e73d78bbbbfba"
+EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/extra/plasma-mobile-additional/plasma-mobile-settings.git"
+EGIT_COMMIT="15bfa4bed1b1164b47ada0f4b793b06f8b248a9b"
 
 inherit git-r3 gnome2-utils
 
 DESCRIPTION="Settings files for Plasma mobile"
-HOMEPAGE="https://gitlab.manjaro.org/manjaro-arm/packages/community/plasma-mobile/plasma-mobile-settings"
+HOMEPAGE="https://gitlab.manjaro.org/manjaro-arm/packages/extra/plasma-mobile-additional/plasma-mobile-settings"
 
 LICENSE="GPL-2"
 SLOT="0"
