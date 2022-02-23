@@ -3,12 +3,12 @@
 
 EAPI=7
 
-KFMIN=5.82.0
+KFMIN=5.86.0
 QTMIN=5.15.0
 inherit ecm kde.org
 
 DESCRIPTION="General UI components for Plasma Phone"
-HOMEPAGE="https://invent.kde.org/plasma/plasma-phone-components"
+HOMEPAGE="https://plasma-mobile.org"
 
 LICENSE="GPL-2+ LGPL-2+ || ( GPL-2 GPL-3 ) || ( LGPL-2.1 LGPL-3 )"
 SLOT="5"
@@ -25,16 +25,19 @@ DEPEND="
 	>=kde-frameworks/kio-${KFMIN}:5
 	>=kde-frameworks/knotifications-${KFMIN}:5
 	>=kde-frameworks/kwayland-${KFMIN}:5
+	>=kde-frameworks/modemmanager-qt-${KFMIN}:5
 	>=kde-frameworks/plasma-${KFMIN}:5[wayland]
+	>=kde-plasma/kde-cli-tools-${PV}:5
 	>=kde-plasma/kwin-${PV}:5
 	>=kde-plasma/plasma-nano-${PV}:5
 	>=kde-plasma/plasma-nm-${PV}:5
 	>=kde-plasma/plasma-pa-${PV}:5
 	>=kde-plasma/plasma-workspace-${PV}:5
-	net-libs/libqofono
 "
-RDEPEND="
+
+RDEPEND="${DEPEND}
+	>=dev-qt/qtquickcontrols2-${QTMIN}:5
+	>=kde-frameworks/kirigami-${KFMIN}:5
 	net-misc/ofono
 	net-libs/libqofono
-	${DEPEND}
 "
