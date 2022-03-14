@@ -26,7 +26,7 @@ DEPEND="${RDEPEND}"
 
 # absil requires downloading the sources from GitHub at build time,
 # which is a sandbox violation and dangerous, so we are removing it for now
-PATCHES=( "${FILESDIR}/${PV}-remove-absl.patch" )
+PATCHES=( "${FILESDIR}/8.12.41-remove-absl.patch" )
 
 CMAKE_USE_DIR="${S}/cpp"
 
