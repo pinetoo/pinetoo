@@ -31,6 +31,7 @@ RDEPEND="
 	kde-apps/plasma-camera
 	>=kde-apps/qmlkonsole-${KDE_MIN}:${SLOT}
 	>=kde-plasma/discover-${PV}:${SLOT}
+	>=kde-plasma/kscreen-${PV}:${SLOT}
 	>=kde-plasma/plasma-phone-components-${PV}:${SLOT}
 	>=kde-plasma/plasma-settings-${KDE_MIN}:${SLOT}
 	>=kde-plasma/powerdevil-${PV}:${SLOT}
