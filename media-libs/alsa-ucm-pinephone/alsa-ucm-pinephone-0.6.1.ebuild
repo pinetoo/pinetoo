@@ -3,7 +3,7 @@
 
 EAPI=7
 
-COMMIT="02882a28fa32e84f7c58d939af49a3e036426fa3"
+COMMIT="ac6eeb7d39170db8607405870b69c00526202dff"
 
 DESCRIPTION="Alsa Use Casa Manager files for the PinePhone"
 HOMEPAGE="https://github.com/dreemurrs-embedded/Pine64-Arch"
