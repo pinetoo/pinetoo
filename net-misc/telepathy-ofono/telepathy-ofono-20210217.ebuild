@@ -1,9 +1,9 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-EGIT_REPO_URI="b9bfed49157fd16c4a3dc84d29bdc5656beba5c9"
+EGIT_REPO_URI="8436bc4c4d1c6156bf6c573e701e9650f5faacf0"
 EGIT_REPO_URI="https://github.com/TelepathyIM/${PN}.git"
 
 inherit cmake git-r3
