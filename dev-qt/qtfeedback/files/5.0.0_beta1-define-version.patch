@@ -1,5 +1,0 @@
-diff -wN a/.qmake.conf b/.qmake.conf
---- a/.qmake.conf
-+++ b/.qmake.conf
-@@ -0,0 +1 @@
-+MODULE_VERSION = 0.0.0

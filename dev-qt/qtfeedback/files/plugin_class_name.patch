@@ -1,0 +1,42 @@
+commit e97492b30abf096c36b5e15f8741bb4d3081d85e
+Author: Jesus P Rey (Chuso) <git@chuso.net>
+Date:   Mon Mar 14 19:54:45 2022 +0100
+
+    Add missing PLUGIN_CLASS_NAME in qmake files.
+
+diff --git a/src/plugins/feedback/immersion/immersion.pro b/src/plugins/feedback/immersion/immersion.pro
+index eac187e..147b3d1 100644
+--- a/src/plugins/feedback/immersion/immersion.pro
++++ b/src/plugins/feedback/immersion/immersion.pro
+@@ -2,6 +2,7 @@ TARGET = qtfeedback_immersion
+ QT = core feedback
+ 
+ PLUGIN_TYPE = feedback
++PLUGIN_CLASS_NAME = QFeedbackImmersion
+ load(qt_plugin)
+ 
+ HEADERS += qfeedback.h
+diff --git a/src/plugins/feedback/meegotouch/meegotouch.pro b/src/plugins/feedback/meegotouch/meegotouch.pro
+index 4e9ce25..54ef1c0 100644
+--- a/src/plugins/feedback/meegotouch/meegotouch.pro
++++ b/src/plugins/feedback/meegotouch/meegotouch.pro
+@@ -2,6 +2,7 @@ TARGET = qtfeedback_meegotouch
+ QT = core feedback
+ 
+ PLUGIN_TYPE = feedback
++PLUGIN_CLASS_NAME = QFeedbackMeegoTouch
+ load(qt_plugin)
+ 
+ HEADERS += qfeedback.h
+diff --git a/src/plugins/feedback/mmk/mmk.pro b/src/plugins/feedback/mmk/mmk.pro
+index ed08b40..9b3fc25 100644
+--- a/src/plugins/feedback/mmk/mmk.pro
++++ b/src/plugins/feedback/mmk/mmk.pro
+@@ -2,6 +2,7 @@ TARGET = qtfeedback_mmk
+ QT = core feedback multimedia
+ 
+ PLUGIN_TYPE = feedback
++PLUGIN_CLASS_NAME = QFeedbackMMK
+ load(qt_plugin)
+ 
+ HEADERS += qfeedback.h
