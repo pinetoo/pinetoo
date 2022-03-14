@@ -4,3 +4,4 @@ move kde-apps/index maui-apps/index
 move kde-apps/nota maui-apps/nota
 move kde-apps/station maui-apps/station
 slotmove kde-plasma/plasma-nano 0 5
+slotmove kde-frameworks/qqc2-breeze-style 0 5
