@@ -1,0 +1,11 @@
+--- libofono-qt-1.30/lib/lib.pro	2022-02-28 15:32:18.617992018 +0100
++++ libofono-qt-1.30/lib/lib.pro	2022-02-28 15:32:26.934248293 +0100
+@@ -62,7 +62,7 @@
+     ofonoconnmancontext.cpp \
+     ofonocellbroadcast.cpp
+ 
+-target.path = $$[QT_INSTALL_PREFIX]/lib
++target.path = $$[QT_INSTALL_LIBS]
+ headers.files = $$PUBLIC_HEADERS
+ headers.path = $$[QT_INSTALL_PREFIX]/include/ofono-qt
+ 

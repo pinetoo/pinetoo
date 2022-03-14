@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -20,6 +20,8 @@ KEYWORDS="~arm64"
 IUSE="doc"
 
 BDEPEND="doc? ( app-doc/doxygen )"
+
+PATCHES=( "${FILESDIR}/${PV}-target_path.patch" )
 
 src_configure() {
 	eqmake5 "${MY_PN}.pro"
