@@ -6,7 +6,7 @@ EAPI=7
 inherit git-r3 systemd udev
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/community/phosh/${PN}.git"
-EGIT_COMMIT="03ffa5e155c3995a09ef6472cd5a8b192606e589"
+EGIT_COMMIT="375e87423653d8816bbc4141c672a2434ba3f71a"
 
 DESCRIPTION="Manjaro ARM's PinePhone tweaks"
 HOMEPAGE="https://gitlab.manjaro.org/manjaro-arm/packages/community/phosh/pinephone-manjaro-tweaks"
