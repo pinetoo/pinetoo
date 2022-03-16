@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -10,9 +10,9 @@ HOMEPAGE="https://maliit.github.io/"
 SRC_URI="https://github.com/${PN}/framework/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="LGPL-3 CC-BY-3.0"
-SLOT="5"
+SLOT="0"
 KEYWORDS="~arm64"
-IUSE="dbus doc glib gtk qt5 test wayland xcb"
+IUSE="dbus doc examples glib gtk qt5 test wayland xcb"
 REQUIRED_USE="gtk? ( wayland )"
 RESTRICT="!test? ( test )"
 
@@ -21,8 +21,10 @@ RDEPEND="
 	dev-qt/qtdbus:5
 	dev-qt/qtgui:5
 	dev-qt/qtdeclarative:5
-	dev-qt/qtwidgets:5
 	virtual/udev
+	examples? (
+		dev-qt/qtwidgets:5
+	)
 	glib? (
 		dev-libs/glib:2
 	)
@@ -61,6 +63,7 @@ src_configure() {
 	local mycmakeargs=(
 		-Denable-dbus-activation:BOOL=$(use dbus && echo ON || echo OFF)
 		-Denable-docs:BOOL=$(use doc && echo ON || echo OFF)
+		-Denable-examples:BOOL=$(use examples && echo ON || echo OFF)
 		-Denable-glib:BOOL=$(use glib && echo ON || echo OFF)
 		-Denable-qt5-inputcontext:BOOL=$(use qt5 && echo ON || echo OFF)
 		-Denable-tests:BOOL=$(use test && echo ON || echo OFF)
