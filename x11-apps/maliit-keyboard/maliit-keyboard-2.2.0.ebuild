@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -10,19 +10,20 @@ HOMEPAGE="https://github.com/maliit/keyboard"
 SRC_URI="https://github.com/maliit/keyboard/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="LGPL-3 CC-BY-3.0"
-SLOT="5"
+SLOT="0"
 KEYWORDS="~arm64"
 IUSE="cjk spell +suggestions"
 
 DEPEND="
 	app-i18n/libpinyin
 	dev-libs/glib:2
-	x11-libs/maliit
 	dev-qt/qtcore:5
-	dev-qt/qtdeclarative:5
 	dev-qt/qtdbus:5
-	dev-qt/qtmultimedia:5
+	dev-qt/qtdeclarative:5[localstorage]
 	dev-qt/qtgraphicaleffects:5
+	dev-qt/qtmultimedia:5
+	sys-devel/gettext
+	~x11-libs/maliit-${PV}
 	cjk? (
 		app-i18n/anthy
 		|| (
