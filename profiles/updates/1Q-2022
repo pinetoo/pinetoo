@@ -7,3 +7,4 @@ slotmove kde-plasma/plasma-nano 0 5
 slotmove kde-frameworks/qqc2-breeze-style 0 5
 slotmove x11-libs/maliit 5 0
 slotmove x11-apps/maliit-keyboard 5 0
+slotmove app-mobilephone/spacebar 0 5
