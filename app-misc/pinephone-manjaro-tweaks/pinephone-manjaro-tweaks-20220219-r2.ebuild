@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit git-r3 systemd udev
+inherit git-r3 gnome2-utils systemd udev
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/community/phosh/${PN}.git"
 EGIT_COMMIT="375e87423653d8816bbc4141c672a2434ba3f71a"
@@ -48,4 +48,8 @@ src_install() {
 	systemd_dounit pinephone-setup-usb-network.service pinephone-usb-gadget.service
 
 	udev_dorules 10-pinephone-brightness.rules 10-proximity.rules
+}
+
+pkg_postinst() {
+	gnome2_schemas_update
 }
