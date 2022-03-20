@@ -1,0 +1,13 @@
+#!/sbin/openrc-run
+
+start() {
+	start-stop-daemon --start --exec "/usr/bin/waydroid" --background --pidfile /var/run/waydroid-container.pid --make-pidfile -- container start
+	eend $?
+}
+
+stop() {
+	start-stop-daemon --exec "/usr/bin/waydroid" -- container stop &&
+	start-stop-daemon --exec "/usr/bin/waydroid" -- session stop &&
+	start-stop-daemon --stop --pidfile /var/run/waydroid-container.pid
+	eend $?
+}
