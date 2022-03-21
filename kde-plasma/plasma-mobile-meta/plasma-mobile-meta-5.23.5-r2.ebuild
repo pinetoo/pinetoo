@@ -28,6 +28,7 @@ RDEPEND="
 	>=kde-apps/kweather-${KDE_MIN}:${SLOT}
 	>=kde-apps/okular-${KDE_MIN}:${SLOT}
 	>=kde-apps/plasma-phonebook-${KDE_MIN}:${SLOT}
+	>=kde-apps/tokodon-${KDE_MIN}:${SLOT}
 	kde-apps/plasma-camera
 	>=kde-apps/qmlkonsole-${KDE_MIN}:${SLOT}
 	>=kde-plasma/discover-${PV}:${SLOT}
