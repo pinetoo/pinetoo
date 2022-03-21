@@ -16,6 +16,7 @@ IUSE="geolocation"
 RDEPEND="
 	app-misc/pinephone-manjaro-tweaks
 	app-mobilephone/pinephone-modem-scripts
+	dev-libs/feedbackd
 	kde-plasma/plasma-mobile-settings
 	media-libs/alsa-ucm-pinephone
 	sys-apps/zswap
