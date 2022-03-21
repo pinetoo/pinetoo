@@ -41,7 +41,6 @@ DEPEND="
 	media-libs/fontconfig
 	media-libs/freetype
 	media-libs/pulseaudio-qt
-	net-misc/telepathy-ofono
 "
 
 RDEPEND="${DEPEND}
