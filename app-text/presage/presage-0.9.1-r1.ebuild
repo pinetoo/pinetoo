@@ -21,6 +21,8 @@ DEPEND="${RDEPEND}"
 
 BDEPEND="doc? ( app-doc/doxygen )"
 
+PATCHES=( "${FILESDIR}/${PV}-stdcpp17-no_exception.patch" )
+
 src_prepare() {
 	default
 	eautoreconf
@@ -37,4 +39,6 @@ src_configure() {
 	# and still tries to build Python 2 stuff
 
 	sed -i 's/presage_dbus_python_demo\(.1\)\?:/&\nold-&/' apps/dbus/Makefile || die
+
+	sed -i 's/^presage_demo_LDFLAGS =.*/& -ltinfo/' src/tools/Makefile || die
 }
