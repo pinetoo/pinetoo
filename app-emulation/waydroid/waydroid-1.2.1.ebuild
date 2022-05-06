@@ -34,10 +34,6 @@ CONFIG_CHECK="
 	~ASHMEM
 "
 
-PATCHES=(
-	"${FILESDIR}/fix-bad-eol-of-proc-dt-values.patch"
-)
-
 src_install() {
 	insinto /etc/gbinder.d
 	newins gbinder/anbox.conf "${PN}.conf"
