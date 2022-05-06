@@ -12,7 +12,7 @@ MY_P=${PN}-v${MY_PV}
 KEYWORDS="~arm64"
 
 DESCRIPTION="A daemon to provide feedback triggered by application events"
-HOMEPAGE="https://source.puri.sm/Librem54/feedbackd"
+HOMEPAGE="https://source.puri.sm/Librem5/feedbackd"
 SRC_URI="https://source.puri.sm/Librem5/${PN}/-/archive/v${MY_PV}/${PN}-v${MY_PV}.tar.bz2"
 
 S=${WORKDIR}/${MY_P}
