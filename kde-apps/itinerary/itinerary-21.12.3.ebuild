@@ -3,7 +3,7 @@
 
 EAPI=7
 
-KFMIN=5.84.0
+KFMIN=5.85.0
 QTMIN=5.15.0
 inherit ecm kde.org
 
@@ -16,7 +16,7 @@ KEYWORDS="~arm64"
 IUSE=""
 
 DEPEND="
-	>=dev-libs/khealthcertificate-${PV}:5
+	>=dev-libs/khealthcertificate-$(ver_cut 1-2):5
 	>=dev-libs/kopeninghours-${PV}:5
 	>=dev-libs/kosmindoormap-${PV}:5
 	>=dev-libs/kpublictransport-${PV}:5
@@ -28,6 +28,7 @@ DEPEND="
 	>=dev-qt/qtnetwork-${QTMIN}:5
 	>=dev-qt/qtpositioning-${QTMIN}:5
 	>=dev-qt/qtquickcontrols2-${QTMIN}:5
+	>=dev-qt/qtsvg-${QTMIN}:5
 	>=dev-qt/qttest-${QTMIN}:5
 	>=dev-qt/qtwidgets-${QTMIN}:5
 	>=kde-apps/kitinerary-${PV}:5
@@ -42,6 +43,7 @@ DEPEND="
 	>=kde-frameworks/kdbusaddons-${KFMIN}:5
 	>=kde-frameworks/kholidays-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
+	>=kde-frameworks/kio-${KFMIN}:5
 	>=kde-frameworks/knotifications-${KFMIN}:5
 	>=kde-frameworks/networkmanager-qt-${KFMIN}:5
 	>=kde-frameworks/prison-${KFMIN}:5
