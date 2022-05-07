@@ -6,7 +6,7 @@ EAPI=8
 ECM_HANDBOOK="forceoptional"
 ECM_TEST="forceoptional"
 PVCUT=$(ver_cut 1-3)
-KFMIN=5.84.0
+KFMIN=5.88.0
 QTMIN=5.15.2
 VIRTUALX_REQUIRED="test"
 inherit ecm kde.org
@@ -17,7 +17,7 @@ HOMEPAGE="https://okular.kde.org https://apps.kde.org/okular/"
 LICENSE="GPL-2" # TODO: CHECK
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE="chm crypt djvu epub +image-backend markdown mobi mobile +pdf +plucker +postscript qml share speech +tiff"
+IUSE="crypt djvu epub +image-backend markdown mobi mobile +pdf +plucker +postscript qml share speech +tiff"
 
 DEPEND="
 	>=dev-qt/qtdbus-${QTMIN}:5
@@ -43,11 +43,6 @@ DEPEND="
 	media-libs/freetype
 	>=media-libs/phonon-4.11.0
 	sys-libs/zlib
-	chm? (
-		dev-libs/chmlib
-		dev-libs/libzip:=
-		>=kde-frameworks/khtml-${KFMIN}:5
-	)
 	crypt? ( >=kde-frameworks/kwallet-${KFMIN}:5 )
 	djvu? ( app-text/djvu )
 	epub? ( app-text/ebook-tools )
@@ -55,10 +50,10 @@ DEPEND="
 		>=dev-qt/qtgui-${QTMIN}:5[gif,jpeg,png]
 		>=kde-apps/libkexiv2-${PVCUT}:5
 	)
-	markdown? ( app-text/discount )
+	markdown? ( >=app-text/discount-2.2.7-r1 )
 	mobi? ( >=kde-apps/kdegraphics-mobipocket-${PVCUT}:5 )
-	pdf? ( app-text/poppler[nss,qt5] )
-	plucker? ( virtual/jpeg:0 )
+	pdf? ( >=app-text/poppler-21.10.0[nss,qt5] )
+	plucker? ( media-libs/libjpeg-turbo:0 )
 	postscript? ( app-text/libspectre )
 	share? ( >=kde-frameworks/purpose-${KFMIN}:5 )
 	speech? ( >=dev-qt/qtspeech-${QTMIN}:5 )
@@ -73,16 +68,16 @@ RDEPEND="${DEPEND}
 "
 
 PATCHES=(
-	"${FILESDIR}/${PN}-20.11.90-tests.patch" # bug 734138
+	"${FILESDIR}/${PN}-21.11.80-tests.patch" # bug 734138
 	"${FILESDIR}/${PN}-21.08.1-optional-options.patch" # bug 810958
 )
 
 src_configure() {
 	local mycmakeargs=(
+		-DCMAKE_DISABLE_FIND_PACKAGE_CHM=ON
+		-DCMAKE_DISABLE_FIND_PACKAGE_KF5KHtml=ON
+		-DCMAKE_DISABLE_FIND_PACKAGE_LibZip=ON
 		-DOKULAR_UI=$(usex qml "$(usex mobile "mobile" "both")" "desktop")
-		$(cmake_use_find_package chm CHM)
-		$(cmake_use_find_package chm KF5KHtml)
-		$(cmake_use_find_package chm LibZip)
 		-DWITH_KWALLET=$(usex crypt)
 		$(cmake_use_find_package djvu DjVuLibre)
 		$(cmake_use_find_package epub EPub)
