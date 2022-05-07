@@ -3,7 +3,7 @@
 
 EAPI=7
 
-KFMIN=5.75.0
+KFMIN=5.87.0
 QTMIN=5.15.0
 inherit ecm kde.org
 
@@ -14,9 +14,10 @@ SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 LICENSE="GPL-3 LGPL-3+"
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE=""
+IUSE="networkmanager"
 
 DEPEND="
+	dev-libs/qtkeychain
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtdbus-${QTMIN}:5
@@ -31,6 +32,8 @@ DEPEND="
 	>=kde-frameworks/kcoreaddons-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	>=kde-frameworks/syndication-${KFMIN}:5
+	media-libs/taglib
+	networkmanager? ( >=kde-frameworks/networkmanager-qt-${KFMIN}:5 )
 "
 
 RDEPEND="${DEPEND}
