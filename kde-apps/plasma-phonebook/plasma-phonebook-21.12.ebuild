@@ -3,8 +3,8 @@
 
 EAPI=7
 
-QTMIN=5.15.0
-KFMIN=5.77.0
+QTMIN=5.15.2
+KFMIN=5.88.0
 inherit ecm kde.org
 
 MY_P="${PN}-v${PV}"
@@ -29,6 +29,7 @@ DEPEND="
 	>=dev-qt/qttest-${QTMIN}:5
 	>=dev-qt/qtwidgets-${QTMIN}:5
 	>=kde-frameworks/kcodecs-${KFMIN}:5
+	>=kde-frameworks/kconfig-${KFMIN}:5
 	>=kde-frameworks/kcontacts-${KFMIN}:5
 	>=kde-frameworks/kcoreaddons-${KFMIN}:5
 	>=kde-frameworks/kirigami-${KFMIN}:5
