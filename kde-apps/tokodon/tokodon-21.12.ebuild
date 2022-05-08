@@ -34,6 +34,7 @@ DEPEND="
 	>=kde-frameworks/kitemmodels-${KFMIN}:5
 	>=kde-frameworks/knotifications-${KFMIN}:5
 	>=kde-frameworks/qqc2-desktop-style-${KFMIN}:5
+	>=kde-frameworks/sonnet-${KFMIN}:5
 "
 
 RDEPEND="${DEPEND}
