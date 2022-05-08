@@ -4,7 +4,7 @@
 EAPI=7
 
 QTMIN=5.14.0
-KFMIN=5.70.0
+KFMIN=5.86.0
 inherit ecm kde.org
 
 DESCRIPTION="Settings application for Plasma Mobile"
@@ -19,6 +19,10 @@ IUSE=""
 DEPEND="
 	dev-libs/glib:2
 	>=dev-qt/qtcore-${QTMIN}:5
+	>=dev-qt/qtdbus-${QTMIN}:5
+	>=dev-qt/qtdeclarative-${QTMIN}:5
+	>=dev-qt/qtgui-${QTMIN}:5
+	>=dev-qt/qtxml-${QTMIN}:5
 	>=kde-frameworks/kauth-${KFMIN}:5
 	>=kde-frameworks/kconfig-${KFMIN}:5
 	>=kde-frameworks/kcoreaddons-${KFMIN}:5
@@ -26,6 +30,8 @@ DEPEND="
 	>=kde-frameworks/kdeclarative-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	>=kde-frameworks/kio-${KFMIN}:5
+	>=kde-frameworks/modemmanager-qt-${KFMIN}:5
+	>=kde-frameworks/networkmanager-qt-${KFMIN}:5
 	>=kde-frameworks/plasma-${KFMIN}:5
 	>=kde-frameworks/solid-${KFMIN}:5
 	virtual/libcrypt
@@ -34,8 +40,8 @@ DEPEND="
 
 RDEPEND="${DEPEND}
 	>=dev-qt/qtdeclarative-${QTMIN}:5
+	>=dev-qt/qtgraphicaleffects-${QTMIN}:5
 	>=dev-qt/qtquickcontrols2-${QTMIN}:5
 	>=kde-frameworks/kirigami-${KFMIN}:5
 	>=kde-frameworks/kitemmodels-${KFMIN}:5
-	net-libs/libqofono
 "
