@@ -3,7 +3,7 @@
 
 EAPI=7
 
-KFMIN=5.40.0
+KFMIN=5.77.0
 QTMIN=5.14.0
 inherit ecm kde.org
 
@@ -27,7 +27,6 @@ RDEPEND="
 	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
 	>=dev-qt/qtnetwork-${QTMIN}:5
-	>=dev-qt/qtprintsupport-${QTMIN}:5
 	>=dev-qt/qtquickcontrols2-${QTMIN}:5
 	>=dev-qt/qtwidgets-${QTMIN}:5
 	>=kde-frameworks/karchive-${KFMIN}:5
