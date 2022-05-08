@@ -4,9 +4,9 @@
 EAPI=7
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/extra/plasma-mobile-additional/plasma-mobile-settings.git"
-EGIT_COMMIT="15bfa4bed1b1164b47ada0f4b793b06f8b248a9b"
+EGIT_COMMIT="530f441981da465f6a35dfbb0ce8abc7a511c4cb"
 
-inherit git-r3 gnome2-utils
+inherit git-r3 gnome2-utils udev
 
 DESCRIPTION="Settings files for Plasma mobile"
 HOMEPAGE="https://gitlab.manjaro.org/manjaro-arm/packages/extra/plasma-mobile-additional/plasma-mobile-settings"
@@ -40,9 +40,11 @@ src_install() {
 	newins sddm.conf 00-plasma-mobile.conf
 	insinto /etc/skel/.config/gtk-3.0
 	doins settings.ini
+	insinto /etc/skel/.config/autostart
+	doins drkonqi-coredump-launcher.desktop
 	insinto /etc/xdg
-	doins applications-blacklistrc kdeglobals kwinrc
-	exeinto /usr/lib/systemd/system-sleep
+	doins applications-blacklistrc kdeglobals kscreenlockerrc kwinrc
+	exeinto /lib/systemd/system-sleep
 	doexe ofono-fast-dormancy.sh
 	insinto /usr/share/glib-2.0/schemas/
 	doins 91_plasma-mobile.gschema.override
@@ -50,7 +52,7 @@ src_install() {
 	newins powerdevil.hook 90-powerdevil.hook
 	insinto /usr/share/maliit/keyboard2/devices/
 	doins plasmamobile.json
-	insinto /usr/lib/udev/rules.d/
+	insinto /lib/udev/rules.d
 	doins 20-pinephone-led.rules
 
 	if use systemd; then
@@ -61,6 +63,7 @@ src_install() {
 
 pkg_postinst() {
 	gnome2_schemas_update
+	udev_reload
 	einfo "Please update password for plasma-mobile user to be able to log in to Plasma Mobile:"
 	einfo "    passwd plasma-mobile"
 	einfo "or change the User in /etc/sddm.conf.d/00-plasma-mobile.conf to the one you want to use with Plasma Mobile."
