@@ -23,7 +23,7 @@ DEPEND="
 	dev-qt/qtgraphicaleffects:5
 	dev-qt/qtmultimedia:5
 	sys-devel/gettext
-	~x11-libs/maliit-${PV}
+	~x11-libs/maliit-2.2.1
 	cjk? (
 		app-i18n/anthy
 		|| (
