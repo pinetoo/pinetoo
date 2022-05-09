@@ -3,7 +3,7 @@
 
 EAPI=7
 
-KDE_MIN=21.08
+KDE_MIN=21.12
 
 DESCRIPTION="Meta package for a complete Plasma Mobile environment for smartphones"
 HOMEPAGE="https://www.plasma-mobile.org/"
@@ -33,7 +33,7 @@ RDEPEND="
 	>=kde-apps/qmlkonsole-${KDE_MIN}:${SLOT}
 	>=kde-plasma/discover-${PV}:${SLOT}
 	>=kde-plasma/kscreen-${PV}:${SLOT}
-	>=kde-plasma/plasma-phone-components-${PV}:${SLOT}
+	>=kde-plasma/plasma-mobile-${PV}:${SLOT}
 	>=kde-plasma/plasma-settings-${KDE_MIN}:${SLOT}
 	>=kde-plasma/powerdevil-${PV}:${SLOT}
 	>=kde-misc/kdeconnect-${KDE_MIN}:${SLOT}
@@ -44,7 +44,6 @@ RDEPEND="
 	maui-apps/communicator
 	maui-apps/index
 	maui-apps/nota
-	maui-apps/pix
 	maui-apps/shelf
 	maui-apps/station
 	media-gfx/megapixels
