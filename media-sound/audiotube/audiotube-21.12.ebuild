@@ -20,7 +20,7 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 DEPEND="${PYTHON_DEPS}
 	dev-python/pybind11
-	=dev-python/ytmusicapi-0.18.0
+	~dev-python/ytmusicapi-0.19.4
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
@@ -33,7 +33,7 @@ DEPEND="${PYTHON_DEPS}
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	>=kde-frameworks/kirigami-${KFMIN}:5
 	$(python_gen_cond_dep '
-		net-misc/youtube-dl[${PYTHON_USEDEP}]
+		net-misc/yt-dlp[${PYTHON_USEDEP}]
 	')
 "
 
