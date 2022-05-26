@@ -23,6 +23,6 @@ RDEPEND="
 src_install() {
 	insinto /usr/share/alsa/ucm2/Pine64/PinePhone
 	doins PKGBUILDS/pine64/alsa-ucm-pinephone/{HiFi,VoiceCall}.conf
-	insinto /usr/share/alsa/ucm2/simple-card
+	insinto /usr/share/alsa/ucm2/conf.d/simple-card
 	doins PKGBUILDS/pine64/alsa-ucm-pinephone/PinePhone.conf
 }
