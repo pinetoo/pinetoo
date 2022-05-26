@@ -8,7 +8,7 @@ QTMIN=5.15.0
 inherit ecm
 
 DESCRIPTION="Mastodon client for Plasma and Plasma Mobile"
-HOMEPAGE="https://invent.kde.org/network/tokodon"
+HOMEPAGE="https://apps.kde.org/tokodon/"
 SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-3"
