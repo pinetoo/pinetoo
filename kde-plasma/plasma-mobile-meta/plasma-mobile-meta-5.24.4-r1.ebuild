@@ -11,13 +11,14 @@ HOMEPAGE="https://www.plasma-mobile.org/"
 LICENSE="metapackage"
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE="accessibility +bluetooth +dialer education games +gtk handbook kwallet +pulseaudio +sms systemd webengine"
+IUSE="accessibility +bluetooth +desktop-portal +dialer education games +gtk handbook kwallet +pulseaudio +sms systemd webengine"
 
 RDEPEND="
 	>=kde-apps/alligator-${KDE_MIN}:${SLOT}
 	>=kde-apps/angelfish-${KDE_MIN}:${SLOT}
 	>=kde-apps/calindori-${KDE_MIN}:${SLOT}
 	>=kde-apps/itinerary-${KDE_MIN}:${SLOT}
+	>=kde-apps/kaccounts-providers-${KDE_MIN}:${SLOT}
 	>=kde-apps/kalk-${KDE_MIN}:${SLOT}
 	>=kde-apps/kasts-${KDE_MIN}:${SLOT}
 	>=kde-apps/kclock-${KDE_MIN}:${SLOT}
@@ -33,6 +34,7 @@ RDEPEND="
 	>=kde-apps/qmlkonsole-${KDE_MIN}:${SLOT}
 	>=kde-plasma/discover-${PV}:${SLOT}
 	>=kde-plasma/kscreen-${PV}:${SLOT}
+	>=kde-plasma/kwayland-integration-${PV}:${SLOT}
 	>=kde-plasma/plasma-mobile-${PV}:${SLOT}
 	>=kde-plasma/plasma-settings-${KDE_MIN}:${SLOT}
 	>=kde-plasma/powerdevil-${PV}:${SLOT}
@@ -57,6 +59,7 @@ RDEPEND="
 	x11-misc/sddm
 	accessibility? ( >=app-accessibility/kontrast-${KDE_MIN}:${SLOT} )
 	bluetooth? ( >=kde-plasma/bluedevil-${PV}:${SLOT} )
+	desktop-portal? ( >=kde-plasma/xdg-desktop-portal-kde-${PV}:${SLOT} )
 	dialer? ( >=kde-apps/plasma-dialer-${PV}:${SLOT} )
 	education? ( webengine? ( >=kde-apps/kalgebra-${KDE_MIN}:${SLOT} ) )
 	games? ( games-kids/gcompris )
