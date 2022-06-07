@@ -52,6 +52,7 @@ RDEPEND="
 	>=media-sound/audiotube-${KDE_MIN}:${SLOT}
 	>=media-sound/elisa-${KDE_MIN}:${SLOT}
 	>=media-sound/krecorder-${KDE_MIN}:${SLOT}
+	>=media-video/plasmatube-${KDE_MIN}:${SLOT}
 	media-sound/vvave
 	net-im/kaidan
 	net-im/neochat
