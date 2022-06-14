@@ -10,12 +10,7 @@ inherit ecm kde.org
 
 DESCRIPTION="Image gallery application designed for desktop and touch devices"
 HOMEPAGE="https://apps.kde.org/koko/"
-SRC_URI="
-	mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz
-	http://download.geonames.org/export/dump/cities1000.zip
-	http://download.geonames.org/export/dump/admin1CodesASCII.txt
-	http://download.geonames.org/export/dump/admin2Codes.txt
-"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="LGPL-2+ LGPL-2.1 LGPL-2.1+ LGPL-3 BSD CC0-1.0 CC-BY-SA-4.0"
 SLOT="5"
@@ -70,5 +65,5 @@ BDEPEND="app-arch/unzip"
 src_prepare() {
 	cmake_src_prepare
 
-	cp "${DISTDIR}"/{cities1000.zip,admin1CodesASCII.txt,admin2Codes.txt} "${S}/src" || die
+	cp "${FILESDIR}"/{cities1000.zip,admin1CodesASCII.txt,admin2Codes.txt} "${S}/src" || die
 }
