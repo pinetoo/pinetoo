@@ -37,6 +37,7 @@ RDEPEND="
 	>=kde-plasma/kscreen-${PV}:${SLOT}
 	>=kde-plasma/kwayland-integration-${PV}:${SLOT}
 	>=kde-plasma/plasma-mobile-${PV}:${SLOT}
+	kde-plasma/plasma-mobile-sounds
 	>=kde-plasma/plasma-settings-${KDE_MIN}:${SLOT}
 	>=kde-plasma/powerdevil-${PV}:${SLOT}
 	>=kde-misc/kdeconnect-${KDE_MIN}:${SLOT}
