@@ -8,6 +8,8 @@
 
 * `dev-libs/libglibutil-1.0.65`
 
+* `dev-libs/libgbinder-1.1.22`
+
 # 5.24.4.21.12.3.2.1.2.0
 
 **Maui apps** updated to **2.1.2**
