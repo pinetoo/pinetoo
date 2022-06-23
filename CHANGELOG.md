@@ -18,6 +18,8 @@ No consumers left, most of them because of the switch in Plasma Mobile from Ofon
 
 * `net-misc/ofono`
 
+* `net-misc/ofonoctl`
+
 # 5.24.4.21.12.3.2.1.2.0
 
 **Maui apps** updated to **2.1.2**
