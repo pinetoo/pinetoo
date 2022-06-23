@@ -4,6 +4,8 @@
 
 * `dev-libs/feedbackd-0.0.0_pre20220520`
 
+* `dev-libs/feedbackd-device-themes-0.0.20220523`
+
 * `dev-libs/libglibutil-1.0.65`
 
 # 5.24.4.21.12.3.2.1.2.0
