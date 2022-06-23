@@ -12,6 +12,12 @@
 
 * `kde-plasma/plasma-mobile-settings-20220530`
 
+## Removed
+
+No consumers left, most of them because of the switch in Plasma Mobile from Ofono to ModemManager:
+
+* `net-misc/ofono`
+
 # 5.24.4.21.12.3.2.1.2.0
 
 **Maui apps** updated to **2.1.2**
