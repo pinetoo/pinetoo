@@ -12,6 +12,8 @@
 
 * `kde-plasma/plasma-mobile-settings-20220530`
 
+* `sys-kernel/linux-headers-5.18.6`
+
 * `sys-kernel/pinephone-kernel-5.18.6`
 
 ## Removed
