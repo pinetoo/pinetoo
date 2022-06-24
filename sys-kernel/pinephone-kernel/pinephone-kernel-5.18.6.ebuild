@@ -4,10 +4,10 @@
 EAPI=7
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/core/linux-pinephone.git"
-EGIT_BRANCH="5.17-megi"
-EGIT_COMMIT="a9e688ca9d4f1ebbbee39d232fe33a9d1c248faa"
+EGIT_BRANCH="5.18-megi"
+EGIT_COMMIT="f834db920d8310494dceb3d9a4ac68792ad134ef"
 
-KERNEL_TAG="5.17-20220427-0710"
+KERNEL_TAG="5.18-20220615-1100"
 
 inherit git-r3 kernel-build
 
@@ -17,10 +17,11 @@ SRC_URI="https://github.com/megous/linux/archive/refs/tags/orange-pi-${KERNEL_TA
 
 LICENSE="GPL-2"
 KEYWORDS="~arm64"
-IUSE="systemd"
+IUSE="debug systemd"
 
 PATCHES=(
-	"${WORKDIR}/${P}/5.17.4-5.patch"
+	"${WORKDIR}/${P}/5.18.4-5.patch"
+	"${WORKDIR}/${P}/5.18.5-6.patch"
 	"${WORKDIR}/${P}/0101-arm64-dts-pinephone-drop-modem-power-node.patch"
 	"${WORKDIR}/${P}/0102-arm64-dts-pinephone-pro-remove-modem-node.patch"
 	"${WORKDIR}/${P}/0103-ccu-sun50i-a64-reparent-clocks-to-lower-speed-oscillator.patch"
@@ -56,27 +57,24 @@ src_configure() {
 
 	echo 'CONFIG_LOCALVERSION="-pinetoo"' > "${T}"/version.config || die
 	echo "CONFIG_NF_TABLES=y" > "${T}"/waydroid.config || die
+	echo "HAVE_KERNEL_UNCOMPRESSED=y" >> "${T}"/boot.config || die
+	echo "CONFIG_UEVENT_HELPER_PATH=" >> "${T}"/systemd.config || die
 	cat <<-EOF > "${T}"/wireguard.config
-	CONFIG_NF_TABLES
-	CONFIG_NF_TABLES_IPV4
-	CONFIG_NF_TABLES_IPV6
-	CONFIG_NFT_CT
-	CONFIG_NFT_FIB
-	CONFIG_NFT_FIB_IPV4
-	CONFIG_NFT_FIB_IPV6
+	CONFIG_NF_TABLES=y
+	CONFIG_NF_TABLES_IPV4=y
+	CONFIG_NF_TABLES_IPV6=y
+	CONFIG_NFT_CT=y
+	CONFIG_NFT_FIB=y
+	CONFIG_NFT_FIB_IPV4=y
+	CONFIG_NFT_FIB_IPV6=y
 	EOF
 	local merge_configs=(
 		"${T}"/version.config
 		"${T}"/waydroid.config
+		"${T}"/boot.config
 		"${T}"/wireguard.config
+		"${T}"/systemd.config
 	)
-
-	if use systemd; then
-		echo "CONFIG_BPF_SYSCALL=y" >> "${T}"/systemd.config || die
-		echo "CONFIG_CGROUP_BPF=y" >> "${T}"/systemd.config || die
-		echo "HAVE_KERNEL_UNCOMPRESSED=y" >> "${T}"/systemd.config || die
-		merge_configs+=( "${T}"/systemd.config )
-	fi
 
 	kernel-build_merge_configs "${merge_configs[@]}"
 

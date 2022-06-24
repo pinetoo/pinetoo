@@ -12,6 +12,8 @@
 
 * `kde-plasma/plasma-mobile-settings-20220530`
 
+* `sys-kernel/pinephone-kernel-5.18.6`
+
 ## Removed
 
 No consumers left, most of them because of the switch in Plasma Mobile from Ofono to ModemManager:
