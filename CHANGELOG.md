@@ -6,6 +6,9 @@
 
 ## New packages
 
+* `dev-libs/mpris-qt5`
+  New dependency for `kde-apps/plasma-dialer`
+
 * `media-sound/callaudiod`
   New dependency for `kde-apps/plasma-dialer`
 
