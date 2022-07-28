@@ -5,7 +5,7 @@ EAPI=7
 
 KFMIN=5.81.0
 QTMIN=5.15.0
-PYTHON_COMPAT=( python3_{8..10} )
+PYTHON_COMPAT=( python3_{8..11} )
 inherit ecm kde.org python-single-r1
 
 DESCRIPTION="Kirigami YouTube video player based on QtMultimedia and youtube-dl"
@@ -27,6 +27,7 @@ DEPEND="${PYTHON_DEPS}
 	>=dev-qt/qtsvg-${QTMIN}:5
 	>=dev-qt/qttest-${QTMIN}:5
 	>=dev-qt/qtwidgets-${QTMIN}:5
+	>=kde-frameworks/kconfig-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	>=kde-frameworks/kirigami-${KFMIN}:5
 "
