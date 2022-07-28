@@ -5,7 +5,7 @@ EAPI=7
 
 KFMIN=5.81.0
 QTMIN=5.15.0
-PYTHON_COMPAT=( python3_{8..10} )
+PYTHON_COMPAT=( python3_{8..11} )
 inherit ecm kde.org python-single-r1
 
 DESCRIPTION="Client for YouTube Music"
@@ -20,7 +20,7 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 DEPEND="${PYTHON_DEPS}
 	dev-python/pybind11
-	~dev-python/ytmusicapi-0.19.4
+	~dev-python/ytmusicapi-0.21.0
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
