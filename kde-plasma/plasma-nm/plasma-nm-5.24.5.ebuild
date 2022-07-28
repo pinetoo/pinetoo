@@ -13,7 +13,7 @@ DESCRIPTION="KDE Plasma applet for NetworkManager"
 
 LICENSE="GPL-2 LGPL-2.1"
 SLOT="5"
-KEYWORDS="amd64 ~arm arm64 ~ppc64 ~riscv x86"
+KEYWORDS="~arm64"
 IUSE="mobile modemmanager openconnect teamd"
 
 DEPEND="
