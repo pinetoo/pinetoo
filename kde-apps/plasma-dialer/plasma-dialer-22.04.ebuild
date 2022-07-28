@@ -3,7 +3,7 @@
 
 EAPI=7
 
-KFMIN=5.88.0
+KFMIN=5.89.0
 QTMIN=5.15.2
 inherit ecm kde.org
 
@@ -20,6 +20,7 @@ IUSE=""
 
 DEPEND="
 	dev-libs/libphonenumber
+	dev-libs/mpris-qt5
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdbus-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5[localstorage]
@@ -40,7 +41,7 @@ DEPEND="
 	>=kde-frameworks/modemmanager-qt-${KFMIN}:5
 	media-libs/fontconfig
 	media-libs/freetype
-	media-libs/pulseaudio-qt
+	media-sound/callaudiod
 "
 
 RDEPEND="${DEPEND}
