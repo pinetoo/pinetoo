@@ -3,8 +3,8 @@
 
 EAPI=7
 
-KFMIN=5.85.0
-QTMIN=5.15.0
+KFMIN=5.88.0
+QTMIN=5.15.2
 inherit ecm kde.org
 
 DESCRIPTION="Itinerary and boarding pass management application"
@@ -44,11 +44,14 @@ DEPEND="
 	>=kde-frameworks/kholidays-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	>=kde-frameworks/kio-${KFMIN}:5
+	>=kde-frameworks/kitemmodels-${KFMIN}:5
 	>=kde-frameworks/knotifications-${KFMIN}:5
+	>=kde-frameworks/kunitconversion-${KFMIN}:5
 	>=kde-frameworks/networkmanager-qt-${KFMIN}:5
 	>=kde-frameworks/prison-${KFMIN}:5
 	>=kde-frameworks/qqc2-desktop-style-${KFMIN}:5
 	>=kde-frameworks/solid-${KFMIN}:5
+	kde-misc/kirigami-addons
 	x11-misc/shared-mime-info
 	sys-libs/zlib
 "
