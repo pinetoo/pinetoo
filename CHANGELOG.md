@@ -2,6 +2,12 @@
 
 ## Package updates
 
+* `kde-plasma/plasma-mobile-settings-20220628`
+
+# 5.24.4.21.12.3.2.1.2.1
+
+## Package updates
+
 * `dev-libs/feedbackd-0.0.0_pre20220520`
 
 * `dev-libs/feedbackd-device-themes-0.0.20220523`
