@@ -4,6 +4,11 @@
 
 * `kde-plasma/plasma-mobile-settings-20220628`
 
+## New packages
+
+* `media-sound/callaudiod`
+  New dependency for `kde-apps/plasma-dialer`
+
 # 5.24.4.21.12.3.2.1.2.1
 
 ## Package updates
