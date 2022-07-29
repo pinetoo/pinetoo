@@ -4,6 +4,8 @@
 
 * `kde-misc/kirigami-addons-0.3`
 
+* `kde-misc/kweathercore-0.6`
+
 * `kde-plasma/plasma-mobile-settings-20220628`
 
 ## New packages

@@ -20,6 +20,7 @@ DEPEND="
 	>=dev-qt/qtnetwork-${QTMIN}:5
 	>=dev-qt/qtpositioning-${QTMIN}:5
 	>=dev-qt/qttest-${QTMIN}:5
+	>=kde-frameworks/kholidays-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
 "
 
