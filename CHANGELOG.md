@@ -2,6 +2,8 @@
 
 ## Package updates
 
+* `app-misc/iio-sensor-proxy-3.4`
+
 * `kde-misc/kirigami-addons-0.3`
 
 * `kde-misc/kweathercore-0.6`
