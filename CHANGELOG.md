@@ -4,6 +4,8 @@
 
 * `app-misc/iio-sensor-proxy-3.4`
 
+* `app-mobilephone/eg25-manager-0.4.4`
+
 * `kde-misc/kirigami-addons-0.3`
 
 * `kde-misc/kweathercore-0.6`
