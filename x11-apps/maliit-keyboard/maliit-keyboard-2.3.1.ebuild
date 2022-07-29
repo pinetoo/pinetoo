@@ -20,10 +20,10 @@ DEPEND="
 	dev-qt/qtcore:5
 	dev-qt/qtdbus:5
 	dev-qt/qtdeclarative:5[localstorage]
-	dev-qt/qtgraphicaleffects:5
 	dev-qt/qtmultimedia:5
+	dev-qt/qtquickcontrols2
 	sys-devel/gettext
-	~x11-libs/maliit-2.2.1
+	>=x11-libs/maliit-2.3.0
 	cjk? (
 		app-i18n/anthy
 		|| (
@@ -36,7 +36,7 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}
-	dev-qt/qtquickcontrols2
+	dev-qt/qtgraphicaleffects:5
 	media-fonts/noto-emoji"
 
 S="${WORKDIR}/keyboard-${PV}"

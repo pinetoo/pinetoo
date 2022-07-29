@@ -16,6 +16,8 @@
 
 * `media-gfx/megapixels-1.5.2`
 
+* `x11-apps/maliit-keyboard-2.3.1`
+
 * `x11-libs/maliit-2.3.0`
 
 ## New packages
