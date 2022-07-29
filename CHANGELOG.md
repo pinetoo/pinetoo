@@ -1,4 +1,8 @@
-# 5.24.4.21.12.3.2.1.2.1
+# 5.24.4.22.04.3.2.1.2.1
+
+**KDE Plasma** updated to **5.24.5**
+
+**KDE Gear** updated to **22.04.3**
 
 ## Package updates
 

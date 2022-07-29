@@ -3,7 +3,7 @@
 
 EAPI=7
 
-KDE_MIN=21.12
+GEAR_MIN=22.04
 
 DESCRIPTION="Meta package for a complete Plasma Mobile environment for smartphones"
 HOMEPAGE="https://www.plasma-mobile.org/"
@@ -14,33 +14,33 @@ KEYWORDS="~arm64"
 IUSE="accessibility +bluetooth +desktop-portal +dialer education games +gtk handbook kwallet +pulseaudio +sms systemd webengine"
 
 RDEPEND="
-	>=kde-apps/alligator-${KDE_MIN}:${SLOT}
-	>=kde-apps/angelfish-${KDE_MIN}:${SLOT}
-	>=kde-apps/calindori-${KDE_MIN}:${SLOT}
-	>=kde-apps/itinerary-${KDE_MIN}:${SLOT}
-	>=kde-apps/kaccounts-providers-${KDE_MIN}:${SLOT}
-	>=kde-apps/kalk-${KDE_MIN}:${SLOT}
-	>=kde-apps/kasts-${KDE_MIN}:${SLOT}
-	>=kde-apps/kclock-${KDE_MIN}:${SLOT}
-	>=kde-apps/keysmith-${KDE_MIN}:${SLOT}
-	>=kde-apps/koko-${KDE_MIN}:${SLOT}
-	>=kde-apps/kongress-${KDE_MIN}:${SLOT}
-	>=kde-apps/ktrip-${KDE_MIN}:${SLOT}
-	>=kde-apps/kweather-${KDE_MIN}:${SLOT}
-	>=kde-apps/okular-${KDE_MIN}:${SLOT}
-	>=kde-apps/plasma-phonebook-${KDE_MIN}:${SLOT}
-	>=kde-apps/tokodon-${KDE_MIN}:${SLOT}
-	>=kde-apps/vakzination-${KDE_MIN}:${SLOT}
+	>=kde-apps/alligator-${GEAR_MIN}:${SLOT}
+	>=kde-apps/angelfish-${GEAR_MIN}:${SLOT}
+	>=kde-apps/calindori-${GEAR_MIN}:${SLOT}
+	>=kde-apps/itinerary-${GEAR_MIN}:${SLOT}
+	>=kde-apps/kaccounts-providers-${GEAR_MIN}:${SLOT}
+	>=kde-apps/kalk-${GEAR_MIN}:${SLOT}
+	>=kde-apps/kasts-${GEAR_MIN}:${SLOT}
+	>=kde-apps/kclock-${GEAR_MIN}:${SLOT}
+	>=kde-apps/keysmith-${GEAR_MIN}:${SLOT}
+	>=kde-apps/koko-${GEAR_MIN}:${SLOT}
+	>=kde-apps/kongress-${GEAR_MIN}:${SLOT}
+	>=kde-apps/ktrip-${GEAR_MIN}:${SLOT}
+	>=kde-apps/kweather-${GEAR_MIN}:${SLOT}
+	>=kde-apps/okular-${GEAR_MIN}:${SLOT}
+	>=kde-apps/plasma-phonebook-${GEAR_MIN}:${SLOT}
+	>=kde-apps/tokodon-${GEAR_MIN}:${SLOT}
+	>=kde-apps/vakzination-${GEAR_MIN}:${SLOT}
 	kde-apps/plasma-camera
-	>=kde-apps/qmlkonsole-${KDE_MIN}:${SLOT}
+	>=kde-apps/qmlkonsole-${GEAR_MIN}:${SLOT}
 	>=kde-plasma/discover-${PV}:${SLOT}
 	>=kde-plasma/kscreen-${PV}:${SLOT}
 	>=kde-plasma/kwayland-integration-${PV}:${SLOT}
 	>=kde-plasma/plasma-mobile-${PV}:${SLOT}
 	kde-plasma/plasma-mobile-sounds
-	>=kde-plasma/plasma-settings-${KDE_MIN}:${SLOT}
+	>=kde-plasma/plasma-settings-${GEAR_MIN}:${SLOT}
 	>=kde-plasma/powerdevil-${PV}:${SLOT}
-	>=kde-misc/kdeconnect-${KDE_MIN}:${SLOT}
+	>=kde-misc/kdeconnect-${GEAR_MIN}:${SLOT}
 	kde-misc/plymouth-shim
 	mail-client/kube
 	maui-apps/buho
@@ -48,28 +48,29 @@ RDEPEND="
 	maui-apps/communicator
 	maui-apps/index
 	maui-apps/nota
+	maui-apps/pix
 	maui-apps/shelf
 	maui-apps/station
 	media-gfx/megapixels
-	>=media-sound/audiotube-${KDE_MIN}:${SLOT}
-	>=media-sound/elisa-${KDE_MIN}:${SLOT}
-	>=media-sound/krecorder-${KDE_MIN}:${SLOT}
-	>=media-video/plasmatube-${KDE_MIN}:${SLOT}
+	>=media-sound/audiotube-${GEAR_MIN}:${SLOT}
+	>=media-sound/elisa-${GEAR_MIN}:${SLOT}
+	>=media-sound/krecorder-${GEAR_MIN}:${SLOT}
+	>=media-video/plasmatube-${GEAR_MIN}:${SLOT}
 	media-sound/vvave
 	net-im/kaidan
 	net-im/neochat
 	x11-apps/maliit-keyboard
 	x11-misc/sddm
-	accessibility? ( >=app-accessibility/kontrast-${KDE_MIN}:${SLOT} )
+	accessibility? ( >=app-accessibility/kontrast-${GEAR_MIN}:${SLOT} )
 	bluetooth? ( >=kde-plasma/bluedevil-${PV}:${SLOT} )
 	desktop-portal? ( >=kde-plasma/xdg-desktop-portal-kde-${PV}:${SLOT} )
 	dialer? ( >=kde-apps/plasma-dialer-${PV}:${SLOT} )
-	education? ( webengine? ( >=kde-apps/kalgebra-${KDE_MIN}:${SLOT} ) )
+	education? ( webengine? ( >=kde-apps/kalgebra-${GEAR_MIN}:${SLOT} ) )
 	games? ( games-kids/gcompris )
 	gtk? ( >=kde-plasma/breeze-gtk-${PV}:${SLOT} )
 	handbook? ( >=kde-apps/khelpcenter-${PV}:${SLOT} )
 	kwallet? ( >=kde-plasma/kwallet-pam-${PV}:${SLOT} )
 	pulseaudio? ( >=kde-plasma/plasma-pa-${PV}:${SLOT} )
-	sms? ( >=app-mobilephone/spacebar-${KDE_MIN}:${SLOT} )
+	sms? ( >=app-mobilephone/spacebar-${GEAR_MIN}:${SLOT} )
 	systemd? ( media-gfx/bootsplash-systemd )
 "
