@@ -12,8 +12,7 @@ SRC_URI="https://github.com/${PN}/framework/archive/refs/tags/${PV}.tar.gz -> ${
 LICENSE="LGPL-3 CC-BY-3.0"
 SLOT="0"
 KEYWORDS="~arm64"
-IUSE="dbus doc examples glib gtk qt5 test wayland xcb"
-REQUIRED_USE="gtk? ( wayland )"
+IUSE="dbus doc examples glib qt5 test wayland xcb"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
@@ -33,7 +32,6 @@ RDEPEND="
 		dev-libs/wayland-protocols
 		dev-qt/qtwayland:5
 		x11-libs/libxkbcommon
-		x11-libs/gtk+:3
 	)
 	xcb? (
 		x11-libs/libxcb
@@ -68,7 +66,6 @@ src_configure() {
 		-Denable-qt5-inputcontext:BOOL=$(use qt5 && echo ON || echo OFF)
 		-Denable-tests:BOOL=$(use test && echo ON || echo OFF)
 		-Denable-wayland:BOOL=$(use wayland && echo ON || echo OFF)
-		-Denable-wayland-gtk:BOOL=$(use gtk && echo ON || echo OFF)
 		-Denable-xcb:BOOL=$(use xcb && echo ON || echo OFF)
 	)
 
