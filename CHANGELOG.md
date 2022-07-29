@@ -2,6 +2,8 @@
 
 ## Package updates
 
+* `kde-misc/kirigami-addons-0.3`
+
 * `kde-plasma/plasma-mobile-settings-20220628`
 
 ## New packages
