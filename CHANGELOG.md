@@ -12,6 +12,11 @@
 * `media-sound/callaudiod`
   New dependency for `kde-apps/plasma-dialer`
 
+## Removed
+
+* `dev-libs/qcoro`
+  This was a dependency for `app-mobilephone/spacebar` which is no longer required because it can now use the `::gentoo` version.
+
 # 5.24.4.21.12.3.2.1.2.1
 
 ## Package updates
