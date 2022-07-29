@@ -14,6 +14,8 @@
 
 * `kde-plasma/plasma-mobile-settings-20220628`
 
+* `media-gfx/megapixels-1.5.2`
+
 ## New packages
 
 * `dev-libs/mpris-qt5`
