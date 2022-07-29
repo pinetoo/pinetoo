@@ -6,6 +6,8 @@
 
 * `app-mobilephone/eg25-manager-0.4.4`
 
+* `dev-libs/libgbinder-1.1.22`
+
 * `kde-misc/kirigami-addons-0.3`
 
 * `kde-misc/kweathercore-0.6`
