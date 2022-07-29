@@ -20,7 +20,7 @@ BDEPEND="virtual/pkgconfig"
 
 DEPEND="
 	dev-libs/libphonenumber
-	<dev-libs/qcoro-0.4.0:${SLOT}
+	dev-libs/qcoro5
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdbus-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
@@ -33,6 +33,7 @@ DEPEND="
 	>=dev-qt/qtxmlpatterns-${QTMIN}:5
 	>=kde-frameworks/kcodecs-${KFMIN}:5
 	>=kde-frameworks/kconfig-${KFMIN}:5
+	>=kde-frameworks/kcontacts-${KFMIN}:5
 	>=kde-frameworks/kcoreaddons-${KFMIN}:5
 	>=kde-frameworks/kdbusaddons-${KFMIN}:5
 	>=kde-frameworks/kirigami-${KFMIN}:5
