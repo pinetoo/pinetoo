@@ -16,7 +16,7 @@ IUSE="+exif +jpeg"
 
 DEPEND="
 	dev-libs/glib
-	gui-libs/gtk:4
+	>=gui-libs/gtk-4.7.1:4
 	media-gfx/zbar
 	media-libs/tiff
 	sys-kernel/linux-headers
