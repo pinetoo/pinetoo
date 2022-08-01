@@ -31,6 +31,10 @@
 * `dev-libs/mpris-qt5`
   New dependency for `kde-apps/plasma-dialer`
 
+* `gui-libs/gtk`
+  Version 4.7.1 not yet in ::gento but required by media-gfx/megapixels
+  See https://gitlab.com/postmarketOS/megapixels/-/issues/48
+
 * `media-sound/callaudiod`
   New dependency for `kde-apps/plasma-dialer`
 
