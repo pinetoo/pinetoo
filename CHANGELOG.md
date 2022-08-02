@@ -82,6 +82,8 @@
 
 * In the PinePhone profiles:
 
+  * Disable `jumbo-build` for `dev-qt/qtwebengine` as the PinePhone doesn't have enough memmory for the jumbo build.
+
   * Enabled by default:
     * `kms`
     * `libdrm`
