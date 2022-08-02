@@ -9,3 +9,6 @@ media-libs/freetype harfbuzz
 
 # Required for net-im/kaidan
 net-libs/qxmpp opus theora
+
+# Required for net-im/telegram-desktop
+media-video/ffmpeg opus

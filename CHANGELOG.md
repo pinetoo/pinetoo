@@ -73,6 +73,8 @@
 
   * Enable `opus` and `theora` USE flags for `net-libs/qxmpp` as required for `net-im/kaidan`.
 
+  * Enable `opus` USE flag for `media-video/ffmpeg` as required for `net-im/telegram-desktop`.
+
   * Disabled by default:
     * `gtk`
 
