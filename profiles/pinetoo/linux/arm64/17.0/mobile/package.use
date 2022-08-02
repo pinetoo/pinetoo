@@ -1,6 +1,5 @@
-# Install Breeze theme for GTK applications
-kde-plasma/plasma-mobile-meta gtk
 # Build the mobile version
 kde-apps/okular qml
+
 # We likely don't need the ncurses frontend for mobile devices
 media-video/vlc -ncurses
