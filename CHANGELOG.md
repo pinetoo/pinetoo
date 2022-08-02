@@ -65,6 +65,11 @@
   * `ppp`
   * `smartcard`
 
+* In Plasma Mobile profiles:
+
+  Disabled by default:
+  * `gtk`
+
 ## Other changes
 
 Fixed missing dependency `kde-plasma/oxygen` for `kde-plasma/plasma-mobile-meta`.
