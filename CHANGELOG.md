@@ -49,6 +49,22 @@
 
 * `tkip` USE flag enabled by default as some old WiFi networks still use it.
 
+* In `mobile` profiles:
+
+  Enabled by default:
+  * `share`
+  * `tslib`
+  * `vpx`
+  * `webp`
+  * `wireless`
+
+  Disabled by default:
+  * `cdda`
+  * `gpm`
+  * `joystick`
+  * `ppp`
+  * `smartcard`
+
 ## Other changes
 
 Fixed missing dependency `kde-plasma/oxygen` for `kde-plasma/plasma-mobile-meta`.
