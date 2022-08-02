@@ -6,3 +6,6 @@ media-video/vlc -ncurses
 
 # Required for sys-apps/flatpak
 media-libs/freetype harfbuzz
+
+# Required for net-im/kaidan
+net-libs/qxmpp opus theora

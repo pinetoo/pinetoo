@@ -71,6 +71,8 @@
 
   * Enable `localstorage` USE flag for `dev-qt/qtdeclarative` as required for `kde-plasma/plasma-dialer`.
 
+  * Enable `opus` and `theora` USE flags for `net-libs/qxmpp` as required for `net-im/kaidan`.
+
   * Disabled by default:
     * `gtk`
 
