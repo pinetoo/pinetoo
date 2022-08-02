@@ -12,3 +12,6 @@ net-libs/qxmpp opus theora
 
 # Required for net-im/telegram-desktop
 media-video/ffmpeg opus
+
+# There are still WiFi networks "protected" with WEP out there
+net-wireless/wpa_supplicant wep

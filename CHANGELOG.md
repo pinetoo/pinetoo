@@ -75,6 +75,8 @@
 
   * Enable `opus` USE flag for `media-video/ffmpeg` as required for `net-im/telegram-desktop`.
 
+  * Enable `wep` USE flag for `net-wireless/wpa_supplicant`.
+
   * Disabled by default:
     * `gtk`
 
