@@ -1,1 +1,2 @@
-USE="dialer modemmanager -cdda -joystick -ppp"
+USE="dialer kms libdrm libkms lm-sensors modemmanager"
+VIDEO_CARDS="lima"

@@ -80,6 +80,15 @@
   * Disabled by default:
     * `gtk`
 
+* In the PinePhone profiles:
+
+  * Enabled by default:
+    * `kms`
+    * `libdrm`
+    * `libkms`
+    * `lm_sensors`
+    * `video_cards_lima`
+
 ## Other changes
 
 Fixed missing dependency `kde-plasma/oxygen` for `kde-plasma/plasma-mobile-meta`.
