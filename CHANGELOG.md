@@ -70,6 +70,8 @@
   Disabled by default:
   * `gtk`
 
+  Enable `localstorage` USE flag for `dev-qt/qtdeclarative` as required for `kde-plasma/plasma-dialer`.
+
 ## Other changes
 
 Fixed missing dependency `kde-plasma/oxygen` for `kde-plasma/plasma-mobile-meta`.

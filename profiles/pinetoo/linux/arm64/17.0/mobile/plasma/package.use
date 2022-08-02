@@ -1,2 +1,5 @@
 # Install Breeze theme for GTK applications
 kde-plasma/plasma-mobile-meta gtk
+
+# Required for kde-plasma/plasma-dialer
+dev-qt/qtdeclarative localstorage
