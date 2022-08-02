@@ -43,6 +43,10 @@
 * `dev-libs/qcoro`
   This was a dependency for `app-mobilephone/spacebar` which is no longer required because it can now use the `::gentoo` version.
 
+## Other changes
+
+Fixed missing dependency `kde-plasma/oxygen` for `kde-plasma/plasma-mobile-meta`.
+
 # 5.24.4.21.12.3.2.1.2.1
 
 ## Package updates

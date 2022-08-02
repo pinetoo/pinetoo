@@ -36,6 +36,7 @@ RDEPEND="
 	>=kde-plasma/discover-${PV}:${SLOT}
 	>=kde-plasma/kscreen-${PV}:${SLOT}
 	>=kde-plasma/kwayland-integration-${PV}:${SLOT}
+	>=kde-plasma/oxygen-${PV}:${SLOT}
 	>=kde-plasma/plasma-mobile-${PV}:${SLOT}
 	kde-plasma/plasma-mobile-sounds
 	>=kde-plasma/plasma-settings-${GEAR_MIN}:${SLOT}
