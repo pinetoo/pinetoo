@@ -51,26 +51,28 @@
 
 * In `mobile` profiles:
 
-  Enabled by default:
-  * `share`
-  * `tslib`
-  * `vpx`
-  * `webp`
-  * `wireless`
+  * Enabled `harfbuzz` USE flag for `media-libs/freetype` required for `sys-apps/flatpak`
 
-  Disabled by default:
-  * `cdda`
-  * `gpm`
-  * `joystick`
-  * `ppp`
-  * `smartcard`
+  * Enabled by default:
+    * `share`
+    * `tslib`
+    * `vpx`
+    * `webp`
+    * `wireless`
+
+  * Disabled by default:
+    * `cdda`
+    * `gpm`
+    * `joystick`
+    * `ppp`
+    * `smartcard`
 
 * In Plasma Mobile profiles:
 
-  Disabled by default:
-  * `gtk`
+  * Enable `localstorage` USE flag for `dev-qt/qtdeclarative` as required for `kde-plasma/plasma-dialer`.
 
-  Enable `localstorage` USE flag for `dev-qt/qtdeclarative` as required for `kde-plasma/plasma-dialer`.
+  * Disabled by default:
+    * `gtk`
 
 ## Other changes
 
