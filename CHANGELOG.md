@@ -43,6 +43,12 @@
 * `dev-libs/qcoro`
   This was a dependency for `app-mobilephone/spacebar` which is no longer required because it can now use the `::gentoo` version.
 
+## USE flag changes
+
+### Default USE flags:
+
+* `tkip` USE flag enabled by default as some old WiFi networks still use it.
+
 ## Other changes
 
 Fixed missing dependency `kde-plasma/oxygen` for `kde-plasma/plasma-mobile-meta`.
