@@ -1,5 +1,11 @@
 # 5.24.5.22.04.3.2.1.2.0
 
+## Other changes
+
+Fixed default posprocessor path in `media-gfx/megapixels`.
+
+# 5.24.5.22.04.3.2.1.2.0
+
 **KDE Plasma** updated to **5.24.5**
 
 **KDE Gear** updated to **22.04.3**

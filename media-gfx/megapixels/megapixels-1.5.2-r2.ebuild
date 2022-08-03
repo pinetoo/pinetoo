@@ -28,6 +28,13 @@ RDEPEND="${DEPEND}
 	jpeg? ( media-gfx/imagemagick[jpeg,tiff] )
 "
 
+src_prepare() {
+	sed -i \
+		"s_<default>''</default>_<default>'/usr/share/megapixels/postprocess.sh'</default>_" \
+		data/org.postmarketos.Megapixels.gschema.xml || die
+	default
+}
+
 pkg_postinst() {
 	gnome2_schemas_update
 }
