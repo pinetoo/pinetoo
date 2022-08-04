@@ -1,5 +1,10 @@
 # 5.24.5.22.04.3.2.1.2.0
 
+## New packages
+
+* `media-gfx/postprocessd`
+  Native postprocessing for media-gfx/megapixels.
+
 ## Other changes
 
 Fixed default posprocessor path in `media-gfx/megapixels`.
