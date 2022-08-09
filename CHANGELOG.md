@@ -7,7 +7,9 @@
 
 ## Other changes
 
-Fixed default posprocessor path in `media-gfx/megapixels`.
+* Fixed default posprocessor path in `media-gfx/megapixels`.
+
+* app-misc/pinephone-manjaro-tweaks: Don't install custom dconf settings which only seems to break stuff like changing media-gfx/megapixels settings.
 
 # 5.24.5.22.04.3.2.1.2.0
 

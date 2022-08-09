@@ -16,12 +16,6 @@ SLOT="0"
 KEYWORDS="~arm64"
 
 src_install() {
-	exeinto /etc/dconf/db/manjaro.d
-	doexe 01-phoc-scaling
-
-	exeinto /etc/dconf/profile/user
-	doexe dconf-profile-manjaro
-
 	exeinto /etc/profile.d
 	doexe manjaro-tweaks.sh gsk-renderer-gl.sh
 
