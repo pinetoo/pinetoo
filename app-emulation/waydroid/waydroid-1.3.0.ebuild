@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit desktop linux-info systemd
+inherit linux-info systemd
 
 DESCRIPTION="Container-based approach to boot a full Android system on a regular Linux system"
 HOMEPAGE="https://waydro.id/"
@@ -36,10 +36,6 @@ CONFIG_CHECK="
 
 src_install() {
 	insinto /etc/gbinder.d
-	newins gbinder/anbox.conf "${PN}.conf"
-
-	newicon data/AppIcon.png "${PN}.png"
-	make_desktop_entry "waydroid show-full-ui" Waydroid waydroid Utility
 
 	insinto "/usr/lib/${PN}"
 	doins -r data tools waydroid.py
@@ -49,7 +45,7 @@ src_install() {
 	dosym "../lib/${PN}/${PN}.py" "/usr/bin/${PN}"
 
 	if use systemd; then
-		systemd_dounit "debian/${PN}-container.service"
+		systemd_dounit "systemd/${PN}-container.service"
 	else
 		newinitd "${FILESDIR}/${PN}-container.initd" "${PN}-container"
 	fi

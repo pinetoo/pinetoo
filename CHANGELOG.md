@@ -2,6 +2,12 @@
 
 **KDE Plasma** updated to **5.24.5**
 
+## Package updates
+
+* `app-emulation/waydroid-1.3.0`
+
+* `sys-kernel/pinephone-kernel-5.19.2`
+
 ## New packages
 
 * `media-gfx/postprocessd`
