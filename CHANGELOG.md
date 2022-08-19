@@ -6,6 +6,8 @@
 
 * `app-emulation/waydroid-1.3.0`
 
+* `sys-kernel/linux-headers-5.19.2`
+
 * `sys-kernel/pinephone-kernel-5.19.2`
 
 ## New packages
