@@ -6,16 +6,17 @@ EAPI=7
 QTMIN=5.15.0
 KFMIN=5.60.0
 
+MY_P="${PN}-v${PV}"
+
 inherit ecm kde.org
 
 DESCRIPTION="Convergent terminal emulator"
 HOMEPAGE="https://mauikit.org/apps/station/"
-SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
+SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${MY_P}.tar.bz2"
 
 LICENSE="LGPL-3"
 SLOT="0"
 KEYWORDS="~arm64"
-IUSE=""
 
 DEPEND="
 	~dev-libs/mauikit-${PV}
@@ -35,5 +36,6 @@ DEPEND="
 RDEPEND="${DEPEND}
 	~dev-libs/mauikit-texteditor-${PV}
 	>=dev-qt/qtquickcontrols2-${QTMIN}:5
-	>=kde-frameworks/kirigami-${KFMIN}:5
 "
+
+S="${WORKDIR}/${MY_P}"
