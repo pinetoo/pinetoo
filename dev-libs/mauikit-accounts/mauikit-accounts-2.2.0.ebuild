@@ -6,11 +6,13 @@ EAPI=7
 QTMIN=5.15.0
 KFMIN=5.70.0
 
+MY_P="${PN}-v${PV}"
+
 inherit ecm kde.org
 
 DESCRIPTION="MauiKit utilities to handle User Accounts"
 HOMEPAGE="https://mauikit.org/"
-SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
+SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${MY_P}.tar.bz2"
 
 LICENSE="LGPL-2.1+ BSD-2 CC0-1.0"
 SLOT="5"
@@ -29,6 +31,7 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}
-	>=kde-frameworks/kirigami-${KFMIN}:5
 	>=dev-qt/qtquickcontrols2-${QTMIN}:5
 "
+
+S="${WORKDIR}/${MY_P}"
