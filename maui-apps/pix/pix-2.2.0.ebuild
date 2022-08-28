@@ -5,16 +5,18 @@ EAPI=7
 
 KFMIN=5.60.0
 QTMIN=5.14.0
+
+MY_P="${PN}-v${PV}"
+
 inherit ecm kde.org
 
 DESCRIPTION="Image gallery and viewer with basic editing features"
 HOMEPAGE="https://mauikit.org/apps/pix/"
-SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
+SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${MY_P}.tar.bz2"
 
 LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~arm64"
-IUSE=""
 
 DEPEND="
 	~dev-libs/mauikit-${PV}
@@ -30,7 +32,4 @@ DEPEND="
 	>=kde-frameworks/ki18n-${KFMIN}:5
 "
 
-RDEPEND="${DEPEND}
-	>=dev-qt/qtgraphicaleffects-${QTMIN}:5
-	>=kde-frameworks/kirigami-${KFMIN}:5
-"
+S="${WORKDIR}/${MY_P}"
