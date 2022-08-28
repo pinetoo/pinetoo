@@ -4,14 +4,16 @@
 EAPI=7
 
 KFMIN=5.77.0
-QTMIN=5.14.0
-inherit ecm kde.org
+QTMIN=5.15.0
 
-MY_P="${PN}-fm-${PV}"
+MY_PN="${PN}-fm"
+MY_P="${MY_PN}-v${PV}"
+
+inherit ecm kde.org
 
 DESCRIPTION="Multi-platform file manager"
 HOMEPAGE="https://mauikit.org/apps/index/"
-SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${MY_P}.tar.xz"
+SRC_URI="https://invent.kde.org/maui/${MY_PN}/-/archive/v${PV}/${MY_P}.tar.bz2"
 
 S="${WORKDIR}/${MY_P}"
 
@@ -25,6 +27,7 @@ RDEPEND="
 	~dev-libs/mauikit-filebrowsing-${PV}
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
+	>=dev-qt/qtdbus-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
 	>=dev-qt/qtnetwork-${QTMIN}:5
 	>=dev-qt/qtquickcontrols2-${QTMIN}:5
@@ -49,5 +52,6 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	~dev-libs/mauikit-texteditor-${PV}
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:5
-	>=kde-frameworks/kirigami-${KFMIN}:5
 "
+
+S="${WORKDIR}/${MY_P}"
