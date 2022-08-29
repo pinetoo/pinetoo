@@ -7,18 +7,6 @@
 * `dev-libs/mauiman`
   New dependency for `dev-libs/mauikit-2.2.0`
 
-* `maui-apps/bonsai`
-  Mobile Git repository manager
-
-* `maui-apps/booth`
-  A convergent camera app
-
-* `maui-apps/sol`
-  A convergent web browser
-
-* `maui-apps/strike`
-  Simple minimal IDE for the Linux phones
-
 ## Package updates
 
 * `sys-kernel/linux-headers-5.19.4`
