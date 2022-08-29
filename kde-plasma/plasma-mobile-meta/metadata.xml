@@ -11,6 +11,7 @@
     <flag name="education">Pull <pkg>kde-apps/kalgebra</pkg></flag>
     <flag name="games">Pull <pkg>games-kids/gcompris</pkg></flag>
     <flag name="kwallet">Enable support for KWallet auto-unlocking via <pkg>kde-plasma/kwallet-pam</pkg></flag>
+    <flag name="sdk">Pull packages for development</flag>
     <flag name="sms">Pull <pkg>app-mobilephone/spacebar</pkg> for sending and managing text messages.</flag>
     <flag name="webengine">Enable packages requiring <pkg>dev-qt/qtwebengine</pkg></flag>
   </use>

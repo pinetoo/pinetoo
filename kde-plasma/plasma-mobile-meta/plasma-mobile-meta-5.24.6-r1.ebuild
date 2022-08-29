@@ -11,7 +11,7 @@ HOMEPAGE="https://www.plasma-mobile.org/"
 LICENSE="metapackage"
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE="accessibility +bluetooth +desktop-portal +dialer education games +gtk handbook kwallet +pulseaudio +sms systemd webengine"
+IUSE="accessibility +bluetooth +desktop-portal +dialer education games +gtk handbook kwallet +pulseaudio sdk +sms systemd webengine"
 
 RDEPEND="
 	>=kde-apps/alligator-${GEAR_MIN}:${SLOT}
@@ -44,6 +44,7 @@ RDEPEND="
 	>=kde-misc/kdeconnect-${GEAR_MIN}:${SLOT}
 	kde-misc/plymouth-shim
 	mail-client/kube
+	maui-apps/booth
 	maui-apps/buho
 	maui-apps/clip
 	maui-apps/communicator
@@ -51,6 +52,7 @@ RDEPEND="
 	maui-apps/nota
 	maui-apps/pix
 	maui-apps/shelf
+	maui-apps/sol
 	maui-apps/station
 	media-gfx/megapixels
 	>=media-sound/audiotube-${GEAR_MIN}:${SLOT}
@@ -72,6 +74,10 @@ RDEPEND="
 	handbook? ( >=kde-apps/khelpcenter-${PV}:${SLOT} )
 	kwallet? ( >=kde-plasma/kwallet-pam-${PV}:${SLOT} )
 	pulseaudio? ( >=kde-plasma/plasma-pa-${PV}:${SLOT} )
+	sdk? (
+		maui-apps/bonsai
+		maui-apps/strike
+	)
 	sms? ( >=app-mobilephone/spacebar-${GEAR_MIN}:${SLOT} )
 	systemd? ( media-gfx/bootsplash-systemd )
 "
