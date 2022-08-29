@@ -1,3 +1,10 @@
+# 5.24.6.22.04.3.2.2.2.0
+
+## New packages
+
+* `dev-libs/mauiman`
+  New dependency for `dev-libs/mauikit-2.2.0`
+
 # 5.24.6.22.04.3.2.1.2.0
 
 **KDE Plasma** updated to **5.24.5**
