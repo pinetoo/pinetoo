@@ -13,6 +13,9 @@
 * `maui-apps/booth`
   A convergent camera app
 
+* `maui-apps/sol`
+  A convergent web browser
+
 # 5.24.6.22.04.3.2.1.2.0
 
 **KDE Plasma** updated to **5.24.5**
