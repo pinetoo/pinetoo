@@ -1,5 +1,7 @@
 # 5.24.6.22.04.3.2.2.2.0
 
+**Maui apps** updated to **2.2.0**
+
 ## New packages
 
 * `dev-libs/mauiman`
