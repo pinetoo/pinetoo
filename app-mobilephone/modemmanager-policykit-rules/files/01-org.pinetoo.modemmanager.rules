@@ -8,7 +8,7 @@ polkit.addRule(function(action, subject) {
 
 // Let geoclue modify ModemManager for location gathering
 polkit.addRule(function(action, subject) {
-    if (/^org\.freedesktop\.ModemManager1\.(Device\.Control|Contacts|Messaging|Location)$/.test(action.id) &&
+    if (/^org\.freedesktop\.ModemManager1\.(Control|Device\.Control|Contacts|Messaging|Location)$/.test(action.id) &&
         subject.isInGroup("plugdev") && subject.active) {
         return "yes";
     }
