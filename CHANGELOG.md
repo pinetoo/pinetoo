@@ -11,6 +11,8 @@
 
 * `dev-python/gbinder-python-1.1.1`
 
+* `kde-plasma/plasma-mobile-settings-20220812`
+
 # 5.24.6.22.04.3.2.2.2.0
 
 **Maui apps** updated to **2.2.0**

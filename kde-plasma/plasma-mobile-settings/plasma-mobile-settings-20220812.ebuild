@@ -4,7 +4,7 @@
 EAPI=7
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/extra/plasma-mobile-additional/plasma-mobile-settings.git"
-EGIT_COMMIT="3db206cd706b6411fc4bc33bea189e07553d0331"
+EGIT_COMMIT="2b071f162ef104d9305d598e5dbfab57d6979941"
 
 inherit git-r3 gnome2-utils udev
 
@@ -43,7 +43,7 @@ src_install() {
 	insinto /etc/skel/.config/autostart
 	doins drkonqi-coredump-launcher.desktop
 	insinto /etc/xdg
-	doins applications-blacklistrc kdeglobals kscreenlockerrc kwinrc mimeapps.list
+	doins applications-blacklistrc kdeglobals kscreenlockerrc kwinrc kxkbrc mimeapps.list
 	insinto /usr/share/glib-2.0/schemas/
 	doins 91_plasma-mobile.gschema.override
 	insinto /usr/share/libalpm/hooks/
