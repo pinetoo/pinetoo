@@ -2,6 +2,8 @@
 
 ## Package updates
 
+* `app-emulation/waydroid-1.3.2`
+
 * `app-mobilephone/modemmanager-policykit-rules-1.1`
   Add new org.freedesktop.ModemManager1.Control action required by plasma-settings for cellular networks configuration.
 
