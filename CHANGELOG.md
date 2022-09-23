@@ -9,6 +9,8 @@
 
 * `app-mobilephone/eg25-manager-0.4.5`
 
+* `dev-python/gbinder-python-1.1.1`
+
 # 5.24.6.22.04.3.2.2.2.0
 
 **Maui apps** updated to **2.2.0**
