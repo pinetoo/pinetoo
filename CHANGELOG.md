@@ -13,6 +13,8 @@
 
 * `kde-plasma/plasma-mobile-settings-20220812`
 
+* `sys-kernel/linux-headers-5.19.11`
+
 * `sys-kernel/pinephone-kernel-5.19.11`
 
 # 5.24.6.22.04.3.2.2.2.0
