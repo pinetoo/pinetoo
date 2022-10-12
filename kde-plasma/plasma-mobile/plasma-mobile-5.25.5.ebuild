@@ -1,11 +1,11 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-KFMIN=5.86.0
-QTMIN=5.15.0
-inherit ecm kde.org
+KFMIN=5.94.0
+QTMIN=5.15.2
+inherit ecm plasma.kde.org
 
 DESCRIPTION="General UI components for Plasma Phone"
 HOMEPAGE="https://plasma-mobile.org"
@@ -13,7 +13,6 @@ HOMEPAGE="https://plasma-mobile.org"
 LICENSE="GPL-2+ LGPL-2+ || ( GPL-2 GPL-3 ) || ( LGPL-2.1 LGPL-3 )"
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE=""
 
 DEPEND="
 	dev-libs/glib:2
@@ -22,6 +21,9 @@ DEPEND="
 	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
 	>=dev-qt/qtnetwork-${QTMIN}:5
+	>=dev-qt/qtsvg-${QTMIN}:5
+	>=kde-frameworks/bluez-qt-${KFMIN}:5
+	>=kde-frameworks/kcmutils-${KFMIN}:5
 	>=kde-frameworks/kconfig-${KFMIN}:5
 	>=kde-frameworks/kconfigwidgets-${KFMIN}:5
 	>=kde-frameworks/kcoreaddons-${KFMIN}:5
@@ -51,6 +53,7 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}
+	dev-qt/qtfeedback
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:5
 	>=dev-qt/qtquickcontrols-${QTMIN}:5
 	>=dev-qt/qtquickcontrols2-${QTMIN}:5
