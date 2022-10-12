@@ -3,8 +3,8 @@
 
 EAPI=7
 
-KFMIN=5.86.0
-QTMIN=5.15.0
+KFMIN=5.94.0
+QTMIN=5.15.2
 inherit ecm kde.org
 
 DESCRIPTION="A minimal Plasma shell package intended for embedded devices"
@@ -26,13 +26,14 @@ DEPEND="
 	>=kde-frameworks/kwayland-${KFMIN}:5
 	>=kde-frameworks/kpackage-${KFMIN}:5
 	>=kde-frameworks/kcoreaddons-${KFMIN}:5
+	>=kde-frameworks/knewstuff-${KFMIN}:5
 	>=kde-frameworks/kservice-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
 "
 
 RDEPEND="${DEPEND}
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:5
-	>=dev-qt/qtquickcontrols-${QTMIN}:5
+	>=dev-qt/qtquickcontrols2-${QTMIN}:5
 	>=kde-frameworks/kdeclarative-${KFMIN}:5
 	>=kde-frameworks/kirigami-${KFMIN}:5
 	kde-plasma/plasma-workspace:5
