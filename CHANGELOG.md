@@ -6,6 +6,8 @@
 
 * `kde-misc/kirigami-addons-0.4`
 
+* `sys-kernel/pinephone-kernel-5.19.12`
+
 # 5.24.6.22.04.3.2.2.2.1
 
 ## Package updates
