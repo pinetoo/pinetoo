@@ -4,7 +4,7 @@
 EAPI=7
 
 KFMIN=5.91.0
-QTMIN=5.15.0
+QTMIN=5.15.2
 inherit ecm kde.org
 
 DESCRIPTION="Add-ons for the Kirigami framework"

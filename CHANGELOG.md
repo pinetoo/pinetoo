@@ -2,6 +2,10 @@
 
 **KDE Plasma** updated to **5.25.5**
 
+## Package updates
+
+* `kde-misc/kirigami-addons-0.4`
+
 # 5.24.6.22.04.3.2.2.2.1
 
 ## Package updates
