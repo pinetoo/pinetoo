@@ -6,6 +6,9 @@
 
 * `kde-misc/kirigami-addons-0.4`
 
+* `net-im/telegram-desktop-4.1.1`
+  This is actually a downgrade from version 4.2.4 currently in ::gentoo which seems to have a stack smashing problem.
+
 * `sys-kernel/pinephone-kernel-5.19.12`
 
 # 5.24.6.22.04.3.2.2.2.1
