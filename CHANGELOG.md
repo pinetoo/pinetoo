@@ -4,6 +4,8 @@
 
 * `app-emulation/waydroid-1.3.3`
 
+* `dev-libs/libgbinder-1.1.26`
+
 ## Other changes
 
 Fixed missing dependency `kde-plasma/oxygen-sounds` for `kde-plasma/plasma-mobile-meta`.
