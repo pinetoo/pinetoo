@@ -1,3 +1,9 @@
+# 5.25.5.22.04.3.2.2.2.1
+
+## Other changes
+
+Fixed missing dependency `kde-plasma/oxygen-sounds` for `kde-plasma/plasma-mobile-meta`.
+
 # 5.25.5.22.04.3.2.2.2.0
 
 **KDE Plasma** updated to **5.25.5**

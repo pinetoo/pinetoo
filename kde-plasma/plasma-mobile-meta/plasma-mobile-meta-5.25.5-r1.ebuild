@@ -33,16 +33,17 @@ RDEPEND="
 	>=kde-apps/vakzination-${GEAR_MIN}:${SLOT}
 	kde-apps/plasma-camera
 	>=kde-apps/qmlkonsole-${GEAR_MIN}:${SLOT}
+	>=kde-misc/kdeconnect-${GEAR_MIN}:${SLOT}
+	kde-misc/plymouth-shim
 	>=kde-plasma/discover-${PV}:${SLOT}
 	>=kde-plasma/kscreen-${PV}:${SLOT}
 	>=kde-plasma/kwayland-integration-${PV}:${SLOT}
 	>=kde-plasma/oxygen-${PV}:${SLOT}
+	>=kde-plasma/oxygen-sounds-${PV}:${SLOT}
 	>=kde-plasma/plasma-mobile-${PV}:${SLOT}
 	kde-plasma/plasma-mobile-sounds
 	>=kde-plasma/plasma-settings-${GEAR_MIN}:${SLOT}
 	>=kde-plasma/powerdevil-${PV}:${SLOT}
-	>=kde-misc/kdeconnect-${GEAR_MIN}:${SLOT}
-	kde-misc/plymouth-shim
 	mail-client/kube
 	maui-apps/buho
 	maui-apps/clip
