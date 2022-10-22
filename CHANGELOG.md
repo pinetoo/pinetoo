@@ -1,5 +1,9 @@
 # 5.25.5.22.04.3.2.2.2.1
 
+## Package updates
+
+* `app-emulation/waydroid-1.3.3`
+
 ## Other changes
 
 Fixed missing dependency `kde-plasma/oxygen-sounds` for `kde-plasma/plasma-mobile-meta`.
