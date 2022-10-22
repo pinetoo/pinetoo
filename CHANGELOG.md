@@ -6,6 +6,8 @@
 
 * `dev-libs/libgbinder-1.1.26`
 
+* `kde-apps/okular-22.04.3-r1`
+
 ## Other changes
 
 Fixed missing dependency `kde-plasma/oxygen-sounds` for `kde-plasma/plasma-mobile-meta`.
