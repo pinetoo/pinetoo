@@ -8,6 +8,8 @@
 
 * `kde-apps/okular-22.04.3-r1`
 
+* `kde-misc/kirigami-addons-0.5`
+
 ## Other changes
 
 Fixed missing dependency `kde-plasma/oxygen-sounds` for `kde-plasma/plasma-mobile-meta`.

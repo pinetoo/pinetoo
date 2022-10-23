@@ -9,7 +9,7 @@ inherit ecm kde.org
 
 DESCRIPTION="Add-ons for the Kirigami framework"
 HOMEPAGE="https://invent.kde.org/libraries/kirigami-addons"
-SRC_URI="mirror://kde/unstable/${PN}/${PV}/${P}.tar.xz"
+SRC_URI="mirror://kde/stable/${PN}/${P}.tar.xz"
 
 LICENSE="LGPL-2.1+ || ( LGPL-3 GPL-2 GPL-3 )"
 
