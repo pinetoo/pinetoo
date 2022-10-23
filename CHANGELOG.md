@@ -10,6 +10,8 @@
 
 * `kde-misc/kirigami-addons-0.5`
 
+* `sys-kernel/linux-headers-5.19.12`
+
 ## Other changes
 
 Fixed missing dependency `kde-plasma/oxygen-sounds` for `kde-plasma/plasma-mobile-meta`.
