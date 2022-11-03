@@ -54,7 +54,8 @@ src_unpack() {
 	git-r3_src_unpack
 }
 
-src_configure() {
+src_prepare() {
+	default
 	cp "${WORKDIR}/${P}/config" .config || die
 
 	echo 'CONFIG_LOCALVERSION="-pinetoo"' > "${T}"/version.config || die
@@ -64,8 +65,8 @@ src_configure() {
 	echo "CONFIG_UEVENT_HELPER_PATH=" >> "${T}"/systemd.config || die
 	cat <<-EOF > "${T}"/wireguard.config || die
 	CONFIG_NF_TABLES=m
-	CONFIG_NF_TABLES_IPV4=m
-	CONFIG_NF_TABLES_IPV6=m
+	CONFIG_NF_TABLES_IPV4=y
+	CONFIG_NF_TABLES_IPV6=y
 	CONFIG_NFT_CT=m
 	CONFIG_NFT_FIB=m
 	CONFIG_NFT_FIB_IPV4=m
@@ -87,6 +88,4 @@ src_configure() {
 	)
 
 	kernel-build_merge_configs "${merge_configs[@]}"
-
-	kernel-build_src_configure
 }

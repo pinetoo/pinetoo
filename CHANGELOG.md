@@ -14,7 +14,9 @@
 
 ## Other changes
 
-Fixed missing dependency `kde-plasma/oxygen-sounds` for `kde-plasma/plasma-mobile-meta`.
+* Fixed missing dependency `kde-plasma/oxygen-sounds` for `kde-plasma/plasma-mobile-meta`.
+
+* Fixed setting additional configuration options in `sys-kernel/pinephone-kernel`.
 
 # 5.25.5.22.04.3.2.2.2.0
 
