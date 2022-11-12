@@ -21,6 +21,8 @@
 
 * `sys-kernel/linux-headers-5.19.12`
 
+* `kde-misc/kweathercore-0.7`
+
 ## Other changes
 
 * Fixed missing dependency `kde-plasma/oxygen-sounds` for `kde-plasma/plasma-mobile-meta`.

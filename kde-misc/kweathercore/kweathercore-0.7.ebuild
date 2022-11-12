@@ -11,7 +11,7 @@ DESCRIPTION="Library for the retrieval of weather information, including forecas
 HOMEPAGE="https://invent.kde.org/libraries/kweathercore"
 SRC_URI="mirror://kde/stable/${PN}/${PV}/${P}.tar.xz"
 
-LICENSE="LGPL-2+"
+LICENSE="LGPL-2+ CC-BY-4.0"
 SLOT="5"
 KEYWORDS="~arm64"
 
