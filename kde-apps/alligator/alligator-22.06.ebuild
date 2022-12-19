@@ -1,16 +1,15 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 QTMIN=5.15.0
-KFMIN=5.75.0
+KFMIN=5.90.0
 
-inherit ecm kde.org
+inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Kirigami-based RSS reader"
 HOMEPAGE="https://apps.kde.org/alligator/"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-3"
 SLOT="5"
