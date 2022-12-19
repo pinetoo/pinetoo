@@ -1,22 +1,20 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 KFMIN=5.89.0
 QTMIN=5.15.2
-inherit ecm kde.org
+inherit ecm plasma-mobile.kde.org
 
 MY_P="${PN}-v${PV}"
 
 DESCRIPTION="Dialer for Plasma Mobile"
 HOMEPAGE="https://invent.kde.org/plasma-mobile/plasma-dialer"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="|| ( GPL-2 GPL-3 ) || ( LGPL-2.1 LGPL-3 )"
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE=""
 
 DEPEND="
 	dev-libs/libphonenumber
@@ -28,7 +26,6 @@ DEPEND="
 	>=dev-qt/qtgui-${QTMIN}:5
 	>=dev-qt/qtnetwork-${QTMIN}:5
 	>=dev-qt/qtquickcontrols2-${QTMIN}:5
-	>=dev-qt/qtsql-${QTMIN}:5
 	>=kde-frameworks/kcodecs-${KFMIN}:5
 	>=kde-frameworks/kconfig-${KFMIN}:5
 	>=kde-frameworks/kcontacts-${KFMIN}:5
