@@ -1,16 +1,15 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 KFMIN=5.81.0
 QTMIN=5.15.0
 PYTHON_COMPAT=( python3_{8..11} )
-inherit ecm kde.org python-single-r1
+inherit ecm plasma-mobile.kde.org python-single-r1
 
 DESCRIPTION="Client for YouTube Music"
 HOMEPAGE="https://apps.kde.org/audiotube/"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-3+"
 SLOT="5"
@@ -20,7 +19,7 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 DEPEND="${PYTHON_DEPS}
 	dev-python/pybind11
-	~dev-python/ytmusicapi-0.21.0
+	~dev-python/ytmusicapi-0.22.0
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
@@ -41,6 +40,8 @@ RDEPEND="${DEPEND}
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:5
 	>=dev-qt/qtmultimedia-${QTMIN}:5
 "
+
+PATCHES=( "${FILESDIR}/${P}-include-iostream.patch" )
 
 src_configure() {
 	local mycmakeargs=(

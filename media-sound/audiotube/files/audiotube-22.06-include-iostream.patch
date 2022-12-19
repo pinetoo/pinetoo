@@ -1,0 +1,11 @@
+diff -ur audiotube-22.06.orig/src/ytmusic.cpp audiotube-22.06/src/ytmusic.cpp
+--- audiotube-22.06.orig/src/ytmusic.cpp	2022-12-31 14:00:38.797940722 +0100
++++ audiotube-22.06/src/ytmusic.cpp	2022-12-31 14:00:57.877880751 +0100
+@@ -5,6 +5,7 @@
+ #include "ytmusic.h"
+ 
+ #include <algorithm>
++#include <iostream>
+ 
+ #include <pybind11/embed.h>
+ #include <pybind11/stl.h>
