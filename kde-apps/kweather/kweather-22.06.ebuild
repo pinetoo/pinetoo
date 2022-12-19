@@ -1,15 +1,14 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 KFMIN=5.90.0
 QTMIN=5.15.0
-inherit ecm kde.org
+inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Weather application for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/kweather/"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+ CC-BY-4.0"
 SLOT="5"
@@ -27,6 +26,7 @@ DEPEND="
 	>=dev-qt/qtwidgets-${QTMIN}:5
 	>=kde-frameworks/kconfig-${KFMIN}:5
 	>=kde-frameworks/kcoreaddons-${KFMIN}:5
+	>=kde-frameworks/kholidays-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	>=kde-frameworks/kirigami-${KFMIN}:5
 	>=kde-frameworks/knotifications-${KFMIN}:5
@@ -35,6 +35,7 @@ DEPEND="
 	>=kde-frameworks/kwindowsystem-${KFMIN}:5
 	>=kde-frameworks/plasma-${KFMIN}:5
 	>=kde-misc/kweathercore-0.5
+	<kde-misc/kweathercore-0.7
 "
 
 RDEPEND="${DEPEND}
