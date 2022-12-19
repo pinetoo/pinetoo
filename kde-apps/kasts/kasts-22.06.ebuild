@@ -1,15 +1,15 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 KFMIN=5.89.0
 QTMIN=5.15.0
-inherit ecm kde.org
+inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Kirigami-based podcast player"
 HOMEPAGE="https://apps.kde.org/kasts/"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
+SRC_URI="mirror://kde/stable/plasma-mobile/$(ver_cut 1-2)/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="GPL-3 LGPL-3+"
 SLOT="5"
@@ -32,6 +32,7 @@ DEPEND="
 	>=kde-frameworks/kcoreaddons-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	>=kde-frameworks/syndication-${KFMIN}:5
+	>=kde-frameworks/threadweaver-${KFMIN}:5
 	media-libs/taglib
 	networkmanager? ( >=kde-frameworks/networkmanager-qt-${KFMIN}:5 )
 "
