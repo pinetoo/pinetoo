@@ -1,15 +1,14 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 KFMIN=5.79.0
-QTMIN=5.15.0
-inherit ecm kde.org
+QTMIN=5.15.2
+inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Clock app for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/kclock/"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+ LGPL-2.1+ CC-BY-4.0"
 SLOT="5"
