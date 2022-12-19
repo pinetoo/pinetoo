@@ -5,11 +5,10 @@ EAPI=8
 
 KFMIN=5.77.0
 QTMIN=5.15.0
-inherit ecm
+inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Mastodon client for Plasma and Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/tokodon/"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-3"
 SLOT="5"
@@ -33,6 +32,7 @@ DEPEND="
 	>=kde-frameworks/kirigami-${KFMIN}:5
 	>=kde-frameworks/kitemmodels-${KFMIN}:5
 	>=kde-frameworks/knotifications-${KFMIN}:5
+	>=kde-frameworks/kwindowsystem-${KFMIN}:5
 	>=kde-frameworks/qqc2-desktop-style-${KFMIN}:5
 	>=kde-frameworks/sonnet-${KFMIN}:5
 "
