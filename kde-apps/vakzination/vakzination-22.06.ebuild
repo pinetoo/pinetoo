@@ -1,16 +1,15 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 QTMIN=5.15.0
 KFMIN=5.85.0
 
-inherit ecm kde.org
+inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Manage digital health certificates like vaccination, test, and recovery"
 HOMEPAGE="https://apps.kde.org/vakzination/"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+"
 SLOT="5"
