@@ -416,42 +416,6 @@ AF.11.2001	Herat District	Herat District	9166336
 AF.10.2306	Naw Zad	Naw Zad	9653598
 AF.23.2401	Kandahar District	Kandahar District	9653599
 AF.30.1606	Balkh District	Balkh District	11818971
-AL.51.20	Rrethi i Sarandës	Rrethi i Sarandes	363245
-AL.51.30	Rrethi i Delvinës	Rrethi i Delvines	414383
-AL.47.26	Rrethi i Tropojës	Rrethi i Tropojes	781360
-AL.40.22	Rrethi i Skraparit	Rrethi i Skraparit	781574
-AL.49.19	Rrethi i Pukës	Rrethi i Pukes	781913
-AL.46.18	Rrethi i Pogradecit	Rrethi i Pogradecit	781990
-AL.45.17	Rrethi i Përmetit	Rrethi i Permetit	782072
-AL.48.16	Rrethi i Mirditës	Rrethi i Mirdites	782268
-AL.41.15	Rrethi i Matit	Rrethi i Matit	782345
-AL.43.13	Rrethi i Librazhdit	Rrethi i Librazhdit	782521
-AL.47.11	Rrethi i Kukësit	Rrethi i Kukesit	782662
-AL.46.09	Rrethi i Korçës	Rrethi i Korces	782758
-AL.46.08	Rrethi i Kolonjës	Rrethi i Kolonjes	782775
-AL.43.07	Rrethi i Gramshit	Rrethi i Gramshit	783060
-AL.45.06	Rrethi i Gjirokastrës	Rrethi i Gjirokastres	783151
-AL.43.04	Rrethi i Elbasanit	Rrethi i Elbasanit	783265
-AL.41.02	Rrethi i Dibrës	Rrethi i Dibres	783346
-AL.40.01	Rrethi i Beratit	Rrethi i Beratit	783626
-AL.47.32	Rrethi i Hasit	Rrethi i Hasit	831098
-AL.41.29	Rrethi i Bulqizës	Rrethi i Bulqizes	831275
-AL.46.31	Rrethi i Devollit	Rrethi i Devollit	831276
-AL.51.27	Rrethi i Vlorës	Rrethi i Vlores	3183721
-AL.50.28	Rrethi i Tiranës	Rrethi i Tiranes	3183879
-AL.45.23	Rrethi i Tepelenës	Rrethi i Tepelenes	3183911
-AL.49.21	Rrethi i Shkodrës	Rrethi i Shkodres	3184083
-AL.44.14	Rrethi i Lushnjës	Rrethi i Lushnjes	3184864
-AL.48.12	Lezhë	Lezhe	3184937
-AL.42.10	Rrethi i Krujës	Rrethi i Krujes	3185084
-AL.44.05	Fier	Fier	3185674
-AL.42.03	Durrës District	Durres District	3185730
-AL.50.33	Rrethi i Kavajës	Rrethi i Kavajes	3315068
-AL.40.34	Rrethi i Kuçovës	Rrethi i Kucoves	3315069
-AL.48.35	Rrethi i Kurbinit	Rrethi i Kurbinit	3315070
-AL.44.37	Rrethi i Mallakastrës	Rrethi i Mallakastres	3316444
-AL.49.36	Rrethi i Malësia e Madhe	Rrethi i Malesia e Madhe	3338383
-AL.43.38	Rrethi i Peqinit	Rrethi i Peqinit	3342179
 AL.40.10944368	Bashkia Berat	Bashkia Berat	10944368
 AL.40.10944369	Bashkia Kuçovë	Bashkia Kucove	10944369
 AL.40.10944370	Bashkia Poliçan	Bashkia Polican	10944370
@@ -473,6 +437,7 @@ AL.43.10944385	Bashkia Peqin	Bashkia Peqin	10944385
 AL.43.10944386	Bashkia Prrenjas	Bashkia Prrenjas	10944386
 AL.44.10944387	Bashkia Divjakë	Bashkia Divjake	10944387
 AL.44.10944388	Bashkia Fier	Bashkia Fier	10944388
+AL.44.10944389	Bashkia Lushnje	Bashkia Lushnje	10944389
 AL.44.10944390	Bashkia Mallakastër	Bashkia Mallakaster	10944390
 AL.44.10944391	Bashkia Patos	Bashkia Patos	10944391
 AL.44.10944392	Bashkia Roskovec	Bashkia Roskovec	10944392
@@ -12492,7 +12457,7 @@ DZ.40.2503639	Daïra de Bordj Menaïel	Daira de Bordj Menaiel	2503639
 DZ.55.2503767	Daïra de Blida	Daira de Blida	2503767
 DZ.19.2503824	Daïra de Biskra	Daira de Biskra	2503824
 DZ.36.2504579	Daïra de Beni Saf	Daira de Beni Saf	2504579
-DZ.38.2504753	Daïra de Beni Abbes	Daira de Beni Abbes	2504753
+DZ.BA.2504753	Daïra de Beni Abbes	Daira de Beni Abbes	2504753
 DZ.18.2505327	Daïra de Bejaïa	Daira de Bejaia	2505327
 DZ.38.2505528	Daïra de Béchar	Daira de Bechar	2505528
 DZ.03.2505570	Daïra de Batna	Daira de Batna	2505570
@@ -12513,7 +12478,7 @@ DZ.34.2508809	Daïra d’Adrar	Daira d'Adrar	2508809
 DZ.45.8293555	Bukombe District	Bukombe District	8293555
 DZ.53.8693062	In Guezzam	In Guezzam	8693062
 DZ.34.10303657	Charouine	Charouine	10303657
-DZ.45.11203916	El Ménia District	El Menia District	11203916
+DZ.EM.11203916	El Ménia District	El Menia District	11203916
 DZ.44.11204517	Dréan District	Drean District	11204517
 DZ.43.11204522	El M'Ghair District	El M'Ghair District	11204522
 DZ.48.11204560	Chelghoum Laïd District	Chelghoum Laid District	11204560
@@ -15336,7 +15301,6 @@ HR.15.11054744	Zmijavci	Zmijavci	11054744
 HR.04.11054745	Bale-Valle	Bale-Valle	11054745
 HR.04.11054746	Barban	Barban	11054746
 HR.04.11054747	Brtonigla-Verteneglio	Brtonigla-Verteneglio	11054747
-HR.04.11054748	Buje-Buie	Buje-Buie	11054748
 HR.04.11054749	Cerovlje	Cerovlje	11054749
 HR.04.11054750	Fažana-Fasana	Fazana-Fasana	11054750
 HR.04.11054751	Funtana-Fontane	Funtana-Fontane	11054751
@@ -15353,10 +15317,7 @@ HR.04.11054810	Motovun-Montona	Motovun-Montona	11054810
 HR.04.11054811	Novigrad-Cittanova	Novigrad-Cittanova	11054811
 HR.04.11054812	Oprtalj-Portole	Oprtalj-Portole	11054812
 HR.04.11054813	Pićan	Pican	11054813
-HR.04.11054814	Poreč-Parenzo	Porec-Parenzo	11054814
-HR.04.11054815	Pula-Pola	Pula-Pola	11054815
 HR.04.11054816	Raša	Rasa	11054816
-HR.04.11054817	Rovinj-Rovigno	Rovinj-Rovigno	11054817
 HR.04.11054818	Sveti Lovreč	Sveti Lovrec	11054818
 HR.04.11054819	Sveti Petar u Šumi	Sveti Petar u Sumi	11054819
 HR.04.11054820	Svetvinčenat	Svetvincenat	11054820
@@ -15433,12 +15394,7 @@ HR.04.11072234	Sveta Nedelja	Sveta Nedelja	11072234
 HR.12.11072235	Vinodolska općina	Vinodolska opcina	11072235
 HR.12.11072236	Malinska-Dubašnica	Malinska-Dubasnica	11072236
 HR.04.11072413	Tar-Vabriga-Torre Abrega	Tar-Vabriga-Torre Abrega	11072413
-HR.04.11129767	Grad Umag	Grad Umag	11129767
-HR.04.11129768	Grad Vodnjan	Grad Vodnjan	11129768
-HR.04.11129784	Općina Vižinada	Opcina Vizinada	11129784
-HR.04.11129785	Općina Višnjan	Opcina Visnjan	11129785
 HR.04.11129787	Općina Lanišće	Opcina Lanisce	11129787
-HR.15.12233413	Grad Makarska	Grad Makarska	12233413
 HT.10.3716114	Arrondissement de Vallières	Arrondissement de Vallieres	3716114
 HT.10.3716223	Arrondissement du Trou du Nord	Arrondissement du Trou du Nord	3716223
 HT.09.3717545	Sen Rafayèl	Sen Rafayel	3717545
@@ -15837,7 +15793,7 @@ ID.30.3215	Kabupaten Karawang	Kabupaten Karawang	1641133
 ID.11.6108	Kabupaten Kapuas Hulu	Kabupaten Kapuas Hulu	1641395
 ID.13.6203	Kabupaten Kapuas	Kabupaten Kapuas	1641398
 ID.08.3517	Kabupaten Jombang	Kabupaten Jombang	1642413
-ID.07.3320	Jepara	Jepara	1642545
+ID.07.3320	Kabupaten Jepara	Kabupaten Jepara	1642545
 ID.38.7304	Kabupaten Jeneponto	Kabupaten Jeneponto	1642569
 ID.02.5101	Kabupaten Jembrana	Kabupaten Jembrana	1642584
 ID.08.3509	Kabupaten Jember	Kabupaten Jember	1642587
@@ -19361,7 +19317,7 @@ JP.03.2129393	Kuroishi Shi	Kuroishi Shi	2129393
 JP.16.2129400	Kunohe-gun	Kunohe-gun	2129400
 JP.16.2129423	Kuji-shi	Kuji-shi	2129423
 JP.03.2129525	Kitatsugaru Gun	Kitatsugaru Gun	2129525
-JP.12.2129532	Ktiami Shi	Ktiami Shi	2129532
+JP.12.2129532	Kitami Shi	Kitami Shi	2129532
 JP.02.2129593	Kazuno Shi	Kazuno Shi	2129593
 JP.02.2129594	Kazuno-gun	Kazuno-gun	2129594
 JP.12.2129597	Kayabe-gun	Kayabe-gun	2129597
@@ -20108,7 +20064,7 @@ KP.07.1867256	Ŭnp’a-gun	Unp'a-gun	1867256
 KP.11.1867275	Unjŏn-gun	Unjon-gun	1867275
 KP.06.1867379	Ŭnch’ŏn-gun	Unch'on-gun	1867379
 KP.06.1867428	Ŭllyul-gun	Ullyul-gun	1867428
-KP.07.1867627	T’osan-gun	T'osan-gun	1867627
+KP.07.1867627	T'osan'-gun	T'osan'-gun	1867627
 KP.11.1867778	Tongnim-gun	Tongnim-gun	1867778
 KP.12.1867918	Tongdaewŏn-guyŏk	Tongdaewon-guyok	1867918
 KP.09.1867930	T’ongch’ŏn-gun	T'ongch'on-gun	1867930
@@ -20196,7 +20152,7 @@ KP.06.1877609	Haeju-si	Haeju-si	1877609
 KP.15.1877796	Chŭngsan-gun	Chungsan-gun	1877796
 KP.12.1877859	Chung	Chung	1877859
 KP.12.1877875	Chunghwa-gun	Chunghwa-gun	1877875
-KP.09.1878166	Ch’ŏrwŏn-gun	Ch'orwon-gun	1878166
+KP.09.1878166	Ch’ŏrwŏn'-gun	Ch'orwon'-gun	1878166
 KP.09.1878230	Ch’ŏnnae-gun	Ch'onnae-gun	1878230
 KP.03.1878321	Chongpyong County	Chongpyong County	1878321
 KP.15.1878380	Ch’ŏngnam-gu	Ch'ongnam-gu	1878380
@@ -20650,7 +20606,7 @@ KZ.07.609717	Tasqala Aūdany	Tasqala Audany	609717
 KZ.04.609786	Isatayskiy Rayon	Isatayskiy Rayon	609786
 KZ.06.609795	Īnder Aūdany	Inder Audany	609795
 KZ.07.609902	Furmanovskiy Rayon	Furmanovskiy Rayon	609902
-KZ.06.609923	Zhylyoy Aūdany	Zhylyoy Audany	609923
+KZ.06.609923	Zhylyoyskiy Rayon	Zhylyoyskiy Rayon	609923
 KZ.07.609952	Zhänibek Aūdany	Zhanibek Audany	609952
 KZ.07.609964	Zhangaqala Aūdany	Zhangaqala Audany	609964
 KZ.07.609978	Dzhambeytinskiy Rayon	Dzhambeytinskiy Rayon	609978
@@ -20666,7 +20622,7 @@ KZ.04.610656	Algha Aūdany	Algha Audany	610656
 KZ.07.610685	Aqzhayyq Aūdany	Aqzhayyq Audany	610685
 KZ.04.610687	Aqtöbe Aūdany	Aqtobe Audany	610687
 KZ.07.828320	Oral Qalasy	Oral Qalasy	828320
-KZ.06.828321	Atyraū Qalasy	Atyrau Qalasy	828321
+KZ.06.828321	Atyrau Gorodskaya Administratsiya	Atyrau Gorodskaya Administratsiya	828321
 KZ.09.828323	Tupqaraghan Aūdany	Tupqaraghan Audany	828323
 KZ.09.828324	Aqtaū Qalasy	Aqtau Qalasy	828324
 KZ.09.828325	Zhangaözen Qalasy	Zhangaozen Qalasy	828325
@@ -22779,8 +22735,8 @@ MG.13.13112	Miarinarivo	Miarinarivo	11072810
 MG.13.13113	Soavinandriana	Soavinandriana	11072811
 MG.21.21205	Ambalavao	Ambalavao	11072812
 MG.21.21219	Ikalamavony	Ikalamavony	11072813
-MG.23.23211	Ikongo	Ikongo	11072814
-MG.23.23210	Manakara	Manakara	11072815
+MG.26.23211	Ikongo	Ikongo	11072814
+MG.26.23210	Manakara	Manakara	11072815
 MG.41.41415	Mahajanga II	Mahajanga II	11072816
 MG.41.41401	Mahajanga I	Mahajanga I	11072817
 MG.43.43404	Maevatanana	Maevatanana	11072831
@@ -22815,11 +22771,11 @@ MG.12.12120	Mandoto	Mandoto	11926412
 MG.21.21220	Lalangina	Lalangina	11926413
 MG.21.21224	Vohibato	Vohibato	11926414
 MG.21.21225	Isandra	Isandra	11926415
-MG.23.23206	Ifanadiana	Ifanadiana	11926416
-MG.23.23207	Nosy-Varika	Nosy-Varika	11926417
-MG.23.23209	Mananjary	Mananjary	11926418
+MG.27.23206	Ifanadiana	Ifanadiana	11926416
+MG.27.23207	Nosy-Varika	Nosy-Varika	11926417
+MG.27.23209	Mananjary	Mananjary	11926418
 MG.24.24216	Ihosy	Ihosy	11926419
-MG.23.23212	Vohipeno	Vohipeno	11926420
+MG.26.23212	Vohipeno	Vohipeno	11926420
 MG.41.41403	Soalala	Soalala	11926421
 MG.41.41405	Ambato Boeni	Ambato Boeni	11926422
 MG.41.41407	Mitsinjo	Mitsinjo	11926423
@@ -27360,7 +27316,6 @@ NL.09.0344	Gemeente Utrecht	Gemeente Utrecht	2745911
 NL.16.0184	Gemeente Urk	Gemeente Urk	2745931
 NL.07.0451	Gemeente Uithoorn	Gemeente Uithoorn	2745972
 NL.07.0450	Gemeente Uitgeest	Gemeente Uitgeest	2745977
-NL.06.0856	Gemeente Uden	Gemeente Uden	2746004
 NL.15.0183	Gemeente Tubbergen	Gemeente Tubbergen	2746132
 NL.06.0855	Gemeente Tilburg	Gemeente Tilburg	2746300
 NL.03.0281	Gemeente Tiel	Gemeente Tiel	2746330
@@ -27407,7 +27362,6 @@ NL.07.0437	Gemeente Ouder-Amstel	Gemeente Ouder-Amstel	2749027
 NL.06.0828	Gemeente Oss	Gemeente Oss	2749233
 NL.02.0086	Gemeente Opsterland	Gemeente Opsterland	2749277
 NL.07.0432	Gemeente Opmeer	Gemeente Opmeer	2749285
-NL.06.1702	Gemeente Sint Anthonis	Gemeente Sint Anthonis	2749288
 NL.07.0431	Gemeente Oostzaan	Gemeente Oostzaan	2749319
 NL.02.0085	Gemeente Ooststellingwerf	Gemeente Ooststellingwerf	2749339
 NL.06.0826	Gemeente Oosterhout	Gemeente Oosterhout	2749447
@@ -27428,7 +27382,6 @@ NL.09.0356	Gemeente Nieuwegein	Gemeente Nieuwegein	2750324
 NL.05.0946	Gemeente Nederweert	Gemeente Nederweert	2750466
 NL.05.0944	Gemeente Mook en Middelaar	Gemeente Mook en Middelaar	2750620
 NL.09.0335	Gemeente Montfoort	Gemeente Montfoort	2750625
-NL.06.0815	Gemeente Mill en Sint Hubert	Gemeente Mill en Sint Hubert	2750800
 NL.10.0687	Gemeente Middelburg	Gemeente Middelburg	2750894
 NL.01.0119	Gemeente Meppel	Gemeente Meppel	2750946
 NL.05.0938	Gemeente Meerssen	Gemeente Meerssen	2751036
@@ -27448,7 +27401,6 @@ NL.11.0547	Gemeente Leiderdorp	Gemeente Leiderdorp	2751770
 NL.11.0546	Gemeente Leiden	Gemeente Leiden	2751772
 NL.02.0080	Gemeente Leeuwarden	Gemeente Leeuwarden	2751791
 NL.07.0417	Gemeente Laren	Gemeente Laren	2751873
-NL.07.0416	Gemeente Langedijk	Gemeente Langedijk	2751962
 NL.07.0415	Gemeente Landsmeer	Gemeente Landsmeer	2751979
 NL.11.0542	Gemeente Krimpen aan den IJssel	Gemeente Krimpen aan den IJssel	2752263
 NL.05.0928	Gemeente Kerkrade	Gemeente Kerkrade	2752922
@@ -27474,7 +27426,6 @@ NL.11.0530	Gemeente Hellevoetsluis	Gemeente Hellevoetsluis	2754453
 NL.15.0163	Gemeente Hellendoorn	Gemeente Hellendoorn	2754456
 NL.07.0399	Gemeente Heiloo	Gemeente Heiloo	2754515
 NL.05.0917	Gemeente Heerlen	Gemeente Heerlen	2754651
-NL.07.0398	Gemeente Heerhugowaard	Gemeente Heerhugowaard	2754658
 NL.02.0074	Gemeente Heerenveen	Gemeente Heerenveen	2754668
 NL.03.0246	Gemeente Heerde	Gemeente Heerde	2754680
 NL.07.0397	Gemeente Heemstede	Gemeente Heemstede	2754691
@@ -27489,7 +27440,6 @@ NL.07.0392	Gemeente Haarlem	Gemeente Haarlem	2755002
 NL.15.0158	Gemeente Haaksbergen	Gemeente Haaksbergen	2755031
 NL.04.0014	Gemeente Groningen	Gemeente Groningen	2755250
 NL.03.1945	Gemeente Berg en Dal	Gemeente Berg en Dal	2755270
-NL.06.0786	Gemeente Grave	Gemeente Grave	2755357
 NL.11.0513	Gemeente Gouda	Gemeente Gouda	2755419
 NL.11.0512	Gemeente Gorinchem	Gemeente Gorinchem	2755433
 NL.06.0785	Gemeente Goirle	Gemeente Goirle	2755463
@@ -27527,7 +27477,6 @@ NL.09.0310	Gemeente De Bilt	Gemeente De Bilt	2757782
 NL.02.1891	Gemeente Dantumadiel	Gemeente Dantumadiel	2757834
 NL.15.0148	Gemeente Dalfsen	Gemeente Dalfsen	2757849
 NL.03.0216	Gemeente Culemborg	Gemeente Culemborg	2757871
-NL.06.1684	Gemeente Cuijk	Gemeente Cuijk	2757873
 NL.01.0109	Gemeente Coevorden	Gemeente Coevorden	2757936
 NL.07.0383	Gemeente Castricum	Gemeente Castricum	2757990
 NL.11.0502	Gemeente Capelle aan den IJssel	Gemeente Capelle aan den IJssel	2758011
@@ -27540,7 +27489,6 @@ NL.07.0852	Gemeente Waterland	Gemeente Waterland	2758257
 NL.11.0501	Gemeente Brielle	Gemeente Brielle	2758325
 NL.06.0758	Gemeente Breda	Gemeente Breda	2758400
 NL.06.0757	Gemeente Boxtel	Gemeente Boxtel	2758459
-NL.06.0756	Gemeente Boxmeer	Gemeente Boxmeer	2758461
 NL.10.0654	Gemeente Borsele	Gemeente Borsele	2758588
 NL.15.0147	Gemeente Borne	Gemeente Borne	2758597
 NL.01.1681	Gemeente Borger-Odoorn	Gemeente Borger-Odoorn	2758619
@@ -27556,7 +27504,6 @@ NL.06.0748	Gemeente Bergen op Zoom	Gemeente Bergen op Zoom	2759144
 NL.07.0373	Gemeente Bergen	Gemeente Bergen	2759151
 NL.05.0893	Gemeente Bergen	Gemeente Bergen	2759152
 NL.05.0889	Gemeente Beesel	Gemeente Beesel	2759285
-NL.07.0370	Gemeente Beemster	Gemeente Beemster	2759320
 NL.05.0888	Gemeente Beek	Gemeente Beek	2759343
 NL.03.0203	Gemeente Barneveld	Gemeente Barneveld	2759406
 NL.11.0489	Gemeente Barendrecht	Gemeente Barendrecht	2759425
@@ -27631,7 +27578,6 @@ NL.06.1706	Gemeente Cranendonck	Gemeente Cranendonck	6544288
 NL.15.1735	Gemeente Hof van Twente	Gemeente Hof van Twente	6544289
 NL.03.1876	Gemeente Bronckhorst	Gemeente Bronckhorst	6544290
 NL.11.1621	Gemeente Lansingerland	Gemeente Lansingerland	6544291
-NL.06.1685	Gemeente Landerd	Gemeente Landerd	6544292
 NL.11.1525	Gemeente Teylingen	Gemeente Teylingen	6544293
 NL.01.1680	Gemeente Aa en Hunze	Gemeente Aa en Hunze	6544296
 NL.01.1731	Gemeente Midden-Drenthe	Gemeente Midden-Drenthe	6544297
@@ -27661,6 +27607,9 @@ NL.05.1954	Beekdaelen	Beekdaelen	12022129
 NL.11.1978	Molenlanden	Molenlanden	12022130
 NL.02.1970	Noardeast-Fryslân	Noardeast-Fryslan	12022131
 NL.04.1979	Eemsdelta	Eemsdelta	12253550
+NL.06.1982	Land van Cuijk	Land van Cuijk	12494993
+NL.06.1991	Maashorst	Maashorst	12494996
+NL.07.1980	Dijk en Waard	Dijk en Waard	12494997
 NO.54.5441	Tana	Tana	777197
 NO.54.5425	Storfjord	Storfjord	777394
 NO.54.5444	Sør-Varanger	Sor-Varanger	777554
@@ -28903,7 +28852,7 @@ PL.79.1606	Powiat namysłowski	Powiat namyslowski	7530733
 PL.79.1607	Powiat nyski	Powiat nyski	7530734
 PL.86.3008	Powiat kępiński	Powiat kepinski	7530735
 PL.75.0602	Powiat biłgorajski	Powiat bilgorajski	7530736
-PL.75.0603	Chełm County	Chelm County	7530737
+PL.75.0603	Powiat chełmski	Powiat chelmski	7530737
 PL.75.0604	Powiat hrubieszowski	Powiat hrubieszowski	7530738
 PL.75.0605	Powiat janowski	Powiat janowski	7530739
 PL.75.0606	Powiat krasnostawski	Powiat krasnostawski	7530740
@@ -28993,7 +28942,7 @@ PL.72.0210	Powiat lubański	Powiat lubanski	7530823
 PL.77.1210	Powiat nowosądecki	Powiat nowosadecki	7530824
 PL.77.1216	Powiat tarnowski	Powiat tarnowski	7530825
 PL.81.2006	Powiat kolneński	Powiat kolnenski	7530826
-PL.81.2007	Łomża County	Lomza County	7530827
+PL.81.2007	Powiat Łomżyński	Powiat Lomzynski	7530827
 PL.81.2014	Powiat zambrowski	Powiat zambrowski	7530828
 PL.84.2607	Powiat ostrowiecki	Powiat ostrowiecki	7530829
 PL.80.1804	Powiat jarosławski	Powiat jaroslawski	7530830
@@ -29044,7 +28993,7 @@ PL.75.0620	Powiat zamojski	Powiat zamojski	7530874
 PL.78.1411	Powiat makowski	Powiat makowski	7530875
 PL.78.1418	Powiat piaseczyński	Powiat piaseczynski	7530876
 PL.78.1412	Powiat miński	Powiat minski	7530877
-PL.78.1425	Radom County	Radom County	7530878
+PL.78.1425	Powiat Radomski	Powiat Radomski	7530878
 PL.78.1414	Powiat nowodworski	Powiat nowodworski	7530879
 PL.78.1413	Powiat mławski	Powiat mlawski	7530880
 PL.78.1415	Powiat ostrołęcki	Powiat ostrolecki	7530881
@@ -29069,7 +29018,7 @@ PL.80.1818	Powiat stalowowolski	Powiat stalowowolski	7530899
 PL.81.2010	Powiat siemiatycki	Powiat siemiatycki	7530900
 PL.84.2606	Powiat opatowski	Powiat opatowski	7530901
 PL.86.3012	Powiat krotoszyński	Powiat krotoszynski	7530902
-PL.86.3013	Leszno_County	Leszno_County	7530903
+PL.86.3013	Powiat leszczyński	Powiat leszczynski	7530903
 PL.73.0401	Powiat aleksandrowski	Powiat aleksandrowski	7530904
 PL.73.0402	Powiat brodnicki	Powiat brodnicki	7530905
 PL.73.0403	Powiat bydgoski	Powiat bydgoski	7530906
@@ -29084,7 +29033,7 @@ PL.73.0411	Powiat radziejowski	Powiat radziejowski	7530914
 PL.73.0412	Powiat rypiński	Powiat rypinski	7530915
 PL.73.0413	Powiat sępoleński	Powiat sepolenski	7530916
 PL.73.0414	Powiat świecki	Powiat swiecki	7530917
-PL.73.0415	Torun County	Torun County	7530918
+PL.73.0415	Powiat Toruński	Powiat Torunski	7530918
 PL.73.0416	Powiat tucholski	Powiat tucholski	7530919
 PL.73.0417	Powiat wąbrzeski	Powiat wabrzeski	7530920
 PL.73.0418	Powiat włocławski	Powiat wloclawski	7530921
@@ -29110,7 +29059,7 @@ PL.78.1464	Siedlce	Siedlce	7530940
 PL.81.2063	Suwałki	Suwalki	7530941
 PL.82.2263	Słupsk	Slupsk	7530942
 PL.82.2262	Gdynia	Gdynia	7530943
-PL.86.3010	Konin County	Konin County	7530944
+PL.86.3010	Powiat Koniński	Powiat Koninski	7530944
 PL.86.3019	Powiat pilski	Powiat pilski	7530945
 PL.86.3023	Powiat słupecki	Powiat slupecki	7530946
 PL.86.3028	Powiat wągrowiecki	Powiat wagrowiecki	7530947
@@ -29198,7 +29147,7 @@ PL.74.1020	Powiat zgierski	Powiat zgierski	7531028
 PL.78.1432	Powiat warszawski zachodni	Powiat warszawski zachodni	7531029
 PL.76.0802	Powiat krośnieński	Powiat krosnienski	7531030
 PL.78.1403	Powiat garwoliński	Powiat garwolinski	7531031
-PL.83.2402	Bielsko County	Bielsko County	7531032
+PL.83.2402	Powiat Bielski	Powiat Bielski	7531032
 PL.83.2410	Powiat pszczyński	Powiat pszczynski	7531033
 PL.83.2414	Powiat bieruńsko-lędziński	Powiat bierunsko-ledzinski	7531034
 PL.83.2416	Powiat zawierciański	Powiat zawiercianski	7531035
@@ -34178,7 +34127,7 @@ RU.01.493720	Shovgenovskiy Rayon	Shovgenovskiy Rayon	493720
 RU.52.494364	Shimskiy Rayon	Shimskiy Rayon	494364
 RU.06.494883	Shenkurskiy Rayon	Shenkurskiy Rayon	494883
 RU.16.494919	Shemurshinskiy Rayon	Shemurshinskiy Rayon	494919
-RU.12.494999	Shelkovskiy Rayon	Shelkovskiy Rayon	494999
+RU.12.494999	Shelkovskoy Rayon	Shelkovskoy Rayon	494999
 RU.85.495059	Sheksninskiy Rayon	Sheksninskiy Rayon	495059
 RU.09.495111	Shebekinskiy Rayon	Shebekinskiy Rayon	495111
 RU.41.495207	Shchigrovskiy Rayon	Shchigrovskiy Rayon	495207
@@ -35488,7 +35437,7 @@ RW.15.23	Nyaruguru District	Nyaruguru District	7690221
 SA.11.10972259	Abhā	Abha	10972259
 SA.11.10972260	Aḩad Rufaydah	Ahad Rufaydah	10972260
 SA.11.10972261	Al Majāridah	Al Majaridah	10972261
-SA.11.10972262	An Namāş	An Namas	10972262
+SA.11.10972262	An Nimas	An Nimas	10972262
 SA.11.10972263	Sabt Al Alayah	Sabt Al Alayah	10972263
 SA.11.10972264	Bīshah	Bishah	10972264
 SA.11.10972265	Khamīs Mushayţ	Khamis Mushayt	10972265
@@ -39531,500 +39480,142 @@ TZ.21.5202	Kusini	Kusini	11204829
 TZ.25.5302	Mjini	Mjini	11204830
 TZ.11.0905	Mtwara Urban	Mtwara Urban	11204831
 TZ.32.6001	Songwe District	Songwe District	11951161
-UA.03.686734	Sokyryany Raion	Sokyryany Raion	686734
-UA.01.686801	Zvenihorodka Raion	Zvenihorodka Raion	686801
-UA.01.686871	Zolotonosha Raion	Zolotonosha Raion	686871
-UA.15.686893	Zolochivskyi Raion	Zolochivskyi Raion	686893
-UA.10.686911	Znamyanka Raion	Znamyanka Raion	686911
-UA.12.687055	Solomianka Rayon	Solomianka Rayon	687055
-UA.16.687056	Vitovka Raion	Vitovka Raion	687056
-UA.23.687114	Zhmerynka Raion	Zhmerynka Raion	687114
-UA.27.687124	Zhytomyr Raion	Zhytomyr Raion	687124
-UA.01.687242	Zhashkiv Raion	Zhashkiv Raion	687242
-UA.18.687290	Zinkiv Raion	Zinkiv Raion	687290
-UA.22.687448	Zboriv Raion	Zboriv Raion	687448
-UA.22.687453	Zbarazh Raion	Zbarazh Raion	687453
-UA.03.687575	Zastavna Raion	Zastavna Raion	687575
-UA.26.687686	Zaporizhzhya Raion	Zaporizhzhya Raion	687686
-UA.16.688220	Yelanets Raion	Yelanets Raion	688220
-UA.05.688369	Yasynuvata Raion	Yasynuvata Raion	688369
-UA.09.688442	Yarmolyntsi Raion	Yarmolyntsi Raion	688442
-UA.23.688499	Yampil Raion	Yampil Raion	688499
-UA.13.688586	Yagotinskiy Rayon	Yagotinskiy Rayon	688586
-UA.08.688690	Vysokopilya Raion	Vysokopilya Raion	688690
-UA.13.688721	Vyshgorodskiy Rayon	Vyshgorodskiy Rayon	688721
-UA.16.688847	Vradiyivka Raion	Vradiyivka Raion	688847
-UA.16.688857	Voznesensk Raion	Voznesensk Raion	688857
-UA.25.689104	Volovets Raion	Volovets Raion	689104
-UA.27.689152	Khoroshiv Raion	Khoroshiv Raion	689152
-UA.05.689154	Nikolske Raion	Nikolske Raion	689154
-UA.09.689158	Volochysk Raion	Volochysk Raion	689158
-UA.26.689180	Vilnyansk Raion	Vilnyansk Raion	689180
-UA.05.689196	Volnovakha Raion	Volnovakha Raion	689196
-UA.25.689530	Vynohradiv Raion	Vynohradiv Raion	689530
-UA.23.689560	Vinnytsya Raion	Vinnytsya Raion	689560
-UA.09.689568	Vinkivtsi Raion	Vinkivtsi Raion	689568
-UA.26.689742	Vesele Raion	Vesele Raion	689742
-UA.16.689751	Veselynove Raion	Veselynove Raion	689751
-UA.06.689814	Verkhovyna Raion	Verkhovyna Raion	689814
-UA.08.689906	Verkhniy Rohachyk Raion	Verkhniy Rohachyk Raion	689906
-UA.04.689914	Verkhnodniprovsk Raion	Verkhnodniprovsk Raion	689914
-UA.05.690075	Velyka Novosilka Raion	Velyka Novosilka Raion	690075
-UA.17.690076	Velyka Mykhaylivka Raion	Velyka Mykhaylivka Raion	690076
-UA.08.690078	Velyka Lepetykha Raion	Velyka Lepetykha Raion	690078
-UA.25.690085	Velykyy Bereznyy Raion	Velykyy Bereznyy Raion	690085
-UA.18.690086	Velyka Bahachka Raion	Velyka Bahachka Raion	690086
-UA.08.690089	Velyka Oleksandrivka Raion	Velyka Oleksandrivka Raion	690089
-UA.26.690337	Vasylivka Raion	Vasylivka Raion	690337
-UA.13.690405	Vasylkiv Raion	Vasylkiv Raion	690405
-UA.02.690435	Varvinskiy Rayon	Varvinskiy Rayon	690435
-UA.25.690549	Uzhhorod Raion	Uzhhorod Raion	690549
-UA.10.690595	Ustynivka Raion	Ustynivka Raion	690595
-UA.01.690686	Uman Raion	Uman Raion	690686
-UA.10.690691	Blahovishchenske Raion	Blahovishchenske Raion	690691
-UA.23.690854	Tyvriv Raion	Tyvriv Raion	690854
-UA.06.690871	Tysmenytsya Raion	Tysmenytsya Raion	690871
-UA.25.690904	Tyachiv Raion	Tyachiv Raion	690904
-UA.23.691015	Tulchyn Raion	Tulchyn Raion	691015
-UA.08.691035	Oleshky Raion	Oleshky Raion	691035
-UA.04.691154	Tsarychanska Raion	Tsarychanska Raion	691154
-UA.23.691252	Trostyanets Raion	Trostyanets Raion	691252
-UA.23.691420	Tomashpil Raion	Tomashpil Raion	691420
-UA.04.691431	Tomakivka Raion	Tomakivka Raion	691431
-UA.26.691467	Tokmak Raion	Tokmak Raion	691467
-UA.06.691495	Tlumach Raion	Tlumach Raion	691495
-UA.22.691648	Ternopil Raion	Ternopil Raion	691648
-UA.22.691692	Terebovlya Raion	Terebovlya Raion	691692
-UA.23.691707	Teplyk Raion	Teplyk Raion	691707
-UA.09.691713	Teofipol Raion	Teofipol Raion	691713
-UA.05.691740	Boykivske Raion	Boykivske Raion	691740
-UA.17.691804	Tatarbunary Raion	Tatarbunary Raion	691804
-UA.17.691821	Tarutyne Raion	Tarutyne Raion	691821
-UA.01.691937	Talne Raion	Talne Raion	691937
-UA.10.692086	Svitlovodsk Raion	Svitlovodsk Raion	692086
-UA.14.692104	Dovzhanskyy Rayon	Dovzhanskyy Rayon	692104
-UA.25.692126	Svalyava Raion	Svalyava Raion	692126
-UA.11.692311	Gorodskoy okrug Sudak	Gorodskoy okrug Sudak	692311
-UA.03.692486	Storozhynets Raion	Storozhynets Raion	692486
-UA.09.692790	Stara Synyava Raion	Stara Synyava Raion	692790
-UA.09.692816	Starokostyantyniv Raion	Starokostyantyniv Raion	692816
-UA.05.692828	Starobesheve Raion	Starobesheve Raion	692828
-UA.11.693058	Sovietskyi Raion	Sovietskyi Raion	693058
-UA.04.693181	Solone Raion	Solone Raion	693181
-UA.04.693303	Sofiyivka Raion	Sofiyivka Raion	693303
-UA.06.693362	Snyatyn Raion	Snyatyn Raion	693362
-UA.16.693377	Snihurivka Rayon	Snihurivka Rayon	693377
-UA.01.693453	Smila Raion	Smila Raion	693453
-UA.05.693572	Sloviansk Raion	Sloviansk Raion	693572
-UA.09.693580	Slavuta Raion	Slavuta Raion	693580
-UA.08.693707	Skadovsk Raion	Skadovsk Raion	693707
-UA.04.693793	Synelnykove Raion	Synelnykove Raion	693793
-UA.11.693803	Simferopol Raion	Simferopol Raion	693803
-UA.22.693871	Shumsk Raion	Shumsk Raion	693871
-UA.01.693918	Shpola Raion	Shpola Raion	693918
-UA.18.694009	Shyshaky Raion	Shyshaky Raion	694009
-UA.17.694015	Shyryayeve Raion	Shyryayeve Raion	694015
-UA.04.694034	Shyroke Raion	Shyroke Raion	694034
-UA.12.694120	Shevchenkivskyi Raion	Shevchenkivskyi Raion	694120
-UA.09.694213	Shepetivka Raion	Shepetivka Raion	694213
-UA.02.694271	Snovs'kyy Rayon	Snovs'kyy Rayon	694271
-UA.23.694349	Sharhorod Raion	Sharhorod Raion	694349
-UA.05.694380	Shakhtarsk Raion	Shakhtarsk Raion	694380
-UA.18.694587	Semenivka Raion	Semenivka Raion	694587
-UA.17.694744	Savran Raion	Savran Raion	694744
-UA.19.694800	Sarnenskyi Raion	Sarnenskyi Raion	694800
-UA.17.694810	Sarata Raion	Sarata Raion	694810
-UA.11.694905	Sakskiy rayon	Sakskiy rayon	694905
-UA.06.695312	Rozhnyativ Raion	Rozhnyativ Raion	695312
-UA.06.695558	Rohatyn Raion	Rohatyn Raion	695558
-UA.18.695640	Reshetylivka Raion	Reshetylivka Raion	695640
-UA.17.695670	Reni Raion	Reni Raion	695670
-UA.11.695741	Razdol’nenskiy rayon	Razdol'nenskiy rayon	695741
-UA.17.695745	Rozdilna Raion	Rozdilna Raion	695745
-UA.25.695857	Rakhiv Raion	Rakhiv Raion	695857
-UA.27.695911	Radomyshl Raion	Radomyshl Raion	695911
-UA.04.695964	Pyatykhatky Rayon	Pyatykhatky Rayon	695964
-UA.03.696009	Putyla Raion	Putyla Raion	696009
-UA.26.696287	Prymorsk Raion	Prymorsk Raion	696287
-UA.02.696294	Prylutskyi Raion	Prylutskyi Raion	696294
-UA.26.696333	Pryazovske Raion	Pryazovske Raion	696333
-UA.27.696556	Popilnia Raion	Popilnia Raion	696556
-UA.18.696629	Poltava Raion	Poltava Raion	696629
-UA.09.696659	Polonne Raion	Polonne Raion	696659
-UA.26.696670	Polohy Raion	Polohy Raion	696670
-UA.04.696741	Pokrovske Raion	Pokrovske Raion	696741
-UA.23.696769	Pohrebyshche Raion	Pohrebyshche Raion	696769
-UA.22.696822	Pidvolochysk Raion	Pidvolochysk Raion	696822
-UA.12.696872	Podilskyi Raion	Podilskyi Raion	696872
-UA.18.697182	Pyryatyn Raion	Pyryatyn Raion	697182
-UA.10.697288	Petrove Raion	Petrove Raion	697288
-UA.04.697414	Petropavlivka Raion	Petropavlivka Raion	697414
-UA.23.697516	Pishchanka Raion	Pishchanka Raion	697516
-UA.07.697570	Pervomaiskyi Raion	Pervomaiskyi Raion	697570
-UA.16.697571	Pervomaysk Raion	Pervomaysk Raion	697571
-UA.11.697572	Pervomayskiy rayon	Pervomayskiy rayon	697572
-UA.05.697607	Manhush Raion	Manhush Raion	697607
-UA.13.697636	Pereiaslav-Khmelnytskyi Raion	Pereiaslav-Khmelnytskyi Raion	697636
-UA.25.697749	Perechyn Raion	Perechyn Raion	697749
-UA.12.697796	Pechersk Raion	Pechersk Raion	697796
-UA.04.697888	Pavlohrad Raion	Pavlohrad Raion	697888
-UA.27.698129	Ovruch Raion	Ovruch Raion	698129
-UA.17.698136	Ovidiopol Raion	Ovidiopol Raion	698136
-UA.18.698344	Orzhytya Raion	Orzhytya Raion	698344
-UA.26.698408	Orikhiv Raion	Orikhiv Raion	698408
-UA.23.698447	Orativ Raion	Orativ Raion	698447
-UA.10.698477	Onufriyivka Raion	Onufriyivka Raion	698477
-UA.10.698511	Vilshanka Raion	Vilshanka Raion	698511
-UA.16.698765	Ochakiv Raion	Ochakiv Raion	698765
-UA.13.698777	Obukhiv Raion	Obukhiv Raion	698777
-UA.08.699033	Novovorontsovka Raion	Novovorontsovka Raion	699033
-UA.09.699067	Nova Ushytsya Raion	Nova Ushytsya Raion	699067
-UA.10.699073	Novoukrayinka Raion	Novoukrayinka Raion	699073
-UA.08.699101	Novotroyitske Raion	Novotroyitske Raion	699101
-UA.03.699266	Novoselitsya Raion	Novoselitsya Raion	699266
-UA.16.699395	Nova Odesa Raion	Nova Odesa Raion	699395
-UA.26.699402	Novomykolayivka Raion	Novomykolayivka Raion	699402
-UA.04.699442	Novomoskovsk Raion	Novomoskovsk Raion	699442
-UA.10.699451	Novomyrhorod Raion	Novomyrhorod Raion	699451
-UA.16.699650	Novyy Buh Raion	Novyy Buh Raion	699650
-UA.05.699674	Novoazovsk Raion	Novoazovsk Raion	699674
-UA.10.699682	Novoarkhanhelsk Raion	Novoarkhanhelsk Raion	699682
-UA.10.699754	Novhorodka Raion	Novhorodka Raion	699754
-UA.08.700012	Nyzhni Sirohozy Raion	Nyzhni Sirohozy Raion	700012
-UA.11.700018	Nizhnegorskiy rayon	Nizhnegorskiy rayon	700018
-UA.04.700049	Nikopol Raion	Nikopol Raion	700049
-UA.17.700083	Mykolayivka Raion	Mykolayivka Raion	700083
-UA.16.700084	Mykolayiv rural raion	Mykolayiv rural raion	700084
-UA.23.700316	Nemyriv Raion	Nemyriv Raion	700316
-UA.27.700445	Narodychi Raion	Narodychi Raion	700445
-UA.20.700468	Nakhimovskiy rayon	Nakhimovskiy rayon	700468
-UA.06.700505	Nadvirna Raion	Nadvirna Raion	700505
-UA.23.700608	Murovani Kurylivtsi Raion	Murovani Kurylivtsi Raion	700608
-UA.25.700644	Mukachevo Raion	Mukachevo Raion	700644
-UA.12.700708	Holosiiv Raion	Holosiiv Raion	700708
-UA.22.700792	Monastyryska Raion	Monastyryska Raion	700792
-UA.01.700794	Monastyryshche Raion	Monastyryshche Raion	700794
-UA.23.700917	Mohyliv-Podilskyy Raion	Mohyliv-Podilskyy Raion	700917
-UA.18.701072	Myrhorod Raion	Myrhorod Raion	701072
-UA.12.701078	Obolonskyi Raion	Obolonskyi Raion	701078
-UA.26.701147	Mykhaylivka Raion	Mykhaylivka Raion	701147
-UA.25.701301	Mizhhirya Raion	Mizhhirya Raion	701301
-UA.26.701403	Melitopol Raion	Melitopol Raion	701403
-UA.18.701634	Mashivka Raion	Mashivka Raion	701634
-UA.05.701828	Marinskyi Raion	Marinskyi Raion	701828
-UA.01.701891	Mankivka Raion	Mankivka Raion	701891
-UA.10.702051	Mala Vyska Raion	Mala Vyska Raion	702051
-UA.27.702091	Malyn Raion	Malyn Raion	702091
-UA.04.702354	Magdalinovskiy Rayon	Magdalinovskiy Rayon	702354
-UA.24.702420	Lyuboml’s’kyy Rayon	Lyuboml's'kyy Rayon	702420
-UA.24.702468	Lyubeshivs’kyy Rayon	Lyubeshivs'kyy Rayon	702468
-UA.17.702479	Lyubashivka Raion	Lyubashivka Raion	702479
-UA.27.702481	Liubar Raion	Liubar Raion	702481
-UA.01.702490	Lysyanka Raion	Lysyanka Raion	702490
-UA.27.702680	Luhyny Raion	Luhyny Raion	702680
-UA.18.702724	Lubny Raion	Lubny Raion	702724
-UA.18.702872	Lokhvytsya Raion	Lokhvytsya Raion	702872
-UA.23.702929	Lityn Raion	Lityn Raion	702929
-UA.23.703008	Lypovets Raion	Lypovets Raion	703008
-UA.09.703141	Letychiv Raion	Letychiv Raion	703141
-UA.11.703233	Lenine Raion	Lenine Raion	703233
-UA.20.703234	Lenin District	Lenin District	703234
-UA.12.703266	Sviatoshynskyi Raion	Sviatoshynskyi Raion	703266
-UA.22.703401	Lanivtsi Raion	Lanivtsi Raion	703401
-UA.26.703488	Bilmak Raion	Bilmak Raion	703488
-UA.23.703838	Kryzhopil Raion	Kryzhopil Raion	703838
-UA.04.704025	Kryvyy Rih Raion	Kryvyy Rih Raion	704025
-UA.16.704029	Kryve Ozero Raion	Kryve Ozero Raion	704029
-UA.04.704088	Krynychky Raion	Krynychky Raion	704088
-UA.22.704140	Kremenets Raion	Kremenets Raion	704140
-UA.18.704149	Kremenchuk Raion	Kremenchuk Raion	704149
-UA.11.704361	Krasnoperekopsk Raion	Krasnoperekopsk Raion	704361
-UA.17.704367	Okny Raion	Okny Raion	704367
-UA.05.704371	Lyman Raion	Lyman Raion	704371
-UA.11.704383	Krasnohvardiiske Raion	Krasnohvardiiske Raion	704383
-UA.14.704401	Sorokyns'kyi Rayon	Sorokyns'kyi Rayon	704401
-UA.05.704417	Pokrovsk Raion	Pokrovsk Raion	704417
-UA.09.704483	Krasyliv Raion	Krasyliv Raion	704483
-UA.22.704523	Kozova Raion	Kozova Raion	704523
-UA.18.704569	Kozelshchyna Raion	Kozelshchyna Raion	704569
-UA.17.704677	Podilsk Raion	Podilsk Raion	704677
-UA.18.704707	Kotelva Raion	Kotelva Raion	704707
-UA.06.704755	Kosiv Raion	Kosiv Raion	704755
-UA.01.704857	Korsun-Shevchenkivskyy Raion	Korsun-Shevchenkivskyy Raion	704857
-UA.27.704884	Korostyshiv Raion	Korostyshiv Raion	704884
-UA.27.704899	Korosten' Raion	Korosten' Raion	704899
-UA.05.705092	Kostiantynivka Raion	Kostiantynivka Raion	705092
-UA.10.705197	Kompaniyivka Raion	Kompaniyivka Raion	705197
-UA.17.705223	Lyman Raion	Lyman Raion	705223
-UA.06.705389	Kolomyya Raion	Kolomyya Raion	705389
-UA.17.705489	Kodyma Raion	Kodyma Raion	705489
-UA.18.705542	Kobelyaky Raion	Kobelyaky Raion	705542
-UA.03.705734	Kitsman Raion	Kitsman Raion	705734
-UA.11.705800	Kirovske Raion	Kirovske Raion	705800
-UA.10.705813	Kropyvnytskyy Raion	Kropyvnytskyy Raion	705813
-UA.17.705882	Kiliya Raion	Kiliya Raion	705882
-UA.25.706162	Khust Raion	Khust Raion	706162
-UA.01.706198	Khrystynivka Raion	Khrystynivka Raion	706198
-UA.03.706238	Khotyn Raion	Khotyn Raion	706238
-UA.18.706286	Khorol Raion	Khorol Raion	706286
-UA.23.706374	Khmilnyk Raion	Khmilnyk Raion	706374
-UA.09.706375	Khmelnytskyy Raion	Khmelnytskyy Raion	706375
-UA.03.706537	Kelmentsi Raion	Kelmentsi Raion	706537
-UA.23.706569	Kozyatyn Raion	Kozyatyn Raion	706569
-UA.16.706577	Kazanka Raion	Kazanka Raion	706577
-UA.01.706633	Katerinopil Raion	Katerinopil Raion	706633
-UA.18.706747	Karlivka Raion	Karlivka Raion	706747
-UA.01.706903	Kaniv Raion	Kaniv Raion	706903
-UA.26.706969	Kamyanka-Dniprovska Raion	Kamyanka-Dniprovska Raion	706969
-UA.09.707076	Kamyanets-Podilskyy Raion	Kamyanets-Podilskyy Raion	707076
-UA.06.707098	Kalush Raion	Kalush Raion	707098
-UA.23.707130	Kalynivka Raion	Kalynivka Raion	707130
-UA.08.707227	Kalanchak Raion	Kalanchak Raion	707227
-UA.08.707241	Kakhovka Raion	Kakhovka Raion	707241
-UA.09.707294	Izyaslav Raion	Izyaslav Raion	707294
-UA.17.707309	Izmail Raion	Izmail Raion	707309
-UA.17.707352	Ivanivka Raion	Ivanivka Raion	707352
-UA.08.707353	Ivanivka Raion	Ivanivka Raion	707353
-UA.24.707506	Ivanychivs’kyy Rayon	Ivanychivs'kyy Rayon	707506
-UA.25.707557	Irshava Raion	Irshava Raion	707557
-UA.23.707706	Illintsi Raion	Illintsi Raion	707706
-UA.09.707751	Horodok Raion	Horodok Raion	707751
-UA.22.707839	Husyatyn Raion	Husyatyn Raion	707839
-UA.26.707894	Hulyaypole Raion	Hulyaypole Raion	707894
-UA.18.708178	Hrebinka Raion	Hrebinka Raion	708178
-UA.01.708337	Horodyshche Raion	Horodyshche Raion	708337
-UA.06.708378	Horodenka Raion	Horodenka Raion	708378
-UA.08.708400	Hornostayivka Raion	Hornostayivka Raion	708400
-UA.10.708583	Holovanivsk Raion	Holovanivsk Raion	708583
-UA.08.708599	Hola Prystan Raion	Hola Prystan Raion	708599
-UA.03.708700	Hlyboka Raion	Hlyboka Raion	708700
-UA.18.708752	Hlobyne Raion	Hlobyne Raion	708752
-UA.08.708876	Henichesk Raion	Henichesk Raion	708876
-UA.10.708893	Hayvoron Raion	Hayvoron Raion	708893
-UA.23.708899	Haysyn Raion	Haysyn Raion	708899
-UA.06.709029	Halych Raion	Halych Raion	709029
-UA.20.709051	Haharinskyi District	Haharinskyi District	709051
-UA.18.709053	Hadyach Raion	Hadyach Raion	709053
-UA.17.709070	Zakharivka Raion	Zakharivka Raion	709070
-UA.10.709226	Oleksandriya Raion	Oleksandriya Raion	709226
-UA.13.709244	Fastiv Raion	Fastiv Raion	709244
-UA.11.709333	Dzhankoyskiy rayon	Dzhankoyskiy rayon	709333
-UA.09.709432	Dunayivtsi Raion	Dunayivtsi Raion	709432
-UA.01.709640	Drabiv Raion	Drabiv Raion	709640
-UA.16.709739	Domanivka Raion	Domanivka Raion	709739
-UA.06.709779	Dolyna Raion	Dolyna Raion	709779
-UA.10.709780	Dolynska Raion	Dolynska Raion	709780
-UA.10.709887	Dobrovelychkivka Raion	Dobrovelychkivka Raion	709887
-UA.05.709904	Dobropillia Raion	Dobropillia Raion	709904
-UA.04.709961	Dnipro rural raion	Dnipro rural raion	709961
-UA.18.710040	Dykanka Raion	Dykanka Raion	710040
-UA.09.710128	Derazhnya Raion	Derazhnya Raion	710128
-UA.12.710276	Darnytsia Raion	Darnytsia Raion	710276
-UA.18.710341	Chutove Raion	Chutove Raion	710341
-UA.27.710380	Chudniv Raion	Chudniv Raion	710380
-UA.22.710399	Chortkiv Raion	Chortkiv Raion	710399
-UA.01.710471	Chyhyryn Raion	Chyhyryn Raion	710471
-UA.27.710561	Pulyny Raion	Pulyny Raion	710561
-UA.27.710658	Chernyakhivskyy Rayon	Chernyakhivskyy Rayon	710658
-UA.18.710667	Chornukhy Raion	Chornukhy Raion	710667
-UA.11.710690	Chernomorskiy rayon	Chernomorskiy rayon	710690
-UA.01.710713	Chornobay Raion	Chornobay Raion	710713
-UA.02.710736	Chernihiv Raion	Chernihiv Raion	710736
-UA.26.710737	Chernihivka Raion	Chernihivka Raion	710737
-UA.01.710795	Cherkasy Raion	Cherkasy Raion	710795
-UA.09.710863	Chemerivtsi Raion	Chemerivtsi Raion	710863
-UA.23.710890	Chechelnyk Raion	Chechelnyk Raion	710890
-UA.08.710930	Chaplynka Raion	Chaplynka Raion	710930
-UA.22.711346	Buchach Raion	Buchach Raion	711346
-UA.13.711392	Brovary Raion	Brovary Raion	711392
-UA.16.711462	Bratske Raion	Bratske Raion	711462
-UA.22.711580	Borshchiv Raion	Borshchiv Raion	711580
-UA.13.711633	Borodyans’kyy Rayon	Borodyans'kyy Rayon	711633
-UA.13.711658	Borispol’skiy Rayon	Borispol'skiy Rayon	711658
-UA.17.711842	Bolhrad Raion	Bolhrad Raion	711842
-UA.06.711888	Bohorodchany Raion	Bohorodchany Raion	711888
-UA.07.711892	Bohodukhivskyi Raion	Bohodukhivskyi Raion	711892
-UA.10.712008	Bobrynets Raion	Bobrynets Raion	712008
-UA.23.712248	Bershad Raion	Bershad Raion	712248
-UA.08.712259	Beryslav Raion	Beryslav Raion	712259
-UA.17.712271	Berezivka Raion	Berezivka Raion	712271
-UA.16.712338	Bereznehouvate Raion	Bereznehouvate Raion	712338
-UA.22.712375	Berezhany Raion	Berezhany Raion	712375
-UA.16.712384	Berezanka Raion	Berezanka Raion	712384
-UA.25.712424	Berehove Raion	Berehove Raion	712424
-UA.26.712446	Berdyansk Raion	Berdyansk Raion	712446
-UA.27.712457	Berdychivskyy Rayon	Berdychivskyy Rayon	712457
-UA.17.712482	Bilyayivka Raion	Bilyayivka Raion	712482
-UA.08.712502	Bilozerka Raion	Bilozerka Raion	712502
-UA.13.712541	Bila Tserkva Raion	Bila Tserkva Raion	712541
-UA.09.712584	Bilohirya Raion	Bilohirya Raion	712584
-UA.11.712585	Belogorskiy rayon	Belogorskiy rayon	712585
-UA.17.712634	Bilhorod-Dnistrovskyy Raion	Bilhorod-Dnistrovskyy Raion	712634
-UA.16.712771	Bashtanka Raion	Bashtanka Raion	712771
-UA.13.712786	Baryshevskiy Rayon	Baryshevskiy Rayon	712786
-UA.23.712803	Bar Raion	Bar Raion	712803
-UA.27.712831	Baranivka Raion	Baranivka Raion	712831
-UA.17.712882	Balta Raion	Balta Raion	712882
-UA.20.712927	Balaklava District	Balaklava District	712927
-UA.11.712968	Bakhchysarai Raion	Bakhchysarai Raion	712968
-UA.17.713164	Artsyz Raion	Artsyz Raion	713164
-UA.05.713172	Bakhmut Raion	Bakhmut Raion	713172
-UA.16.713225	Arbuzynka Raion	Arbuzynka Raion	713225
-UA.27.713388	Andrushivs’kyy Rayon	Andrushivs'kyy Rayon	713388
-UA.17.713497	Ananyiv Raion	Ananyiv Raion	713497
-UA.05.713502	Amvrosiivka Raion	Amvrosiivka Raion	713502
-UA.10.713583	Oleksandrivka Raion	Oleksandrivka Raion	713583
-UA.26.713738	Yakymivka Raion	Yakymivka Raion	713738
-UA.21.713748	Okhtyrskiy Rayon	Okhtyrskiy Rayon	713748
-UA.11.8449683	Gorodskoy okrug Feodosiya	Gorodskoy okrug Feodosiya	8449683
-UA.11.8449684	Gorodskoy okrug Simferopol	Gorodskoy okrug Simferopol	8449684
-UA.11.8449685	Gorodskoy okrug Saki	Gorodskoy okrug Saki	8449685
-UA.11.8449687	Gorodskoy okrug Yalta	Gorodskoy okrug Yalta	8449687
-UA.11.8449688	Gorodskoy okrug Alushta	Gorodskoy okrug Alushta	8449688
-UA.11.8449689	Gorodskoy okrug Armyansk	Gorodskoy okrug Armyansk	8449689
-UA.11.8449690	Gorodskoy okrug Dzhankoy	Gorodskoy okrug Dzhankoy	8449690
-UA.11.8449691	Gorodskoy okrug Yevpatoriya	Gorodskoy okrug Yevpatoriya	8449691
-UA.11.8449692	Kerchens'ka Mis'ka Rada	Kerchens'ka Mis'ka Rada	8449692
-UA.11.8449693	Gorodskoy okrug Krasnoperekopsk	Gorodskoy okrug Krasnoperekopsk	8449693
-UA.12.8520167	Desnianskyi Raion	Desnianskyi Raion	8520167
-UA.12.8693025	Dnipro Raion	Dnipro Raion	8693025
-UA.14.9030616	Antratsytivska Miskrada	Antratsytivska Miskrada	9030616
-UA.14.9030644	Alchevs’ka Mis’krada	Alchevs'ka Mis'krada	9030644
-UA.14.9030645	Luhans’ka Mis’krada	Luhans'ka Mis'krada	9030645
-UA.14.9030653	Bryankivs’ka Mis’krada	Bryankivs'ka Mis'krada	9030653
-UA.14.9030655	Kirovs’ka Mis’krada	Kirovs'ka Mis'krada	9030655
-UA.14.9030659	Krasnoluts’ka Mis’krada	Krasnoluts'ka Mis'krada	9030659
-UA.14.9030660	Krasnodonska Miskrada	Krasnodonska Miskrada	9030660
-UA.14.9030663	Lysychans’ka Mis’krada	Lysychans'ka Mis'krada	9030663
-UA.14.9030664	Pervomays’ka Mis’krada	Pervomays'ka Mis'krada	9030664
-UA.14.9030666	Rovenkivska Miskrada	Rovenkivska Miskrada	9030666
-UA.14.9030667	Rubizhans’ka Mis’krada	Rubizhans'ka Mis'krada	9030667
-UA.14.9030668	Sverdlovska Miskrada	Sverdlovska Miskrada	9030668
-UA.14.9030669	Syevyerodonets’ka Mis’krada	Syevyerodonets'ka Mis'krada	9030669
-UA.14.9030670	Kadiyivka	Kadiyivka	9030670
-UA.05.9030684	Kirovs’ka Mis’krada	Kirovs'ka Mis'krada	9030684
-UA.05.9030685	Shakhtars’ka Mis’krada	Shakhtars'ka Mis'krada	9030685
-UA.05.9030686	Torezka Miskrada	Torezka Miskrada	9030686
-UA.05.9030687	Snizhnianska Miskrada	Snizhnianska Miskrada	9030687
-UA.05.9030688	Avdiyivs’ka Mis’krada	Avdiyivs'ka Mis'krada	9030688
-UA.05.9030689	Yasynuvatska Miskrada	Yasynuvatska Miskrada	9030689
-UA.05.9030690	Zhdanivs’ka Mis’krada	Zhdanivs'ka Mis'krada	9030690
-UA.05.9030691	Khartsyzka Miskrada	Khartsyzka Miskrada	9030691
-UA.05.9030692	Donetska Miskrada	Donetska Miskrada	9030692
-UA.05.9030861	Slovianska Miskrada	Slovianska Miskrada	9030861
-UA.05.9030862	Kramatorska Miskrada	Kramatorska Miskrada	9030862
-UA.05.9030864	Druzhkivka City Council	Druzhkivka City Council	9030864
-UA.05.9030869	Mariupol City Council	Mariupol City Council	9030869
-UA.05.9030870	Bakhmut Municipality	Bakhmut Municipality	9030870
-UA.05.9030974	Kostiantynivka City Council	Kostiantynivka City Council	9030974
-UA.05.9030975	Pokrovsk City Council	Pokrovsk City Council	9030975
-UA.05.9030976	Dobropillia City Council	Dobropillia City Council	9030976
-UA.05.9030978	Selydove City Council	Selydove City Council	9030978
-UA.05.9030979	Vuhledar City Council	Vuhledar City Council	9030979
-UA.05.9030980	Dokuchaevsk City Council	Dokuchaevsk City Council	9030980
-UA.05.9030981	Debaltseve City Council	Debaltseve City Council	9030981
-UA.05.9030982	Horlivska Miskrada	Horlivska Miskrada	9030982
-UA.05.9030983	Torets'k Municipality	Torets'k Municipality	9030983
-UA.05.9030984	Yenakiieve City Council	Yenakiieve City Council	9030984
-UA.05.9030985	Myrnohrad Municipality	Myrnohrad Municipality	9030985
-UA.05.9030986	Novohrodivka City Council	Novohrodivka City Council	9030986
-UA.05.9030987	Makiivska Miskrada	Makiivska Miskrada	9030987
-UA.07.9101597	Lozova City Council	Lozova City Council	9101597
-UA.07.9114284	Kharkiv City Council	Kharkiv City Council	9114284
-UA.07.9114317	Chuhuiv City Council	Chuhuiv City Council	9114317
-UA.07.9115610	Liubotynska Miskrada	Liubotynska Miskrada	9115610
-UA.26.9130027	Velyka Bilozerka Raion	Velyka Bilozerka Raion	9130027
-UA.26.9133385	Rozivka Raion	Rozivka Raion	9133385
-UA.21.9194082	Okhtyrs’ka Mis’krada	Okhtyrs'ka Mis'krada	9194082
-UA.07.9194084	Kupianska Miskrada	Kupianska Miskrada	9194084
-UA.07.9194204	Pervomaiska Miskrada	Pervomaiska Miskrada	9194204
-UA.04.9195899	Dnipro urban raion	Dnipro urban raion	9195899
-UA.04.9197248	Kamyanske urban raion	Kamyanske urban raion	9197248
-UA.18.9197251	Novi Sanzhary Raion	Novi Sanzhary Raion	9197251
-UA.07.9197254	Iziumska Miskrada	Iziumska Miskrada	9197254
-UA.21.9197278	Lebedyns’ka Mis’krada	Lebedyns'ka Mis'krada	9197278
-UA.04.9199695	Yuryivka Raion	Yuryivka Raion	9199695
-UA.21.9199696	Hlukhivs’ka Mis’krada	Hlukhivs'ka Mis'krada	9199696
-UA.21.9199697	Sums’ka Mis’krada	Sums'ka Mis'krada	9199697
-UA.24.9287851	Volodymyr-Volynska Miskrada	Volodymyr-Volynska Miskrada	9287851
-UA.24.9287853	Kovel’s’ka Mis’krada	Kovel's'ka Mis'krada	9287853
-UA.24.9287950	Luts’ka Mis’krada	Luts'ka Mis'krada	9287950
-UA.19.9288591	Kuznetsovs’ka Mis’krada	Kuznetsovs'ka Mis'krada	9288591
-UA.24.9289908	Shats’kyy Rayon	Shats'kyy Rayon	9289908
-UA.24.9289932	Novovolynska Miskrada	Novovolynska Miskrada	9289932
-UA.19.9289933	Demydivs’kyy Rayon	Demydivs'kyy Rayon	9289933
-UA.19.9289934	Dubenska Miskrada	Dubenska Miskrada	9289934
-UA.19.9289947	Ostroz’ka Mis’krada	Ostroz'ka Mis'krada	9289947
-UA.19.9289988	Rivnenska Miskrada	Rivnenska Miskrada	9289988
-UA.15.9290334	Stryys’ka Mis’krada	Stryys'ka Mis'krada	9290334
-UA.15.9290342	Morshyns’ka Mis’krada	Morshyns'ka Mis'krada	9290342
-UA.15.9290363	Sambirs’ka Mis’krada	Sambirs'ka Mis'krada	9290363
-UA.15.9290369	Drohobyts’ka Mis’krada	Drohobyts'ka Mis'krada	9290369
-UA.15.9290402	Boryslavs’ka Mis’krada	Boryslavs'ka Mis'krada	9290402
-UA.15.9290406	Truskavets’ka Mis’krada	Truskavets'ka Mis'krada	9290406
-UA.15.9290763	Chervonohradska Miskrada	Chervonohradska Miskrada	9290763
-UA.15.9290764	Novorozdil’s’ka Mis’krada	Novorozdil's'ka Mis'krada	9290764
-UA.15.9290819	Lvivska Miskrada	Lvivska Miskrada	9290819
-UA.06.9523736	Ivano-Frankivsk urban Raion	Ivano-Frankivsk urban Raion	9523736
-UA.22.9526278	Zalishchyky Raion	Zalishchyky Raion	9526278
-UA.22.9526289	Pidhaytsi Rayon	Pidhaytsi Rayon	9526289
-UA.03.9637102	Chernivtsi urban raion	Chernivtsi urban raion	9637102
-UA.03.9637195	Hertsa Raion	Hertsa Raion	9637195
-UA.23.9640641	Chernivtsi Raion	Chernivtsi Raion	9640641
-UA.27.9640803	Novohrad-Volynska Miskrada	Novohrad-Volynska Miskrada	9640803
-UA.27.9640806	Zhytomyrska Miskrada	Zhytomyrska Miskrada	9640806
-UA.27.9640807	Berdychivska Miskrada	Berdychivska Miskrada	9640807
-UA.27.9640829	Korostenska Miskrada	Korostenska Miskrada	9640829
-UA.27.9640830	Malynska Miskrada	Malynska Miskrada	9640830
-UA.13.9644315	Obukhivs’ka Mis’krada	Obukhivs'ka Mis'krada	9644315
-UA.13.9644319	Pereyaslav-Khmel’nyts’ka Mis’krada	Pereyaslav-Khmel'nyts'ka Mis'krada	9644319
-UA.13.9644342	Vasyl’kivs’ka Mis’krada	Vasyl'kivs'ka Mis'krada	9644342
-UA.13.9644955	Boryspil’s’ka Mis’krada	Boryspil's'ka Mis'krada	9644955
-UA.13.9644965	Bilotserkivska Miskrada	Bilotserkivska Miskrada	9644965
-UA.13.9644966	Fastivs’ka Mis’krada	Fastivs'ka Mis'krada	9644966
-UA.13.9644967	Rzhyshchivs’ka Mis’krada	Rzhyshchivs'ka Mis'krada	9644967
-UA.13.9644968	Brovars’ka Mis’krada	Brovars'ka Mis'krada	9644968
-UA.13.9644994	Irpins’ka Mis’krada	Irpins'ka Mis'krada	9644994
-UA.13.9644997	Berezans’ka Mis’krada	Berezans'ka Mis'krada	9644997
-UA.13.9644999	Slavutyts’ka Mis’krada	Slavutyts'ka Mis'krada	9644999
-UA.02.9806316	Chernihivs’ka Mis’krada	Chernihivs'ka Mis'krada	9806316
-UA.02.9806344	Nizhyns’ka Mis’krada	Nizhyns'ka Mis'krada	9806344
-UA.02.9806345	Novhorod-Sivers’ka Mis’krada	Novhorod-Sivers'ka Mis'krada	9806345
-UA.02.9806494	Pryluts’ka Mis’krada	Pryluts'ka Mis'krada	9806494
-UA.21.9807848	Shostkyns’ka Mis’krada	Shostkyns'ka Mis'krada	9807848
-UA.21.9808693	Romens’ka Mis’krada	Romens'ka Mis'krada	9808693
-UA.21.9808694	Konotops’ka Mis’krada	Konotops'ka Mis'krada	9808694
-UA.17.9819571	Odessa urban raion	Odessa urban raion	9819571
-UA.16.9821293	Mykolayiv urban raion	Mykolayiv urban raion	9821293
-UA.08.9875813	Kherson Raion	Kherson Raion	9875813
-UA.05.11886883	Lyman Amalgated Territorial Community	Lyman Amalgated Territorial Community	11886883
-UA.27.12022269	Zhytomyr City Amalgamated Territorial Commmunity	Zhytomyr City Amalgamated Territorial Commmunity	12022269
-UA.03.12156240	Vyzhnytsya Raion	Vyzhnytsya Raion	12156240
-UA.11.12189503	Yaltynskyi Raion	Yaltynskyi Raion	12189503
-UA.11.12189504	Kerchenskyi Raion	Kerchenskyi Raion	12189504
-UA.11.12189505	Feodosiiskyi Raion	Feodosiiskyi Raion	12189505
-UA.11.12189506	Yevpatoriiskyi Raion	Yevpatoriiskyi Raion	12189506
-UA.19.12189508	Varaskyi Raion	Varaskyi Raion	12189508
-UA.17.12189513	Odeskyi Raion	Odeskyi Raion	12189513
-UA.15.12189514	Lvivskyi Raion	Lvivskyi Raion	12189514
-UA.15.12189515	Chervonohradskyi Raion	Chervonohradskyi Raion	12189515
-UA.15.12189516	Drohobytskyi Raion	Drohobytskyi Raion	12189516
-UA.13.12189517	Buchasnskyi Raion	Buchasnskyi Raion	12189517
-UA.08.12189518	Khersonskyi Raion	Khersonskyi Raion	12189518
-UA.14.12189519	Alchevskyi Raion	Alchevskyi Raion	12189519
-UA.14.12189520	Luhanskyi Raion	Luhanskyi Raion	12189520
-UA.14.12189521	Rovenkivskyi Raion	Rovenkivskyi Raion	12189521
-UA.14.12189522	Sievierodonetskyi Raion	Sievierodonetskyi Raion	12189522
-UA.14.12189523	Shchastynskyi Raion	Shchastynskyi Raion	12189523
-UA.06.12189526	Ivano-Frankivskyi Raion	Ivano-Frankivskyi Raion	12189526
-UA.05.12189527	Mariupolskyi Raion	Mariupolskyi Raion	12189527
-UA.05.12189528	Kramatorskyi Raion	Kramatorskyi Raion	12189528
-UA.05.12189529	Kalmiuskyi Raion	Kalmiuskyi Raion	12189529
-UA.05.12189530	Horlivskyi Raion	Horlivskyi Raion	12189530
-UA.05.12189531	Donetskyi Raion	Donetskyi Raion	12189531
-UA.04.12189532	Kamianskyi Raion	Kamianskyi Raion	12189532
-UA.03.12189533	Dnistrovskyi Raion	Dnistrovskyi Raion	12189533
-UA.03.12189534	Chernivestkyi Raion	Chernivestkyi Raion	12189534
+UA.01.7102	Zvenihorodka Raion	Zvenihorodka Raion	686801
+UA.01.7104	Zolotonosha Raion	Zolotonosha Raion	686871
+UA.15.4604	Zolochivskyi Raion	Zolochivskyi Raion	686893
+UA.23.0506	Zhmerynka Raion	Zhmerynka Raion	687114
+UA.27.1804	Zhytomyr Raion	Zhytomyr Raion	687124
+UA.26.2306	Zaporizhzhya Raion	Zaporizhzhya Raion	687686
+UA.15.4614	Yavorivskyi Raion	Yavorivskyi Raion	688284
+UA.13.3210	Vyshgorodskiy Rayon	Vyshgorodskiy Rayon	688721
+UA.16.4804	Voznesensk Raion	Voznesensk Raion	688857
+UA.05.1404	Volnovakha Raion	Volnovakha Raion	689196
+UA.23.0502	Vinnytsya Raion	Vinnytsya Raion	689560
+UA.06.2602	Verkhovyna Raion	Verkhovyna Raion	689814
+UA.26.2304	Vasylivka Raion	Vasylivka Raion	690337
+UA.25.2110	Uzhhorod Raion	Uzhhorod Raion	690549
+UA.01.7106	Uman Raion	Uman Raion	690686
+UA.25.2108	Tyachiv Raion	Tyachiv Raion	690904
+UA.23.0510	Tulchyn Raion	Tulchyn Raion	691015
+UA.22.6104	Ternopil Raion	Ternopil Raion	691648
+UA.14.4404	Dovzhanskyy Rayon	Dovzhanskyy Rayon	692104
+UA.14.4410	Svativskyi Raion	Svativskyi Raion	692117
+UA.21.5908	Sumskyi Raion	Sumskyi Raion	692195
+UA.14.4414	Starobilskyi Raion	Starobilskyi Raion	692830
+UA.08.6508	Skadovsk Raion	Skadovsk Raion	693707
+UA.04.1214	Synelnykove Raion	Synelnykove Raion	693793
+UA.11.0116	Simferopol Raion	Simferopol Raion	693803
+UA.09.6806	Shepetivka Raion	Shepetivka Raion	694213
+UA.19.5608	Sarnenskyi Raion	Sarnenskyi Raion	694800
+UA.21.5906	Romenskyi Raion	Romenskyi Raion	695466
+UA.17.5114	Rozdilna Raion	Rozdilna Raion	695745
+UA.25.2106	Rakhiv Raion	Rakhiv Raion	695857
+UA.02.7408	Prylutskyi Raion	Prylutskyi Raion	696294
+UA.18.5308	Poltava Raion	Poltava Raion	696629
+UA.26.2310	Polohy Raion	Polohy Raion	696670
+UA.16.4808	Pervomaysk Raion	Pervomaysk Raion	697571
+UA.04.1212	Pavlohrad Raion	Pavlohrad Raion	697888
+UA.13.3212	Obukhiv Raion	Obukhiv Raion	698777
+UA.10.3506	Novoukrayinka Raion	Novoukrayinka Raion	699073
+UA.04.1210	Novomoskovsk Raion	Novomoskovsk Raion	699442
+UA.04.1208	Nikopol Raion	Nikopol Raion	700049
+UA.06.2612	Nadvirna Raion	Nadvirna Raion	700505
+UA.25.2104	Mukachevo Raion	Mukachevo Raion	700644
+UA.23.0508	Mohyliv-Podilskyy Raion	Mohyliv-Podilskyy Raion	700917
+UA.18.5306	Myrhorod Raion	Myrhorod Raion	701072
+UA.26.2308	Melitopol Raion	Melitopol Raion	701403
+UA.18.5304	Lubny Raion	Lubny Raion	702724
+UA.04.1206	Kryvyy Rih Raion	Kryvyy Rih Raion	704025
+UA.22.6102	Kremenets Raion	Kremenets Raion	704140
+UA.18.5302	Kremenchuk Raion	Kremenchuk Raion	704149
+UA.11.0114	Krasnoperekopsk Raion	Krasnoperekopsk Raion	704361
+UA.11.0112	Krasnohvardiiske Raion	Krasnohvardiiske Raion	704383
+UA.07.6306	Krasnohradskyi Raion	Krasnohradskyi Raion	704387
+UA.05.1416	Pokrovsk Raion	Pokrovsk Raion	704417
+UA.17.5112	Podilsk Raion	Podilsk Raion	704677
+UA.06.2610	Kosiv Raion	Kosiv Raion	704755
+UA.02.7402	Koriukivskyi Raion	Koriukivskyi Raion	704838
+UA.27.1806	Korosten' Raion	Korosten' Raion	704899
+UA.06.2608	Kolomyya Raion	Kolomyya Raion	705389
+UA.10.3504	Kropyvnytskyy Raion	Kropyvnytskyy Raion	705813
+UA.25.2112	Khust Raion	Khust Raion	706162
+UA.23.0512	Khmilnyk Raion	Khmilnyk Raion	706374
+UA.09.6804	Khmelnytskyy Raion	Khmelnytskyy Raion	706375
+UA.24.0704	Kamin-Kashyrskyi Raion	Kamin-Kashyrskyi Raion	707024
+UA.09.6802	Kamyanets-Podilskyy Raion	Kamyanets-Podilskyy Raion	707076
+UA.06.2606	Kalush Raion	Kalush Raion	707098
+UA.08.6506	Kakhovka Raion	Kakhovka Raion	707241
+UA.17.5108	Izmail Raion	Izmail Raion	707309
+UA.10.3502	Holovanivsk Raion	Holovanivsk Raion	708583
+UA.08.6504	Henichesk Raion	Henichesk Raion	708876
+UA.23.0504	Haysyn Raion	Haysyn Raion	708899
+UA.10.3508	Oleksandriya Raion	Oleksandriya Raion	709226
+UA.13.3214	Fastiv Raion	Fastiv Raion	709244
+UA.11.0106	Dzhankoyskiy rayon	Dzhankoyskiy rayon	709333
+UA.04.1202	Dnipro rural raion	Dnipro rural raion	709961
+UA.22.6106	Chortkiv Raion	Chortkiv Raion	710399
+UA.02.7410	Chernihiv Raion	Chernihiv Raion	710736
+UA.01.7108	Cherkasy Raion	Cherkasy Raion	710795
+UA.13.3206	Brovary Raion	Brovary Raion	711392
+UA.13.3204	Borispol’skiy Rayon	Borispol'skiy Rayon	711658
+UA.17.5106	Bolhrad Raion	Bolhrad Raion	711842
+UA.07.6302	Bohodukhivskyi Raion	Bohodukhivskyi Raion	711892
+UA.08.6502	Beryslav Raion	Beryslav Raion	712259
+UA.17.5102	Berezivka Raion	Berezivka Raion	712271
+UA.25.2102	Berehove Raion	Berehove Raion	712424
+UA.26.2302	Berdyansk Raion	Berdyansk Raion	712446
+UA.27.1802	Berdychivskyy Rayon	Berdychivskyy Rayon	712457
+UA.11.0104	Belogorskiy rayon	Belogorskiy rayon	712585
+UA.17.5104	Bilhorod-Dnistrovskyy Raion	Bilhorod-Dnistrovskyy Raion	712634
+UA.16.4802	Bashtanka Raion	Bashtanka Raion	712771
+UA.11.0102	Bakhchysarai Raion	Bakhchysarai Raion	712968
+UA.05.1402	Bakhmut Raion	Bakhmut Raion	713172
+UA.21.5904	Okhtyrskiy Rayon	Okhtyrskiy Rayon	713748
+UA.11.0120	Gorodskoy okrug Yalta	Gorodskoy okrug Yalta	8449687
+UA.11.0110	Kerchens'ka Mis'ka Rada	Kerchens'ka Mis'ka Rada	8449692
+UA.07.6310	Lozova City Council	Lozova City Council	9101597
+UA.07.6312	Kharkiv City Council	Kharkiv City Council	9114284
+UA.07.6314	Chuhuiv City Council	Chuhuiv City Council	9114317
+UA.07.6308	Kupianska Miskrada	Kupianska Miskrada	9194084
+UA.07.6304	Iziumska Miskrada	Iziumska Miskrada	9197254
+UA.24.0702	Volodymyr-Volynska Miskrada	Volodymyr-Volynska Miskrada	9287851
+UA.24.0706	Kovel’s’ka Mis’krada	Kovel's'ka Mis'krada	9287853
+UA.24.0708	Luts’ka Mis’krada	Luts'ka Mis'krada	9287950
+UA.19.5604	Dubenska Miskrada	Dubenska Miskrada	9289934
+UA.19.5606	Rivnenska Miskrada	Rivnenska Miskrada	9289988
+UA.15.4610	Stryys’ka Mis’krada	Stryys'ka Mis'krada	9290334
+UA.15.4608	Sambirs’ka Mis’krada	Sambirs'ka Mis'krada	9290363
+UA.27.1808	Novohrad-Volynska Miskrada	Novohrad-Volynska Miskrada	9640803
+UA.13.3202	Bilotserkivska Miskrada	Bilotserkivska Miskrada	9644965
+UA.02.7404	Nizhyns’ka Mis’krada	Nizhyns'ka Mis'krada	9806344
+UA.02.7406	Novhorod-Sivers’ka Mis’krada	Novhorod-Sivers'ka Mis'krada	9806345
+UA.21.5910	Shostkyns’ka Mis’krada	Shostkyns'ka Mis'krada	9807848
+UA.21.5902	Konotops’ka Mis’krada	Konotops'ka Mis'krada	9808694
+UA.16.4806	Mykolayiv urban raion	Mykolayiv urban raion	9821293
+UA.03.7302	Vyzhnytsya Raion	Vyzhnytsya Raion	12156240
+UA.11.0118	Feodosiiskyi Raion	Feodosiiskyi Raion	12189505
+UA.11.0108	Yevpatoriiskyi Raion	Yevpatoriiskyi Raion	12189506
+UA.19.5602	Varaskyi Raion	Varaskyi Raion	12189508
+UA.17.5110	Odeskyi Raion	Odeskyi Raion	12189513
+UA.15.4606	Lvivskyi Raion	Lvivskyi Raion	12189514
+UA.15.4612	Chervonohradskyi Raion	Chervonohradskyi Raion	12189515
+UA.15.4602	Drohobytskyi Raion	Drohobytskyi Raion	12189516
+UA.13.3208	Buchasnskyi Raion	Buchasnskyi Raion	12189517
+UA.08.6510	Khersonskyi Raion	Khersonskyi Raion	12189518
+UA.14.4402	Alchevskyi Raion	Alchevskyi Raion	12189519
+UA.14.4406	Luhanskyi Raion	Luhanskyi Raion	12189520
+UA.14.4408	Rovenkivskyi Raion	Rovenkivskyi Raion	12189521
+UA.14.4412	Sievierodonetskyi Raion	Sievierodonetskyi Raion	12189522
+UA.14.4416	Shchastynskyi Raion	Shchastynskyi Raion	12189523
+UA.06.2604	Ivano-Frankivskyi Raion	Ivano-Frankivskyi Raion	12189526
+UA.05.1414	Mariupolskyi Raion	Mariupolskyi Raion	12189527
+UA.05.1412	Kramatorskyi Raion	Kramatorskyi Raion	12189528
+UA.05.1410	Kalmiuskyi Raion	Kalmiuskyi Raion	12189529
+UA.05.1406	Horlivskyi Raion	Horlivskyi Raion	12189530
+UA.05.1408	Donetskyi Raion	Donetskyi Raion	12189531
+UA.04.1204	Kamianskyi Raion	Kamianskyi Raion	12189532
+UA.03.7304	Dnistrovskyi Raion	Dnistrovskyi Raion	12189533
+UA.03.7306	Chernivestkyi Raion	Chernivestkyi Raion	12189534
 UG.C.89	Mpigi District	Mpigi District	233709
 UG.E.E1	Namutumba District	Namutumba District	234069
 UG.E.C3	Bukedea District	Bukedea District	234411
@@ -43405,14 +42996,14 @@ UY.01.01	Baltasar Brum	Baltasar Brum	11820878
 UZ.09.601276	Shumanay Tumani	Shumanay Tumani	601276
 UZ.09.601292	Nukus Tumani	Nukus Tumani	601292
 UZ.09.601301	Mo’ynoq Tumani	Mo'ynoq Tumani	601301
-UZ.09.601309	Qanliko‘l Tumani	Qanliko`l Tumani	601309
-UZ.09.601322	Qo‘ng‘irot Tumani	Qo`ng`irot Tumani	601322
-UZ.09.601340	Xo‘jayli Tumani	Xo`jayli Tumani	601340
+UZ.09.601309	Qanliko‘l Tumani	Qanliko'l Tumani	601309
+UZ.09.601322	Qo‘ng‘irot Tumani	Qo'ng'irot Tumani	601322
+UZ.09.601340	Xo‘jayli Tumani	Xo'jayli Tumani	601340
 UZ.09.601347	Kegeyli Tumani	Kegeyli Tumani	601347
 UZ.09.601394	Chimboy Tumani	Chimboy Tumani	601394
 UZ.09.601398	Bo‘zatov Tumani	Bo`zatov Tumani	601398
 UZ.15.1215692	Zomin Tumani	Zomin Tumani	1215692
-UZ.08.1215766	Yakkabog‘ Tumani	Yakkabog` Tumani	1215766
+UZ.08.1215766	Yakkabog‘ Tumani	Yakkabog' Tumani	1215766
 UZ.02.1215788	Vobkent Tumani	Vobkent Tumani	1215788
 UZ.08.1215811	Usmon Yusupov Tumani	Usmon Yusupov Tumani	1215811
 UZ.10.1215838	Urgut Tumani	Urgut Tumani	1215838
@@ -43420,7 +43011,7 @@ UZ.08.1215855	Kasbi Tumani	Kasbi Tumani	1215855
 UZ.02.1215958	Termiz Tumani	Termiz Tumani	1215958
 UZ.02.1216048	Jondor Tumani	Jondor Tumani	1216048
 UZ.10.1216079	Nurobod Tumani	Nurobod Tumani	1216079
-UZ.12.1216113	Sho‘rchi Tumani	Sho`rchi Tumani	1216113
+UZ.12.1216113	Sho‘rchi Tumani	Sho'rchi Tumani	1216113
 UZ.12.1216154	Sherobod Tumani	Sherobod Tumani	1216154
 UZ.08.1216186	Shahrisabz Tumani	Shahrisabz Tumani	1216186
 UZ.12.1216243	Sariosiyo Tumani	Sariosiyo Tumani	1216243
@@ -43490,7 +43081,7 @@ UZ.06.1512548	Tŭraqŭrghon Tumani	Turaqurghon Tumani	1512548
 UZ.03.1512646	Toshloq Tumani	Toshloq Tumani	1512646
 UZ.14.1512652	Toshkent Tumani	Toshkent Tumani	1512652
 UZ.07.1512673	Tomdi Tumani	Tomdi Tumani	1512673
-UZ.09.1512698	Taxtako‘pir Tumani	Taxtako`pir Tumani	1512698
+UZ.09.1512698	Taxtako‘pir Tumani	Taxtako'pir Tumani	1512698
 UZ.16.1512717	Sirdaryo Tumani	Sirdaryo Tumani	1512717
 UZ.14.1512751	Ŭrta Chirchiq Tumani	Urta Chirchiq Tumani	1512751
 UZ.05.1512818	Shovot Tumani	Shovot Tumani	1512818
@@ -43517,7 +43108,7 @@ UZ.15.1513202	Mirzachŭl Tumani	Mirzachul Tumani	1513202
 UZ.01.1513240	Marhamat Tumani	Marhamat Tumani	1513240
 UZ.13.1513269	Mirobod Tumani	Mirobod Tumani	1513269
 UZ.01.1513270	Asaka Tumani	Asaka Tumani	1513270
-UZ.03.1513272	Uchko‘prik Tumani	Uchko`prik Tumani	1513272
+UZ.03.1513272	Uchko‘prik Tumani	Uchko'prik Tumani	1513272
 UZ.13.1513328	Mirzo Ulug‘bek Tumani	Mirzo Ulug`bek Tumani	1513328
 UZ.03.1513329	Quva Tumani	Quva Tumani	1513329
 UZ.01.1513363	Qŭrghontepa Tumani	Qurghontepa Tumani	1513363
@@ -43536,7 +43127,7 @@ UZ.07.1513622	Xatirchi Tumani	Xatirchi Tumani	1513622
 UZ.05.1513635	Xonqa Tumani	Xonqa Tumani	1513635
 UZ.13.1513648	Hamza Tumani	Hamza Tumani	1513648
 UZ.06.1513713	Kosonsoy Tumani	Kosonsoy Tumani	1513713
-UZ.09.1513732	Qorao‘zak Tumani	Qorao`zak Tumani	1513732
+UZ.09.1513732	Qorao‘zak Tumani	Qorao'zak Tumani	1513732
 UZ.07.1513830	Konimex Tumani	Konimex Tumani	1513830
 UZ.14.1513860	Zangiota Tumani	Zangiota Tumani	1513860
 UZ.01.1513888	Izboskan Tumani	Izboskan Tumani	1513888
