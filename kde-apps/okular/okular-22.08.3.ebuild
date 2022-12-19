@@ -3,11 +3,11 @@
 
 EAPI=8
 
-ECM_HANDBOOK="forceoptional"
+ECM_HANDBOOK="optional"
 ECM_TEST="forceoptional"
 PVCUT=$(ver_cut 1-3)
-KFMIN=5.92.0
-QTMIN=5.15.4
+KFMIN=5.96.0
+QTMIN=5.15.5
 VIRTUALX_REQUIRED="test"
 inherit ecm gear.kde.org
 
@@ -69,7 +69,7 @@ RDEPEND="${DEPEND}
 
 PATCHES=(
 	"${FILESDIR}/${PN}-21.11.80-tests.patch" # bug 734138
-	"${FILESDIR}/${PN}-22.04.0-optional-options.patch" # bug 810958
+	"${FILESDIR}/${P}-drop-broken-kf-version-check.patch"
 )
 
 src_configure() {
@@ -77,8 +77,9 @@ src_configure() {
 		-DCMAKE_DISABLE_FIND_PACKAGE_CHM=ON
 		-DCMAKE_DISABLE_FIND_PACKAGE_KF5KHtml=ON
 		-DCMAKE_DISABLE_FIND_PACKAGE_LibZip=ON
+		-DFORCE_NOT_REQUIRED_DEPENDENCIES="KF5DocTools;CHM;KF5KHtml;LibZip;KF5Wallet;DjVuLibre;EPub;KF5KExiv2;Discount;QMobipocket;Poppler;JPEG;LibSpectre;KF5Purpose;Qt5TextToSpeech;TIFF;"
 		-DOKULAR_UI=$(usex qml "$(usex mobile "mobile" "both")" "desktop")
-		-DWITH_KWALLET=$(usex crypt)
+		$(cmake_use_find_package crypt KF5Wallet)
 		$(cmake_use_find_package djvu DjVuLibre)
 		$(cmake_use_find_package epub EPub)
 		$(cmake_use_find_package image-backend KF5KExiv2)
@@ -103,9 +104,9 @@ src_configure() {
 src_test() {
 	# mainshelltest hangs, chmgeneratortest fails, bug #603116
 	# parttest hangs, bug #641728, annotationtoolbartest fails, KDE-Bug #429640
-	# epubgeneratortest and signunsignedfieldtest fail, whatever. bug #852749
+	# signunsignedfieldtest fails, whatever. bug #852749
 	local myctestargs=(
-		-E "(mainshelltest|chmgeneratortest|parttest|annotationtoolbartest|epubgeneratortest|signunsignedfieldtest)"
+		-E "(mainshelltest|chmgeneratortest|parttest|annotationtoolbartest|signunsignedfieldtest)"
 	)
 
 	ecm_src_test
