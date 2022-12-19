@@ -5,9 +5,8 @@ EAPI=8
 
 ECM_QTHELP="true"
 ECM_TEST="true"
-KDE_GEAR="true"
-KFMIN=5.92.0
-QTMIN=5.15.4
+KFMIN=5.96.0
+QTMIN=5.15.5
 inherit ecm gear.kde.org
 
 DESCRIPTION="Library for accessing public transport timetables and other information"
@@ -27,7 +26,6 @@ RDEPEND="
 	sys-libs/zlib
 	osm? ( sci-geosciences/osmctools )
 "
-
 DEPEND="${RDEPEND}
 	test? ( >=dev-qt/qtwidgets-${QTMIN}:5 )
 "
