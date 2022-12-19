@@ -1,17 +1,16 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 QTMIN=5.15.2
-KFMIN=5.88.0
-inherit ecm kde.org
+KFMIN=5.93.0
+inherit ecm plasma-mobile.kde.org
 
 MY_P="${PN}-v${PV}"
 
 DESCRIPTION="Phone book for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/phonebook/"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-3 LGPL-2+"
 SLOT="5"
