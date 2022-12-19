@@ -1,16 +1,15 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 QTMIN=5.15.0
 KFMIN=5.90.0
 
-inherit ecm kde.org
+inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Calendar application for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/calindori/"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-3+ LGPL-3+ BSD-2 CC0-1.0 CC-BY-SA-4.0"
 SLOT="5"
@@ -27,7 +26,6 @@ DEPEND="
 	>=dev-qt/qttest-${QTMIN}:5
 	>=dev-qt/qtwidgets-${QTMIN}:5
 	>=dev-qt/qtdbus-${QTMIN}:5
-	>=dev-qt/linguist-tools-${QTMIN}:5
 	>=kde-frameworks/kconfig-${KFMIN}:5
 	>=kde-frameworks/kirigami-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
@@ -39,3 +37,5 @@ DEPEND="
 "
 
 DEPEND="${DEPEND}"
+
+BDEPEND=">=dev-qt/linguist-tools-${QTMIN}:${SLOT}"
