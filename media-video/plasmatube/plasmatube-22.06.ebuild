@@ -1,16 +1,15 @@
 # Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 KFMIN=5.81.0
 QTMIN=5.15.0
 PYTHON_COMPAT=( python3_{8..11} )
-inherit ecm kde.org python-single-r1
+inherit ecm plasma-mobile.kde.org python-single-r1
 
 DESCRIPTION="Kirigami YouTube video player based on QtMultimedia and youtube-dl"
 HOMEPAGE="https://apps.kde.org/plasmatube/"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-3+"
 SLOT="5"
