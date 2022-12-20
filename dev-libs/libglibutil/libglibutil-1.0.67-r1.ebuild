@@ -14,6 +14,10 @@ KEYWORDS="~amd64 ~arm64"
 RDEPEND="dev-libs/glib:2"
 DEPEND="${RDEPEND}"
 
+src_compile() {
+	emake LIBDIR=/usr/$(get_libdir)
+}
+
 src_install() {
 	emake LIBDIR=/usr/$(get_libdir) DESTDIR="${D}" install-dev
 }

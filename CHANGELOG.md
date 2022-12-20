@@ -13,6 +13,10 @@
 
 * `dev-libs/libgbinder-1.1.30`
 
+## Other changes
+
+* Fixed paths in pkgconfig files from `dev-libs/libgbinder` and `dev-libs/libglibutil`.
+
 # 5.25.5.22.04.3.2.2.2.1
 
 ## Package updates
