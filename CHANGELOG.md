@@ -7,7 +7,7 @@
 * `app-mobilephone/eg25-manager-0.4.6`
   Fixs support for community firmware.
 
-* `dev-libs/feedbackd-0.0.1`
+* `dev-libs/feedbackd-0.0.2`
 
 # 5.25.5.22.04.3.2.2.2.1
 

@@ -5,4 +5,7 @@
     <email>pinetoo@chuso.net</email>
     <name>Jesus Perez Rey</name>
   </maintainer>
+  <use>
+    <flag name="daemon">Build feedbackd daemon.</flag>
+  </use>
 </pkgmetadata>
