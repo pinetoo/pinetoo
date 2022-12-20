@@ -7,13 +7,13 @@ KFMIN=5.77.0
 QTMIN=5.15.0
 
 MY_PN="${PN}-fm"
-MY_P="${MY_PN}-v${PV}"
+MY_P="${MY_PN}-${PV}"
 
 inherit ecm kde.org
 
 DESCRIPTION="Multi-platform file manager"
 HOMEPAGE="https://mauikit.org/apps/index/"
-SRC_URI="https://invent.kde.org/maui/${MY_PN}/-/archive/v${PV}/${MY_P}.tar.bz2"
+SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${MY_P}.tar.xz"
 
 S="${WORKDIR}/${MY_P}"
 
@@ -24,6 +24,7 @@ IUSE=""
 
 RDEPEND="
 	~dev-libs/mauikit-${PV}
+	dev-libs/mauikit-documents
 	~dev-libs/mauikit-filebrowsing-${PV}
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
@@ -53,5 +54,3 @@ DEPEND="${RDEPEND}
 	~dev-libs/mauikit-texteditor-${PV}
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:5
 "
-
-S="${WORKDIR}/${MY_P}"
