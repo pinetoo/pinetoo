@@ -15,6 +15,8 @@
 
 * `dev-libs/mauiman-1.0.1`
 
+* `media-gfx/megapixels-1.6.0`
+
 ## Other changes
 
 * Fixed paths in pkgconfig files from `dev-libs/libgbinder` and `dev-libs/libglibutil`.

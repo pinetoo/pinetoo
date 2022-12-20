@@ -15,6 +15,7 @@ KEYWORDS="~arm64"
 IUSE="+exif +jpeg"
 
 DEPEND="
+	dev-libs/feedbackd
 	dev-libs/glib
 	>=gui-libs/gtk-4.7.1:4
 	media-gfx/zbar
