@@ -6,13 +6,11 @@ EAPI=7
 QTMIN=5.15.0
 KFMIN=5.70.0
 
-MY_P="${PN}-v${PV}"
-
 inherit ecm kde.org
 
 DESCRIPTION="MauiKit File Browsing utilities and controls"
 HOMEPAGE="https://mauikit.org/"
-SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${MY_P}.tar.bz2"
+SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
 
 LICENSE="LGPL-2.1+ BSD-2 CC0-1.0"
 SLOT="5"
@@ -45,5 +43,3 @@ RDEPEND="${DEPEND}
 	>=dev-qt/qtquickcontrols2-${QTMIN}:5
 	media-libs/kquickimageeditor
 "
-
-S="${WORKDIR}/${MY_P}"
