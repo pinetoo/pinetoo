@@ -1,5 +1,10 @@
 # 5.25.5.22.04.3.2.2.2.2
 
+## New packages
+
+* `sys-firmware/brcmfmac_sdio-firmware`
+  Firmware for Broadcom SDIO used in RockPro64.
+
 ## Package updates
 
 * `app-emulation/waydroid-1.3.4`
