@@ -24,6 +24,10 @@ CONFIG_CHECK="
 	~ANDROID_BINDER_IPC
 "
 
+src_compile() {
+	emake LIBDIR=/usr/$(get_libdir)
+}
+
 src_install() {
 	emake LIBDIR=/usr/$(get_libdir) DESTDIR="${D}" install-dev
 	insinto /etc
