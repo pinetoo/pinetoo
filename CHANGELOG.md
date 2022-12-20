@@ -15,6 +15,8 @@
 
 * `dev-libs/mauiman-1.0.1`
 
+* `kde-misc/kirigami-addons-0.6.1`
+
 * `media-gfx/megapixels-1.6.0`
 
 ## Other changes
