@@ -6,20 +6,18 @@ EAPI=7
 QTMIN=5.15.0
 KFMIN=5.90.0
 
-MY_P="${PN}-v${PV}"
-
 inherit ecm kde.org
 
 DESCRIPTION="Kit for developing MAUI Apps"
 HOMEPAGE="https://mauikit.org/"
-SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${MY_P}.tar.bz2"
+SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
 
 LICENSE="LGPL-3"
 SLOT="5"
 KEYWORDS="~arm64"
 
 DEPEND="
-	dev-libs/mauiman
+	>=dev-libs/mauiman-1.0.1
 	>=dev-qt/qtconcurrent-${QTMIN}:5
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdbus-${QTMIN}:5
@@ -45,5 +43,3 @@ RDEPEND="${DEPEND}
 	>=kde-frameworks/kirigami-${KFMIN}:5
 	>=kde-frameworks/purpose-${KFMIN}:5
 "
-
-S="${WORKDIR}/${MY_P}"
