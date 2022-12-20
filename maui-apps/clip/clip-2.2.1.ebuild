@@ -6,13 +6,11 @@ EAPI=7
 QTMIN=5.14.0
 KFMIN=5.60.0
 
-MY_P="${PN}-v${PV}"
-
 inherit ecm kde.org
 
 DESCRIPTION="Video player and video collection manager"
 HOMEPAGE="https://mauikit.org/apps/clip/"
-SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${MY_P}.tar.bz2"
+SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-3+ LGPL-3+"
 SLOT="0"
@@ -44,5 +42,3 @@ RDEPEND="${DEPEND}
 	media-sound/vvave
 	media-video/mpv
 "
-
-S="${WORKDIR}/${MY_P}"
