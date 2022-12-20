@@ -19,6 +19,8 @@
 
 * `media-gfx/megapixels-1.6.0`
 
+* `media-sound/callaudiod-0.1.6`
+
 ## Other changes
 
 * Fixed paths in pkgconfig files from `dev-libs/libgbinder` and `dev-libs/libglibutil`.
