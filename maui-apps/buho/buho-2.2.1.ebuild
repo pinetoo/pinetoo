@@ -6,13 +6,11 @@ EAPI=7
 QTMIN=5.15.0
 KFMIN=5.60.0
 
-MY_P="${PN}-v${PV}"
-
 inherit ecm kde.org
 
 DESCRIPTION="Text and note keeper"
 HOMEPAGE="https://mauikit.org/apps/buho/"
-SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${MY_P}.tar.bz2"
+SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -24,6 +22,7 @@ DEPEND="
 	~dev-libs/mauikit-filebrowsing-${PV}
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
+	>=dev-qt/qtdbus-${QTMIN}:5
 	>=dev-qt/qtsql-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
 	>=dev-qt/qtwidgets-${QTMIN}:5
@@ -45,5 +44,3 @@ DEPEND="
 
 RDEPEND="${DEPEND}
 	~dev-libs/mauikit-texteditor-${PV}"
-
-S="${WORKDIR}/${MY_P}"
