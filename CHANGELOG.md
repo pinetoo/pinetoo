@@ -13,6 +13,8 @@
 
 * `dev-libs/libgbinder-1.1.30`
 
+* `dev-libs/mauiman-1.0.1`
+
 ## Other changes
 
 * Fixed paths in pkgconfig files from `dev-libs/libgbinder` and `dev-libs/libglibutil`.
