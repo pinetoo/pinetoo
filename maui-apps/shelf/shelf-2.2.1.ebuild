@@ -6,13 +6,11 @@ EAPI=7
 KFMIN=5.60.0
 QTMIN=5.15.2
 
-MY_P="${PN}-v${PV}"
-
 inherit ecm kde.org
 
 DESCRIPTION="Document and EBook collection manager"
 HOMEPAGE="https://mauikit.org/apps/shelf/"
-SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${MY_P}.tar.bz2"
+SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -20,9 +18,9 @@ KEYWORDS="~arm64"
 
 DEPEND="
 	~dev-libs/mauikit-${PV}
+	dev-libs/mauikit-documents
 	~dev-libs/mauikit-filebrowsing-${PV}
 	app-text/poppler
-	>=dev-qt/qtconcurrent-${QTMIN}:5
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
@@ -34,10 +32,6 @@ DEPEND="
 
 RDEPEND="${DEPEND}
 	~dev-libs/mauikit-texteditor-${PV}
-	>=dev-qt/qtquickcontrols-${QTMIN}:5
 	>=dev-qt/qtquickcontrols2-${QTMIN}:5
 	>=kde-frameworks/kirigami-${KFMIN}:5
-	media-libs/kquickimageeditor:5
 "
-
-S="${WORKDIR}/${MY_P}"
