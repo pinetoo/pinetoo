@@ -2,6 +2,8 @@
 
 ## Package updates
 
+* `app-emulation/waydroid-1.3.4`
+
 * `app-mobilephone/eg25-manager-0.4.6`
   Fixs support for community firmware.
 
