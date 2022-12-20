@@ -9,6 +9,8 @@
 
 * `dev-libs/feedbackd-0.0.2`
 
+* `dev-libs/feedbackd-device-themes-0.0.2`
+
 * `dev-libs/libgbinder-1.1.30`
 
 # 5.25.5.22.04.3.2.2.2.1

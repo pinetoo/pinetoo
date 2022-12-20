@@ -18,6 +18,6 @@ LICENSE="GPL-3"
 SLOT="0"
 
 DEPEND="dev-libs/json-glib"
-RDEPEND="dev-libs/feedbackd"
+RDEPEND=">=dev-libs/feedbackd-${PV}"
 
 S="${WORKDIR}/${MY_P}"
