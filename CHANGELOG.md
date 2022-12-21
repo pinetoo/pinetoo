@@ -1,4 +1,10 @@
-# 5.25.5.22.04.3.2.2.2.2
+# 5.25.5.22.08.3.2.2.1.0
+
+**KDE Gear** updated to **22.08.3**
+
+**KDE Plasma Mobile** updated to **22.06**
+
+**Maui apps** updated to **2.2.1**
 
 ## New packages
 
