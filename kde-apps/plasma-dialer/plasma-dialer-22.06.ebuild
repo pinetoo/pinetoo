@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -6,8 +6,6 @@ EAPI=8
 KFMIN=5.89.0
 QTMIN=5.15.2
 inherit ecm plasma-mobile.kde.org
-
-MY_P="${PN}-v${PV}"
 
 DESCRIPTION="Dialer for Plasma Mobile"
 HOMEPAGE="https://invent.kde.org/plasma-mobile/plasma-dialer"

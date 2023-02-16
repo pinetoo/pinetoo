@@ -1,7 +1,7 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 EGIT_REPO_URI="https://invent.kde.org/plasma-mobile/plasma-mobile-sounds.git"
 EGIT_COMMIT="34a28c44e433fa4e4062bf91129882f0671ea9f5"

@@ -1,18 +1,16 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 KFMIN=5.40.0
 QTMIN=5.15.2
-
-MY_P="${PN}-v${PV}"
 
 inherit ecm kde.org
 
 DESCRIPTION="Multi-platform media player"
 HOMEPAGE="https://vvave.kde.org"
-SRC_URI="https://invent.kde.org/maui/${PN}/-/archive/v${PV}/${MY_P}.tar.bz2"
+SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
 
 LICENSE="LGPL-3"
 SLOT="0"
@@ -42,5 +40,3 @@ RDEPEND="${DEPEND}
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:5
 	>=dev-qt/qtmultimedia-${QTMIN}:5
 "
-
-S="${WORKDIR}/${MY_P}"

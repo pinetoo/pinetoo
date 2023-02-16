@@ -5,6 +5,10 @@
 * `kde-misc/kirigami-addons`
   Now available in `::gentoo` as `dev-libs/kirigami-addons`
 
+## Other changes
+
+* Bump EAPI to 8 for packages using `*.kde.org` eclasses as older EAPIs are no longer supported.
+
 # 5.25.5.22.08.3.2.2.1.0
 
 **KDE Gear** updated to **22.08.3**
