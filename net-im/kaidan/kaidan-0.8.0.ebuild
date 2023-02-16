@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -36,7 +36,7 @@ DEPEND="
 	>=dev-qt/qtsvg-${QTMIN}:5
 	>=kde-frameworks/kirigami-${KFMIN}:5
 	>=kde-frameworks/qqc2-desktop-style-${KFMIN}:5
-	>=media-libs/zxing-cpp-1.0.8
+	<media-libs/zxing-cpp-2
 	>=net-libs/qxmpp-1.3.0
 	kde? ( >=kde-frameworks/knotifications-${KFMIN}:5 )
 	>=dev-qt/qtxml-${QTMIN}:5
