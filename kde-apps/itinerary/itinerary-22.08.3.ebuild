@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,6 +17,7 @@ IUSE=""
 
 DEPEND="
 	>=dev-libs/khealthcertificate-22.06:5
+	dev-libs/kirigami-addons
 	>=dev-libs/kopeninghours-${PV}:5
 	>=dev-libs/kosmindoormap-${PV}:5
 	>=dev-libs/kpublictransport-${PV}:5
@@ -56,7 +57,6 @@ DEPEND="
 	>=kde-frameworks/prison-${KFMIN}:5
 	>=kde-frameworks/qqc2-desktop-style-${KFMIN}:5
 	>=kde-frameworks/solid-${KFMIN}:5
-	kde-misc/kirigami-addons
 	x11-misc/shared-mime-info
 	sys-libs/zlib
 "

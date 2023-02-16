@@ -1,3 +1,10 @@
+# 5.25.5.22.08.3.2.2.1.1
+
+## Removed
+
+* `kde-misc/kirigami-addons`
+  Now available in `::gentoo` as `dev-libs/kirigami-addons`
+
 # 5.25.5.22.08.3.2.2.1.0
 
 **KDE Gear** updated to **22.08.3**

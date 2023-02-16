@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -32,7 +32,7 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}
+	>=dev-libs/kirigami-addons-0.2
 	>=dev-qt/qtquickcontrols-${QTMIN}:5
 	>=kde-frameworks/kirigami-${KFMIN}:5
-	>=kde-misc/kirigami-addons-0.2
 "
