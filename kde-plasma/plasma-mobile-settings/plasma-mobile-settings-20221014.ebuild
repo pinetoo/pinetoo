@@ -1,10 +1,10 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/extra/plasma-mobile-additional/plasma-mobile-settings.git"
-EGIT_COMMIT="2b071f162ef104d9305d598e5dbfab57d6979941"
+EGIT_COMMIT="a806e57b872932ff11cc5e14d4b9fe8db3f86518"
 
 inherit git-r3 gnome2-utils udev
 
