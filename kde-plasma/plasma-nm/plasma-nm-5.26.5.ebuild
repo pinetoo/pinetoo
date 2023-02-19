@@ -1,10 +1,10 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 ECM_TEST="true"
-KFMIN=5.95.0
+KFMIN=5.99.0
 PVCUT=$(ver_cut 1-3)
 QTMIN=5.15.5
 inherit ecm plasma.kde.org
@@ -17,7 +17,7 @@ KEYWORDS="~arm64"
 IUSE="mobile modemmanager openconnect teamd"
 
 DEPEND="
-	>=app-crypt/qca-2.3.0:2
+	>=app-crypt/qca-2.3.0:2[qt5(+)]
 	>=dev-qt/qtdbus-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5[widgets]
 	>=dev-qt/qtgui-${QTMIN}:5
@@ -28,7 +28,6 @@ DEPEND="
 	>=kde-frameworks/kconfigwidgets-${KFMIN}:5
 	>=kde-frameworks/kcoreaddons-${KFMIN}:5
 	>=kde-frameworks/kdbusaddons-${KFMIN}:5
-	>=kde-frameworks/kdeclarative-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	>=kde-frameworks/kio-${KFMIN}:5
 	>=kde-frameworks/kitemviews-${KFMIN}:5
@@ -56,13 +55,22 @@ DEPEND="
 RDEPEND="${DEPEND}
 	>=dev-qt/qtquickcontrols-${QTMIN}:5
 	>=dev-qt/qtquickcontrols2-${QTMIN}:5
+	>=kde-frameworks/kdeclarative-${KFMIN}:5
 	>=kde-frameworks/kirigami-${KFMIN}:5
+	>=kde-frameworks/kquickcharts-${KFMIN}:5
 	>=kde-plasma/kde-cli-tools-${PVCUT}:5
 "
-BDEPEND="virtual/pkgconfig"
+BDEPEND="
+	>=kde-frameworks/kcmutils-${KFMIN}:5
+	virtual/pkgconfig
+"
 
 src_prepare() {
 	ecm_src_prepare
+
+	if ! use mobile; then
+		PATCHES=( "${FILESDIR}/${PN}-5.26.0-unused-dep.patch" )
+	fi
 
 	# TODO: try to get a build switch upstreamed
 	if ! use openconnect; then
