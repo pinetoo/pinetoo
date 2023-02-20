@@ -10,6 +10,8 @@
 
 * `dev-libs/libgbinder-1.1.32`
 
+* `dev-libs/libglibutil-1.0.68`
+
 ## Removed
 
 * `kde-misc/kirigami-addons`
