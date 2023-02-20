@@ -1,13 +1,13 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/core/linux-pinephone.git"
-EGIT_BRANCH="5.19-megi"
-EGIT_COMMIT="b91be04220d84a725932d33fe7538b3dc1483af2"
+EGIT_BRANCH="6.1-megi"
+EGIT_COMMIT="6789758fe6b42b33af2dfa9bedc7bed43c87caef"
 
-KERNEL_TAG="5.19-20220909-1622"
+KERNEL_TAG="6.1-20230214-2103"
 
 inherit git-r3 kernel-build
 
@@ -20,10 +20,6 @@ KEYWORDS="~arm64"
 IUSE="debug systemd"
 
 PATCHES=(
-	"${WORKDIR}/${P}/5.19.8-9.patch"
-	"${WORKDIR}/${P}/5.19.9-10.patch"
-	"${WORKDIR}/${P}/5.19.10-11.patch"
-	"${WORKDIR}/${P}/5.19.11-12.patch"
 	"${WORKDIR}/${P}/0101-arm64-dts-pinephone-drop-modem-power-node.patch"
 	"${WORKDIR}/${P}/0102-arm64-dts-pinephone-pro-remove-modem-node.patch"
 	"${WORKDIR}/${P}/0103-ccu-sun50i-a64-reparent-clocks-to-lower-speed-oscillator.patch"
@@ -45,6 +41,7 @@ PATCHES=(
 	"${WORKDIR}/${P}/0310-bootsplash.patch"
 	"${WORKDIR}/${P}/0311-bootsplash.patch"
 	"${WORKDIR}/${P}/0312-bootsplash.patch"
+	"${FILESDIR}/ov5640-autosuspend-timer.patch"
 )
 
 S="${WORKDIR}/linux-orange-pi-${KERNEL_TAG}"

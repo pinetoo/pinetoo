@@ -18,6 +18,8 @@
 
 * `sys-firmware/brcmfmac_sdio-firmware-20230210`
 
+* `sys-kernel/pinephone-kernel-6.1.12`
+
 ## Removed
 
 * `kde-misc/kirigami-addons`
