@@ -8,4 +8,7 @@
   <upstream>
     <remote-id type="github">anbox/anbox</remote-id>
   </upstream>
+  <use>
+    <flag name="nftables">Use <pkg>net-firewall/nftables</pkg> instead of <pkg>net-firewall/iptables</pkg></flag>
+  </use>
 </pkgmetadata>

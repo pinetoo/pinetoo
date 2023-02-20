@@ -1,16 +1,17 @@
-# Copyright 2020-2022 Gentoo Authors
+# Copyright 2020-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-inherit linux-info systemd
+inherit linux-info xdg
 
 DESCRIPTION="Container-based approach to boot a full Android system on a regular Linux system"
 HOMEPAGE="https://waydro.id/"
 
 SRC_URI="https://github.com/${PN}/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 KEYWORDS="~amd64 ~arm64"
-IUSE="systemd"
+IUSE="dbus nftables systemd"
+REQUIRED_USE="systemd? ( dbus )"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -22,8 +23,11 @@ DEPEND="
 
 RDEPEND="
 	${DEPEND}
+	dev-python/pygobject
 	net-dns/dnsmasq
-	net-firewall/nftables
+	dbus? ( dev-python/dbus-python )
+	nftables? ( net-firewall/nftables )
+	!nftables? ( net-firewall/iptables )
 "
 
 BDEPEND="virtual/pkgconfig"
@@ -44,18 +48,10 @@ pkg_setup() {
 }
 
 src_install() {
-	insinto /etc/gbinder.d
-
-	insinto "/usr/lib/${PN}"
-	doins -r data tools waydroid.py
-
-	fperms 755 "/usr/lib/${PN}/${PN}.py" "/usr/lib/${PN}/data/scripts/${PN}-net.sh"
-
-	dosym "../lib/${PN}/${PN}.py" "/usr/bin/${PN}"
-
-	if use systemd; then
-		systemd_dounit "systemd/${PN}-container.service"
-	else
-		newinitd "${FILESDIR}/${PN}-container.initd" "${PN}-container"
-	fi
+	emake \
+		USE_DBUS_ACTIVATION=$(usex dbus 1 0) \
+		USE_SYSTEMD=$(usex systemd 1 0) \
+		USE_NFTABLES=$(usex nftables 1 0) \
+		DESTDIR="${D}" install
+	newinitd "${FILESDIR}/${PN}-container.initd" "${PN}-container"
 }

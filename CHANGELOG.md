@@ -1,5 +1,9 @@
 # 5.25.5.22.08.3.2.2.1.1
 
+## Package updates
+
+* `app-emulation/waydroid-1.4.0`
+
 ## Removed
 
 * `kde-misc/kirigami-addons`
