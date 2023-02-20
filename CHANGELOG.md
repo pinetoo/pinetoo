@@ -6,6 +6,8 @@
 
 * `dev-libs/feedbackd-0.0.3`
 
+* `dev-libs/feedbackd-device-themes-0.0.3`
+
 ## Removed
 
 * `kde-misc/kirigami-addons`
