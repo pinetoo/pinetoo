@@ -12,6 +12,8 @@
 
 * `dev-libs/libglibutil-1.0.68`
 
+* `media-sound/callaudiod-0.1.7`
+
 ## Removed
 
 * `kde-misc/kirigami-addons`
