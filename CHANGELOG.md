@@ -8,6 +8,8 @@
 
 * `dev-libs/feedbackd-device-themes-0.0.3`
 
+* `dev-libs/libgbinder-1.1.32`
+
 ## Removed
 
 * `kde-misc/kirigami-addons`
