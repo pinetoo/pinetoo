@@ -14,6 +14,8 @@
 
 * `media-sound/callaudiod-0.1.7`
 
+* `sys-firmware/brcmfmac_sdio-firmware-20230210`
+
 ## Removed
 
 * `kde-misc/kirigami-addons`
