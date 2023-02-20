@@ -4,6 +4,8 @@
 
 * `app-emulation/waydroid-1.4.0`
 
+* `dev-libs/feedbackd-0.0.3`
+
 ## Removed
 
 * `kde-misc/kirigami-addons`

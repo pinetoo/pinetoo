@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -6,16 +6,15 @@ VALA_USE_DEPEND="vapigen"
 
 inherit gnome2-utils meson udev vala
 
-MY_PV=${PV/_pre/+git}
-MY_P=${PN}-v${MY_PV}
-GMOBILE_COMMIT="1039e7808195d4de367ce2718481641ca8af2427"
+MY_P=${PN}-v${PV}
+GMOBILE_COMMIT="d483537aee4778b114ce5d50c4c8a9f8d58337ed"
 
 KEYWORDS="~arm64"
 
 DESCRIPTION="A daemon to provide feedback triggered by application events"
 HOMEPAGE="https://source.puri.sm/Librem5/feedbackd"
 SRC_URI="
-	https://source.puri.sm/Librem5/${PN}/-/archive/v${MY_PV}/${MY_P}.tar.bz2
+	https://source.puri.sm/Librem5/feedbackd/-/archive/v${PV}/${MY_P}.tar.bz2
 	daemon? ( https://gitlab.gnome.org/guidog/gmobile/-/archive/${GMOBILE_COMMIT}/gmobile-${GMOBILE_COMMIT}.tar.bz2 )
 "
 
