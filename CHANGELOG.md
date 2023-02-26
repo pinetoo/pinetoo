@@ -1,3 +1,10 @@
+# 5.26.5.22.08.3.2.2.1.1
+
+## Removed
+
+* `gui-libs/gtk`
+  A newer version is now available in `::gentoo`.
+
 # 5.26.5.22.08.3.2.2.1.0
 
 **KDE Plasma** updated to **5.26.5**
