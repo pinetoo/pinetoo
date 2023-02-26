@@ -5,6 +5,9 @@
 * `gui-libs/gtk`
   A newer version is now available in `::gentoo`.
 
+* `net-im/telegram-desktop`
+  A newer version is now available in `::gentoo` no longer affected by the stack smashing problem.
+
 # 5.26.5.22.08.3.2.2.1.0
 
 **KDE Plasma** updated to **5.26.5**
