@@ -6,6 +6,8 @@
 
 * `dev-libs/feedbackd-device-themes-0.1.0`
 
+* `dev-libs/libgbinder-1.1.32`
+
 ## Removed
 
 * `gui-libs/gtk`
