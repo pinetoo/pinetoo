@@ -4,6 +4,8 @@
 
 * `dev-libs/feedbackd-0.1.0`
 
+* `dev-libs/feedbackd-device-themes-0.1.0`
+
 ## Removed
 
 * `gui-libs/gtk`
