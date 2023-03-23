@@ -76,8 +76,6 @@ src_configure() {
 src_install() {
 	default
 	meson_src_install
-	insinto /etc/modules-load.d
-	doins debian/modules-load.d/feedbackd.conf
 	udev_newrules debian/feedbackd.udev 90-feedbackd.rules
 }
 
