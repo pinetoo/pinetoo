@@ -1,5 +1,10 @@
 # 5.26.5.22.08.3.2.2.1.1
 
+## New packages
+
+* `dev-qt/qtsystems`
+  Dependency for `dev-libs/mauiman`.
+
 ## Package updates
 
 * `dev-libs/feedbackd-0.1.0`
