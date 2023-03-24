@@ -20,6 +20,8 @@
 
 * `media-gfx/postprocessd-0.3.0`
 
+* `sys-kernel/linux-headers-6.1.21`
+
 ## Removed
 
 * `gui-libs/gtk`
