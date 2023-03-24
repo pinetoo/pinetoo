@@ -3,8 +3,8 @@
 
 EAPI=8
 
-QTMIN=5.15.0
-KFMIN=5.70.0
+QTMIN=5.15.2
+KFMIN=5.94.0
 
 inherit ecm kde.org
 
@@ -17,6 +17,7 @@ SLOT="5"
 KEYWORDS="~arm64"
 
 DEPEND="
+	<app-text/tesseract-5:0
 	~dev-libs/mauikit-${PV}
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
@@ -28,6 +29,7 @@ DEPEND="
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	media-gfx/exiv2
 	media-libs/kquickimageeditor
+	media-libs/leptonica
 "
 
 RDEPEND="${DEPEND}
