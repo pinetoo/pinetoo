@@ -36,5 +36,4 @@ DEPEND="
 
 RDEPEND="${DEPEND}
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:5
-	~dev-libs/mauikit-texteditor-${PV}
 "
