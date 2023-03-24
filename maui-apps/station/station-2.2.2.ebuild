@@ -19,6 +19,7 @@ KEYWORDS="~arm64"
 DEPEND="
 	~dev-libs/mauikit-${PV}
 	~dev-libs/mauikit-filebrowsing-${PV}
+	dev-libs/mauikit-terminal
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtdbus-${QTMIN}:5
@@ -26,6 +27,7 @@ DEPEND="
 	>=dev-qt/qtnetwork-${QTMIN}:5
 	>=dev-qt/qtquickcontrols-${QTMIN}:5
 	>=dev-qt/qtwidgets-${QTMIN}:5
+	>=kde-frameworks/kconfig-${KFMIN}:5
 	>=kde-frameworks/kcoreaddons-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	>=kde-frameworks/plasma-${KFMIN}:5
