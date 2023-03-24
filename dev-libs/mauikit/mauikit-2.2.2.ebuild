@@ -17,7 +17,7 @@ SLOT="5"
 KEYWORDS="~arm64"
 
 DEPEND="
-	>=dev-libs/mauiman-1.0.1
+	>=dev-libs/mauiman-1.0.2
 	>=dev-qt/qtconcurrent-${QTMIN}:5
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdbus-${QTMIN}:5
@@ -40,6 +40,7 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}
+	~dev-libs/mauikit-filebrowsing-${PV}
 	>=kde-frameworks/kirigami-${KFMIN}:5
 	>=kde-frameworks/purpose-${KFMIN}:5
 "
