@@ -13,6 +13,8 @@
 
 * `dev-libs/libgbinder-1.1.32`
 
+* `dev-libs/mauiman-1.0.2`
+
 ## Removed
 
 * `gui-libs/gtk`
