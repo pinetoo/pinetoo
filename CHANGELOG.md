@@ -1,6 +1,11 @@
-# 5.26.5.22.08.3.2.2.1.1
+# 5.26.5.22.08.3.2.2.2.0
+
+**Maui apps** updated to **2.2.2**
 
 ## New packages
+
+* `dev-libs/mauikit-terminal`
+  Dependency for `maui-apps/index` and `maui-apps/nota`.
 
 * `dev-qt/qtsystems`
   Dependency for `dev-libs/mauiman`.
@@ -12,8 +17,6 @@
 * `dev-libs/feedbackd-device-themes-0.1.0`
 
 * `dev-libs/libgbinder-1.1.32`
-
-* `dev-libs/mauiman-1.0.2`
 
 ## Removed
 
