@@ -18,6 +18,8 @@
 
 * `dev-libs/libgbinder-1.1.32`
 
+* `media-gfx/postprocessd-0.3.0`
+
 ## Removed
 
 * `gui-libs/gtk`
