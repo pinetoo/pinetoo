@@ -22,6 +22,8 @@
 
 * `sys-kernel/linux-headers-6.1.21`
 
+* `sys-kernel/pinephone-kernel-6.1.21`
+
 ## Removed
 
 * `gui-libs/gtk`
