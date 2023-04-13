@@ -32,6 +32,11 @@
 * `net-im/telegram-desktop`
   A newer version is now available in `::gentoo` no longer affected by the stack smashing problem.
 
+## Other changes
+
+* `app-misc/pinephone-manjaro-tweaks`
+  Add --test-quick-suspend-resume to ModemManager.
+
 # 5.26.5.22.08.3.2.2.1.0
 
 **KDE Plasma** updated to **5.26.5**

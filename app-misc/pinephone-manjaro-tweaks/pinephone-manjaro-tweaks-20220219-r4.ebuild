@@ -41,9 +41,18 @@ src_install() {
 
 	systemd_dounit pinephone-setup-usb-network.service pinephone-usb-gadget.service
 
+	insinto /etc/systemd/system
+	doins "${FILESDIR}/ModemManager.service"
+
 	udev_dorules 10-pinephone-brightness.rules 10-proximity.rules
 }
 
 pkg_postinst() {
 	gnome2_schemas_update
+	udev_reload
+}
+
+pkg_postrm() {
+	gnome2_schemas_update
+	udev_reload
 }
