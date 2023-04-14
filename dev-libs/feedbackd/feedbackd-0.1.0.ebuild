@@ -81,9 +81,9 @@ src_install() {
 
 pkg_postinst() {
 	gnome2_schemas_update
-	udev_reload in pkg_postinst phase
+	udev_reload
 }
 pkg_postrm() {
 	gnome2_schemas_update
-	udev_reload in pkg_postinst phase
+	udev_reload
 }
