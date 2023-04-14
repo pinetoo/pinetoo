@@ -1,6 +1,14 @@
+# 5.26.5.22.12.3.2.2.2.0
+
+* `app-misc/pinephone-manjaro-tweaks` add missing systemd service unit it tries to install for ModemManager.
+
 # 5.26.5.22.08.3.2.2.2.0
 
 **Maui apps** updated to **2.2.2**
+
+## Known issues
+
+* `app-misc/pinephone-manjaro-tweaks` is missing the systemd service unit it tries to install for ModemManager.
 
 ## New packages
 
