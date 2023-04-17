@@ -5,4 +5,9 @@
     <email>pinetoo@chuso.net</email>
     <name>Jesus Perez Rey</name>
   </maintainer>
+  <use>
+    <flag name="holidays">Enable <pkg>kde-frameworks/kholidays</pkg> integration</flag>
+    <flag name="metadata">Enable metadata extraction</flag>
+    <flag name="thumbnail">Enable thumbnails support</flag>
+  </use>
 </pkgmetadata>
