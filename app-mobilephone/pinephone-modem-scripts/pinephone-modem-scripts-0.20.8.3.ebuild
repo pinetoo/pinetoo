@@ -18,14 +18,12 @@ KEYWORDS="~arm64"
 IUSE="modemmanager ofono"
 REQUIRED_USE="^^ ( modemmanager ofono )"
 
-DEPEND="
+RDEPEND="
 	sys-apps/systemd
 	net-misc/atinout
 	>sys-kernel/pinephone-kernel-5.10.12
 	app-mobilephone/eg25-manager
 "
-
-DEPEND="${DEPEND}"
 
 src_install() {
 	exeinto /usr/sbin
