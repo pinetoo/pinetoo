@@ -23,8 +23,6 @@ RDEPEND="
 	sys-apps/systemd
 "
 
-DEPEND="${DEPEND}"
-
 src_install() {
 	systemd_dounit bootsplash-*.{path,service}
 }
