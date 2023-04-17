@@ -1,11 +1,11 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 ECM_QTHELP="true"
 ECM_TEST="true"
-KFMIN=5.96.0
+KFMIN=5.101.0
 QTMIN=5.15.5
 inherit ecm gear.kde.org
 
@@ -29,3 +29,10 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	test? ( >=dev-qt/qtwidgets-${QTMIN}:5 )
 "
+
+src_configure() {
+	local mycmakeargs=(
+		-DCMAKE_DISABLE_FIND_PACKAGE_OsmTools=ON # we have no use for it
+	)
+	ecm_src_configure
+}
