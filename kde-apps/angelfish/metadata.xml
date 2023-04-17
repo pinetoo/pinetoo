@@ -5,4 +5,7 @@
     <email>pinetoo@chuso.net</email>
     <name>Jesus Perez Rey</name>
   </maintainer>
+  <use>
+    <flag name="haptic">Pull <pkg>dev-qt/qtfeedback</pkg> for haptic feedback support.</flag>
+  </use>
 </pkgmetadata>
