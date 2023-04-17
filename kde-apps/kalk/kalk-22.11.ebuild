@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -21,7 +21,6 @@ DEPEND="
 	dev-libs/mpfr
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
-	dev-qt/qtfeedback:5
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
 	>=dev-qt/qtnetwork-${QTMIN}:5
@@ -35,4 +34,5 @@ DEPEND="
 	>=kde-frameworks/kunitconversion-${KFMIN}:5
 "
 
-DEPEND="${DEPEND}"
+RDEPEND="${DEPEND}
+	dev-qt/qtfeedback:5"
