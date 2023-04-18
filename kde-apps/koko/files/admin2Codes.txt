@@ -1863,39 +1863,8 @@ AZ.09.7669203	Khatai raion	Khatai raion	7669203
 AZ.35.8014931	Kangarli Rayon	Kangarli Rayon	8014931
 AZ.35.8411069	Nakhchivan	Nakhchivan	8411069
 AZ.09.8572651	Nizami Rayonu	Nizami Rayonu	8572651
-BA.02.3194943	Modriča	Modrica	3194943
-BA.02.3294539	Opština Bileća	Opstina Bileca	3294539
-BA.02.3294540	Ljubinje	Ljubinje	3294540
-BA.02.3294558	Gacko	Gacko	3294558
-BA.02.3294561	Opština Nevesinje	Opstina Nevesinje	3294561
-BA.02.3294564	Kalinovik	Kalinovik	3294564
-BA.02.3294565	Foča	Foca	3294565
-BA.02.3294566	Opština Čajniče	Opstina Cajnice	3294566
-BA.02.3294770	Rudo	Rudo	3294770
-BA.02.3294772	Opština Višegrad	Opstina Visegrad	3294772
-BA.02.3294773	Opština Pale	Opstina Pale	3294773
-BA.02.3294774	Rogatica	Rogatica	3294774
-BA.02.3294829	Srebrenica	Srebrenica	3294829
-BA.02.3294830	Han Pijesak	Han Pijesak	3294830
-BA.02.3294839	Vlasenica	Vlasenica	3294839
-BA.02.3294865	Opština Teslić	Opstina Teslic	3294865
-BA.02.3294871	Opština Kotor Varoš	Opstina Kotor Varos	3294871
-BA.02.3294873	Lopare	Lopare	3294873
-BA.02.3294874	Opština Ugljevik	Opstina Ugljevik	3294874
-BA.02.3294889	Opština Čelinac	Opstina Celinac	3294889
-BA.02.3294893	Banja Luka	Banja Luka	3294893
-BA.02.3294894	Doboj	Doboj	3294894
-BA.02.3294896	Bijeljina	Bijeljina	3294896
-BA.02.3294904	Prnjavor	Prnjavor	3294904
-BA.02.3294906	Opština Laktaši	Opstina Laktasi	3294906
-BA.02.3294909	Prijedor	Prijedor	3294909
-BA.02.3294910	Derventa	Derventa	3294910
 BA.02.3294911	Opština Modriča	Opstina Modrica	3294911
-BA.02.3294912	Srbac	Srbac	3294912
 BA.02.3294915	Opština Novi Grad	Opstina Novi Grad	3294915
-BA.02.3294916	Opština Šamac	Opstina Samac	3294916
-BA.02.3294917	Opština Gradiška	Opstina Gradiska	3294917
-BA.02.3294918	Opstina Brod	Opstina Brod	3294918
 BA.01.3343704	Unsko-Sanski Kanton	Unsko-Sanski Kanton	3343704
 BA.01.3343706	Posavski Kanton	Posavski Kanton	3343706
 BA.01.3343716	Tuzlanski Kanton	Tuzlanski Kanton	3343716
@@ -1904,41 +1873,12 @@ BA.01.3343726	Bosansko-Podrinjski Kanton Goražde	Bosansko-Podrinjski Kanton Gor
 BA.01.3343731	Srednjobosanski Kanton	Srednjobosanski Kanton	3343731
 BA.01.3343733	Hercegovačko-Neretvanski Kanton	Hercegovacko-Neretvanski Kanton	3343733
 BA.01.3343736	Zapadnohercegovački Kanton	Zapadnohercegovacki Kanton	3343736
-BA.01.3343737	Kanton Sarajevo	Kanton Sarajevo	3343737
+BA.01.3343737	Canton of Sarajevo	Canton of Sarajevo	3343737
 BA.01.3343740	Kanton 10	Kanton 10	3343740
 BA.02.3344087	Opština Krupa na Uni	Opstina Krupa na Uni	3344087
-BA.02.3344088	Opština Kozarska Dubica	Opstina Kozarska Dubica	3344088
-BA.02.3344089	Opština Oštra Luka	Opstina Ostra Luka	3344089
 BA.02.3344090	Opština Vukosavlje	Opstina Vukosavlje	3344090
-BA.02.3344091	Općina Donji Žabar	Opcina Donji Zabar	3344091
-BA.02.3344092	Opština Pelagićevo	Opstina Pelagicevo	3344092
-BA.02.3344093	Općina Kneževo	Opcina Knezevo	3344093
-BA.02.3344094	Opština Mrkonjić Grad	Opstina Mrkonjic Grad	3344094
-BA.02.3344095	Opština Šipovo	Opstina Sipovo	3344095
-BA.02.3344096	Opština Petrovac	Opstina Petrovac	3344096
-BA.02.3344097	Istočni Drvar	Istocni Drvar	3344097
-BA.02.3344098	Opština Ribnik	Opstina Ribnik	3344098
 BA.02.3344099	Mrkonjic Grad Jug Opcina	Mrkonjic Grad Jug Opcina	3344099
-BA.02.3344100	Zvornik	Zvornik	3344100
-BA.02.3344101	Opština Osmaci	Opstina Osmaci	3344101
-BA.02.3344102	Opština Šekovići	Opstina Sekovici	3344102
-BA.02.3344103	Bratunac	Bratunac	3344103
-BA.02.3344104	Opština Sokolac	Opstina Sokolac	3344104
-BA.02.3344105	Novo Goražde	Novo Gorazde	3344105
-BA.02.3344106	Istočni Stari Grad	Istocni Stari Grad	3344106
-BA.02.3344107	Istočno Novo Sarajevo	Istocno Novo Sarajevo	3344107
-BA.02.3344108	Istočna Ilidža	Istocna Ilidza	3344108
-BA.02.3344109	Opština Trnovo	Opstina Trnovo	3344109
-BA.02.3344110	Opština Berkovići	Opstina Berkovici	3344110
-BA.02.3344111	Istočni Mostar	Istocni Mostar	3344111
-BA.02.3344112	Jezero	Jezero	3344112
-BA.02.3344113	Opština Kupres	Opstina Kupres	3344113
-BA.02.3344114	Kostajnica	Kostajnica	3344114
-BA.02.3344115	Opština Petrovo	Opstina Petrovo	3344115
-BA.02.3344117	Trebinje	Trebinje	3344117
-BA.02.3344118	Opština Milići	Opstina Milici	3344118
 BA.02.3344119	Skelani Opština	Skelani Opstina	3344119
-BA.01.7648659	Neretvljanski	Neretvljanski	7648659
 BA.02.11169977	Grad Istočno Sarajevo	Grad Istocno Sarajevo	11169977
 BA.02.11170599	Stanari	Stanari	11170599
 BD.82.4050	Kushtia	Kushtia	1185185
@@ -12807,6 +12747,7 @@ EG.22.352605	Markaz Maţrūḩ	Markaz Matruh	352605
 EG.10.352626	Markaz Maţāy	Markaz Matay	352626
 EG.06.352720	Markaz Maryūţ	Markaz Maryut	352720
 EG.10.352950	Markaz Mallawī	Markaz Mallawi	352950
+EG.06.353929	Karmūs	Karmus	353929
 EG.21.354501	Markaz Kafr ash Shaykh	Markaz Kafr ash Shaykh	354501
 EG.03.354773	Markaz Kafr ad Dawwār	Markaz Kafr ad Dawwar	354773
 EG.24.355025	Markaz Jirjā	Markaz Jirja	355025
@@ -12870,6 +12811,7 @@ EG.24.361436	Markaz al Balyanā	Markaz al Balyana	361436
 EG.08.361474	Markaz al Badrashayn	Markaz al Badrashayn	361474
 EG.17.361479	Markaz al Badārī	Markaz al Badari	361479
 EG.08.361497	Markaz al ‘Ayyāţ	Markaz al `Ayyat	361497
+EG.06.361628	Al Ajami	Al Ajami	361628
 EG.24.361660	Markaz Akhmīm	Markaz Akhmim	361660
 EG.01.361701	Markaz Ajā	Markaz Aja	361701
 EG.03.361828	Markaz ad Dilinjāt	Markaz ad Dilinjat	361828
@@ -12889,6 +12831,7 @@ EG.01.7910974	Mit Yazid	Mit Yazid	7910974
 EG.21.7911002	Kafr El Sheikh	Kafr El Sheikh	7911002
 EG.12.8061368	Markaz Kafr Shukr	Markaz Kafr Shukr	8061368
 EG.08.8146219	Markaz Awsīm	Markaz Awsim	8146219
+EG.06.8555987	Borg El Arab	Borg El Arab	8555987
 EG.01.8559274	Markaz Minyat An Naşr	Markaz Minyat An Nasr	8559274
 EG.20.8559275	Markaz az Zarqā	Markaz az Zarqa	8559275
 EG.05.8561528	Markaz Sammanūd	Markaz Sammanud	8561528
@@ -13710,7 +13653,7 @@ GE.67.614356	Gurjaanis Munitsip’alit’et’i	Gurjaanis Munitsip'alit'et'i	614
 GE.02.614378	Gulripshi district	Gulripshi district	614378
 GE.02.614407	Gudauta District	Gudauta District	614407
 GE.73.614450	Goris Munitsip’alit’et’i	Goris Munitsip'alit'et'i	614450
-GE.00.614519	Gldanskiy Rayon	Gldanskiy Rayon	614519
+GE.51.614519	Gldanskiy Rayon	Gldanskiy Rayon	614519
 GE.68.614573	Gardabnis Munitsip’alit’et’i	Gardabnis Munitsip'alit'et'i	614573
 GE.02.614611	Gali District	Gali District	614611
 GE.73.614792	Javis Munitsip’alit’et’i	Javis Munitsip'alit'et'i	614792
@@ -14991,17 +14934,17 @@ HR.05.11049266	Barilović	Barilovic	11049266
 HR.05.11049267	Bosiljevo	Bosiljevo	11049267
 HR.05.11049268	Cetingrad	Cetingrad	11049268
 HR.05.11049269	Draganić	Draganic	11049269
-HR.05.11049270	Generalski Stol	Generalski Stol	11049270
-HR.05.11049271	Josipdol	Josipdol	11049271
+HR.05.11049270	Općina Generalski Stol	Opcina Generalski Stol	11049270
+HR.05.11049271	Općina Josipdol	Opcina Josipdol	11049271
 HR.05.11049272	Kamanje	Kamanje	11049272
 HR.05.11049273	Krnjak	Krnjak	11049273
 HR.05.11049275	Lasinja	Lasinja	11049275
 HR.05.11049276	Netretić	Netretic	11049276
-HR.05.11049277	Plaški	Plaski	11049277
+HR.05.11049277	Općina Plaški	Opcina Plaski	11049277
 HR.05.11049278	Rakovica	Rakovica	11049278
 HR.05.11049279	Ribnik	Ribnik	11049279
 HR.05.11049280	Saborsko	Saborsko	11049280
-HR.05.11049281	Tounj	Tounj	11049281
+HR.05.11049281	Općina Tounj	Opcina Tounj	11049281
 HR.05.11049283	Žakanje	Zakanje	11049283
 HR.08.11049284	Brinje	Brinje	11049284
 HR.08.11049285	Donji Lapac	Donji Lapac	11049285
@@ -15014,7 +14957,7 @@ HR.08.11049291	Perušić	Perusic	11049291
 HR.08.11049292	Plitvička Jezera	Plitvicka Jezera	11049292
 HR.08.11049293	Senj	Senj	11049293
 HR.08.11049294	Udbina	Udbina	11049294
-HR.08.11049295	Vrhovine	Vrhovine	11049295
+HR.08.11049295	Općina Vrhovine	Opcina Vrhovine	11049295
 HR.16.11049296	Bednja	Bednja	11049296
 HR.16.11049297	Beretinec	Beretinec	11049297
 HR.16.11049298	Breznica	Breznica	11049298
@@ -15137,21 +15080,21 @@ HR.02.11049497	Klakar	Klakar	11049497
 HR.02.11049498	Nova Kapela	Nova Kapela	11049498
 HR.02.11049499	Okučani	Okucani	11049499
 HR.02.11049500	Oprisavci	Oprisavci	11049500
-HR.02.11049501	Oriovac	Oriovac	11049501
+HR.02.11049501	Općina Oriovac	Opcina Oriovac	11049501
 HR.02.11049502	Podcrkavlje	Podcrkavlje	11049502
 HR.02.11049503	Rešetari	Resetari	11049503
 HR.02.11049504	Sibinj	Sibinj	11049504
 HR.02.11049505	Sikirevci	Sikirevci	11049505
 HR.02.11049506	Slavonski Šamac	Slavonski Samac	11049506
-HR.02.11049507	Stara Gradiška	Stara Gradiska	11049507
+HR.02.11049507	Općina Stara Gradiška	Opcina Stara Gradiska	11049507
 HR.02.11049508	Staro Petrovo Selo	Staro Petrovo Selo	11049508
 HR.02.11049509	Velika Kopanica	Velika Kopanica	11049509
 HR.02.11049510	Vrbje	Vrbje	11049510
-HR.02.11049511	Vrpolje	Vrpolje	11049511
+HR.02.11049511	Općina Vrpolje	Opcina Vrpolje	11049511
 HR.19.11049512	Benkovac	Benkovac	11049512
 HR.19.11049513	Bibinje	Bibinje	11049513
 HR.19.11049514	Galovac	Galovac	11049514
-HR.19.11054319	Gračac	Gracac	11054319
+HR.19.11054319	Općina Gračac	Opcina Gracac	11054319
 HR.19.11054321	Jasenice	Jasenice	11054321
 HR.19.11054322	Kali	Kali	11054322
 HR.19.11054323	Kolan	Kolan	11054323
@@ -15183,13 +15126,12 @@ HR.10.11054390	Antunovac	Antunovac	11054390
 HR.10.11054391	Belišće	Belisce	11054391
 HR.10.11054392	Bilje	Bilje	11054392
 HR.10.11054393	Bizovac	Bizovac	11054393
-HR.10.11054394	Čeminac	Ceminac	11054394
-HR.10.11054395	Čepin	Cepin	11054395
-HR.10.11054454	Darda	Darda	11054454
+HR.10.11054394	Općina Čeminac	Opcina Ceminac	11054394
+HR.10.11054395	Općina Čepin	Opcina Cepin	11054395
+HR.10.11054454	Općina Darda	Opcina Darda	11054454
 HR.10.11054455	Donja Motičina	Donja Moticina	11054455
 HR.10.11054456	Draž	Draz	11054456
 HR.10.11054458	Drenje	Drenje	11054458
-HR.10.11054459	Đakovo	GJakovo	11054459
 HR.10.11054461	Erdut	Erdut	11054461
 HR.10.11054464	Ernestinovo	Ernestinovo	11054464
 HR.10.11054465	Feričanci	Fericanci	11054465
@@ -15207,7 +15149,7 @@ HR.10.11054477	Podravska Moslavina	Podravska Moslavina	11054477
 HR.10.11054478	Popovac	Popovac	11054478
 HR.10.11054479	Punitovci	Punitovci	11054479
 HR.10.11054480	Semeljci	Semeljci	11054480
-HR.10.11054481	Strizivojna	Strizivojna	11054481
+HR.10.11054481	Općina Strizivojna	Opcina Strizivojna	11054481
 HR.10.11054482	Šodolovci	Sodolovci	11054482
 HR.10.11054483	Trnava	Trnava	11054483
 HR.10.11054484	Viljevo	Viljevo	11054484
@@ -15232,7 +15174,7 @@ HR.13.11054525	Vodice	Vodice	11054525
 HR.18.11054526	Andrijaševci	Andrijasevci	11054526
 HR.18.11054527	Babina Greda	Babina Greda	11054527
 HR.18.11054529	Bogdanovci	Bogdanovci	11054529
-HR.18.11054530	Borovo	Borovo	11054530
+HR.18.11054530	Općina Borovo	Opcina Borovo	11054530
 HR.18.11054531	Bošnjaci	Bosnjaci	11054531
 HR.18.11054533	Cerna	Cerna	11054533
 HR.18.11054534	Drenovci	Drenovci	11054534
@@ -15310,7 +15252,7 @@ HR.04.11054801	Kanfanar	Kanfanar	11054801
 HR.04.11054804	Karojba	Karojba	11054804
 HR.04.11054805	Kršan	Krsan	11054805
 HR.04.11054806	Ližnjan-Lisignano	Liznjan-Lisignano	11054806
-HR.04.11054807	Lupoglav	Lupoglav	11054807
+HR.04.11054807	Općina Lupoglav	Opcina Lupoglav	11054807
 HR.04.11054808	Marčana	Marcana	11054808
 HR.04.11054809	Medulin	Medulin	11054809
 HR.04.11054810	Motovun-Montona	Motovun-Montona	11054810
@@ -15688,7 +15630,7 @@ ID.18.5301	Kabupaten Sumba Barat	Kabupaten Sumba Barat	1626193
 ID.07.3311	Kabupaten Sukoharjo	Kabupaten Sukoharjo	1626271
 ID.30.3272	Kota Sukabumi	Kota Sukabumi	1626379
 ID.30.3202	Kabupaten Sukabumi	Kabupaten Sukabumi	1626380
-ID.39.9107	Kabupaten Sorong	Kabupaten Sorong	1626541
+ID.PD.9107	Kabupaten Sorong	Kabupaten Sorong	1626541
 ID.24.1372	Kota Solok	Kota Solok	1626645
 ID.24.1303	Kabupaten Solok	Kabupaten Solok	1626646
 ID.11.6107	Kabupaten Sintang	Kabupaten Sintang	1626886
@@ -15709,7 +15651,7 @@ ID.11.6101	Kabupaten Sambas	Kabupaten Sambas	1628978
 ID.14.6472	Kota Samarinda	Kota Samarinda	1629000
 ID.07.3317	Kabupaten Rembang	Kabupaten Rembang	1629746
 ID.03.1702	Kabupaten Rejang Lebong	Kabupaten Rejang Lebong	1629764
-ID.39.9108	Kabupaten Raja Ampat	Kabupaten Raja Ampat	1630210
+ID.PD.9108	Kabupaten Raja Ampat	Kabupaten Raja Ampat	1630210
 ID.07.3306	Kabupaten Purworejo	Kabupaten Purworejo	1630324
 ID.30.3214	Kabupaten Purwakarta	Kabupaten Purwakarta	1630340
 ID.08.3574	Kota Probolinggo	Kota Probolinggo	1630632
@@ -15724,13 +15666,13 @@ ID.24.1302	Kabupaten Pesisir Selatan	Kabupaten Pesisir Selatan	1631300
 ID.07.3327	Kabupaten Pemalang	Kabupaten Pemalang	1631647
 ID.37.1471	Kota Pekanbaru	Kota Pekanbaru	1631760
 ID.07.3375	Kota Pekalongan	Kota Pekalongan	1631763
-ID.36.9402	Kabupaten Jayawijaya	Kabupaten Jayawijaya	1631789
+ID.PE.9402	Kabupaten Jayawijaya	Kabupaten Jayawijaya	1631789
 ID.24.1376	Kota Payakumbuh	Kota Payakumbuh	1631904
 ID.07.3318	Kabupaten Pati	Kabupaten Pati	1631990
 ID.08.3575	Kota Pasuruan	Kota Pasuruan	1632031
 ID.08.3514	Kabupaten Pasuruan	Kabupaten Pasuruan	1632032
 ID.38.7372	Kota Parepare	Kota Parepare	1632352
-ID.36.9410	Kabupaten Paniai	Kabupaten Paniai	1632622
+ID.PT.9410	Kabupaten Paniai	Kabupaten Paniai	1632622
 ID.35.1971	Kota Pangkal Pinang	Kota Pangkal Pinang	1632653
 ID.38.7309	Kabupaten Pangkajene Dan Kepulauan	Kabupaten Pangkajene Dan Kepulauan	1632723
 ID.33.3601	Kabupaten Pandeglang	Kabupaten Pandeglang	1632822
@@ -15753,7 +15695,7 @@ ID.13.6213	Kabupaten Murung Raya	Kabupaten Murung Raya	1634654
 ID.22.7402	Kabupaten Muna	Kabupaten Muna	1634727
 ID.08.3576	Kota Mojokerto	Kota Mojokerto	1635109
 ID.08.3516	Kabupaten Mojokerto	Kabupaten Mojokerto	1635110
-ID.36.9401	Kabupaten Merauke	Kabupaten Merauke	1635387
+ID.PS.9401	Kabupaten Merauke	Kabupaten Merauke	1635387
 ID.17.5271	Kota Mataram	Kota Mataram	1635881
 ID.38.7308	Kabupaten Maros	Kabupaten Maros	1636028
 ID.39.9105	Kabupaten Manokwari	Kabupaten Manokwari	1636306
@@ -15812,7 +15754,7 @@ ID.12.6307	Kabupaten Hulu Sungai Tengah	Kabupaten Hulu Sungai Tengah	1643245
 ID.12.6306	Kabupaten Hulu Sungai Selatan	Kabupaten Hulu Sungai Selatan	1643246
 ID.29.8202	Kabupaten Halmahera Tengah	Kabupaten Halmahera Tengah	1643475
 ID.13.6211	Kabupaten Gunung Mas	Kabupaten Gunung Mas	1643597
-ID.10.3403	Kabupaten Gunung Kidul	Kabupaten Gunung Kidul	1643604
+ID.10.3403	Kabupaten Gunungkidul	Kabupaten Gunungkidul	1643604
 ID.07.3315	Kabupaten Grobogan	Kabupaten Grobogan	1643768
 ID.38.7306	Kabupaten Gowa	Kabupaten Gowa	1643807
 ID.34.7571	Kota Gorontalo	Kota Gorontalo	1643836
@@ -15931,14 +15873,14 @@ ID.30.3217	Kabupaten Bandung Barat	Kabupaten Bandung Barat	7910336
 ID.05.1509	Kabupaten Bungo	Kabupaten Bungo	7910349
 ID.39.9102	Kabupaten Kaimana	Kabupaten Kaimana	7910905
 ID.39.9103	Kabupaten Teluk Wondama	Kabupaten Teluk Wondama	7910908
-ID.39.9106	Kabupaten Sorong Selatan	Kabupaten Sorong Selatan	7910924
+ID.PD.9106	Kabupaten Sorong Selatan	Kabupaten Sorong Selatan	7910924
 ID.29.8204	Kabupaten Halmahera Selatan	Kabupaten Halmahera Selatan	7910927
 ID.10.3401	Kabupaten Kulon Progo	Kabupaten Kulon Progo	7910930
 ID.29.8271	Kota Ternate	Kota Ternate	7910935
 ID.36.9471	Kota Jayapura	Kota Jayapura	7910936
-ID.36.9404	Kabupaten Nabire	Kabupaten Nabire	7910937
+ID.PT.9404	Kabupaten Nabire	Kabupaten Nabire	7910937
 ID.41.7603	Kabupaten Mamasa	Kabupaten Mamasa	7910939
-ID.36.9417	Kabupaten Pegunungan Bintang	Kabupaten Pegunungan Bintang	7910943
+ID.PE.9417	Kabupaten Pegunungan Bintang	Kabupaten Pegunungan Bintang	7910943
 ID.32.1673	Kota Pagar Alam	Kota Pagar Alam	7932494
 ID.32.1672	Kota Prabumulih	Kota Prabumulih	7932496
 ID.08.3524	Kabupaten Lamongan	Kabupaten Lamongan	8080464
@@ -15999,8 +15941,8 @@ ID.38.7325	Kabupaten Luwu Timur	Kabupaten Luwu Timur	9165704
 ID.22.7408	Kabupaten Kolaka Utara	Kabupaten Kolaka Utara	9165705
 ID.28.8105	Kabupaten Kepulauan Aru	Kabupaten Kepulauan Aru	9165706
 ID.29.8201	Kabupaten Halmahera Barat	Kabupaten Halmahera Barat	9165708
-ID.36.9414	Kabupaten Mappi	Kabupaten Mappi	9165710
-ID.36.9415	Kabupaten Asmat	Kabupaten Asmat	9165711
+ID.PS.9414	Kabupaten Mappi	Kabupaten Mappi	9165710
+ID.PS.9415	Kabupaten Asmat	Kabupaten Asmat	9165711
 ID.14.6409	Kabupaten Penajam Paser Utara	Kabupaten Penajam Paser Utara	9165729
 ID.26.1206	Kabupaten Toba Samosir	Kabupaten Toba Samosir	9165769
 ID.24.1310	Kabupaten Solok Selatan	Kabupaten Solok Selatan	9165770
@@ -16022,7 +15964,7 @@ ID.22.7407	Wakatobi Regency	Wakatobi Regency	9165996
 ID.22.7403	Kabupaten Konawe	Kabupaten Konawe	9165997
 ID.22.7405	Kabupaten Konawe Selatan	Kabupaten Konawe Selatan	9165998
 ID.28.8107	Kabupaten Seram Bagian Timur	Kabupaten Seram Bagian Timur	9165999
-ID.36.9413	Kabupaten Boven Digoel	Kabupaten Boven Digoel	9166001
+ID.PS.9413	Kabupaten Boven Digoel	Kabupaten Boven Digoel	9166001
 ID.39.9104	Kabupaten Teluk Bintuni	Kabupaten Teluk Bintuni	9166002
 ID.24.1311	Kabupaten Dharmasraya	Kabupaten Dharmasraya	9166041
 ID.32.1604	Lahat Regency	Lahat Regency	9166049
@@ -16034,8 +15976,8 @@ ID.22.7406	Kabupaten Bombana	Kabupaten Bombana	9170724
 ID.29.8203	Kabupaten Kepulauan Sula	Kabupaten Kepulauan Sula	9172043
 ID.36.9408	Kabupaten Kepulauan Yapen	Kabupaten Kepulauan Yapen	9172045
 ID.36.9427	Kabupaten Supiori	Kabupaten Supiori	9172047
-ID.36.9412	Kabupaten Mimika	Kabupaten Mimika	9172049
-ID.36.9411	Kabupaten Puncak Jaya	Kabupaten Puncak Jaya	9172050
+ID.PT.9412	Kabupaten Mimika	Kabupaten Mimika	9172049
+ID.PT.9411	Kabupaten Puncak Jaya	Kabupaten Puncak Jaya	9172050
 ID.12.6310	Kabupaten Tanah Bumbu	Kabupaten Tanah Bumbu	9780988
 ID.21.7210	Kabupaten Sigi	Kabupaten Sigi	9781856
 ID.05.1505	Kabupaten Muaro Jambi	Kabupaten Muaro Jambi	9782270
@@ -16056,8 +15998,8 @@ ID.14.6474	Kota Bontang	Kota Bontang	9821952
 ID.28.8109	Kabupaten Buru Selatan	Kabupaten Buru Selatan	9821953
 ID.22.7409	Kabupaten Buton Utara	Kabupaten Buton Utara	9821954
 ID.37.1473	Kota Dumai	Kota Dumai	9821955
-ID.36.9436	Kabupaten Deiyai	Kabupaten Deiyai	9821956
-ID.36.9434	Kabupaten Dogiyai	Kabupaten Dogiyai	9821957
+ID.PT.9436	Kabupaten Deiyai	Kabupaten Deiyai	9821956
+ID.PT.9434	Kabupaten Dogiyai	Kabupaten Dogiyai	9821957
 ID.32.1611	Kabupaten Empat Lawang	Kabupaten Empat Lawang	9821958
 ID.22.7412	Kabupaten Konawe Kepulauan	Kabupaten Konawe Kepulauan	9827965
 ID.41.7606	Kabupaten Mamuju Tengah	Kabupaten Mamuju Tengah	9827966
@@ -16079,23 +16021,23 @@ ID.31.7174	Kota Kotamobagu	Kota Kotamobagu	9828036
 ID.11.6112	Kabupaten Kubu Raya	Kabupaten Kubu Raya	9828037
 ID.14.6402	Kabupaten Kutai Barat	Kabupaten Kutai Barat	9828038
 ID.14.6403	Kabupaten Kutai Kartanegara	Kabupaten Kutai Kartanegara	9828039
-ID.36.9430	Kabupaten Lanny Jaya	Kabupaten Lanny Jaya	9828040
+ID.PE.9430	Kabupaten Lanny Jaya	Kabupaten Lanny Jaya	9828040
 ID.03.1707	Kabupaten Lebong	Kabupaten Lebong	9828041
 ID.32.1674	Kota Lubuklinggau	Kota Lubuklinggau	9828042
 ID.28.8108	Kabupaten Maluku Barat Daya	Kabupaten Maluku Barat Daya	9828043
 ID.28.8101	Kabupaten Maluku Tenggara Barat	Kabupaten Maluku Tenggara Barat	9828704
 ID.36.9428	Kabupaten Mamberamo Raya	Kabupaten Mamberamo Raya	9828781
-ID.36.9431	Kabupaten Mamberamo Tengah	Kabupaten Mamberamo Tengah	9828820
+ID.PE.9431	Kabupaten Mamberamo Tengah	Kabupaten Mamberamo Tengah	9828820
 ID.41.7605	Kabupaten Mamuju Utara	Kabupaten Mamuju Utara	9828890
 ID.18.5319	Kabupaten Manggarai Timur	Kabupaten Manggarai Timur	9828927
-ID.39.9110	Kabupaten Maybrat	Kabupaten Maybrat	9828956
+ID.PD.9110	Kabupaten Maybrat	Kabupaten Maybrat	9828956
 ID.11.6110	Kabupaten Melawi	Kabupaten Melawi	9828958
 ID.05.1502	Kabupaten Merangin	Kabupaten Merangin	9828959
 ID.15.1872	Kota Metro	Kota Metro	9828960
 ID.31.7109	Kabupaten Minahasa Tenggara	Kabupaten Minahasa Tenggara	9828962
 ID.03.1706	Kabupaten Mukomuko	Kabupaten Mukomuko	9828963
 ID.18.5318	Kabupaten Nagekeo	Kabupaten Nagekeo	9828965
-ID.36.9429	Kabupaten Nduga	Kabupaten Nduga	9828977
+ID.PE.9429	Kabupaten Nduga	Kabupaten Nduga	9828977
 ID.26.1225	Kabupaten Nias Barat	Kabupaten Nias Barat	9828978
 ID.26.1224	Kabupaten Nias Utara	Kabupaten Nias Utara	9843567
 ID.26.1277	Kota Padangsidimpuan	Kota Padangsidimpuan	9843575
@@ -16111,32 +16053,32 @@ ID.18.5320	Kabupaten Sabu Raijua	Kabupaten Sabu Raijua	9844902
 ID.03.1705	Kabupaten Seluma	Kabupaten Seluma	9845356
 ID.33.3673	Kota Serang	Kota Serang	9845383
 ID.11.6172	Kota Singkawang	Kota Singkawang	9845433
-ID.39.9171	Kota Sorong	Kota Sorong	9845465
+ID.PD.9171	Kota Sorong	Kota Sorong	9845465
 ID.18.5317	Kabupaten Sumba Barat Daya	Kabupaten Sumba Barat Daya	9845472
 ID.18.5316	Kabupaten Sumba Tengah	Kabupaten Sumba Tengah	9845473
 ID.05.1572	Kota Sungai Penuh	Kota Sungai Penuh	9845476
-ID.39.9109	Kabupaten Tambrauw	Kabupaten Tambrauw	9845477
+ID.PD.9109	Kabupaten Tambrauw	Kabupaten Tambrauw	9845477
 ID.33.3674	Kota Tangerang Selatan	Kota Tangerang Selatan	9845480
 ID.15.1802	Kabupaten Tanggamus	Kabupaten Tanggamus	9845482
 ID.05.1507	Kabupaten Tanjung Jabung Barat	Kabupaten Tanjung Jabung Barat	9845496
 ID.05.1506	Kabupaten Tanjung Jabung Timur	Kabupaten Tanjung Jabung Timur	9845498
 ID.05.1508	Kabupaten Tebo	Kabupaten Tebo	9845500
 ID.29.8272	Kota Tidore Kepulauan	Kota Tidore Kepulauan	9845501
-ID.36.9418	Kabupaten Tolikara	Kabupaten Tolikara	9846653
+ID.PE.9418	Kabupaten Tolikara	Kabupaten Tolikara	9846653
 ID.21.7206	Kabupaten Toli-Toli	Kabupaten Toli-Toli	9846654
 ID.31.7173	Kota Tomohon	Kota Tomohon	9846655
 ID.38.7326	Kabupaten Toraja Utara	Kabupaten Toraja Utara	9846656
 ID.28.8172	Kota Tual	Kota Tual	9846657
 ID.15.1812	Kabupaten Tulang Bawang Barat	Kabupaten Tulang Bawang Barat	9846658
-ID.36.9416	Kabupaten Yahukimo	Kabupaten Yahukimo	9846659
-ID.36.9432	Kabupaten Yalimo	Kabupaten Yalimo	9846662
+ID.PE.9416	Kabupaten Yahukimo	Kabupaten Yahukimo	9846659
+ID.PE.9432	Kabupaten Yalimo	Kabupaten Yalimo	9846662
 ID.26.1278	Kota Gunungsitoli	Kota Gunungsitoli	9846663
-ID.36.9435	Kabupaten Intan Jaya	Kabupaten Intan Jaya	9846664
+ID.PT.9435	Kabupaten Intan Jaya	Kabupaten Intan Jaya	9846664
 ID.21.7211	Kabupaten Banggai Laut	Kabupaten Banggai Laut	9846665
 ID.22.7411	Kabupaten Kolaka Timur	Kabupaten Kolaka Timur	9846666
 ID.18.5321	Kabupaten Malaka	Kabupaten Malaka	9846667
 ID.14.6404	Kabupaten Kutai Timur	Kabupaten Kutai Timur	9846668
-ID.36.9433	Kabupaten Puncak	Kabupaten Puncak	9846669
+ID.PT.9433	Kabupaten Puncak	Kabupaten Puncak	9846669
 ID.31.7108	Kabupaten Siau Tagulandang Biaro	Kabupaten Siau Tagulandang Biaro	9846670
 ID.04.3101	Kabupaten Administrasi Kepulauan Seribu	Kabupaten Administrasi Kepulauan Seribu	9849799
 ID.08.3579	Kota Batu	Kota Batu	9849812
@@ -17029,37 +16971,18 @@ IQ.18.9167093	Al-Thethar District	Al-Thethar District	9167093
 IQ.07.9167771	Thawra	Thawra	9167771
 IQ.13.9171727	Dabes	Dabes	9171727
 IQ.07.9179819	Al-Mada'in District	Al-Mada'in District	9179819
-IQ.01.9873152	Qaḑā’ al Qā’im	Qada' al Qa'im	9873152
-IQ.02.9873224	Qaḑā’ al Madīnah	Qada' al Madinah	9873224
 IQ.11.9873235	Qaḑā’ Jawmān	Qada' Jawman	9873235
 IQ.11.9873236	Qaḑā’ Sawrān	Qada' Sawran	9873236
-IQ.11.9873237	Qaḑā’ Shaqlāwah	Qada' Shaqlawah	9873237
-IQ.15.9873239	Qaḑā’ Tallkayf	Qada' Tallkayf	9873239
-IQ.03.9873260	Qaḑā’ ar Rumaythah	Qada' ar Rumaythah	9873260
-IQ.03.9873264	Qaḑā’ al Khiḑr	Qada' al Khidr	9873264
-IQ.05.9873292	Qaḑā’ Darbandīkhān	Qada' Darbandikhan	9873292
 IQ.05.9873303	Qeza-î Sharezûr	Qeza-i Sharezur	9873303
-IQ.05.9873312	Qeza-î Pênciwên	Qeza-i Penciwen	9873312
-IQ.08.9873355	Qeza-î Sêmêl	Qeza-i Semel	9873355
-IQ.15.9873392	Qaḑā’ Ba‘āj	Qada' Ba`aj	9873392
-IQ.16.9873403	Qaḑā’ al ‘Azīzīyah	Qada' al `Aziziyah	9873403
-IQ.16.9873404	Qaḑā’ an Nu‘mānīyah	Qada' an Nu`maniyah	9873404
-IQ.14.9873407	Qaḑā’ al Majar al Kabīr	Qada' al Majar al Kabir	9873407
-IQ.14.9873408	Qaḑā’ al Maymūnah	Qada' al Maymunah	9873408
-IQ.13.9873409	Qaḑā’ Dibis	Qada' Dibis	9873409
-IQ.12.9873410	Qaḑā’ ‘Ayn Tamr	Qada' `Ayn Tamr	9873410
-IQ.07.9873556	Qaḑā’ ar Ruşāfah	Qada' ar Rusafah	9873556
 IQ.07.9873561	Qaḑā’ al A‘z̧amīyah	Qada' al A`zamiyah	9873561
 IQ.07.9874049	Qaḑā’ Abū Ghurayb	Qada' Abu Ghurayb	9874049
-IQ.07.9874067	Qaḑā’ al Madā’in	Qada' al Mada'in	9874067
 IQ.11.9874070	Qaḑā’ Khabāt	Qada' Khabat	9874070
 IQ.11.9874079	Qeza-î Mêrgasur	Qeza-i Mergasur	9874079
 IQ.05.9877732	Qeza-î Qeredagh	Qeza-i Qeredagh	9877732
 IQ.05.9877795	Qaḑā’ Sayyid Şādiq	Qada' Sayyid Sadiq	9877795
-IQ.05.9877798	Qaḑā’ Māwat	Qada' Mawat	9877798
+IQ.05.9877798	Mawat District	Mawat District	9877798
 IQ.11.9877799	Qaḑā’ Dashtī Hawlayr	Qada' Dashti Hawlayr	9877799
 IQ.11.9878719	Qeza-î Ṟuwandiz	Qeza-i Ruwandiz	9878719
-IQ.07.9890735	Qaḑā’ aţ Ţārmīyah	Qada' at Tarmiyah	9890735
 IR.42.6550	Dāvarzan	Davarzan	6550
 IR.10.28354	Darrehshahr	Darrehshahr	28354
 IR.36.66310	Shahrestān-e Zanjān	Shahrestan-e Zanjan	66310
@@ -17492,20 +17415,14 @@ IR.04.11963562	Fanuj	Fanuj	11963562
 IS.38.7502	Vopnafjarðarhreppur	Vopnafjardarhreppur	2625192
 IS.40.6611	Tjörneshreppur	Tjoerneshreppur	2625781
 IS.40.6601	Svalbarðsstrandarhreppur	Svalbardsstrandarhreppur	2626312
-IS.40.6706	Svalbarðshreppur	Svalbardshreppur	2626315
-IS.40.6607	Skútustaðahreppur	Skutustadahreppur	2626806
 IS.42.8509	Skaftárhreppur	Skaftarhreppur	2627072
-IS.38.7000	Seyðisfjarðarkaupstaður	Seydisfjardarkaupstadur	2627142
 IS.40.6602	Grýtubakkahreppur	Grytubakkahreppur	2631018
 IS.38.7505	Fljótsdalshreppur	Fljotsdalshreppur	2631712
 IS.40.6400	Dalvíkurbyggð	Dalvikurbyggd	2632286
-IS.38.7509	Borgarfjarðarhreppur	Borgarfjardarhreppur	2632668
 IS.40.6000	Akureyrarkaupstaður	Akureyrarkaupstadur	2633275
-IS.41.5706	Akrahreppur	Akrahreppur	2633280
 IS.41.5200	Sveitarfélagið Skagafjörður	Sveitarfelagid Skagafjoerdur	3345263
 IS.40.6513	Eyjafjarðarsveit	Eyjafjardarsveit	3345264
 IS.40.6612	Þingeyjarsveit	THingeyjarsveit	3345266
-IS.38.7617	Djúpavogshreppur	Djupavogshreppur	3345269
 IS.38.7300	Fjarðabyggð	Fjardabyggd	3345270
 IS.38.7708	Sveitarfélagið Hornafjörður	Sveitarfelagid Hornafjoerdur	3345272
 IS.42.8508	Mýrdalshreppur	Myrdalshreppur	3345273
@@ -17528,7 +17445,6 @@ IS.44.4902	Kaldrananeshreppur	Kaldrananeshreppur	3415588
 IS.44.4200	Ísafjarðarbær	Isafjardarbaer	3415669
 IS.42.8716	Hveragerðisbær	Hveragerdisbaer	3415760
 IS.42.8710	Hrunamannahreppur	Hrunamannahreppur	3415916
-IS.45.3710	Helgafellssveit	Helgafellssveit	3416471
 IS.39.1400	Hafnarfjarðarkaupstaður	Hafnarfjardarkaupstadur	3416708
 IS.39.1300	Garðabær	Gardabaer	3417190
 IS.45.3713	Eyja- og Miklaholtshreppur	Eyja- og Miklaholtshreppur	3417538
@@ -17536,7 +17452,6 @@ IS.45.3609	Borgarbyggð	Borgarbyggd	3418080
 IS.42.8610	Ásahreppur	Asahreppur	3418486
 IS.44.4901	Árneshreppur	Arneshreppur	3418510
 IS.45.3000	Akraneskaupstaður	Akraneskaupstadur	3418655
-IS.41.5604	Blönduósbær	Bloenduosbaer	3426187
 IS.44.4100	Bolungarvíkurkaupstaður	Bolungarvikurkaupstadur	3426188
 IS.45.3811	Dalabyggð	Dalabyggd	3426206
 IS.45.3709	Grundarfjarðarbær	Grundarfjardarbaer	3426207
@@ -17548,7 +17463,6 @@ IS.42.8721	Bláskógabyggð	Blaskogabyggd	3426216
 IS.42.8719	Grímsnes- og Grafningshreppur	Grimsnes- og Grafningshreppur	3426217
 IS.42.8200	Sveitarfélagið Árborg	Sveitarfelagid Arborg	3426218
 IS.40.6709	Langanesbyggð	Langanesbyggd	9192036
-IS.38.7620	Fljótsdalshérað	Fljotsdalsherad	9192044
 IS.40.6100	Norðurþing	Nordurthing	9192054
 IS.40.6515	Hörgársveit	Hoergarsveit	9192070
 IS.40.6250	Fjallabyggð	Fjallabyggd	9192468
@@ -17558,9 +17472,10 @@ IS.45.3511	Hvalfjarðarsveit	Hvalfjardarsveit	9192471
 IS.43.2506	Sveitarfélagið Vogar	Sveitarfelagid Vogar	9192632
 IS.43.2300	Grindavíkurbær	Grindavikurbaer	9192633
 IS.42.8722	Flóahreppur	Floahreppur	9192636
-IS.41.5612	Húnavatnshreppur	Hunavatnshreppur	9192865
-IS.45.3711	Stykkishólmsbær	Stykkisholmsbaer	9192872
 IS.43.2507	Suðurnesjabær	Sudurnesjabaer	12200082
+IS.41.5613	Húnabyggð	Hunabyggd	12504066
+IS.38.7400	Múlaþing	Mulathing	12504084
+IS.45.3716	Stykkishólmur-Helgafellssveit	Stykkisholmur-Helgafellssveit	12508725
 IT.15.TP	Trapani	Trapani	2522875
 IT.15.SR	Provincia di Siracusa	Provincia di Siracusa	2523082
 IT.03.RC	Provincia di Reggio Calabria	Provincia di Reggio Calabria	2523629
@@ -20582,7 +20497,7 @@ KW.09.12216423	Al Wusţá	Al Wusta	12216423
 KW.09.12216424	Şabḩan	Sabhan	12216424
 KW.09.12216425	Al Qurayn	Al Qurayn	12216425
 KZ.07.607687	Zelenov Aūdany	Zelenov Audany	607687
-KZ.09.607726	Qaraqīya Aūdany	Qaraqiya Audany	607726
+KZ.09.607726	Karakiyanskiy Rayon	Karakiyanskiy Rayon	607726
 KZ.07.607842	Urdinskiy Rayon	Urdinskiy Rayon	607842
 KZ.04.607866	Oyyl Aūdany	Oyyl Audany	607866
 KZ.07.608022	Terekti Aūdany	Terekti Audany	608022
@@ -20615,7 +20530,7 @@ KZ.07.610089	Shyngghyrlaū Aūdany	Shyngghyrlau Audany	610089
 KZ.04.610114	Shalqar Aūdany	Shalqar Audany	610114
 KZ.07.610130	Chapaev Aūdany	Chapaev Audany	610130
 KZ.07.610162	Börili Aūdany	Borili Audany	610162
-KZ.09.610297	Beyneū Aūdany	Beyneu Audany	610297
+KZ.09.610297	Beyneuskiy Rayon	Beyneuskiy Rayon	610297
 KZ.04.610385	Bayghanīn Aūdany	Bayghanin Audany	610385
 KZ.06.610444	Balyqshy Aūdany	Balyqshy Audany	610444
 KZ.04.610656	Algha Aūdany	Algha Audany	610656
@@ -20623,16 +20538,16 @@ KZ.07.610685	Aqzhayyq Aūdany	Aqzhayyq Audany	610685
 KZ.04.610687	Aqtöbe Aūdany	Aqtobe Audany	610687
 KZ.07.828320	Oral Qalasy	Oral Qalasy	828320
 KZ.06.828321	Atyrau Gorodskaya Administratsiya	Atyrau Gorodskaya Administratsiya	828321
-KZ.09.828323	Tupqaraghan Aūdany	Tupqaraghan Audany	828323
-KZ.09.828324	Aqtaū Qalasy	Aqtau Qalasy	828324
-KZ.09.828325	Zhangaözen Qalasy	Zhangaozen Qalasy	828325
+KZ.09.828323	Tupkaraganskiy Rayon	Tupkaraganskiy Rayon	828323
+KZ.09.828324	Aktau Gorodskaya Administratsiya	Aktau Gorodskaya Administratsiya	828324
+KZ.09.828325	Zhanaozen Gorodskaya Administratsiya	Zhanaozen Gorodskaya Administratsiya	828325
 KZ.04.828331	Aqtöbe Qalasy	Aqtobe Qalasy	828331
 KZ.15.1516437	Rayon Altay	Rayon Altay	1516437
 KZ.11.1516632	Zhelezinskiy Rayon	Zhelezinskiy Rayon	1516632
 KZ.15.1516713	Zharma Aūdany	Zharma Audany	1516713
-KZ.15.1516846	Semey Gorodskaya Administratsiya	Semey Gorodskaya Administratsiya	1516846
+KZ.12510143.1516846	Semey Gorodskaya Administratsiya	Semey Gorodskaya Administratsiya	1516846
 KZ.03.1516873	Zhanadalinskiy Rayon	Zhanadalinskiy Rayon	1516873
-KZ.12.1516894	Zhangaarqa Aūdany	Zhangaarqa Audany	1516894
+KZ.12510145.1516894	Zhangaarqa Aūdany	Zhangaarqa Audany	1516894
 KZ.03.1517012	Zhaksy	Zhaksy	1517012
 KZ.03.1517044	Zerendi	Zerendi	1517044
 KZ.15.1517057	Zaysanskiy Rayon	Zaysanskiy Rayon	1517057
@@ -20645,15 +20560,15 @@ KZ.16.1517353	Vozvyshenka Aūdany	Vozvyshenka Audany	1517353
 KZ.16.1517412	Ayyrtauskiy Rayon	Ayyrtauskiy Rayon	1517412
 KZ.03.1517439	Arshaly	Arshaly	1517439
 KZ.16.1517502	Ūälīkhanov Aūdany	Ualikhanov Audany	1517502
-KZ.01.1517577	Üyghyr Aūdany	Uyghyr Audany	1517577
+KZ.02.1517577	Üyghyr Aūdany	Uyghyr Audany	1517577
 KZ.11.1517619	Uspenskiy Rayon	Uspenskiy Rayon	1517619
 KZ.13.1517715	Ūrītskīy Aūdany	Uritskiy Audany	1517715
-KZ.15.1517718	Urdzharskiy Rayon	Urdzharskiy Rayon	1517718
-KZ.12.1517740	Ulytaū Aūdany	Ulytau Audany	1517740
+KZ.12510143.1517718	Urdzharskiy Rayon	Urdzharskiy Rayon	1517718
+KZ.12510145.1517740	Ulytaū Aūdany	Ulytau Audany	1517740
 KZ.11.1517745	Ūl’yanov Aūdany	Ul'yanov Audany	1517745
 KZ.15.1517810	Ulan Aūdany	Ulan Audany	1517810
-KZ.10.1517878	Tülkibas Aūdany	Tulkibas Audany	1517878
-KZ.10.1517946	Türkistan Aūdany	Turkistan Audany	1517946
+KZ.10.1517878	Tyul’kubasskiy Rayon	Tyul'kubasskiy Rayon	1517878
+KZ.10.1517946	Turkestan Gorodskaya Administratsiya	Turkestan Gorodskaya Administratsiya	1517946
 KZ.03.1518002	Tselinograd	Tselinograd	1518002
 KZ.16.1518161	Timiryazevskiy Rayon	Timiryazevskiy Rayon	1518161
 KZ.14.1518202	Terengözek Aūdany	Terengoezek Audany	1518202
@@ -20663,12 +20578,12 @@ KZ.15.1518334	Tavricheskiy Rayon	Tavricheskiy Rayon	1518334
 KZ.15.1518415	Taskesken Aūdany	Taskesken Audany	1518415
 KZ.15.1518456	Tarbagatayskiy Rayon	Tarbagatayskiy Rayon	1518456
 KZ.13.1518463	Rayon Beimbeta Maylina	Rayon Beimbeta Maylina	1518463
-KZ.01.1518519	Talghar Aūdany	Talghar Audany	1518519
-KZ.01.1518545	Taldyqorghan Aūdany	Taldyqorghan Audany	1518545
+KZ.02.1518519	Talghar Aūdany	Talghar Audany	1518519
+KZ.12510144.1518545	Taldyqorghan Aūdany	Taldyqorghan Audany	1518545
 KZ.17.1518589	Talas Aūdany	Talas Audany	1518589
 KZ.14.1518650	Syrdarīya Aūdany	Syrdariya Audany	1518650
 KZ.17.1518673	Sverdlov Aūdany	Sverdlov Audany	1518673
-KZ.10.1518678	Sozaq Aūdany	Sozaq Audany	1518678
+KZ.10.1518678	Suzakskiy Rayon	Suzakskiy Rayon	1518678
 KZ.16.1518835	Akkayynskiy Rayon	Akkayynskiy Rayon	1518835
 KZ.16.1518912	Sokolovka Aūdany	Sokolovka Audany	1518912
 KZ.03.1519052	Shortandy	Shortandy	1519052
@@ -20681,14 +20596,14 @@ KZ.13.1519416	Semiozërnyy Rayon	Semiozernyy Rayon	1519416
 KZ.03.1519433	Sileti Aūdany	Sileti Audany	1519433
 KZ.10.1519452	Sayram Aūdany	Sayram Audany	1519452
 KZ.17.1519552	Sarysū Aūdany	Sarysu Audany	1519552
-KZ.10.1519675	Saryaghash Aūdany	Saryaghash Audany	1519675
-KZ.01.1519704	Sarqan Aūdany	Sarqan Audany	1519704
+KZ.10.1519675	Saryagachskiy Rayon	Saryagachskiy Rayon	1519675
+KZ.12510144.1519704	Sarqan Aūdany	Sarqan Audany	1519704
 KZ.15.1519757	Samarskoe Aūdany	Samarskoe Audany	1519757
 KZ.16.1519834	Rūzaevka Aūdany	Ruzaevka Audany	1519834
 KZ.16.1520047	Presnov Aūyldyq Okrūgi	Presnov Auyldyq Okrugi	1520047
 KZ.11.1520238	Pavlodarskiy Rayon	Pavlodarskiy Rayon	1520238
-KZ.01.1520251	Panfīlov Aūdany	Panfilov Audany	1520251
-KZ.10.1520258	Maqtaaral Aūdany	Maqtaaral Audany	1520258
+KZ.12510144.1520251	Panfīlov Aūdany	Panfilov Audany	1520251
+KZ.10.1520258	Maktaaral’skiy Rayon	Maktaaral'skiy Rayon	1520258
 KZ.12.1520325	Osakarovka Aūdany	Osakarovka Audany	1520325
 KZ.12.1520378	Ordzhonīkīdze Aūdany	Ordzhonikidze Audany	1520378
 KZ.12.1520497	Nura Aūdany	Nura Audany	1520497
@@ -20707,16 +20622,16 @@ KZ.03.1521227	Bulandy	Bulandy	1521227
 KZ.15.1521244	Maqanshy Aūdany	Maqanshy Audany	1521244
 KZ.17.1521288	Lūgovoe Aūdany	Lugovoe Audany	1521288
 KZ.16.1521352	Esil District	Esil District	1521352
-KZ.10.1521354	Qazyqurt Aūdany	Qazyqurt Audany	1521354
+KZ.10.1521354	Kazygurtskiy Rayon	Kazygurtskiy Rayon	1521354
 KZ.13.1521358	Lenīn Aūdany	Lenin Audany	1521358
 KZ.16.1521375	Lenīngrad Aūdany	Leningrad Audany	1521375
-KZ.10.1521378	Töle Bī Aūdany	Tole Bi Audany	1521378
+KZ.10.1521378	Tolebiyskiy Rayon	Tolebiyskiy Rayon	1521378
 KZ.11.1521382	Akkulinskiy Rayon	Akkulinskiy Rayon	1521382
 KZ.16.1521400	Qyzyltū Aūdany	Qyzyltu Audany	1521400
-KZ.10.1521407	Otyrar Aūdany	Otyrar Audany	1521407
+KZ.10.1521407	Otrarskiy Rayon	Otrarskiy Rayon	1521407
 KZ.16.1521634	Rayon Imeni Gabita Musrepova	Rayon Imeni Gabita Musrepova	1521634
 KZ.13.1521667	Qostanay Aūdany	Qostanay Audany	1521667
-KZ.01.1521711	Kürti Aūdany	Kurti Audany	1521711
+KZ.02.1521711	Kürti Aūdany	Kurti Audany	1521711
 KZ.03.1521748	Korgalzhyn	Korgalzhyn	1521748
 KZ.17.1521754	Qorday Aūdany	Qorday Audany	1521754
 KZ.15.1521759	Kurchumskiy Rayon	Kurchumskiy Rayon	1521759
@@ -20725,41 +20640,41 @@ KZ.11.1522019	Aktogayskiy Rayon	Aktogayskiy Rayon	1522019
 KZ.16.1522032	Tayynshinskiy Rayon	Tayynshinskiy Rayon	1522032
 KZ.13.1522333	Komsomol Aūdany	Komsomol Audany	1522333
 KZ.04.1522334	Bögetköl Aūdany	Bogetkol Audany	1522334
-KZ.15.1522504	Kokpektinskiy Rayon	Kokpektinskiy Rayon	1522504
+KZ.12510143.1522504	Kokpektinskiy Rayon	Kokpektinskiy Rayon	1522504
 KZ.03.1522531	Kokshetau Gorodskaya Adminstratsiya	Kokshetau Gorodskaya Adminstratsiya	1522531
 KZ.03.1522599	Qīma Aūdany	Qima Audany	1522599
-KZ.01.1522636	Köksū Aūdany	Koksu Audany	1522636
+KZ.12510144.1522636	Köksū Aūdany	Koksu Audany	1522636
 KZ.10.1522640	Kīrov Aūdany	Kirov Audany	1522640
-KZ.01.1522739	Kerbulaq Aūdany	Kerbulaq Audany	1522739
+KZ.12510144.1522739	Kerbulaq Aūdany	Kerbulaq Audany	1522739
 KZ.16.1522808	Kellerovka Aūdany	Kellerovka Audany	1522808
-KZ.10.1522812	Keles Aūdany	Keles Audany	1522812
-KZ.01.1522816	Kegen Aūdany	Kegen Audany	1522816
-KZ.11.1522859	Qazaly Aūdany	Qazaly Audany	1522859
+KZ.10.1522812	Kelesskiy Rayon	Kelesskiy Rayon	1522812
+KZ.02.1522816	Kegen Aūdany	Kegen Audany	1522816
+KZ.14.1522859	Qazaly Aūdany	Qazaly Audany	1522859
 KZ.15.1522926	Katon-Karagayskiy Rayon	Katon-Karagayskiy Rayon	1522926
-KZ.01.1522943	Qaskeleng Aūdany	Qaskeleng Audany	1522943
+KZ.02.1522943	Qaskeleng Aūdany	Qaskeleng Audany	1522943
 KZ.14.1522998	Qarmaqshy Aūdany	Qarmaqshy Audany	1522998
 KZ.12.1523004	Qarqaraly Aūdany	Qarqaraly Audany	1523004
-KZ.01.1523101	Qaratal Aūdany	Qaratal Audany	1523101
+KZ.12510144.1523101	Qaratal Aūdany	Qaratal Audany	1523101
 KZ.13.1523115	Qarasū Aūdany	Qarasu Audany	1523115
 KZ.04.1523423	Äyteke Bī Aūdany	Ayteke Bi Audany	1523423
-KZ.01.1523500	Qapal Aūdany	Qapal Audany	1523500
+KZ.12510144.1523500	Qapal Aūdany	Qapal Audany	1523500
 KZ.13.1523544	Qamysty Aūdany	Qamysty Audany	1523544
 KZ.11.1523663	Terengköl Aūdany	Terengkol Audany	1523663
 KZ.11.1523767	Irtyshskiy Rayon	Irtyshskiy Rayon	1523767
 KZ.04.1523782	Yrghyz Aūdany	Yrghyz Audany	1523782
-KZ.01.1524128	Ile Aūdany	Ile Audany	1524128
+KZ.02.1524128	Ile Aūdany	Ile Audany	1524128
 KZ.01.1524156	Kugalinskiy Rayon	Kugalinskiy Rayon	1524156
 KZ.15.1524226	Glubokovskiy Rayon	Glubokovskiy Rayon	1524226
 KZ.13.1524278	Fëdorovskiy Rayon	Fedorovskiy Rayon	1524278
 KZ.03.1524313	Birzhan sal	Birzhan sal	1524313
-KZ.01.1524315	Engbekshiqazaq Aūdany	Engbekshiqazaq Audany	1524315
+KZ.02.1524315	Engbekshiqazaq Aūdany	Engbekshiqazaq Audany	1524315
 KZ.11.1524322	Ekibastuz Gorodskaya Administratsiya	Ekibastuz Gorodskaya Administratsiya	1524322
 KZ.17.1524333	Zhūaly Aūdany	Zhualy Audany	1524333
 KZ.12.1524382	Zhezdi Aūdany	Zhezdi Audany	1524382
-KZ.10.1524384	Zhetisay Aūdany	Zhetisay Audany	1524384
+KZ.10.1524384	Zhetisayskiy Rayon	Zhetisayskiy Rayon	1524384
 KZ.13.1524388	Dzhetygarinskiy Rayon	Dzhetygarinskiy Rayon	1524388
 KZ.13.1524425	Zhangeldīn Aūdany	Zhangeldin Audany	1524425
-KZ.01.1524438	Zhambyl Aūdany	Zhambyl Audany	1524438
+KZ.02.1524438	Zhambyl Aūdany	Zhambyl Audany	1524438
 KZ.17.1524439	Zhambyl Aūdany	Zhambyl Audany	1524439
 KZ.16.1524440	Zhambylskiy Rayon	Zhambylskiy Rayon	1524440
 KZ.14.1524477	Zhalaghash Aūdany	Zhalaghash Audany	1524477
@@ -20768,39 +20683,39 @@ KZ.17.1524678	Shū Aūdany	Shu Audany	1524678
 KZ.15.1524717	Chubartauskiy Rayon	Chubartauskiy Rayon	1524717
 KZ.16.1524749	Chkalov Aūdany	Chkalov Audany	1524749
 KZ.16.1524766	Chīstopol’e Aūdany	Chistopol'e Audany	1524766
-KZ.01.1524792	Shelek Aūdany	Shelek Audany	1524792
+KZ.02.1524792	Shelek Aūdany	Shelek Audany	1524792
 KZ.14.1524798	Shīeli Aūdany	Shieli Audany	1524798
 KZ.15.1524882	Shar Aūdany	Shar Audany	1524882
-KZ.10.1524885	Shardara Aūdany	Shardara Audany	1524885
-KZ.01.1524969	Burlyutobinskiy Rayon	Burlyutobinskiy Rayon	1524969
+KZ.10.1524885	Shardarinskiy Rayon	Shardarinskiy Rayon	1524885
+KZ.12510144.1524969	Burlyutobinskiy Rayon	Burlyutobinskiy Rayon	1524969
 KZ.16.1525010	Rayon Magzhana Zhumabayeva	Rayon Magzhana Zhumabayeva	1525010
 KZ.10.1525042	Ordabasy Aūdany	Ordabasy Audany	1525042
 KZ.13.1525120	Mendykarinskiy Rayon	Mendykarinskiy Rayon	1525120
-KZ.15.1525133	Borodulikhinskiy Rayon	Borodulikhinskiy Rayon	1525133
+KZ.12510143.1525133	Borodulikhinskiy Rayon	Borodulikhinskiy Rayon	1525133
 KZ.15.1525198	Ülkennaryn Aūdany	Ulkennaryn Audany	1525198
 KZ.16.1525293	Qyzylzhar Aūdany	Qyzylzhar Audany	1525293
-KZ.15.1525406	Beskaragayskiy Rayon	Beskaragayskiy Rayon	1525406
+KZ.12510143.1525406	Beskaragayskiy Rayon	Beskaragayskiy Rayon	1525406
 KZ.11.1525651	Bayanaul’skiy Rayon	Bayanaul'skiy Rayon	1525651
-KZ.01.1525804	Balqash Aūdany	Balqash Audany	1525804
+KZ.02.1525804	Balqash Aūdany	Balqash Audany	1525804
 KZ.03.1525806	Sandyktau	Sandyktau	1525806
-KZ.15.1525986	Ayagoz Gorodskaya Administratsiya	Ayagoz Gorodskaya Administratsiya	1525986
-KZ.02.1526020	Auezovskiy Rayon	Auezovskiy Rayon	1526020
+KZ.12510143.1525986	Ayagoz Gorodskaya Administratsiya	Ayagoz Gorodskaya Administratsiya	1525986
+KZ.01.1526020	Auezovskiy Rayon	Auezovskiy Rayon	1526020
 KZ.03.1526033	Atbasar	Atbasar	1526033
 KZ.03.1526056	Astrakhan	Astrakhan	1526056
 KZ.16.1526177	Aryqbalyq Aūdany	Aryqbalyq Audany	1526177
-KZ.13.1526209	Arqalyq Qalalyq Äkimshilik	Arqalyq Qalalyq Akimshilik	1526209
+KZ.13.1526209	Arqalyq Qalalyq Äkimshiligi	Arqalyq Qalalyq Akimshiligi	1526209
 KZ.14.1526248	Aral Aūdany	Aral Audany	1526248
-KZ.01.1526298	Üygentas Aūdany	Uygentas Audany	1526298
+KZ.12510144.1526298	Üygentas Aūdany	Uygentas Audany	1526298
 KZ.13.1526321	Amantoghay Aūdany	Amantoghay Audany	1526321
 KZ.13.1526340	Amangeldi Aūdany	Amangeldi Audany	1526340
-KZ.10.1526412	Alghabas Aūdany	Alghabas Audany	1526412
+KZ.10.1526412	Rayon Baydibeka	Rayon Baydibeka	1526412
 KZ.03.1526436	Akkol	Akkol	1526436
 KZ.01.1526489	Alakol District	Alakol District	1526489
 KZ.12.1526570	Aqtoghay Aūdany	Aqtoghay Audany	1526570
-KZ.01.1526631	Aqsū Aūdany	Aqsu Audany	1526631
+KZ.12510144.1526631	Aqsū Aūdany	Aqsu Audany	1526631
 KZ.15.1526637	Aqsūat Aūdany	Aqsuat Audany	1526637
 KZ.12.1526940	Agadyrskiy Rayon	Agadyrskiy Rayon	1526940
-KZ.15.1526967	Abayskiy Rayon	Abayskiy Rayon	1526967
+KZ.12510143.1526967	Abayskiy Rayon	Abayskiy Rayon	1526967
 KZ.13.1537245	Altynsarinskiy Rayon	Altynsarinskiy Rayon	1537245
 KZ.13.1537246	Gorod Kustanay	Gorod Kustanay	1537246
 KZ.13.1537247	Zhitiqara Qalasy	Zhitiqara Qalasy	1537247
@@ -20808,31 +20723,30 @@ KZ.13.1537248	Gorod Lisakovsk	Gorod Lisakovsk	1537248
 KZ.13.1537249	Gorod Rudnyy	Gorod Rudnyy	1537249
 KZ.13.1537251	Oktyabr’ Aūdany	Oktyabr' Audany	1537251
 KZ.12.1537252	Toqyraūyn Aūdany	Toqyrauyn Audany	1537252
-KZ.12.1537254	Zhezqazghan Qalalyq Äkimshilik	Zhezqazghan Qalalyq Akimshilik	1537254
+KZ.12510145.1537254	Zhezqazghan Qalalyq Äkimshiligi	Zhezqazghan Qalalyq Akimshiligi	1537254
 KZ.12.1537255	Balqash Qalasy	Balqash Qalasy	1537255
-KZ.12.1537256	Qarazhal Qalasy	Qarazhal Qalasy	1537256
-KZ.12.1537257	Qalasy Sätbaev	Qalasy Satbaev	1537257
+KZ.12510145.1537256	Qarazhal Qalasy	Qarazhal Qalasy	1537256
+KZ.12510145.1537257	Qalasy Sätbaev	Qalasy Satbaev	1537257
 KZ.03.1537265	Stepnogorsk Gorodskaya Administratsiya	Stepnogorsk Gorodskaya Administratsiya	1537265
 KZ.12.1537266	Qaraghandy Qalasy	Qaraghandy Qalasy	1537266
 KZ.12.1537267	Abay Qalasy	Abay Qalasy	1537267
 KZ.12.1537268	Sorang Qalasy	Sorang Qalasy	1537268
 KZ.12.1537269	Temirtaū Qalasy	Temirtau Qalasy	1537269
 KZ.12.1537270	Shakhtīnsk Qalasy	Shakhtinsk Qalasy	1537270
-KZ.10.1537271	Arys Aūdany	Arys Audany	1537271
+KZ.10.1537271	Arys' Gorodskaya Administratsiya	Arys' Gorodskaya Administratsiya	1537271
 KZ.10.1537273	Arys Qalasy	Arys Qalasy	1537273
-KZ.10.1537274	Kentaū Qalasy	Kentau Qalasy	1537274
+KZ.10.1537274	Kentau Gorodskaya Administratsiya	Kentau Gorodskaya Administratsiya	1537274
 KZ.10.1537276	Türkistan Qalasy	Tuerkistan Qalasy	1537276
 KZ.17.1537277	Zhambyl Qalasy	Zhambyl Qalasy	1537277
 KZ.17.1537278	Zhangatas Qalasy	Zhangatas Qalasy	1537278
 KZ.17.1537279	Qarataū Qalasy	Qaratau Qalasy	1537279
 KZ.17.1537280	Shū Qalasy	Shu Qalasy	1537280
 KZ.01.1537281	Kapshagay city	Kapshagay city	1537281
-KZ.01.1537282	Talghar Qalasy	Talghar Qalasy	1537282
+KZ.02.1537282	Talghar Qalasy	Talghar Qalasy	1537282
 KZ.01.1537283	Taldyqorghan Qalasy	Taldyqorghan Qalasy	1537283
-KZ.01.1537284	Tekeli Qalasy	Tekeli Qalasy	1537284
+KZ.12510144.1537284	Tekeli Qalasy	Tekeli Qalasy	1537284
 KZ.15.1537285	Semey Qalasy	Semey Qalasy	1537285
-KZ.15.1537286	Öskemen Qalalyq Äkimshilik	Oskemen Qalalyq Akimshilik	1537286
-KZ.15.1537287	Gorodskaya Administratsiya Altay	Gorodskaya Administratsiya Altay	1537287
+KZ.15.1537286	Öskemen Qalalyq Äkimshiligi	Oskemen Qalalyq Akimshiligi	1537286
 KZ.15.1537288	Ridder Gorodskaya Administratsiya	Ridder Gorodskaya Administratsiya	1537288
 KZ.15.1537289	Serebryansk Qalasy	Serebryansk Qalasy	1537289
 KZ.11.1537290	Pavlodar Gorodskaya Administratsiya	Pavlodar Gorodskaya Administratsiya	1537290
@@ -20852,9 +20766,12 @@ KZ.05.12482487	Almatinskiy Rayon	Almatinskiy Rayon	12482487
 KZ.05.12482488	Esil Aūdany	Esil Audany	12482488
 KZ.05.12482489	Saryarkinskiy Rayon	Saryarkinskiy Rayon	12482489
 KZ.05.12482490	Baykonurskiy Rayon	Baykonurskiy Rayon	12482490
-KZ.15.12483022	Kurchatov Gorodskaya Administratsiya	Kurchatov Gorodskaya Administratsiya	12483022
-KZ.15.12483025	Ayagozskiy Rayon	Ayagozskiy Rayon	12483025
+KZ.12510143.12483022	Kurchatov Gorodskaya Administratsiya	Kurchatov Gorodskaya Administratsiya	12483022
+KZ.12510143.12483025	Ayagozskiy Rayon	Ayagozskiy Rayon	12483025
 KZ.15.12485887	Zaysanskaya Gorodskaya Administratsiya	Zaysanskaya Gorodskaya Administratsiya	12485887
+KZ.1537272.12518735	Karatauskiy Rayon	Karatauskiy Rayon	12518735
+KZ.10.12518736	Rayon Sauran	Rayon Sauran	12518736
+KZ.01.12522073	Nauryzbayskiy Rayon	Nauryzbayskiy Rayon	12522073
 LA.22.0501	Muang Houayxay	Muang Houayxay	1651946
 LA.13.0804	Muang Ngeun	Muang Ngeun	1652070
 LA.03.0702	Muang Xiengkhor	Muang Xiengkhor	1652080
@@ -25870,6 +25787,19 @@ MX.32.056	Zacatecas	Zacatecas	8584013
 MX.32.057	Trancoso	Trancoso	8584014
 MX.32.058	Santa María de la Paz	Santa Maria de la Paz	8584015
 MX.23.011	Puerto Morelos	Puerto Morelos	11789146
+MX.05.124	Mezcalapa	Mezcalapa	12514802
+MX.05.121	Rincón Chamula San Pedro	Rincon Chamula San Pedro	12514803
+MX.05.123	Municipio de Emiliano Zapata	Municipio de Emiliano Zapata	12514804
+MX.05.122	El Parral	El Parral	12514805
+MX.05.120	Municipio de Capitán Luis Ángel Vidal	Municipio de Capitan Luis Angel Vidal	12514806
+MX.05.125	Honduras de la Sierra	Honduras de la Sierra	12514807
+MX.02.007	San Felipe	San Felipe	12514808
+MX.02.006	San Quintín	San Quintin	12514809
+MX.04.012	Seybaplaya	Seybaplaya	12514810
+MX.04.013	Municipio de Dzitbalché	Municipio de Dzitbalche	12514811
+MX.17.034	Coatetelco	Coatetelco	12514812
+MX.17.036	Municipio de Hueyapan	Municipio de Hueyapan	12514813
+MX.17.035	Xoxocotla	Xoxocotla	12514814
 MY.02.0207	Langkawi	Langkawi	1222381
 MY.06.0811	Temerluh	Temerluh	1732585
 MY.01.0101	Daerah Batu Pahat	Daerah Batu Pahat	1732686
@@ -27583,7 +27513,7 @@ NL.01.1680	Gemeente Aa en Hunze	Gemeente Aa en Hunze	6544296
 NL.01.1731	Gemeente Midden-Drenthe	Gemeente Midden-Drenthe	6544297
 NL.05.0994	Valkenburg aan de Geul	Valkenburg aan de Geul	6544299
 NL.02.0737	Gemeente Tytsjerksteradiel	Gemeente Tytsjerksteradiel	6544304
-NL.04.1895	Gemeente  Oldambt	Gemeente  Oldambt	7535498
+NL.04.1895	Gemeente Oldambt	Gemeente  Oldambt	7535498
 NL.11.1892	Gemeente Zuidplas	Gemeente Zuidplas	7535501
 NL.05.1894	Gemeente Peel en Maas	Gemeente Peel en Maas	7535502
 NL.05.1903	Eijsden-Margraten	Eijsden-Margraten	8260046
@@ -28182,7 +28112,7 @@ PA.08.0810	Distrito San Miguelito	Distrito San Miguelito	3701328
 PA.02.0412	Distrito de San Lorenzo	Distrito de San Lorenzo	3701365
 PA.10.0908	Distrito de San Francisco	Distrito de San Francisco	3701474
 PA.02.0411	Distrito de San Félix	Distrito de San Felix	3701489
-PA.13.0809	Distrito de San Carlos	Distrito de San Carlos	3701523
+PA.13.1309	Distrito de San Carlos	Distrito de San Carlos	3701523
 PA.10.0907	Distrito de Río de Jesús	Distrito de Rio de Jesus	3701878
 PA.02.0410	Distrito de Renacimiento	Distrito de Renacimiento	3701989
 PA.02.0409	Distrito de Remedios	Distrito de Remedios	3701992
@@ -28206,7 +28136,7 @@ PA.10.0905	Distrito de Las Palmas	Distrito de Las Palmas	3706289
 PA.06.0602	Distrito de Las Minas	Distrito de Las Minas	3706342
 PA.03.0203	Distrito de La Pintada	Distrito de La Pintada	3706929
 PA.10.0904	Distrito de La Mesa	Distrito de La Mesa	3707217
-PA.13.0807	Distrito de La Chorrera	Distrito de La Chorrera	3707960
+PA.13.1307	Distrito de La Chorrera	Distrito de La Chorrera	3707960
 PA.07.0701	Distrito de Guararé	Distrito de Guarare	3708907
 PA.02.0408	Distrito de Gualaca	Distrito de Gualaca	3708946
 PA.04.0303	Distrito de Donoso	Distrito de Donoso	3711599
@@ -28219,9 +28149,9 @@ PA.08.0806	Distrito de Chimán	Distrito de Chiman	3712446
 PA.08.0805	Distrito de Chepo	Distrito de Chepo	3712502
 PA.05.0501	Distrito de Chepigana	Distrito de Chepigana	3712512
 PA.01.0102	Distrito de Changuinola	Distrito de Changuinola	3712558
-PA.13.0804	Distrito de Chame	Distrito de Chame	3712575
+PA.13.1304	Distrito de Chame	Distrito de Chame	3712575
 PA.04.0302	Distrito de Chagres	Distrito de Chagres	3712596
-PA.13.0803	Distrito de Capira	Distrito de Capira	3713045
+PA.13.1303	Distrito de Capira	Distrito de Capira	3713045
 PA.10.0903	Distrito de Cañazas	Distrito de Canazas	3713184
 PA.10.0902	Distrito de Calobre	Distrito de Calobre	3713393
 PA.02.0405	Distrito de Bugaba	Distrito de Bugaba	3713665
@@ -28231,7 +28161,7 @@ PA.01.0101	Distrito de Bocas del Toro	Distrito de Bocas del Toro	3713955
 PA.02.0402	Distrito de Barú	Distrito de Baru	3714267
 PA.08.0802	Distrito de Balboa	Distrito de Balboa	3714424
 PA.10.0901	Distrito de Atalaya	Distrito de Atalaya	3714595
-PA.13.0801	Distrito Arraiján	Distrito Arraijan	3714635
+PA.13.1301	Distrito Arraiján	Distrito Arraijan	3714635
 PA.03.0202	Distrito de Antón	Distrito de Anton	3714708
 PA.02.0401	Distrito de Alanje	Distrito de Alanje	3714937
 PA.03.0201	Distrito de Aguadulce	Distrito de Aguadulce	3715037
@@ -28246,6 +28176,12 @@ PA.12.1207	Kusapín	Kusapin	9862221
 PA.12.1206	Kankintú	Kankintu	9862223
 PA.12.1201	Besiko	Besiko	9862224
 PA.12.1205	Nurun	Nurun	9862226
+PA.12.1209	Santa Catalina o Calovébora	Santa Catalina o Calovebora	12510669
+PA.05.0503	Santa Fe	Santa Fe	12510670
+PA.04.0306	Omar Torrijos Herrera	Omar Torrijos Herrera	12510671
+PA.02.0414	Tierras Altas	Tierras Altas	12510672
+PA.01.0104	Almirante	Almirante	12510673
+PA.12.1208	Jirondai	Jirondai	12510674
 PE.24.2403	Provincia de Zarumilla	Provincia de Zarumilla	3690615
 PE.02.0220	Provincia de Yungay	Provincia de Yungay	3690672
 PE.16.1606	Provincia de Ucayali	Provincia de Ucayali	3691097
@@ -33895,7 +33831,7 @@ RU.25.462912	Zhizdrinskiy Rayon	Zhizdrinskiy Rayon	462912
 RU.84.462981	Zhirnovskiy Rayon	Zhirnovskiy Rayon	462981
 RU.41.463342	Zheleznogorskiy Rayon	Zheleznogorskiy Rayon	463342
 RU.66.463424	Primorskiy Rayon	Primorskiy Rayon	463424
-RU.23.463825	Zelenogradskiy Rayon	Zelenogradskiy Rayon	463825
+RU.23.463825	Zelenogradskiy Gorodskoy Okrug	Zelenogradskiy Gorodskoy Okrug	463825
 RU.73.463834	Zelenodolsky District	Zelenodolsky District	463834
 RU.27.463884	Zelenchukskiy Rayon	Zelenchukskiy Rayon	463884
 RU.80.464067	Zav’yalovskiy Rayon	Zav'yalovskiy Rayon	464067
@@ -34119,7 +34055,7 @@ RU.85.491147	Sokol’skiy Rayon	Sokol'skiy Rayon	491147
 RU.83.491475	Sobinskiy Rayon	Sobinskiy Rayon	491475
 RU.33.491877	Slobodskoy Rayon	Slobodskoy Rayon	491877
 RU.38.492095	Slavyansky rayon	Slavyansky rayon	492095
-RU.23.492111	Slavskiy Rayon	Slavskiy Rayon	492111
+RU.23.492111	Slavskiy Gorodskoy Okrug	Slavskiy Gorodskoy Okrug	492111
 RU.42.492167	Slantsevskiy Rayon	Slantsevskiy Rayon	492167
 RU.21.493203	Shuyskiy Rayon	Shuyskiy Rayon	493203
 RU.16.493464	Shumerlinskiy Rayon	Shumerlinskiy Rayon	493464
@@ -34214,14 +34150,14 @@ RU.34.505282	Priluzskiy Rayon	Priluzskiy Rayon	505282
 RU.27.505340	Prikubanskiy Rayon	Prikubanskiy Rayon	505340
 RU.68.505371	Prigorodnyy Rayon	Prigorodnyy Rayon	505371
 RU.68.505586	Pravoberezhnyy Rayon	Pravoberezhnyy Rayon	505586
-RU.23.505596	Pravdinskiy Rayon	Pravdinskiy Rayon	505596
+RU.23.505596	Pravdinskiy Gorodskoy Okrug	Pravdinskiy Gorodskoy Okrug	505596
 RU.86.505805	Povorinskiy Rayon	Povorinskiy Rayon	505805
 RU.88.506030	Poshekhonskiy Rayon	Poshekhonskiy Rayon	506030
 RU.60.506274	Porkhovskiy Rayon	Porkhovskiy Rayon	506274
 RU.16.506288	Poretskiy Rayon	Poretskiy Rayon	506288
 RU.41.506595	Ponyrovskiy Rayon	Ponyrovskiy Rayon	506595
 RU.37.506693	Ponazyrevskiy Rayon	Ponazyrevskiy Rayon	506693
-RU.23.507290	Polesskiy Rayon	Polesskiy Rayon	507290
+RU.23.507290	Polesskiy Gorodskoy Okrug	Polesskiy Gorodskoy Okrug	507290
 RU.10.507867	Pogarskiy Rayon	Pogarskiy Rayon	507867
 RU.84.507965	Kumylzhenskiy Rayon	Kumylzhenskiy Rayon	507965
 RU.42.508035	Podporozhskiy Rayon	Podporozhskiy Rayon	508035
@@ -34261,7 +34197,7 @@ RU.84.513041	Pallasovskiy Rayon	Pallasovskiy Rayon	513041
 RU.60.513043	Palkinskiy Rayon	Palkinskiy Rayon	513043
 RU.21.513094	Palekhskiy Rayon	Palekhskiy Rayon	513094
 RU.47.513393	Ozyory Urban Okrug	Ozyory Urban Okrug	513393
-RU.23.513394	Ozerskiy Rayon	Ozerskiy Rayon	513394
+RU.23.513394	Ozërskiy Gorodskoy Okrug	Ozerskiy Gorodskoy Okrug	513394
 RU.38.513908	Otradnenskiy Rayon	Otradnenskiy Rayon	513908
 RU.37.514056	Ostrovskiy Rayon	Ostrovskiy Rayon	514056
 RU.60.514057	Ostrovskiy Rayon	Ostrovskiy Rayon	514057
@@ -34312,10 +34248,10 @@ RU.84.521848	Nikolayevskiy Rayon	Nikolayevskiy Rayon	521848
 RU.37.522334	Neyskiy Rayon	Neyskiy Rayon	522334
 RU.66.522360	Nevskiy Rayon	Nevskiy Rayon	522360
 RU.57.522401	Neverkinskiy Rayon	Neverkinskiy Rayon	522401
-RU.23.522467	Nesterovskiy Rayon	Nesterovskiy Rayon	522467
+RU.23.522467	Nesterovskiy Godorskoy Okrug	Nesterovskiy Godorskoy Okrug	522467
 RU.37.522591	Nerekhtskiy Rayon	Nerekhtskiy Rayon	522591
 RU.33.522678	Nemskiy Rayon	Nemskiy Rayon	522678
-RU.23.522740	Nemanskiy Rayon	Nemanskiy Rayon	522740
+RU.23.522740	Nemanskiy Gorodskoy Okrug	Nemanskiy Gorodskoy Okrug	522740
 RU.88.522800	Nekrasovskiy Rayon	Nekrasovskiy Rayon	522800
 RU.88.522861	Nekouzskiy Rayon	Nekouzskiy Rayon	522861
 RU.84.522901	Nekhayevskiy Rayon	Nekhayevskiy Rayon	522901
@@ -34443,7 +34379,7 @@ RU.51.540102	Kstovskiy Rayon	Kstovskiy Rayon	540102
 RU.38.540245	Krymskiy Rayon	Krymskiy Rayon	540245
 RU.38.540263	Krylovskiy Rayon	Krylovskiy Rayon	540263
 RU.52.541156	Krestetskiy Rayon	Krestetskiy Rayon	541156
-RU.23.541941	Krasnoznamenskiy Rayon	Krasnoznamenskiy Rayon	541941
+RU.23.541941	Kransoznamenskiy Gorodskoy Okrug	Kransoznamenskiy Gorodskoy Okrug	541941
 RU.65.542130	Krasnoyarskiy Rayon	Krasnoyarskiy Rayon	542130
 RU.07.542131	Krasnoyarskiy Rayon	Krasnoyarskiy Rayon	542131
 RU.90.542183	Krasnovisherskiy Rayon	Krasnovisherskiy Rayon	542183
@@ -34572,7 +34508,7 @@ RU.38.553149	Kanevskiy Rayon	Kanevskiy Rayon	553149
 RU.16.553213	Kanashskiy Rayon	Kanashskiy Rayon	553213
 RU.07.553246	Kamyzyakskiy Rayon	Kamyzyakskiy Rayon	553246
 RU.84.553278	Kamyshinskiy Rayon	Kamyshinskiy Rayon	553278
-RU.73.Kamsko-Ust'inskiy Rayon	Kamsko-Ustyinsky District	Kamsko-Ustyinsky District	553346
+RU.73.553346	Kamsko-Ustyinsky District	Kamsko-Ustyinsky District	553346
 RU.83.553388	Kameshkovskiy Rayon	Kameshkovskiy Rayon	553388
 RU.57.553390	Kameshkirskiy Rayon	Kameshkirskiy Rayon	553390
 RU.76.553408	Kamenskiy Rayon	Kamenskiy Rayon	553408
@@ -34605,10 +34541,10 @@ RU.24.557412	Iki-Burul’skiy Rayon	Iki-Burul'skiy Rayon	557412
 RU.08.557562	Iglinskiy Rayon	Iglinskiy Rayon	557562
 RU.46.557618	Ichalkovskiy Rayon	Ichalkovskiy Rayon	557618
 RU.16.557627	Ibresinskiy Rayon	Ibresinskiy Rayon	557627
-RU.23.557707	Gvardeyskiy Rayon	Gvardeyskiy Rayon	557707
+RU.23.557707	Gvardeyskiy Gorodskoy Okrug	Gvardeyskiy Gorodskoy Okrug	557707
 RU.83.557774	Gus’-Khrustal’nyy Rayon	Gus'-Khrustal'nyy Rayon	557774
-RU.23.557841	Gusevskiy Rayon	Gusevskiy Rayon	557841
-RU.23.557904	Gur’yevskiy Rayon	Gur'yevskiy Rayon	557904
+RU.23.557841	Gusevskiy Gorodskoy Okrug	Gusevskiy Gorodskoy Okrug	557841
+RU.23.557904	Gur'yevskiy Gorodskoy Okrug	Gur'yevskiy Gorodskoy Okrug	557904
 RU.17.557977	Gunibskiy Rayon	Gunibskiy Rayon	557977
 RU.17.558024	Gumbetovskiy Rayon	Gumbetovskiy Rayon	558024
 RU.38.558065	Gul’kevichskiy Rayon	Gul'kevichskiy Rayon	558065
@@ -34684,7 +34620,7 @@ RU.73.567985	Chistopolsky District	Chistopolsky District	567985
 RU.08.568013	Chishminskiy Rayon	Chishminskiy Rayon	568013
 RU.84.568526	Chernyshkovskiy Rayon	Chernyshkovskiy Rayon	568526
 RU.09.568584	Chernyanskiy Rayon	Chernyanskiy Rayon	568584
-RU.23.568594	Chernyakhovskiy Rayon	Chernyakhovskiy Rayon	568594
+RU.23.568594	Chernyakhovksiy Gorodskoy Okrug	Chernyakhovksiy Gorodskoy Okrug	568594
 RU.24.568626	Chernozemel’skiy Rayon	Chernozemel'skiy Rayon	568626
 RU.07.568698	Chernoyarskiy Rayon	Chernoyarskiy Rayon	568698
 RU.85.569222	Cherepovetskiy Rayon	Cherepovetskiy Rayon	569222
@@ -34769,7 +34705,7 @@ RU.47.579462	Balashikha Urban Okrug	Balashikha Urban Okrug	579462
 RU.51.579510	Balakhninskiy Rayon	Balakhninskiy Rayon	579510
 RU.22.579567	Baksanskiy Rayon	Baksanskiy Rayon	579567
 RU.08.579731	Bakalinskiy Rayon	Bakalinskiy Rayon	579731
-RU.23.579759	Bagrationovskiy Rayon	Bagrationovskiy Rayon	579759
+RU.23.579759	Bagrationovskiy Gorodskoy Okrug	Bagrationovskiy Gorodskoy Okrug	579759
 RU.25.579834	Babyninskiy Rayon	Babyninskiy Rayon	579834
 RU.85.579865	Babushkinskiy Rayon	Babushkinskiy Rayon	579865
 RU.48.579866	Severo-Vostochnyy Administrativnyy Okrug	Severo-Vostochnyy Administrativnyy Okrug	579866
@@ -34831,9 +34767,8 @@ RU.09.824992	Krasnoyaruzhskiy Rayon	Krasnoyaruzhskiy Rayon	824992
 RU.10.824993	Gordeyevskiy Rayon	Gordeyevskiy Rayon	824993
 RU.10.824994	Zhiryatinskiy Rayon	Zhiryatinskiy Rayon	824994
 RU.10.824995	Zlynkovskiy Rayon	Zlynkovskiy Rayon	824995
-RU.10.824996	Gorod Novozybkov	Gorod Novozybkov	824996
-RU.10.824997	Gorod Bryansk	Gorod Bryansk	824997
-RU.10.824998	Gorod Dyat’kovo	Gorod Dyat'kovo	824998
+RU.10.824996	Novozybkovskiy Gorodskoy Okrug	Novozybkovskiy Gorodskoy Okrug	824996
+RU.10.824997	Gorodskoy Okrug Bryansk	Gorodskoy Okrug Bryansk	824997
 RU.13.825029	Gorod Zlatoust	Gorod Zlatoust	825029
 RU.13.825030	Gorod Magnitogorsk	Gorod Magnitogorsk	825030
 RU.13.825031	Gorod Ust’-Katav	Gorod Ust'-Katav	825031
@@ -34848,12 +34783,12 @@ RU.21.825095	Gorod Teykovo	Gorod Teykovo	825095
 RU.21.825096	Lezhnevskiy Rayon	Lezhnevskiy Rayon	825096
 RU.22.825097	El’brusskiy Rayon	El'brusskiy Rayon	825097
 RU.22.825098	Nalchik Urban Okrug	Nalchik Urban Okrug	825098
-RU.23.825113	Gorod Sovetsk	Gorod Sovetsk	825113
+RU.23.825113	Sovetskiy Gorodskoy Okrug	Sovetskiy Gorodskoy Okrug	825113
 RU.23.825114	Gorod Neman	Gorod Neman	825114
-RU.23.825115	Gorod Svetlogorsk	Gorod Svetlogorsk	825115
-RU.23.825116	Gorod Pionerskiy	Gorod Pionerskiy	825116
-RU.23.825117	Gorod Svetlyy	Gorod Svetlyy	825117
-RU.23.825118	Gorod Kaliningrad	Gorod Kaliningrad	825118
+RU.23.825115	Svetlogorskiy Gorodskoy Okrug	Svetlogorskiy Gorodskoy Okrug	825115
+RU.23.825116	Pionerskiy Gorodskoy Okrug	Pionerskiy Gorodskoy Okrug	825116
+RU.23.825117	Svetlovskiy Gorodskoy Okrug	Svetlovskiy Gorodskoy Okrug	825117
+RU.23.825118	Kaliningradskiy Gorodskoy Okrug	Kaliningradskiy Gorodskoy Okrug	825118
 RU.17.826309	Gorod Makhachkala	Gorod Makhachkala	826309
 RU.21.826310	Gorod Furmanovo	Gorod Furmanovo	826310
 RU.17.830805	Bezhtinskiy Uchastok Rayon	Bezhtinskiy Uchastok Rayon	830805
@@ -35404,6 +35339,12 @@ RU.51.12041475	Shakhunya Urban Okrug	Shakhunya Urban Okrug	12041475
 RU.51.12041476	Sokolsky Urban Okrug	Sokolsky Urban Okrug	12041476
 RU.51.12041480	Bor Urban Okrug	Bor Urban Okrug	12041480
 RU.51.12041481	Nizhny Novgorod Urban Okrug	Nizhny Novgorod Urban Okrug	12041481
+RU.23.12514975	Mamonovskiy Gorodskoy Okrug	Mamonovskiy Gorodskoy Okrug	12514975
+RU.23.12514976	Yantarnyy Gorodskoy Okrug	Yantarnyy Gorodskoy Okrug	12514976
+RU.23.12514977	Ladushkinskiy Gorodskoy Okrug	Ladushkinskiy Gorodskoy Okrug	12514977
+RU.10.12522070	Gorodskoy Okrug Fokino	Gorodskoy Okrug Fokino	12522070
+RU.10.12522071	Gorodskoy Okrug Sel'tso	Gorodskoy Okrug Sel'tso	12522071
+RU.10.12522072	Gorodskoy Okrug Klintsy	Gorodskoy Okrug Klintsy	12522072
 RW.11.52	Nyagatare District	Nyagatare District	7688799
 RW.11.53	Gatsibo District	Gatsibo District	7688800
 RW.11.54	Kayonza District	Kayonza District	7688801
@@ -37862,18 +37803,16 @@ TJ.02.1220107	Yavanskiy Rayon	Yavanskiy Rayon	1220107
 TJ.01.1220206	Vanchskiy Rayon	Vanchskiy Rayon	1220206
 TJ.04.1220319	Tsentral’nyy Rayon	Tsentral'nyy Rayon	1220319
 TJ.02.1220445	Sovetskiy Rayon	Sovetskiy Rayon	1220445
-TJ.01.1220683	Rushanskiy Rayon	Rushanskiy Rayon	1220683
 TJ.03.1220797	Pendzhikentskiy Rayon	Pendzhikentskiy Rayon	1220797
 TJ.RR.1220854	Vahdat District	Vahdat District	1220854
 TJ.04.1220859	Oktyabr’skiy Rayon	Oktyabr'skiy Rayon	1220859
-TJ.00.1221088	Leninskiy Rayon	Leninskiy Rayon	1221088
+TJ.RR.1221088	Rudaki District	Rudaki District	1221088
 TJ.02.1221090	Muminobodskiy Rayon	Muminobodskiy Rayon	1221090
-TJ.00.1221249	Komsomolabadskiy Rayon	Komsomolabadskiy Rayon	1221249
+TJ.RR.1221249	Nurobod District	Nurobod District	1221249
 TJ.02.1221253	Bokhtarskiy Rayon	Bokhtarskiy Rayon	1221253
 TJ.02.1221320	Khovalingskiy Rayon	Khovalingskiy Rayon	1221320
 TJ.01.1221558	Darvozskiy Rayon	Darvozskiy Rayon	1221558
 TJ.02.1221646	Gozimalikskiy Rayon	Gozimalikskiy Rayon	1221646
-TJ.00.1221707	Gissarskiy Rayon	Gissarskiy Rayon	1221707
 TJ.04.1221873	Dushanbe	Dushanbe	1221873
 TJ.03.1222220	Ayninskiy Rayon	Ayninskiy Rayon	1222220
 TJ.03.1514816	Nohiyai Zafarobod	Nohiyai Zafarobod	1514816
@@ -39585,7 +39524,7 @@ UA.19.5604	Dubenska Miskrada	Dubenska Miskrada	9289934
 UA.19.5606	Rivnenska Miskrada	Rivnenska Miskrada	9289988
 UA.15.4610	Stryys’ka Mis’krada	Stryys'ka Mis'krada	9290334
 UA.15.4608	Sambirs’ka Mis’krada	Sambirs'ka Mis'krada	9290363
-UA.27.1808	Novohrad-Volynska Miskrada	Novohrad-Volynska Miskrada	9640803
+UA.27.1808	Zviahel Miskrada	Zviahel Miskrada	9640803
 UA.13.3202	Bilotserkivska Miskrada	Bilotserkivska Miskrada	9644965
 UA.02.7404	Nizhyns’ka Mis’krada	Nizhyns'ka Mis'krada	9806344
 UA.02.7406	Novhorod-Sivers’ka Mis’krada	Novhorod-Sivers'ka Mis'krada	9806345
@@ -39679,7 +39618,7 @@ UG.E.B8	Amuria District	Amuria District	7056276
 UG.N.B9	Amuru District	Amuru District	7056278
 UG.E.C1	Budaka District	Budaka District	7056279
 UG.E.C2	Bududa District	Bududa District	7056280
-UG.W.C5	Bulisa District	Bulisa District	7056281
+UG.W.C5	Buliisa District	Buliisa District	7056281
 UG.E.C6	Butaleja District	Butaleja District	7056282
 UG.N.C7	Dokolo District	Dokolo District	7056283
 UG.W.C8	Ibanda District	Ibanda District	7056284
