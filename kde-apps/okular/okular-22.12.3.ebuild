@@ -6,7 +6,7 @@ EAPI=8
 ECM_HANDBOOK="optional"
 ECM_TEST="forceoptional"
 PVCUT=$(ver_cut 1-3)
-KFMIN=5.96.0
+KFMIN=5.101.0
 QTMIN=5.15.5
 VIRTUALX_REQUIRED="test"
 inherit ecm gear.kde.org
@@ -19,7 +19,9 @@ SLOT="5"
 KEYWORDS="~arm64"
 IUSE="crypt djvu epub +image-backend markdown mobi mobile +pdf +plucker +postscript qml share speech +tiff"
 
+# slot op: Uses Qt5::CorePrivate
 DEPEND="
+	>=dev-qt/qtcore-${QTMIN}:5=
 	>=dev-qt/qtdbus-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
 	>=dev-qt/qtprintsupport-${QTMIN}:5
@@ -69,7 +71,7 @@ RDEPEND="${DEPEND}
 
 PATCHES=(
 	"${FILESDIR}/${PN}-21.11.80-tests.patch" # bug 734138
-	"${FILESDIR}/${P}-drop-broken-kf-version-check.patch"
+	"${FILESDIR}/${PN}-22.12.2-discount-3.patch" # bug 892633
 )
 
 src_configure() {
