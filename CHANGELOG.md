@@ -7,6 +7,9 @@
 * `kde-apps/kweather`
   Now available in `::gentoo` (as `kde-misc/kweather`)
 
+* `kde-misc/kweathercore`
+  Now available in `::gentoo` (as `dev-libs/kweathercore`)
+
 # 5.26.5.22.08.3.2.2.2.0
 
 **Maui apps** updated to **2.2.2**

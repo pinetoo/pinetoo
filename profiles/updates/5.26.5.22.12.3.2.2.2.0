@@ -1,1 +1,2 @@
 move kde-apps/kweather kde-misc/kweather
+move kde-misc/kweathercore dev-libs/kweathercore
