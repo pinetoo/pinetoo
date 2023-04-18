@@ -2,6 +2,11 @@
 
 * `app-misc/pinephone-manjaro-tweaks` add missing systemd service unit it tries to install for ModemManager.
 
+## Removed
+
+* `kde-apps/kweather`
+  Now available in `::gentoo` (as `kde-misc/kweather`)
+
 # 5.26.5.22.08.3.2.2.2.0
 
 **Maui apps** updated to **2.2.2**
