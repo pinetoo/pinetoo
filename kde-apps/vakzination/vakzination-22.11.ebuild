@@ -1,10 +1,10 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 QTMIN=5.15.0
-KFMIN=5.85.0
+KFMIN=5.90.0
 
 inherit ecm plasma-mobile.kde.org
 
@@ -40,4 +40,4 @@ DEPEND="
 	>=dev-qt/qttest-${QTMIN}:${SLOT}
 "
 
-DEPEND="${DEPEND}"
+RDEPEND="${DEPEND}"
