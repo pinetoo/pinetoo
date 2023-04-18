@@ -5,4 +5,7 @@
     <email>pinetoo@chuso.net</email>
     <name>Jesus Perez Rey</name>
   </maintainer>
+  <use>
+    <flag name="lockscreen">Enable showing and answering calls from the lock screen.</flag>
+  </use>
 </pkgmetadata>
