@@ -2,6 +2,10 @@
 
 * `app-misc/pinephone-manjaro-tweaks` add missing systemd service unit it tries to install for ModemManager.
 
+## Package updates
+
+* `dev-python/ytmusicapi-0.24.0`
+
 ## Removed
 
 * `kde-apps/kweather`
