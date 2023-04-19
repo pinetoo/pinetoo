@@ -4,6 +4,8 @@
 
 ## Package updates
 
+* `dev-libs/feedbackd-0.1.1`
+
 * `dev-python/ytmusicapi-0.24.0`
 
 ## Removed
