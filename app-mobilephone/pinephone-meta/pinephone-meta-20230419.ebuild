@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -20,7 +20,7 @@ RDEPEND="
 	kde-plasma/plasma-mobile-settings
 	media-libs/alsa-ucm-pinephone
 	sys-apps/zswap
-	sys-boot/p-boot
+	|| ( sys-boot/p-boot-bin sys-boot/p-boot-bin )
 	sys-boot/pinetoo-bootsplash
 	sys-firmware/pinephone-firmware
 	sys-kernel/pinephone-kernel

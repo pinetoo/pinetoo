@@ -2,6 +2,10 @@
 
 * `app-misc/pinephone-manjaro-tweaks` add missing systemd service unit it tries to install for ModemManager.
 
+## New packages
+
+* `sys-boot/p-boot-bin`
+
 ## Package updates
 
 * `dev-libs/feedbackd-0.1.1`
