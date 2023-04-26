@@ -1,5 +1,9 @@
 # 5.26.5.22.12.3.2.2.2.0
 
+**KDE Gear** updated to **22.12.3**
+
+**KDE Plasma Mobile** updated to **22.11**
+
 * `app-misc/pinephone-manjaro-tweaks` add missing systemd service unit it tries to install for ModemManager.
 
 ## New packages
