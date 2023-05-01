@@ -4,9 +4,9 @@
 EAPI=8
 
 ECM_TEST="true"
-KFMIN=5.99.0
+KFMIN=5.102.0
 PVCUT=$(ver_cut 1-3)
-QTMIN=5.15.5
+QTMIN=5.15.7
 inherit ecm plasma.kde.org
 
 DESCRIPTION="KDE Plasma applet for NetworkManager"
@@ -14,7 +14,7 @@ DESCRIPTION="KDE Plasma applet for NetworkManager"
 LICENSE="GPL-2 LGPL-2.1"
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE="mobile modemmanager openconnect teamd"
+IUSE="mobile openconnect teamd"
 
 DEPEND="
 	>=app-crypt/qca-2.3.0:2[qt5(+)]
@@ -37,15 +37,13 @@ DEPEND="
 	>=kde-frameworks/kwidgetsaddons-${KFMIN}:5
 	>=kde-frameworks/kwindowsystem-${KFMIN}:5
 	>=kde-frameworks/kxmlgui-${KFMIN}:5
+	>=kde-frameworks/modemmanager-qt-${KFMIN}:5
 	>=kde-frameworks/networkmanager-qt-${KFMIN}:5[teamd=]
 	>=kde-frameworks/plasma-${KFMIN}:5
 	>=kde-frameworks/solid-${KFMIN}:5
 	net-misc/networkmanager[teamd=]
-	modemmanager? (
-		>=dev-qt/qtxml-${QTMIN}:5
-		>=kde-frameworks/modemmanager-qt-${KFMIN}:5
-		net-misc/mobile-broadband-provider-info
-	)
+	>=dev-qt/qtxml-${QTMIN}:5
+	net-misc/mobile-broadband-provider-info
 	openconnect? (
 		>=dev-qt/qtxml-${QTMIN}:5
 		net-vpn/networkmanager-openconnect
@@ -65,12 +63,10 @@ BDEPEND="
 	virtual/pkgconfig
 "
 
+PATCHES=( "${FILESDIR}/${P}-persist-imported-vpn-connections.patch" ) # KDE-bug 468666
+
 src_prepare() {
 	ecm_src_prepare
-
-	if ! use mobile; then
-		PATCHES=( "${FILESDIR}/${PN}-5.26.0-unused-dep.patch" )
-	fi
 
 	# TODO: try to get a build switch upstreamed
 	if ! use openconnect; then
@@ -81,8 +77,6 @@ src_prepare() {
 src_configure() {
 	local mycmakeargs=(
 		-DBUILD_MOBILE=$(usex mobile "True" "False")
-		-DDISABLE_MODEMMANAGER_SUPPORT=$(usex !modemmanager)
-		$(cmake_use_find_package modemmanager KF5ModemManagerQt)
 	)
 
 	ecm_src_configure
