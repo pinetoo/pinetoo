@@ -1,3 +1,9 @@
+# 5.27.4.22.12.3.2.2.2.0
+
+## Package updates
+
+* `app-emulation/waydroid-1.4.1`
+
 # 5.26.5.22.12.3.2.2.2.0
 
 **KDE Gear** updated to **22.12.3**
