@@ -4,6 +4,8 @@
 
 * `app-emulation/waydroid-1.4.1`
 
+* `dev-libs/feedbackd-0.2.0`
+
 # 5.26.5.22.12.3.2.2.2.0
 
 **KDE Gear** updated to **22.12.3**
