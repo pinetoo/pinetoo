@@ -3,7 +3,7 @@
 
 EAPI=8
 
-KFMIN=5.98.0
+KFMIN=5.102.0
 QTMIN=5.15.2
 inherit ecm plasma.kde.org
 
@@ -16,6 +16,7 @@ KEYWORDS="~arm64"
 
 DEPEND="
 	dev-libs/glib:2
+	>=dev-libs/kirigami-addons-0.6
 	>=dev-qt/qtcore-${QTMIN}:${SLOT}
 	>=dev-qt/qtdbus-${QTMIN}:${SLOT}
 	>=dev-qt/qtdeclarative-${QTMIN}:${SLOT}
@@ -52,7 +53,6 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}
-	dev-libs/kirigami-addons
 	dev-qt/qtfeedback
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:${SLOT}
 	>=dev-qt/qtquickcontrols-${QTMIN}:${SLOT}
