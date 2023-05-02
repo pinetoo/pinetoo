@@ -10,6 +10,8 @@
 
 * `sys-kernel/linux-headers-6.1.26`
 
+* `sys-kernel/pinephone-kernel-6.1.26`
+
 # 5.26.5.22.12.3.2.2.2.0
 
 **KDE Gear** updated to **22.12.3**

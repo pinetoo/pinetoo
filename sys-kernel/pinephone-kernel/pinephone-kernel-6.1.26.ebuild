@@ -5,7 +5,7 @@ EAPI=8
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/core/linux-pinephone.git"
 EGIT_BRANCH="6.1-megi"
-EGIT_COMMIT="564e82b2ccfb6b49956da37d2cec9281510d876d"
+EGIT_COMMIT="58cdacc1d177c372e949fc690be4a6a2040d236c"
 
 KERNEL_TAG="6.1-20230214-2103"
 
@@ -29,6 +29,11 @@ PATCHES=(
 	"${WORKDIR}/${P}/6.1.18-19.patch"
 	"${WORKDIR}/${P}/6.1.19-20.patch"
 	"${WORKDIR}/${P}/6.1.20-21.patch"
+	"${WORKDIR}/${P}/6.1.21-22.patch"
+	"${WORKDIR}/${P}/6.1.22-23.patch"
+	"${WORKDIR}/${P}/6.1.23-24.patch"
+	"${WORKDIR}/${P}/6.1.24-25.patch"
+	"${WORKDIR}/${P}/6.1.25-26.patch"
 	"${WORKDIR}/${P}/0101-arm64-dts-pinephone-drop-modem-power-node.patch"
 	"${WORKDIR}/${P}/0102-arm64-dts-pinephone-pro-remove-modem-node.patch"
 	"${WORKDIR}/${P}/0103-ccu-sun50i-a64-reparent-clocks-to-lower-speed-oscillator.patch"
