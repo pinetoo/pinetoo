@@ -1,5 +1,7 @@
 # 5.27.4.22.12.3.2.2.2.0
 
+**KDE Plasma** updated to **5.27.4**
+
 ## Package updates
 
 * `app-emulation/waydroid-1.4.1`
