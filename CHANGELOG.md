@@ -14,6 +14,11 @@
 
 * `sys-kernel/pinephone-kernel-6.1.26`
 
+## Other changes
+
+* `dev-python/gbinder-python`
+  Add support for Python 3.11.
+
 # 5.26.5.22.12.3.2.2.2.0
 
 **KDE Gear** updated to **22.12.3**
