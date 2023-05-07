@@ -9,6 +9,7 @@ inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Web browser for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/angelfish/"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="GPL-2+ LGPL-2 LGPL-2+ MIT"
 SLOT="5"
@@ -16,6 +17,7 @@ KEYWORDS="~arm64"
 IUSE="haptic"
 
 DEPEND="
+	>=dev-libs/kirigami-addons-0.6
 	>=dev-qt/qtcore-${QTMIN}:${SLOT}
 	>=dev-qt/qtdeclarative-${QTMIN}:${SLOT}
 	>=dev-qt/qtgui-${QTMIN}:${SLOT}
