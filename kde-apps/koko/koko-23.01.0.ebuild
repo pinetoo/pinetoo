@@ -10,6 +10,7 @@ inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Image gallery application designed for desktop and touch devices"
 HOMEPAGE="https://apps.kde.org/koko/"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="LGPL-2+ LGPL-2.1 LGPL-2.1+ LGPL-3 BSD CC0-1.0 CC-BY-SA-4.0"
 SLOT="5"
@@ -51,6 +52,7 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}
+	dev-libs/kirigami-addons
 	media-libs/kquickimageeditor
 	>=dev-qt/qtmultimedia-${QTMIN}:${SLOT}
 	>=dev-qt/qtquickcontrols-${QTMIN}:${SLOT}

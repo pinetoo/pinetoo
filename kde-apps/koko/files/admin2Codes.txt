@@ -13449,7 +13449,7 @@ GB.SCT.V9	Orkney Islands	Orkney Islands	2640923
 GB.ENG.J9	Nottinghamshire	Nottinghamshire	2641169
 GB.ENG.J7	North Yorkshire	North Yorkshire	2641209
 GB.ENG.J6	Northumberland	Northumberland	2641235
-GB.ENG.J5	Borough of North Tyneside	Borough of North Tyneside	2641238
+GB.ENG.J5	North Tyneside	North Tyneside	2641238
 GB.ENG.J1	Northamptonshire	Northamptonshire	2641429
 GB.ENG.I9	Norfolk	Norfolk	2641455
 GB.SCT.V6	Moray	Moray	2642240
@@ -25883,7 +25883,7 @@ MY.16.1211	Lahad Datu	Lahad Datu	1966753
 MY.16.1210	Kunak	Kunak	1966755
 MY.02.0211	Sik	Sik	6805123
 MY.02.0204	Kuala Muda	Kuala Muda	6805171
-MY.09.1104	Utara	Utara	6823231
+MY.09.1104	Seberang Perai Utara	Seberang Perai Utara	6823231
 MY.09.1101	Barat Daya	Barat Daya	6833194
 MY.03.0303	Jeli	Jeli	7067991
 MY.03.0307	Pasir Mas	Pasir Mas	7068125
@@ -36631,7 +36631,7 @@ SY.11.169576	Homs District	Homs District	169576
 SY.12.169865	Harem District	Harem District	169865
 SY.10.170016	Hama District	Hama District	170016
 SY.08.170590	Douma District	Douma District	170590
-SY.13.170653	Minţaqat Dimashq	Mintaqat Dimashq	170653
+SY.13.170653	Damascus	Damascus	170653
 SY.01.170665	Al-Malikiyah District	Al-Malikiyah District	170665
 SY.07.170793	Deir ez-Zor District	Deir ez-Zor District	170793
 SY.06.170904	Daraa District	Daraa District	170904
