@@ -3,12 +3,13 @@
 
 EAPI=8
 
-KFMIN=5.100.0
+KFMIN=5.101.0
 QTMIN=5.15.2
 inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Clock app for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/kclock/"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="GPL-2+ LGPL-2.1+ CC-BY-4.0"
 SLOT="5"
