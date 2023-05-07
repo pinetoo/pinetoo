@@ -10,6 +10,7 @@ inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Cross-platform calculator application built with the Kirigami framework"
 HOMEPAGE="https://apps.kde.org/kalk"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="GPL-3+"
 SLOT="5"
