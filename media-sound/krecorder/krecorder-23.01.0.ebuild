@@ -9,6 +9,7 @@ inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Audio recorder for Plasma Mobile and other platforms"
 HOMEPAGE="https://apps.kde.org/krecorder/"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="GPL-3+"
 SLOT="5"
