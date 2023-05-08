@@ -1,3 +1,10 @@
+# 5.27.4.23.01.0.2.2.2.0
+
+## Other changes
+
+* `media-libs/alsa-ucm-pinephone`
+  Add support for PinePhone Pro and use correct upstream.
+
 # 5.27.4.22.12.3.2.2.2.0
 
 **KDE Plasma** updated to **5.27.4**
