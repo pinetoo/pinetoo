@@ -1,5 +1,9 @@
 # 5.27.4.23.01.0.2.2.2.0
 
+## New packages
+
+* `sys-kernel/pinephonepro-kernel`
+
 ## Other changes
 
 * `media-libs/alsa-ucm-pinephone`
