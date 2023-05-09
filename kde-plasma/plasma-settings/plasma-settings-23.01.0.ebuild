@@ -9,6 +9,7 @@ inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Settings application for Plasma Mobile"
 HOMEPAGE="https://invent.kde.org/plasma-mobile/plasma-settings"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="|| ( GPL-2 GPL-3 ) LGPL-2.1"
 SLOT="5"
@@ -35,7 +36,6 @@ DEPEND="
 	>=kde-frameworks/networkmanager-qt-${KFMIN}:${SLOT}
 	>=kde-frameworks/plasma-${KFMIN}:${SLOT}
 	>=kde-frameworks/solid-${KFMIN}:${SLOT}
-	virtual/libcrypt
 	x11-apps/maliit-keyboard
 "
 
