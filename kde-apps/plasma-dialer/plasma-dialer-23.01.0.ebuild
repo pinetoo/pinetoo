@@ -3,12 +3,13 @@
 
 EAPI=8
 
-KFMIN=5.89.0
+KFMIN=5.101.0
 QTMIN=5.15.2
 inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Dialer for Plasma Mobile"
 HOMEPAGE="https://invent.kde.org/plasma-mobile/plasma-dialer"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="|| ( GPL-2 GPL-3 ) || ( LGPL-2.1 LGPL-3 )"
 SLOT="5"
