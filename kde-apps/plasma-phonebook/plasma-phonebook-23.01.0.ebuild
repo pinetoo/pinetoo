@@ -9,6 +9,7 @@ inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="Phone book for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/phonebook/"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="GPL-3 LGPL-2+"
 SLOT="5"
