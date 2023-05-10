@@ -4,7 +4,7 @@
 EAPI=8
 
 QTMIN=5.15.0
-KFMIN=5.76.0
+KFMIN=5.91.0
 inherit ecm kde.org
 
 MY_PV="v${PV}"
