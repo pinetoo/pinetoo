@@ -4,11 +4,12 @@
 EAPI=8
 
 QTMIN=5.15.0
-KFMIN=5.88.0
+KFMIN=5.102.0
 inherit ecm plasma-mobile.kde.org
 
 DESCRIPTION="SMS Application for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/spacebar/"
+SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="GPL-2+"
 SLOT="5"
@@ -19,6 +20,7 @@ BDEPEND="virtual/pkgconfig"
 
 DEPEND="
 	dev-libs/libphonenumber
+	dev-libs/kirigami-addons
 	dev-libs/qcoro5
 	>=dev-qt/qtconcurrent-${QTMIN}:${SLOT}
 	>=dev-qt/qtcore-${QTMIN}:${SLOT}
