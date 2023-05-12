@@ -2,6 +2,8 @@
 
 ## New packages
 
+* `app-misc/pinephonepro-manjaro-tweaks`
+
 * `sys-kernel/pinephonepro-kernel`
 
 ## Other changes
