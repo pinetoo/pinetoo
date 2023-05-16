@@ -1,0 +1,576 @@
+From 7741389d208d26376f346aa1f75864cb269f9a02 Mon Sep 17 00:00:00 2001
+From: kgmt0 <kritphong@teknik.io>
+Date: Thu, 1 Dec 2022 00:13:27 -0600
+Subject: [PATCH] WIP: Support Pinephone Pro
+
+Both cameras work now but the quality is very poor.
+
+Tested with Linux 6.1.12-1 from Arch Linux ARM (linux-megi).
+---
+ config/motorola,osprey.ini      |   1 +
+ config/pine64,pinephone-pro.ini |  49 +++++++++
+ config/xiaomi,scorpio.ini       |   1 +
+ meson.build                     |   1 +
+ src/camera.c                    |   8 +-
+ src/device.c                    | 118 ++++++++++++++++++++++
+ src/device.h                    |  15 +++
+ src/io_pipeline.c               | 173 +++++++++++++++++++-------------
+ 8 files changed, 296 insertions(+), 70 deletions(-)
+ create mode 100644 config/pine64,pinephone-pro.ini
+
+diff --git a/config/motorola,osprey.ini b/config/motorola,osprey.ini
+index ab8990d..5809a8e 100644
+--- a/config/motorola,osprey.ini
++++ b/config/motorola,osprey.ini
+@@ -15,3 +15,4 @@ preview-rate=30
+ preview-fmt=RGGB10P
+ rotate=270
+ media-links=msm_csiphy0:1->msm_csid0:0,msm_csid0:1->msm_ispif0:0,msm_ispif0:1->msm_vfe0_rdi0:0
++media-formats=msm_csiphy0:1:RGGB10P:4096:2304,msm_csid0:0:RGGB10P:4096:2304,msm_csid0:1:RGGB10P:4096:2304,msm_ispif0:0:RGGB10P:4096:2304,msm_ispif0:1:RGGB10P:4096:2304,msm_vfe0_rdi0:0:RGGB10P:4096:2304
+diff --git a/config/pine64,pinephone-pro.ini b/config/pine64,pinephone-pro.ini
+new file mode 100644
+index 0000000..b7a2dcd
+--- /dev/null
++++ b/config/pine64,pinephone-pro.ini
+@@ -0,0 +1,49 @@
++[device]
++make=PINE64
++model=PinePhone
++
++[rear]
++driver=imx258 1-001a
++media-driver=rkisp1
++capture-width=1048
++capture-height=780
++capture-rate=30
++capture-fmt=RGGB8
++preview-width=1048
++preview-height=780
++preview-rate=30
++preview-fmt=RGGB8
++rotate=270
++mirrored=false
++blacklevel=3
++whitelevel=255
++focallength=2.35
++cropfactor=10.81
++fnumber=2.2
++iso-min=100
++iso-max=64000
++flash-path=/sys/class/leds/white:flash
++media-links=imx258 1-001a:0->rkisp1_csi:0,rkisp1_csi:1->rkisp1_isp:0,rkisp1_isp:2->rkisp1_resizer_mainpath:0
++media-formats=imx258 1-001a:0:RGGB10P:1048:780,rkisp1_csi:0:RGGB10P:1048:780,rkisp1_isp:0:RGGB10P:1048:780,rkisp1_isp:2:RGGB8:1048:780,rkisp1_resizer_mainpath:0:RGGB8:1048:780,rkisp1_resizer_mainpath:1:RGGB8:1048:780
++media-crops=rkisp1_isp:0:0:0:1048:780,rkisp1_isp:2:0:0:1048:780,rkisp1_resizer_mainpath:0:0:0:1048:768
++
++[front]
++driver=ov8858
++media-driver=rkisp1
++capture-width=3264
++capture-height=2448
++capture-rate=30
++capture-fmt=BGGR8
++preview-width=3264
++preview-height=2448
++preview-rate=30
++preview-fmt=BGGR8
++rotate=90
++mirrored=true
++focallength=2.94
++cropfactor=12.7
++fnumber=2.4
++flash-display=true
++media-links=ov8858:0->rkisp1_csi:0,rkisp1_csi:1->rkisp1_isp:0,rkisp1_isp:2->rkisp1_resizer_mainpath:0,rkisp1_resizer_mainpath:1->rkisp1_mainpath:0
++media-formats=ov8858:0:BGGR10P:3264:2448,rkisp1_csi:0:BGGR10P:3264:2448,rkisp1_isp:0:BGGR10P:3264:2448,rkisp1_isp:2:BGGR8:3264:2448,rkisp1_resizer_mainpath:0:BGGR8:3264:2448,rkisp1_resizer_mainpath:1:BGGR8:3264:2448
++media-crops=rkisp1_isp:0:0:0:3264:2448,rkisp1_isp:2:0:0:3264:2448,rkisp1_resizer_mainpath:0:0:0:3264:768
+diff --git a/config/xiaomi,scorpio.ini b/config/xiaomi,scorpio.ini
+index cce6d49..14b7f29 100644
+--- a/config/xiaomi,scorpio.ini
++++ b/config/xiaomi,scorpio.ini
+@@ -15,3 +15,4 @@ preview-rate=30
+ preview-fmt=RGGB10P
+ rotate=90
+ media-links=imx318 3-001a:0->msm_csiphy0:0,msm_csiphy0:1->msm_csid0:0,msm_csid0:1->msm_ispif0:0,msm_ispif0:1->msm_vfe0_rdi0:0
++media-formats=imx318 3-001a:0:RGGB10P:3840:2160,msm_csiphy0:0:RGGB10P:3840:2160,msm_csiphy0:1:RGGB10P:3840:2160,msm_csid0:0:RGGB10P:3840:2160,msm_csid0:1:RGGB10P:3840:2160,msm_ispif0:0:RGGB10P:3840:2160,msm_ispif0:1:RGGB10P:3840:2160,msm_vfe0_rdi0:0:RGGB10P:3840:2160
+diff --git a/meson.build b/meson.build
+index 3b98f19..d53dec9 100644
+--- a/meson.build
++++ b/meson.build
+@@ -72,6 +72,7 @@ install_data(
+     'config/pine64,pinephone-1.0.ini',
+     'config/pine64,pinephone-1.1.ini',
+     'config/pine64,pinephone-1.2.ini',
++    'config/pine64,pinephone-pro.ini',
+     'config/pine64,pinetab.ini',
+     'config/xiaomi,scorpio.ini',
+   ],
+diff --git a/src/camera.c b/src/camera.c
+index 9a08f56..db4c2e4 100644
+--- a/src/camera.c
++++ b/src/camera.c
+@@ -305,8 +305,12 @@ mp_camera_set_mode(MPCamera *camera, MPMode *mode)
+                 }
+ 
+                 // Update the mode
+-                mode->pixel_format =
+-                        mp_pixel_format_from_v4l_bus_code(fmt.format.code);
++
++                // TODO: Some how the format gets changed to YUYV if this isn't
++                // commented out.
++                //mode->pixel_format =
++                //        mp_pixel_format_from_v4l_bus_code(fmt.format.code);
++
+                 mode->frame_interval = interval.interval;
+                 mode->width = fmt.format.width;
+                 mode->height = fmt.format.height;
+diff --git a/src/device.c b/src/device.c
+index 9e2db00..09e711b 100644
+--- a/src/device.c
++++ b/src/device.c
+@@ -8,6 +8,8 @@
+ #include <string.h>
+ #include <sys/ioctl.h>
+ #include <unistd.h>
++#include <linux/v4l2-subdev.h>
++#include <linux/media.h>
+ 
+ bool
+ mp_find_device_path(struct media_v2_intf_devnode devnode, char *path, int length)
+@@ -73,6 +75,46 @@ xioctl(int fd, int request, void *arg)
+         return r;
+ }
+ 
++static int
++mp_device_get_fd_by_name(const MPDevice *device, const char *driver_name)
++{
++        struct media_entity_desc desc = {};
++
++        desc.id |= MEDIA_ENT_ID_FLAG_NEXT;
++
++        while(true) {
++                desc.id |= MEDIA_ENT_ID_FLAG_NEXT;
++                if(xioctl(device->fd, MEDIA_IOC_ENUM_ENTITIES, &desc) == -1) {
++                        errno_printerr("MEDIA_IOC_ENUM_ENTITIES");
++                        return -1;
++                }
++
++                if(strncmp(desc.name, driver_name, 32) == 0) {
++                        const uint32_t major = desc.dev.major;
++                        const uint32_t minor = desc.dev.minor;
++                        char path[256];
++                        int rc = snprintf(path, 256, "/dev/char/%u:%u", major, minor);
++
++                        return rc > 0 ? open(path, O_RDWR) : -1;
++                }
++        }
++
++        return -1;
++}
++
++static bool
++mp_xioctl(const MPDevice *device, const char *driver_name, unsigned long request, void *argp)
++{
++        int fd = mp_device_get_fd_by_name(device, driver_name);
++
++        if(fd < 0)
++        {
++                printf("ERROR: device with driver name %s not found\n", driver_name);
++        }
++
++        return fd >= 0 && xioctl(fd, request, argp) != -1;
++}
++
+ MPDevice *
+ mp_device_find(const char *driver_name, const char *dev_name)
+ {
+@@ -183,6 +225,42 @@ mp_device_setup_entity_link(MPDevice *device,
+         return true;
+ }
+ 
++void
++mp_device_setup_media_link(MPDevice *device,
++                           const struct mp_media_link_config *cfg,
++                           bool enable)
++{
++        const struct media_v2_entity *source_entity =
++                mp_device_find_entity(device, cfg->source_name);
++
++        const struct media_v2_entity *target_entity =
++                mp_device_find_entity(device, cfg->target_name);
++
++        mp_device_setup_entity_link(device,
++                                    source_entity->id,
++                                    target_entity->id,
++                                    cfg->source_port,
++                                    cfg->target_port,
++                                    enable);
++}
++
++void
++mp_device_setup_media_link_pad_crop(MPDevice *device,
++                                    const struct mp_media_crop_config *crop)
++{
++        struct v4l2_subdev_crop v4l2_crop = {};
++        v4l2_crop.pad = crop->pad;
++        v4l2_crop.which = V4L2_SUBDEV_FORMAT_ACTIVE;
++        v4l2_crop.rect.top = crop->top;
++        v4l2_crop.rect.left = crop->left;
++        v4l2_crop.rect.width = crop->width;
++        v4l2_crop.rect.height = crop->height;
++
++        if(!mp_xioctl(device, crop->name, VIDIOC_SUBDEV_S_CROP, &v4l2_crop)) {
++                errno_printerr("VIDIOC_SUBDEV_S_CROP");
++        }
++}
++
+ bool
+ mp_device_setup_link(MPDevice *device,
+                      uint32_t source_pad_id,
+@@ -237,6 +315,46 @@ mp_entity_pad_set_format(MPDevice *device,
+         return true;
+ }
+ 
++const struct media_v2_pad *
++mp_device_get_pad_at_index_from_entity(const MPDevice *device, uint32_t entity_id, uint32_t index)
++{
++        for (int i = 0; i < device->num_pads; ++i) {
++                if (device->pads[i].entity_id == entity_id && index-- == 0) {
++                        return &device->pads[i];
++                }
++        }
++        return NULL;
++}
++
++bool
++mp_device_setup_link_by_name(MPDevice *device,
++                             const char *source_entity_name,
++                             uint32_t source_pad_index,
++                             const char *sink_entity_name,
++                             uint32_t sink_pad_index,
++                             bool enabled)
++{
++        const struct media_v2_entity *source_entity =
++                mp_device_find_entity
++                (device, source_entity_name);
++        const struct media_v2_entity *sink_entity =
++                mp_device_find_entity
++                (device, sink_entity_name);
++
++        struct media_link_desc link = {};
++        link.flags = enabled ? MEDIA_LNK_FL_ENABLED : 0;
++        link.source.entity = source_entity->id;
++        link.source.index = source_pad_index;
++        link.sink.entity = sink_entity->id;
++        link.sink.index = sink_pad_index;
++        if (xioctl(device->fd, MEDIA_IOC_SETUP_LINK, &link) == -1) {
++                errno_printerr("MEDIA_IOC_SETUP_LINK");
++                return false;
++        }
++
++        return true;
++}
++
+ const struct media_v2_entity *
+ mp_device_find_entity(const MPDevice *device, const char *driver_name)
+ {
+diff --git a/src/device.h b/src/device.h
+index 1894c67..c9b3477 100644
+--- a/src/device.h
++++ b/src/device.h
+@@ -1,6 +1,7 @@
+ #pragma once
+ 
+ #include "mode.h"
++#include "camera_config.h"
+ 
+ #include <linux/media.h>
+ #include <stdbool.h>
+@@ -26,6 +27,10 @@ bool mp_device_setup_entity_link(MPDevice *device,
+                                  uint32_t sink_index,
+                                  bool enabled);
+ 
++void mp_device_setup_media_link(MPDevice *device,
++                                const struct mp_media_link_config *cfg,
++                                bool enable);
++
+ bool mp_device_setup_link(MPDevice *device,
+                           uint32_t source_pad_id,
+                           uint32_t sink_pad_id,
+@@ -36,6 +41,13 @@ bool mp_entity_pad_set_format(MPDevice *device,
+                               uint32_t pad,
+                               MPMode *mode);
+ 
++bool mp_device_setup_link_by_name(MPDevice *device,
++                                  const char *source_entity_name,
++                                  uint32_t source_pad_index,
++                                  const char *sink_entity_name,
++                                  uint32_t sink_pad_index,
++                                  bool enabled);
++
+ const struct media_device_info *mp_device_get_info(const MPDevice *device);
+ const struct media_v2_entity *mp_device_find_entity(const MPDevice *device,
+                                                     const char *driver_name);
+@@ -81,3 +93,6 @@ MPDevice *mp_device_list_remove(MPDeviceList **device_list);
+ MPDevice *mp_device_list_get(const MPDeviceList *device_list);
+ const char *mp_device_list_get_path(const MPDeviceList *device_list);
+ MPDeviceList *mp_device_list_next(const MPDeviceList *device_list);
++
++void mp_device_setup_media_link_pad_crop(MPDevice *device,
++                                         const struct mp_media_crop_config *crop);
+diff --git a/src/io_pipeline.c b/src/io_pipeline.c
+index 8434420..12bc2e1 100644
+--- a/src/io_pipeline.c
++++ b/src/io_pipeline.c
+@@ -47,7 +47,8 @@ struct camera_info {
+         // int media_fd;
+ 
+         // struct mp_media_link media_links[MP_MAX_LINKS];
+-        // int num_media_links;
++        struct mp_media_link_config media_links[MP_MAX_LINKS];
++        int num_media_links;
+ 
+         // int gain_ctrl;
+ };
+@@ -100,30 +101,41 @@ static bool want_focus = false;
+ static MPPipeline *pipeline;
+ static GSource *capture_source;
+ 
++static void
++mp_setup_media_link_pad_crops(struct device_info *dev_info,
++                              const struct mp_media_crop_config media_crops[],
++                              int num_media_crops)
++{
++        for(int i = 0; i < num_media_crops; i++) {
++                const struct mp_media_crop_config *crop = media_crops + i;
++                mp_device_setup_media_link_pad_crop(dev_info->device, crop);
++        }
++}
++
+ static void
+ mp_setup_media_link_pad_formats(struct device_info *dev_info,
+-                                const struct mp_media_link_config media_links[],
+-                                int num_media_links,
+-                                MPMode *mode)
++                                const struct mp_media_format_config media_formats[],
++                                int num_media_formats)
+ {
+-        const struct media_v2_entity *entities[2];
+-        int ports[2];
+-        for (int i = 0; i < num_media_links; i++) {
+-                entities[0] = mp_device_find_entity(
+-                        dev_info->device, (const char *)media_links[i].source_name);
+-                entities[1] = mp_device_find_entity(
+-                        dev_info->device, (const char *)media_links[i].target_name);
+-                ports[0] = media_links[i].source_port;
+-                ports[1] = media_links[i].target_port;
+-
+-                for (int j = 0; j < 2; j++)
+-                        if (!mp_entity_pad_set_format(
+-                                    dev_info->device, entities[j], ports[j], mode)) {
+-                                g_printerr("Failed to set %s:%d format\n",
+-                                           entities[j]->name,
+-                                           ports[j]);
+-                                exit(EXIT_FAILURE);
+-                        }
++        for(int i = 0; i < num_media_formats; i++) {
++                const struct mp_media_format_config *format =
++                        media_formats + i;
++                const struct media_v2_entity *entity =
++                        mp_device_find_entity
++                        (dev_info->device, format->name);
++                MPMode *mode =
++                        (MPMode *)
++                        &format->mode;
++                bool successful =
++                        mp_entity_pad_set_format
++                        (dev_info->device, entity, format->pad, mode);
++
++                if(!successful) {
++                        g_printerr(     "Failed to set %s:%d format\n",
++                                        entity->name,
++                                        format->pad );
++                        exit(EXIT_FAILURE);
++                }
+         }
+ }
+ 
+@@ -191,6 +203,9 @@ setup_camera(MPDeviceList **device_list, const struct mp_camera_config *config)
+                 struct device_info *dev_info = &devices[device_index];
+ 
+                 info->device_index = device_index;
++                info->num_media_links = config->num_media_links;
++
++                memcpy(info->media_links, config->media_links, MP_MAX_LINKS * sizeof(struct mp_media_link_config));
+ 
+                 const struct media_v2_entity *entity =
+                         mp_device_find_entity(dev_info->device, config->dev_name);
+@@ -205,11 +220,33 @@ setup_camera(MPDeviceList **device_list, const struct mp_camera_config *config)
+ 
+                 info->pad_id = pad->id;
+ 
+-                // Make sure the camera starts out as disabled
+-                mp_device_setup_link(dev_info->device,
+-                                     info->pad_id,
+-                                     dev_info->interface_pad_id,
+-                                     false);
++                // Only disable the camera here if no links are defined in the
++                // config file.
++                if(config->num_media_links == 0)
++                {
++                        // Make sure the camera starts out as disabled
++                        mp_device_setup_link(dev_info->device,
++                                             info->pad_id,
++                                             dev_info->interface_pad_id,
++                                             false);
++                }
++
++                // If links are defined, disable all of them.
++                const size_t num_links =
++                        mp_device_get_num_links(dev_info->device);
++                const struct media_v2_link *links =
++                        mp_device_get_links(dev_info->device);
++
++                for(int i = 0; i < num_links; i++) {
++                        const struct media_v2_link *link = links + i;
++
++                        if(!(link->flags & MEDIA_LNK_FL_IMMUTABLE)) {
++                                mp_device_setup_link(dev_info->device,
++                                                     link->source_id,
++                                                     link->sink_id,
++                                                     false);
++                        }
++                }
+ 
+                 const struct media_v2_interface *interface =
+                         mp_device_find_entity_interface(dev_info->device,
+@@ -234,11 +271,14 @@ setup_camera(MPDeviceList **device_list, const struct mp_camera_config *config)
+                 // the ov5640 driver where it won't allow setting the preview
+                 // format initially.
+                 MPMode mode = config->capture_mode;
+-                if (config->num_media_links)
++                if (config->num_media_formats)
+                         mp_setup_media_link_pad_formats(dev_info,
+-                                                        config->media_links,
+-                                                        config->num_media_links,
+-                                                        &mode);
++                                                        config->media_formats,
++                                                        config->num_media_formats);
++                if (config->num_media_crops)
++                        mp_setup_media_link_pad_crops(dev_info,
++                                                      config->media_crops,
++                                                      config->num_media_crops);
+                 mp_camera_set_mode(info->camera, &mode);
+ 
+                 // Trigger continuous auto focus if the sensor supports it
+@@ -400,9 +440,12 @@ capture(MPPipeline *pipeline, const void *data)
+         mode = camera->capture_mode;
+         if (camera->num_media_links)
+                 mp_setup_media_link_pad_formats(dev_info,
+-                                                camera->media_links,
+-                                                camera->num_media_links,
+-                                                &mode);
++                                                camera->media_formats,
++                                                camera->num_media_formats);
++        if (camera->num_media_crops)
++                mp_setup_media_link_pad_crops(dev_info,
++                                              camera->media_crops,
++                                              camera->num_media_crops);
+         mp_camera_set_mode(info->camera, &mode);
+         just_switched_mode = true;
+ 
+@@ -569,9 +612,13 @@ on_frame(MPBuffer buffer, void *_data)
+                         if (camera->num_media_links)
+                                 mp_setup_media_link_pad_formats(
+                                         dev_info,
+-                                        camera->media_links,
+-                                        camera->num_media_links,
+-                                        &mode);
++                                        camera->media_formats,
++                                        camera->num_media_formats);
++                        if (camera->num_media_crops)
++                                mp_setup_media_link_pad_crops(
++                                        dev_info,
++                                        camera->media_crops,
++                                        camera->num_media_crops);
+                         mp_camera_set_mode(info->camera, &mode);
+                         just_switched_mode = true;
+ 
+@@ -587,25 +634,6 @@ on_frame(MPBuffer buffer, void *_data)
+         }
+ }
+ 
+-static void
+-mp_setup_media_link(struct device_info *dev_info,
+-                    const struct mp_media_link_config *cfg,
+-                    bool enable)
+-{
+-        const struct media_v2_entity *source_entity =
+-                mp_device_find_entity(dev_info->device, cfg->source_name);
+-
+-        const struct media_v2_entity *target_entity =
+-                mp_device_find_entity(dev_info->device, cfg->target_name);
+-
+-        mp_device_setup_entity_link(dev_info->device,
+-                                    source_entity->id,
+-                                    target_entity->id,
+-                                    cfg->source_port,
+-                                    cfg->target_port,
+-                                    enable);
+-}
+-
+ static void
+ update_state(MPPipeline *pipeline, const struct mp_io_pipeline_state *state)
+ {
+@@ -629,8 +657,8 @@ update_state(MPPipeline *pipeline, const struct mp_io_pipeline_state *state)
+ 
+                         // Disable media links
+                         for (int i = 0; i < camera->num_media_links; i++)
+-                                mp_setup_media_link(
+-                                        dev_info, &camera->media_links[i], false);
++                                mp_device_setup_media_link(
++                                        dev_info->device, &camera->media_links[i], false);
+                 }
+ 
+                 if (capture_source) {
+@@ -644,23 +672,32 @@ update_state(MPPipeline *pipeline, const struct mp_io_pipeline_state *state)
+                         struct camera_info *info = &cameras[camera->index];
+                         struct device_info *dev_info = &devices[info->device_index];
+ 
+-                        mp_device_setup_link(dev_info->device,
+-                                             info->pad_id,
+-                                             dev_info->interface_pad_id,
+-                                             true);
++                        // Only enable the camera here if no links are defined
++                        // in the config file.
++                        if(info->num_media_links == 0)
++                        {
++                                mp_device_setup_link(dev_info->device,
++                                                     info->pad_id,
++                                                     dev_info->interface_pad_id,
++                                                     true);
++                        }
+ 
+-                        // Enable media links
++                        // If links are defined, enable all of them.
+                         for (int i = 0; i < camera->num_media_links; i++)
+-                                mp_setup_media_link(
+-                                        dev_info, &camera->media_links[i], true);
++                                mp_device_setup_media_link(
++                                        dev_info->device, &camera->media_links[i], true);
+ 
+                         mode = camera->preview_mode;
+                         if (camera->num_media_links)
+                                 mp_setup_media_link_pad_formats(
+                                         dev_info,
+-                                        camera->media_links,
+-                                        camera->num_media_links,
+-                                        &mode);
++                                        camera->media_formats,
++                                        camera->num_media_formats);
++                        if (camera->num_media_crops)
++                                mp_setup_media_link_pad_crops(
++                                        dev_info,
++                                        camera->media_crops,
++                                        camera->num_media_crops);
+                         mp_camera_set_mode(info->camera, &mode);
+ 
+                         mp_camera_start_capture(info->camera);

@@ -8,6 +8,9 @@
 
 ## Other changes
 
+* `media-gfx/megapixels`
+  Add support for PinePhone Pro and burst improvements for PinePhone.
+
 * `media-libs/alsa-ucm-pinephone`
   Add support for PinePhone Pro and use correct upstream.
 
