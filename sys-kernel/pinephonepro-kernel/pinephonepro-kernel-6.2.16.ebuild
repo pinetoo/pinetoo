@@ -4,7 +4,7 @@
 EAPI=8
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/core/linux-pinephonepro.git"
-EGIT_COMMIT="0453ee0614dee983a2554cf87989c03d27fc153a"
+EGIT_COMMIT="d1a283c01166c335da24ce3d39b1febe2b05f7e8"
 
 KERNEL_TAG="6.2-20230426-1042"
 
@@ -19,6 +19,10 @@ KEYWORDS="~arm64"
 IUSE="debug systemd"
 
 PATCHES=(
+	"${WORKDIR}/${P}/6.2.12-13.patch"
+	"${WORKDIR}/${P}/6.2.13-14.patch"
+	"${WORKDIR}/${P}/6.2.14-15.patch"
+	"${WORKDIR}/${P}/6.2.15-16.patch"
 	"${WORKDIR}/${P}/0101-arm64-dts-pinephone-drop-modem-power-node.patch"
 	"${WORKDIR}/${P}/0102-arm64-dts-pinephone-pro-remove-modem-node.patch"
 	"${WORKDIR}/${P}/0103-arm64-dts-rk3399-pinephone-pro-add-modem-RI-pin.patch"
