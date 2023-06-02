@@ -6,6 +6,11 @@
 
 * `sys-kernel/pinephonepro-kernel`
 
+## Removed
+
+* `kde-apps/kasts`
+  Now available in `::gentoo` (as `media-sound/kasts`)
+
 ## Other changes
 
 * `media-gfx/megapixels`
