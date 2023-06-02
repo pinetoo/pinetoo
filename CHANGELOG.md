@@ -4,6 +4,8 @@
 
 * `app-misc/pinephonepro-manjaro-tweaks`
 
+* `kde-misc/kpeoplesink`
+
 * `sys-kernel/pinephonepro-kernel`
 
 ## Removed

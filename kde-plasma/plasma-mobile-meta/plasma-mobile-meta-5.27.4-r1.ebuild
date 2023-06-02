@@ -33,6 +33,7 @@ RDEPEND="
 	kde-apps/plasma-camera
 	>=kde-apps/qmlkonsole-${GEAR_MIN}:${SLOT}
 	>=kde-misc/kdeconnect-${GEAR_MIN}:${SLOT}
+	kde-misc/kpeoplesink
 	kde-misc/plymouth-shim
 	>=kde-plasma/discover-${PV}:${SLOT}
 	>=kde-plasma/kscreen-${PV}:${SLOT}
