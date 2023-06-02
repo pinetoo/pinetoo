@@ -1,0 +1,2 @@
+move kde-apps/kasts media-sound/kasts
+slotmove media-sound/kasts 5 0

@@ -20,7 +20,6 @@ RDEPEND="
 	>=kde-apps/itinerary-${GEAR_MIN}:${SLOT}
 	>=kde-apps/kaccounts-providers-${GEAR_MIN}:${SLOT}
 	>=kde-apps/kalk-${GEAR_MIN}:${SLOT}
-	>=kde-apps/kasts-${GEAR_MIN}:${SLOT}
 	>=kde-apps/kclock-${GEAR_MIN}:${SLOT}
 	>=kde-apps/keysmith-${GEAR_MIN}:${SLOT}
 	>=kde-apps/koko-${GEAR_MIN}:${SLOT}
@@ -55,6 +54,7 @@ RDEPEND="
 	maui-apps/station
 	media-gfx/megapixels
 	>=media-sound/audiotube-${GEAR_MIN}:${SLOT}
+	>=media-sound/kasts-${GEAR_MIN}
 	>=media-sound/elisa-${GEAR_MIN}:${SLOT}
 	>=media-sound/krecorder-${GEAR_MIN}:${SLOT}
 	>=media-video/plasmatube-${GEAR_MIN}:${SLOT}
