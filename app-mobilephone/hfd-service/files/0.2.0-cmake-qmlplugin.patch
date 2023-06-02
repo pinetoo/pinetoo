@@ -1,0 +1,10 @@
+--- hfd-service-0.2.0/CMakeLists.txt	2023-05-30 16:25:36.162876548 +0200
++++ hfd-service-0.2.0/CMakeLists.txt	2023-05-30 16:25:40.782866604 +0200
+@@ -7,6 +7,7 @@
+ 
+ include(FindPkgConfig)
+ include(GNUInstallDirs)
++include(QmlPlugin.cmake)
+ 
+ pkg_check_modules(UDEV REQUIRED libudev)
+ pkg_check_modules(DEVICEINFO REQUIRED deviceinfo)

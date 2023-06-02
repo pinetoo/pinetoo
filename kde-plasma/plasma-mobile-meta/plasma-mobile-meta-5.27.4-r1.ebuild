@@ -11,7 +11,7 @@ HOMEPAGE="https://www.plasma-mobile.org/"
 LICENSE="metapackage"
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE="accessibility +bluetooth +desktop-portal +dialer education games +gtk handbook kwallet +pulseaudio +sms systemd webengine"
+IUSE="accessibility +bluetooth +desktop-portal +dialer education games +gtk handbook haptic kwallet +pulseaudio +sms systemd webengine"
 
 RDEPEND="
 	>=kde-apps/alligator-${GEAR_MIN}:${SLOT}
@@ -72,6 +72,7 @@ RDEPEND="
 	games? ( games-kids/gcompris )
 	gtk? ( >=kde-plasma/breeze-gtk-${PV}:${SLOT} )
 	handbook? ( >=kde-apps/khelpcenter-${PV}:${SLOT} )
+	haptic? ( app-mobilephone/hfd-service )
 	kwallet? ( >=kde-plasma/kwallet-pam-${PV}:${SLOT} )
 	pulseaudio? ( >=kde-plasma/plasma-pa-${PV}:${SLOT} )
 	sms? ( >=app-mobilephone/spacebar-${GEAR_MIN}:${SLOT} )

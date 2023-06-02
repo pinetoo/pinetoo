@@ -3,9 +3,9 @@
 
 EAPI=7
 
-inherit git-r3 gnome2-utils udev
+inherit git-r3 gnome2-utils systemd udev
 
-EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/community/phosh/pinephone-manjaro-tweaks.git"
+EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/community/phosh/${PN}.git"
 EGIT_COMMIT="375e87423653d8816bbc4141c672a2434ba3f71a"
 
 DESCRIPTION="Manjaro ARM's PinePhone tweaks"
@@ -15,16 +15,19 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~arm64"
 
-DEPEND="!app-misc/pinephone-manjaro-tweaks"
+DEPEND="!app-misc/pinephonepro-manjaro-tweaks"
 
-RDEPEND="${DEPEND}
-	libcamera? ( media-video/wireplumber )"
-
-IUSE="libcamera"
+RDEPEND="${DEPEND}"
 
 src_install() {
 	exeinto /etc/profile.d
 	doexe manjaro-tweaks.sh gsk-renderer-gl.sh
+
+	insinto /etc/pulse
+	doins pinephone.pa
+
+	insinto /etc/pulse/daemon.conf.d
+	doins 90-pinephone.conf
 
 	insinto /etc/systemd/journald.conf.d
 	doins 00-journal-size.conf
@@ -38,13 +41,11 @@ src_install() {
 	insinto /var/lib/polkit-1/localauthority/10-vendor.d
 	doins org.freedesktop.ModemManager1.pkla
 
-	insinto /etc/systemd/system
-	doins "${FILESDIR}/ModemManager.service"
+	dobin pinephone-setup-usb-network.sh pinephone-usb-gadget.sh
 
-	if use libcamera; then
-		insinto /etc/wireplumber/main.lua.d
-		doins "${FILESDIR}/60-libcamera-nodes-by-default.lua"
-	fi
+	systemd_dounit pinephone-setup-usb-network.service pinephone-usb-gadget.service
+
+	udev_dorules 10-pinephone-brightness.rules 10-proximity.rules
 }
 
 pkg_postinst() {
