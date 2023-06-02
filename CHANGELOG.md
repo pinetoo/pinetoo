@@ -4,6 +4,9 @@
 
 * `app-misc/pinephonepro-manjaro-tweaks`
 
+* `dev-util/cmake-extras`
+  Dependency for `app-mobilephone/hfd-service`
+
 * `kde-misc/kpeoplesink`
 
 * `sys-kernel/pinephonepro-kernel`
