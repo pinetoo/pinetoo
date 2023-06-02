@@ -4,6 +4,8 @@
 
 * `app-misc/pinephonepro-manjaro-tweaks`
 
+* `app-mobilephone/hfd-service`
+
 * `dev-libs/deviceinfo`
   Dependency for `app-mobilephone/hfd-service`
 
@@ -11,6 +13,9 @@
   Dependency for `app-mobilephone/hfd-service`
 
 * `kde-misc/kpeoplesink`
+
+* `net-misc/modemmanager`
+  With some customizations required for the PinePhones.
 
 * `sys-kernel/pinephonepro-kernel`
 
