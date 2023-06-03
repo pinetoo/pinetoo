@@ -17,7 +17,7 @@ KEYWORDS="~arm64"
 
 RDEPEND="
 	media-libs/alsa-ucm-conf
-	>sys-kernel/pinephone-kernel-5.14.0
+	|| ( >sys-kernel/pinephone-kernel-5.14.0 >sys-kernel/pinephonepro-kernel-5.14.0 )
 "
 
 src_prepare() {
