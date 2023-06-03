@@ -21,7 +21,7 @@ REQUIRED_USE="^^ ( modemmanager ofono )"
 RDEPEND="
 	sys-apps/systemd
 	net-misc/atinout
-	>sys-kernel/pinephone-kernel-5.10.12
+	|| ( >sys-kernel/pinephone-kernel-5.10.12 >sys-kernel/pinephonepro-kernel-5.10.12 )
 	app-mobilephone/eg25-manager
 "
 
