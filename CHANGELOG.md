@@ -14,6 +14,8 @@
 
 * `kde-misc/kpeoplesink`
 
+* `media-libs/libcamera`
+
 * `sys-kernel/pinephonepro-kernel`
 
 ## Removed
