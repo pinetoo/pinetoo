@@ -14,6 +14,8 @@
 
 * `kde-misc/kpeoplesink`
 
+* `media-libs/libcamera`
+
 * `net-misc/modemmanager`
   With some customizations required for the PinePhones.
 
