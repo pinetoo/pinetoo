@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>pinetoo@chuso.net</email>
+    <name>Jesus Perez Rey</name>
+  </maintainer>
+  <use>
+    <flag name="drm">Enable kernel mode setting (KMS) via <pkg>x11-libs/libdrm</pkg></flag>
+    <flag name="libevent">Build examples based on <pkg>dev-libs/libevent</pkg></flag>
+    <flag name="trace">Enable tracing support based on <pkg>dev-util/lttng-ust</pkg></flag>
+    <flag name="v4l2">Build V4L2 compatibility layer.</flag>
+  </use>
+  <upstream>
+    <remote-id type="github">kbingham/libcamera</remote-id>
+  </upstream>
+</pkgmetadata>
