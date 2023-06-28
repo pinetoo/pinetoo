@@ -16,6 +16,9 @@
 
 * `media-libs/libcamera`
 
+* `media-libs/zxing-cpp`
+  Version 1.4.0 recovered from ::gentoo as required by `net-im/kaidan`.
+
 * `media-video/pipewire`
   Adapts ::gentoo package to enable `media-libs/libcamera` support.
 
