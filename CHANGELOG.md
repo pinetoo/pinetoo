@@ -22,6 +22,9 @@
 * `net-misc/modemmanager`
   With some customizations required for the PinePhones.
 
+* `sys-devel/gcc-arm-none-eabi`
+  Required for `sys-firmware/trusted-firmware-a`.
+
 * `sys-kernel/pinephonepro-kernel`
 
 ## Removed
