@@ -28,6 +28,8 @@
 * `sys-firmware/trusted-firmware-a`
   Required for `sys-boot/u-boot`.
 
+* `sys-boot/u-boot`
+
 * `sys-kernel/pinephonepro-kernel`
 
 ## Removed
