@@ -25,6 +25,9 @@
 * `sys-devel/gcc-arm-none-eabi`
   Required for `sys-firmware/trusted-firmware-a`.
 
+* `sys-firmware/trusted-firmware-a`
+  Required for `sys-boot/u-boot`.
+
 * `sys-kernel/pinephonepro-kernel`
 
 ## Removed
