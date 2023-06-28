@@ -1,5 +1,7 @@
 # 5.27.4.23.01.0.2.2.2.0
 
+Added support for **PinePhone Pro**.
+
 ## New packages
 
 * `app-misc/pinephonepro-manjaro-tweaks`
