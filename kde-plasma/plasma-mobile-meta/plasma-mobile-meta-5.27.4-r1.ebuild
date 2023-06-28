@@ -11,7 +11,7 @@ HOMEPAGE="https://www.plasma-mobile.org/"
 LICENSE="metapackage"
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE="accessibility +bluetooth +desktop-portal +dialer education games +gtk handbook haptic kwallet +pulseaudio +sms systemd webengine"
+IUSE="accessibility +bluetooth +desktop-portal +dialer education games +gtk handbook haptic kwallet +pulseaudio +sms systemd thumbnail webengine"
 
 RDEPEND="
 	>=kde-apps/alligator-${GEAR_MIN}:${SLOT}
@@ -77,4 +77,8 @@ RDEPEND="
 	pulseaudio? ( >=kde-plasma/plasma-pa-${PV}:${SLOT} )
 	sms? ( >=app-mobilephone/spacebar-${GEAR_MIN}:${SLOT} )
 	systemd? ( media-gfx/bootsplash-systemd )
+	thumbnail? (
+		>=kde-apps/ffmpegthumbs-${PV}:${SLOT}
+		>=kde-apps/thumbnailers-${PV}:${SLOT}
+	)
 "
