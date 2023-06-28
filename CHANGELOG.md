@@ -19,6 +19,9 @@
 * `media-video/pipewire`
   Adapts ::gentoo package to enable `media-libs/libcamera` support.
 
+* `sys-devel/gcc-arm-none-eabi`
+  Required for `sys-firmware/trusted-firmware-a`.
+
 * `sys-kernel/pinephonepro-kernel`
 
 ## Removed
