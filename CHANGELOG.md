@@ -6,6 +6,8 @@ Added support for **PinePhone Pro**.
 
 * `app-misc/pinephonepro-manjaro-tweaks`
 
+* `app-mobilephone/pinephonepro-meta`
+
 * `app-mobilephone/hfd-service`
 
 * `dev-libs/deviceinfo`
