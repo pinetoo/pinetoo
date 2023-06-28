@@ -1,0 +1,2 @@
+USE="arm_plat_rk3399 dialer kms libdrm libkms lm-sensors modemmanager"
+VIDEO_CARDS="panfrost"

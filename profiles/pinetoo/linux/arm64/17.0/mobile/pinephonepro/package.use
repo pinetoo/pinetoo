@@ -1,0 +1,2 @@
+# Low-memory systems struggle with jumbo build
+dev-qt/qtwebengine -jumbo-build
