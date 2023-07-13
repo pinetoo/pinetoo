@@ -17,7 +17,7 @@ SRC_URI="https://invent.kde.org/pim/${PN}/-/archive/${MY_PV}/${MY_P}.tar.bz2"
 LICENSE="GPL-2+"
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE="test"
+IUSE="c++20 test"
 
 RDEPEND="
 	>=app-crypt/gpgme-1.7.1:=[cxx,qt5]
@@ -72,5 +72,9 @@ src_prepare() {
 		sed -e "/set(BUILD_TESTING ON)/s/^/#DISABLED /" \
 			-e "/domain\/modeltest.cpp/s/^/#DISABLED /" \
 			-i framework/src/CMakeLists.txt || die
+	fi
+
+	if ! use c++20; then
+		eapply "${FILESDIR}/${P}-disable-cpp20.patch"
 	fi
 }

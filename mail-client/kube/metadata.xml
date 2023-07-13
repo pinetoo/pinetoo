@@ -5,4 +5,11 @@
     <email>pinetoo@chuso.net</email>
     <name>Jesus Perez Rey</name>
   </maintainer>
+  <use>
+    <flag name="c++20">Build using the C++20 standard as preferred upstream, but may cause compilation errors</flag>
+  </use>
+  <upstream>
+    <bugs-to>https://bugs.kde.org/</bugs-to>
+    <remote-id type="kde-invent">pim/kube</remote-id>
+  </upstream>
 </pkgmetadata>
