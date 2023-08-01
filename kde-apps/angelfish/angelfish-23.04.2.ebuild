@@ -5,11 +5,10 @@ EAPI=8
 
 KFMIN=5.94.0
 QTMIN=5.14.0
-inherit ecm plasma-mobile.kde.org
+inherit ecm gear.kde.org
 
 DESCRIPTION="Web browser for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/angelfish/"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="GPL-2+ LGPL-2 LGPL-2+ MIT"
 SLOT="5"
@@ -38,6 +37,7 @@ DEPEND="
 	>=kde-frameworks/knotifications-${KFMIN}:${SLOT}
 	>=kde-frameworks/kwindowsystem-${KFMIN}:${SLOT}
 	>=kde-frameworks/purpose-${KFMIN}:${SLOT}
+	>=kde-frameworks/qqc2-desktop-style-${KFMIN}:${SLOT}
 	haptic? ( dev-qt/qtfeedback:${SLOT} )
 "
 
