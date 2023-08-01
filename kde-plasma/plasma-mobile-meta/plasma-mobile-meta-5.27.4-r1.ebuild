@@ -55,7 +55,7 @@ RDEPEND="
 	>=media-sound/audiotube-${GEAR_MIN}:${SLOT}
 	>=media-sound/kasts-${GEAR_MIN}
 	>=media-sound/elisa-${GEAR_MIN}:${SLOT}
-	>=media-sound/krecorder-${GEAR_MIN}:${SLOT}
+	>=media-sound/krecorder-${GEAR_MIN}
 	>=media-video/plasmatube-${GEAR_MIN}:${SLOT}
 	media-sound/vvave
 	net-im/kaidan

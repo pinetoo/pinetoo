@@ -59,6 +59,9 @@ Added support for **PinePhone Pro**.
 * `kde-apps/tokodon`
   Now available in `::gentoo` (as `net-im/tokodon`)
 
+* `media-sound/krecorder`
+  Now available in `::gentoo`
+
 ## Other changes
 
 * `media-gfx/megapixels`

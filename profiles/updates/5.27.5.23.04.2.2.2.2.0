@@ -8,3 +8,4 @@ move kde-apps/alligator net-news/alligator
 slotmove net-news/alligator 5 0
 move kde-apps/tokodon net-im/tokodon
 slotmove net-im/tokodon 5 0
+slotmove media-sound/krecorder 5 0
