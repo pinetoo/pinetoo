@@ -5,7 +5,7 @@ EAPI=8
 
 KFMIN=5.95.0
 QTMIN=5.15.2
-inherit ecm plasma-mobile.kde.org
+inherit ecm gear.kde.org
 
 DESCRIPTION="Companion application for conferences"
 HOMEPAGE="https://apps.kde.org/kongress"
