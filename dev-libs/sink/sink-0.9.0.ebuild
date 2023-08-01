@@ -43,6 +43,8 @@ S="${WORKDIR}/${MY_P}"
 
 RESTRICT+=" test"
 
+PATCHES=( "${FILESDIR}/${PV}-kmime-headers.patch" )
+
 src_prepare() {
 	cmake_src_prepare
 	# tests are sprinkled all over the place, and examples are needed...
