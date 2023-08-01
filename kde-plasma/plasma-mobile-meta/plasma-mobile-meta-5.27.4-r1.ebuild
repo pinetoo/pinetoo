@@ -20,20 +20,20 @@ RDEPEND="
 	>=kde-apps/itinerary-${GEAR_MIN}:${SLOT}
 	>=kde-apps/kaccounts-providers-${GEAR_MIN}:${SLOT}
 	>=kde-apps/kalk-${GEAR_MIN}:${SLOT}
-	>=kde-apps/kclock-${GEAR_MIN}:${SLOT}
 	>=kde-apps/keysmith-${GEAR_MIN}:${SLOT}
 	>=kde-apps/koko-${GEAR_MIN}:${SLOT}
 	>=kde-apps/kongress-${GEAR_MIN}:${SLOT}
 	>=kde-apps/ktrip-${GEAR_MIN}:${SLOT}
-	>=kde-misc/kweather-${GEAR_MIN}:${SLOT}
 	>=kde-apps/okular-${GEAR_MIN}:${SLOT}
 	>=kde-apps/plasma-phonebook-${GEAR_MIN}:${SLOT}
 	>=kde-apps/tokodon-${GEAR_MIN}:${SLOT}
 	>=kde-apps/vakzination-${GEAR_MIN}:${SLOT}
 	kde-apps/plasma-camera
 	>=kde-apps/qmlkonsole-${GEAR_MIN}:${SLOT}
+	>=kde-misc/kclock-${GEAR_MIN}
 	>=kde-misc/kdeconnect-${GEAR_MIN}:${SLOT}
 	kde-misc/kpeoplesink
+	>=kde-misc/kweather-${GEAR_MIN}:${SLOT}
 	kde-misc/plymouth-shim
 	>=kde-plasma/discover-${PV}:${SLOT}
 	>=kde-plasma/kscreen-${PV}:${SLOT}

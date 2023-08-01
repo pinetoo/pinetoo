@@ -47,6 +47,9 @@ Added support for **PinePhone Pro**.
 * `kde-apps/kasts`
   Now available in `::gentoo` (as `media-sound/kasts`)
 
+* `kde-apps/kclock`
+  Now available in `::gentoo` (as `kde-misc/kclock`)
+
 ## Other changes
 
 * `media-gfx/megapixels`
