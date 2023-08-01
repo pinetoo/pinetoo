@@ -8232,12 +8232,12 @@ BY.07.620539	Ushatski Rayon	Ushatski Rayon	620539
 BY.04.620745	Tsentral’ny Rayon	Tsentral'ny Rayon	620745
 BY.07.620831	Talachynski Rayon	Talachynski Rayon	620831
 BY.03.621044	Svislatski Rayon	Svislatski Rayon	621044
-BY.02.621073	Svyetlahorski Rayon	Svyetlahorski Rayon	621073
+BY.02.621073	Svietlahorsk District	Svietlahorsk District	621073
 BY.01.621276	Stolinski Rayon	Stolinski Rayon	621276
 BY.05.621281	Stawbtsowski Rayon	Stawbtsowski Rayon	621281
 BY.05.621460	Staradarozhski Rayon	Staradarozhski Rayon	621460
 BY.04.621599	Savyetski Rayon	Savyetski Rayon	621599
-BY.05.621664	Salihorski Rayon	Salihorski Rayon	621664
+BY.05.621664	Salihorsk District	Salihorsk District	621664
 BY.03.621711	Smarhonski Rayon	Smarhonski Rayon	621711
 BY.05.621728	Smalyavitski Rayon	Smalyavitski Rayon	621728
 BY.05.621740	Slutski Rayon	Slutski Rayon	621740
@@ -8249,7 +8249,7 @@ BY.03.622114	Shchuchynski Rayon	Shchuchynski Rayon	622114
 BY.07.622178	Sharkawshchynski Rayon	Sharkawshchynski Rayon	622178
 BY.07.622261	Syennyenski Rayon	Syennyenski Rayon	622261
 BY.07.622691	Rasonski Rayon	Rasonski Rayon	622691
-BY.02.622738	Rahachowski Rayon	Rahachowski Rayon	622738
+BY.02.622738	Rahachow District	Rahachow District	622738
 BY.02.622799	Rechytski Rayon	Rechytski Rayon	622799
 BY.05.622968	Pukhavichy Raion	Pukhavichy Raion	622968
 BY.01.622998	Pruzhanski Rayon	Pruzhanski Rayon	622998
@@ -8273,7 +8273,7 @@ BY.06.624891	Mstsislawski Rayon	Mstsislawski Rayon	624891
 BY.02.624894	Mazyrski Rayon	Mazyrski Rayon	624894
 BY.03.624920	Mastowski Rayon	Mastowski Rayon	624920
 BY.04.624936	Maskowski Rayon	Maskowski Rayon	624936
-BY.05.625025	Maladzyechanski Rayon	Maladzyechanski Rayon	625025
+BY.05.625025	Maladzyechna District	Maladzyechna District	625025
 BY.06.625072	Mahilyowski Rayon	Mahilyowski Rayon	625072
 BY.07.625131	Myorski Rayon	Myorski Rayon	625131
 BY.05.625140	Minski Rayon	Minski Rayon	625140
@@ -8321,7 +8321,7 @@ BY.03.628657	Dzyatlawski Rayon	Dzyatlawski Rayon	628657
 BY.07.628789	Dubrovyenski Rayon	Dubrovyenski Rayon	628789
 BY.01.628882	Drahichynski Rayon	Drahichynski Rayon	628882
 BY.07.629003	Dokshytski Rayon	Dokshytski Rayon	629003
-BY.02.629017	Dobrushski Rayon	Dobrushski Rayon	629017
+BY.02.629017	Dobrush District	Dobrush District	629017
 BY.05.629270	Chervyen’ski Rayon	Chervyen'ski Rayon	629270
 BY.06.629346	Cherykawski Rayon	Cherykawski Rayon	629346
 BY.02.629389	Chacherski Rayon	Chacherski Rayon	629389
@@ -8350,12 +8350,12 @@ BY.07.828888	Horad Lyepyel’	Horad Lyepyel'	828888
 BY.07.828889	Horad Navapolatsk	Horad Navapolatsk	828889
 BY.07.828891	Horad Polatsk	Horad Polatsk	828891
 BY.02.828892	Horad Homyel’	Horad Homyel'	828892
-BY.02.828894	Horad Dobrush	Horad Dobrush	828894
+BY.02.828894	Dobrush City	Dobrush City	828894
 BY.02.828895	Horad Zhlobin	Horad Zhlobin	828895
 BY.02.828897	Horad Kalinkavichy	Horad Kalinkavichy	828897
 BY.02.828898	Horad Mazyr	Horad Mazyr	828898
-BY.02.828900	Horad Rahachow	Horad Rahachow	828900
-BY.02.828901	Horad Svyetlahorsk	Horad Svyetlahorsk	828901
+BY.02.828900	Rahachow City	Rahachow City	828900
+BY.02.828901	Svietlahorsk City	Svietlahorsk City	828901
 BY.03.828902	Horad Vawkavysk	Horad Vawkavysk	828902
 BY.03.828903	Horad Lida	Horad Lida	828903
 BY.03.828904	Horad Navahrudak	Horad Navahrudak	828904
@@ -8365,9 +8365,9 @@ BY.05.828907	Barysaw	Barysaw	828907
 BY.05.828908	Horad Vilyeyka	Horad Vilyeyka	828908
 BY.05.828910	Horad Dzyarzhynsk	Horad Dzyarzhynsk	828910
 BY.05.828913	Horad Zaslawye	Horad Zaslawye	828913
-BY.05.828914	Horad Maladzyechna	Horad Maladzyechna	828914
+BY.05.828914	Maladzyechna City	Maladzyechna City	828914
 BY.05.828915	Horad Slutsk	Horad Slutsk	828915
-BY.05.828916	Horad Salihorsk	Horad Salihorsk	828916
+BY.05.828916	Salihorsk City	Salihorsk City	828916
 BY.06.828917	Mahilyow	Mahilyow	828917
 BY.06.828919	Horad Asipovichy	Horad Asipovichy	828919
 BY.05.829413	Molodechnenskij Rajon	Molodechnenskij Rajon	829413
@@ -13293,7 +13293,7 @@ FR.32.80	Somme	Somme	2974304
 FR.11.93	Seine-Saint-Denis	Seine-Saint-Denis	2975246
 FR.28.76	Seine-Maritime	Seine-Maritime	2975248
 FR.11.77	Seine-et-Marne	Seine-et-Marne	2975249
-FR.84.73	Savoy	Savoy	2975517
+FR.84.73	Savoie	Savoie	2975517
 FR.52.72	Sarthe	Sarthe	2975926
 FR.27.71	Saône-et-Loire	Saone-et-Loire	2976082
 FR.76.66	Pyrénées-Orientales	Pyrenees-Orientales	2984885
@@ -16354,7 +16354,7 @@ IN.13.596	Idukki	Idukki	1269812
 IN.40.536	Hyderābād	Hyderabad	1269844
 IN.28.338	Hugli	Hugli	1269911
 IN.23.038	Hoshiarpur	Hoshiarpur	1269938
-IN.35.449	Hoshangābād	Hoshangabad	1269940
+IN.35.449	Narmadapuram district	Narmadapuram district	1269940
 IN.10.080	Hisār	Hisar	1270023
 IN.38.360	Hazārībāg	Hazaribag	1270165
 IN.19.574	Hassan	Hassan	1270240
@@ -17097,7 +17097,7 @@ IR.42.449530	Shahrestān-e Roshtkhvār	Shahrestan-e Roshtkhvar	449530
 IR.42.449531	Shahrestān-e Sabzevār	Shahrestan-e Sabzevar	449531
 IR.41.449532	Ferdows	Ferdows	449532
 IR.42.449533	Shahrestān-e Farīmān	Shahrestan-e Fariman	449533
-IR.41.449534	Shahrestān-e Qā’en	Shahrestan-e Qa'en	449534
+IR.41.449534	Shahrestān-e Qā’enāt	Shahrestan-e Qa'enat	449534
 IR.42.449535	Shahrestān-e Qūchān	Shahrestan-e Quchan	449535
 IR.42.449536	Shahrestān-e Kāshmar	Shahrestan-e Kashmar	449536
 IR.42.449537	Shahrestān-e Gonābād	Shahrestan-e Gonabad	449537
@@ -17112,7 +17112,7 @@ IR.15.449545	Shahrestān-e Omīdīyeh	Shahrestan-e Omidiyeh	449545
 IR.15.449546	Shahrestān-e Andīmeshk	Shahrestan-e Andimeshk	449546
 IR.15.449547	Shahrestān-e Ahvāz	Shahrestan-e Ahvaz	449547
 IR.15.449548	Shahrestān-e Īz̄eh	Shahrestan-e Izeh	449548
-IR.15.449549	Bāgh Shahrestān-e Malek	Bagh Shahrestan-e Malek	449549
+IR.15.449549	Shahrestān-e Bāgh-e Malek	Shahrestan-e Bagh-e Malek	449549
 IR.15.449550	Shahrestān-e Bandar-e Māhshahr	Shahrestan-e Bandar-e Mahshahr	449550
 IR.15.449551	Shahrestān-e Behbahān	Shahrestan-e Behbahan	449551
 IR.15.449552	Khorramshahr	Khorramshahr	449552
@@ -17172,7 +17172,7 @@ IR.29.449609	Shahrestān-e Bāft	Shahrestan-e Baft	449609
 IR.29.449610	Shahrestān-e Bardsīr	Shahrestan-e Bardsir	449610
 IR.29.449611	Bam	Bam	449611
 IR.29.449612	Shahrestān-e Jīroft	Shahrestan-e Jiroft	449612
-IR.29.449613	Rāvar	Ravar	449613
+IR.29.449613	Shahrestān-e Rāvar	Shahrestan-e Ravar	449613
 IR.29.449614	Shahrestān-e Rafsanjān	Shahrestan-e Rafsanjan	449614
 IR.29.449615	Zarand	Zarand	449615
 IR.29.449617	Shahrestān-e Shahr-e Bābak	Shahrestan-e Shahr-e Babak	449617
@@ -17296,7 +17296,7 @@ IR.04.1482494	Shahrestān-e Sarāvān	Shahrestan-e Saravan	1482494
 IR.04.1482499	Shahrestān-e Sarbāz	Shahrestan-e Sarbaz	1482499
 IR.04.1482504	Shahrestān-e Nīkshahr	Shahrestan-e Nikshahr	1482504
 IR.35.7830204	Savadkuh-e Shomali	Savadkuh-e Shomali	7830204
-IR.08.8620884	Shahrestān-e Tālesh	Shahrestan-e Talesh	8620884
+IR.08.8620884	Shahrestān-e Ţavālesh	Shahrestan-e Tavalesh	8620884
 IR.43.8620941	Shahrestān-e Māneh va Samalqān	Shahrestan-e Maneh va Samalqan	8620941
 IR.43.8620942	Shahrestān-e Fārūj	Shahrestan-e Faruj	8620942
 IR.42.8620943	Shahrestān-e Mah Velāt	Shahrestan-e Mah Velat	8620943
@@ -17315,7 +17315,7 @@ IR.01.9517619	Showţ	Showt	9517619
 IR.01.9517620	Chāypāreh	Chaypareh	9517620
 IR.01.9517621	Poldasht	Poldasht	9517621
 IR.33.9517647	Shahrestān-e Khodā Āfarīn	Shahrestan-e Khoda Afarin	9517647
-IR.22.9519975	Shahrestān-e ‘Asalūyeh	Shahrestan-e 'Asaluyeh	9519975
+IR.22.9519975	‘Asalūyah	`Asaluyah	9519975
 IR.03.9519976	Shahrestān-e Kīār	Shahrestan-e Kiar	9519976
 IR.28.9519980	Shahrestān-e Khūr va Bīābānak	Shahrestan-e Khur va Biabanak	9519980
 IR.28.9519981	Shahrestān-e Shāhīn Shahr va Meymeh	Shahrestan-e Shahin Shahr va Meymeh	9519981
@@ -17343,7 +17343,7 @@ IR.29.9524452	Fahraj	Fahraj	9524452
 IR.29.9524453	Rīgān	Rigan	9524453
 IR.29.9524454	Shahrestān-e Rūdbār-e Jonūbī	Shahrestan-e Rudbar-e Jonubi	9524454
 IR.29.9524455	Shahrestān-e Qal‘eh Ganj	Shahrestan-e Qal'eh Ganj	9524455
-IR.41.9525806	Boshrūyeh	Boshruyeh	9525806
+IR.41.9525806	Shahrestān-e Boshrūyeh	Shahrestan-e Boshruyeh	9525806
 IR.41.9525807	Shahrestān-e Sarāyān	Shahrestan-e Sarayan	9525807
 IR.42.9526253	Shahrestān-e Bajestān	Shahrestan-e Bajestan	9526253
 IR.42.9526254	Shahrestān-e Joghatāy	Shahrestan-e Joghatay	9526254
@@ -17412,6 +17412,10 @@ IR.38.11963519	Avaj	Avaj	11963519
 IR.05.11963520	Landeh	Landeh	11963520
 IR.38.11963561	Alborz	Alborz	11963561
 IR.04.11963562	Fanuj	Fanuj	11963562
+IR.35.12543580	Savād Kūh-e Shomālī	Savad Kuh-e Shomali	12543580
+IR.28.12543581	Shahrestān-e Bū‘īn va Mīāndasht	Shahrestan-e Bu`in va Miandasht	12543581
+IR.04.12543582	Shahrestān-e Qaşr-e Qand	Shahrestan-e Qasr-e Qand	12543582
+IR.10.12543583	Chardāval	Chardaval	12543583
 IS.38.7502	Vopnafjarðarhreppur	Vopnafjardarhreppur	2625192
 IS.40.6611	Tjörneshreppur	Tjoerneshreppur	2625781
 IS.40.6601	Svalbarðsstrandarhreppur	Svalbardsstrandarhreppur	2626312
@@ -17597,7 +17601,7 @@ JM.08.15011	Barbican	Barbican	11494898
 JM.08.15012	Liguanea	Liguanea	11494899
 JM.08.15015	Seymour Lands	Seymour Lands	11494900
 JM.08.15080	Stadium Gardens	Stadium Gardens	11494901
-JM.04.1213	Part of Spaldings	Part of Spaldings	11494902
+JM.04.1213	Spaldings - Part of	Spaldings - Part of	11494902
 JM.08.15078	Cross Roads	Cross Roads	11494903
 JM.08.15030	Whitehall	Whitehall	11494904
 JM.08.15019	Drumblair	Drumblair	11494905
@@ -17645,9 +17649,9 @@ JM.01.1305	Aenon Town	Aenon Town	11494946
 JM.01.1306	Johns Hall	Johns Hall	11494947
 JM.01.1304	Morgans Forest	Morgans Forest	11494948
 JM.01.1301	Silent Hill	Silent Hill	11494949
-JM.01.1308	Part of Douglas Castle	Part of Douglas Castle	11494950
+JM.01.1308	Douglas Castle	Douglas Castle	11494950
 JM.01.1302	Spaldings	Spaldings	11494951
-JM.01.1309	Part of Kellits	Part of Kellits	11494952
+JM.01.1309	Kellits	Kellits	11494952
 JM.01.1303	Alston	Alston	11494953
 JM.01.1317	Peckham	Peckham	11494954
 JM.01.1315	Trout Hall	Trout Hall	11494955
@@ -17708,7 +17712,7 @@ JM.09.619	Lime Hall	Lime Hall	11495009
 JM.09.608	Ocho Rios	Ocho Rios	11495010
 JM.09.618	Chalky Hill	Chalky Hill	11495011
 JM.02.916	Mount Peto	Mount Peto	11495012
-JM.09.624	Gibraltar (Moneague)	Gibraltar (Moneague)	11495013
+JM.09.624	Gibraltar	Gibraltar	11495013
 JM.02.936	Orange Bay	Orange Bay	11495014
 JM.04.1206	Good Intent	Good Intent	11495015
 JM.04.1204	Coleyville	Coleyville	11495016
@@ -17717,7 +17721,7 @@ JM.04.1245	Porus	Porus	11495018
 JM.04.1273	Asia/Pratville	Asia/Pratville	11495019
 JM.07.417	Drapers	Drapers	11495020
 JM.07.414	Breastworks	Breastworks	11495021
-JM.07.434	Fruitfulvale	Fruitfulvale	11495022
+JM.07.434	Fruitful Vale	Fruitful Vale	11495022
 JM.07.441	Bangor Ridge	Bangor Ridge	11495023
 JM.07.435	Swift River	Swift River	11495024
 JM.07.418	Nonsuch	Nonsuch	11495025
@@ -17739,7 +17743,7 @@ JM.09.655	Blackstonedge	Blackstonedge	11495040
 JM.10.1432	St. John's West	St. John's West	11495041
 JM.10.1420	Ensom	Ensom	11495042
 JM.09.637	Calderwood	Calderwood	11495043
-JM.09.652	Gibraltar	Gibraltar	11495044
+JM.09.652	Gibraltar (Moneague)	Gibraltar (Moneague)	11495044
 JM.09.647	Cave Valley	Cave Valley	11495045
 JM.10.1403	Linstead	Linstead	11495046
 JM.10.1402	Ewarton	Ewarton	11495047
@@ -17872,7 +17876,7 @@ JM.07.429	Comfort Castle	Comfort Castle	11495173
 JM.07.425	Kensington	Kensington	11495174
 JM.07.426	Manchioneal	Manchioneal	11495175
 JM.07.411	Snow Hill	Snow Hill	11495176
-JM.10.1404	Part of Guys Hill	Part of Guys Hill	11495177
+JM.10.1404	Guys Hill - Part of	Guys Hill - Part of	11495177
 JM.09.635	Moneague	Moneague	11495178
 JM.11.1127	Lacovia	Lacovia	11495179
 JM.17.15108	Manley Meadows	Manley Meadows	11495180
@@ -18039,7 +18043,7 @@ JM.16.1045	Broughton	Broughton	11495340
 JM.16.1070	Lenox Bigwoods	Lenox Bigwoods	11495341
 JM.16.1072	Leamington	Leamington	11495342
 JM.16.1022	Dundee	Dundee	11495343
-JM.04.1229	Part Of Banana Ground	Part Of Banana Ground	11495344
+JM.04.1229	Banana Ground - Part of	Banana Ground - Part of	11495344
 JM.16.1071	Enfield	Enfield	11495345
 JM.01.1336	Porus	Porus	11495346
 JM.01.1342	Pleasant Valley	Pleasant Valley	11495347
@@ -18144,7 +18148,7 @@ JM.14.339	Eleven Miles	Eleven Miles	11495447
 JM.07.433	Durham	Durham	11495448
 JM.01.1349	Effortville	Effortville	11495449
 JM.13.544	Enfield	Enfield	11495450
-JM.13.545	Epson	Epson	11495451
+JM.13.545	Epsom	Epsom	11495451
 JM.04.1248	Ellen Street	Ellen Street	11495452
 JM.09.617	Epworth	Epworth	11495453
 JM.13.543	Long Road	Long Road	11495454
@@ -18201,7 +18205,7 @@ JM.09.638	Inverness	Inverness	11495504
 JM.12.803	Ironshore	Ironshore	11495505
 JM.12.842	Irwin	Irwin	11495506
 JM.13.507	Jacks River	Jacks River	11495507
-JM.13.522	Jeffery Town	Jeffery Town	11495508
+JM.13.522	Jeffrey Town	Jeffrey Town	11495508
 JM.14.350	Johns Town	Johns Town	11495509
 JM.14.334	Jones Pen	Jones Pen	11495510
 JM.11.1149	Junction	Junction	11495511
@@ -18230,7 +18234,7 @@ JM.01.1378	Longwood	Longwood	11495533
 JM.09.641	Madras	Madras	11495534
 JM.15.738	Lorrimers	Lorrimers	11495535
 JM.14.349	Lyssons	Lyssons	11495536
-JM.09.649	Macknie	Macknie	11495537
+JM.09.649	McNie	McNie	11495537
 JM.04.1222	Maidstone	Maidstone	11495538
 JM.12.865	Maldon	Maldon	11495539
 JM.04.1242	Mandeville Proper	Mandeville Proper	11495540
@@ -18267,7 +18271,7 @@ JM.11.1147	Nain	Nain	11495570
 JM.04.1268	New Forest	New Forest	11495571
 JM.10.1418	Part of Keystone	Part of Keystone	11495572
 JM.04.1235	New Green	New Green	11495573
-JM.10.1415	Part of Rock Hall	Part of Rock Hall	11495574
+JM.10.1415	Rock Hall	Rock Hall	11495574
 JM.11.1119	New Market	New Market	11495575
 JM.14.305	New Monkland	New Monkland	11495576
 JM.04.1263	Newport	Newport	11495577
@@ -18278,7 +18282,7 @@ JM.07.412	Norwich	Norwich	11495581
 JM.04.1249	Old England	Old England	11495582
 JM.10.1442	Passage Fort	Passage Fort	11495583
 JM.04.1203	Pike	Pike	11495584
-JM.01.1335	Part of Banana Ground	Part of Banana Ground	11495585
+JM.01.1335	Banana Ground - Part of	Banana Ground - Part of	11495585
 JM.14.324	Pear Tree	Pear Tree	11495586
 JM.10.1405	Pear Tree Grove	Pear Tree Grove	11495587
 JM.12.849	Reading	Reading	11495588
@@ -18370,7 +18374,7 @@ JM.15.737	Wait-A-Bit	Wait-A-Bit	11495673
 JM.01.1330	Turners	Turners	11495674
 JM.15.714	Wakefield	Wakefield	11495675
 JM.11.1145	Warminister	Warminister	11495676
-JM.12.863	Vaughnsfield	Vaughnsfield	11495677
+JM.12.863	Vaughansfield	Vaughansfield	11495677
 JM.15.729	Warsop	Warsop	11495678
 JM.11.1155	Watchwell	Watchwell	11495679
 JM.10.1441	Waterford	Waterford	11495680
@@ -20018,7 +20022,7 @@ KP.09.1871928	P’yŏnggang-gun	P'yonggang-gun	1871928
 KP.12.1871937	P’yŏngch’ŏn-guyŏk	P'yongch'on-guyok	1871937
 KP.06.1871938	Pongch’ŏn-gun	Pongch'on-gun	1871938
 KP.06.1871968	Pyŏksŏng-gun	Pyoksong-gun	1871968
-KP.15.1872201	Pukch’ang-gun	Pukch'ang-gun	1872201
+KP.15.1872201	Pukch'ang	Pukch'ang	1872201
 KP.12.1872260	Pot’onggang-guyŏk	Pot'onggang-guyok	1872260
 KP.09.1872294	Pŏptong-gun	Poptong-gun	1872294
 KP.07.1872337	Pongsan-gun	Pongsan-gun	1872337
@@ -20060,7 +20064,7 @@ KP.12.1876737	Hyŏngjesan-guyŏk	Hyongjesan-guyok	1876737
 KP.11.1876770	Hyangsan-gun	Hyangsan-gun	1876770
 KP.07.1876874	Hwangju-gun	Hwangju-gun	1876874
 KP.09.1877150	Hoeyang-gun	Hoeyang-gun	1877150
-KP.15.1877192	Hoech’ang-gun	Hoech'ang-gun	1877192
+KP.15.1877192	Hoech'ang	Hoech'ang	1877192
 KP.03.1877442	Hamju-gun	Hamju-gun	1877442
 KP.03.1877447	Hamhŭng-si	Hamhung-si	1877447
 KP.06.1877609	Haeju-si	Haeju-si	1877609
@@ -20496,14 +20500,14 @@ KW.09.12216422	Janūb al Wusţá	Janub al Wusta	12216422
 KW.09.12216423	Al Wusţá	Al Wusta	12216423
 KW.09.12216424	Şabḩan	Sabhan	12216424
 KW.09.12216425	Al Qurayn	Al Qurayn	12216425
-KZ.07.607687	Zelenov Aūdany	Zelenov Audany	607687
+KZ.07.607687	Rayon Bayterek	Rayon Bayterek	607687
 KZ.09.607726	Karakiyanskiy Rayon	Karakiyanskiy Rayon	607726
-KZ.07.607842	Urdinskiy Rayon	Urdinskiy Rayon	607842
+KZ.07.607842	Bokeyordinskiy Rayon	Bokeyordinskiy Rayon	607842
 KZ.04.607866	Oyyl Aūdany	Oyyl Audany	607866
 KZ.07.608022	Terekti Aūdany	Terekti Audany	608022
 KZ.04.608031	Temir Aūdany	Temir Audany	608031
-KZ.07.608048	Taypakskiy Rayon	Taypakskiy Rayon	608048
-KZ.07.608573	Prīūral’e Aūdany	Priural'e Audany	608573
+KZ.07.608048	Taypakskiy Sel'skiy Okrug	Taypakskiy Sel'skiy Okrug	608048
+KZ.07.608573	Dar'inskiy Sel'skiy Okrug	Dar'inskiy Sel'skiy Okrug	608573
 KZ.04.608677	Temirskiy Rayon	Temirskiy Rayon	608677
 KZ.04.608707	Khromtaū Aūdany	Khromtau Audany	608707
 KZ.06.608723	Īsatay Aūdany	Isatay Audany	608723
@@ -20517,18 +20521,18 @@ KZ.06.608966	Qyzylqogha Aūdany	Qyzylqogha Audany	608966
 KZ.04.609408	Qobda Aūdany	Qobda Audany	609408
 KZ.07.609453	Kaztalov Aūdany	Kaztalov Audany	609453
 KZ.07.609541	Qaratöbe Aūdany	Qaratobe Audany	609541
-KZ.07.609717	Tasqala Aūdany	Tasqala Audany	609717
+KZ.07.609717	Taskalinskiy Rayon	Taskalinskiy Rayon	609717
 KZ.04.609786	Isatayskiy Rayon	Isatayskiy Rayon	609786
 KZ.06.609795	Īnder Aūdany	Inder Audany	609795
 KZ.07.609902	Furmanovskiy Rayon	Furmanovskiy Rayon	609902
 KZ.06.609923	Zhylyoyskiy Rayon	Zhylyoyskiy Rayon	609923
-KZ.07.609952	Zhänibek Aūdany	Zhanibek Audany	609952
+KZ.07.609952	Zhanibekskiy Rayon	Zhanibekskiy Rayon	609952
 KZ.07.609964	Zhangaqala Aūdany	Zhangaqala Audany	609964
-KZ.07.609978	Dzhambeytinskiy Rayon	Dzhambeytinskiy Rayon	609978
+KZ.07.609978	Syrymskiy Rayon	Syrymskiy Rayon	609978
 KZ.06.610044	Kurmanghazy Aūdany	Kurmanghazy Audany	610044
-KZ.07.610089	Shyngghyrlaū Aūdany	Shyngghyrlau Audany	610089
+KZ.07.610089	Chingirlauskiy Rayon	Chingirlauskiy Rayon	610089
 KZ.04.610114	Shalqar Aūdany	Shalqar Audany	610114
-KZ.07.610130	Chapaev Aūdany	Chapaev Audany	610130
+KZ.07.610130	Akzhaikskiy Rayon	Akzhaikskiy Rayon	610130
 KZ.07.610162	Börili Aūdany	Borili Audany	610162
 KZ.09.610297	Beyneuskiy Rayon	Beyneuskiy Rayon	610297
 KZ.04.610385	Bayghanīn Aūdany	Bayghanin Audany	610385
@@ -20536,7 +20540,7 @@ KZ.06.610444	Balyqshy Aūdany	Balyqshy Audany	610444
 KZ.04.610656	Algha Aūdany	Algha Audany	610656
 KZ.07.610685	Aqzhayyq Aūdany	Aqzhayyq Audany	610685
 KZ.04.610687	Aqtöbe Aūdany	Aqtobe Audany	610687
-KZ.07.828320	Oral Qalasy	Oral Qalasy	828320
+KZ.07.828320	Ural'sk Gorodskaya Administratsiya	Ural'sk Gorodskaya Administratsiya	828320
 KZ.06.828321	Atyrau Gorodskaya Administratsiya	Atyrau Gorodskaya Administratsiya	828321
 KZ.09.828323	Tupkaraganskiy Rayon	Tupkaraganskiy Rayon	828323
 KZ.09.828324	Aktau Gorodskaya Administratsiya	Aktau Gorodskaya Administratsiya	828324
@@ -20555,14 +20559,14 @@ KZ.03.1517166	Esil	Esil	1517166
 KZ.03.1517189	Ereymentau	Ereymentau	1517189
 KZ.11.1517194	Aksu Gorodskaya Administratsiya	Aksu Gorodskaya Administratsiya	1517194
 KZ.12.1517288	Qazybek Bī Aūdany	Qazybek Bi Audany	1517288
-KZ.14.1517322	Zhangaqorghan Aūdany	Zhangaqorghan Audany	1517322
+KZ.14.1517322	Zhanokorganskiy Rayon	Zhanokorganskiy Rayon	1517322
 KZ.16.1517353	Vozvyshenka Aūdany	Vozvyshenka Audany	1517353
 KZ.16.1517412	Ayyrtauskiy Rayon	Ayyrtauskiy Rayon	1517412
 KZ.03.1517439	Arshaly	Arshaly	1517439
 KZ.16.1517502	Ūälīkhanov Aūdany	Ualikhanov Audany	1517502
-KZ.02.1517577	Üyghyr Aūdany	Uyghyr Audany	1517577
+KZ.02.1517577	Uygurskiy Rayon	Uygurskiy Rayon	1517577
 KZ.11.1517619	Uspenskiy Rayon	Uspenskiy Rayon	1517619
-KZ.13.1517715	Ūrītskīy Aūdany	Uritskiy Audany	1517715
+KZ.13.1517715	Sarykol'skiy Rayon	Sarykol'skiy Rayon	1517715
 KZ.12510143.1517718	Urdzharskiy Rayon	Urdzharskiy Rayon	1517718
 KZ.12510145.1517740	Ulytaū Aūdany	Ulytau Audany	1517740
 KZ.11.1517745	Ūl’yanov Aūdany	Ul'yanov Audany	1517745
@@ -20579,10 +20583,10 @@ KZ.15.1518415	Taskesken Aūdany	Taskesken Audany	1518415
 KZ.15.1518456	Tarbagatayskiy Rayon	Tarbagatayskiy Rayon	1518456
 KZ.13.1518463	Rayon Beimbeta Maylina	Rayon Beimbeta Maylina	1518463
 KZ.02.1518519	Talghar Aūdany	Talghar Audany	1518519
-KZ.12510144.1518545	Taldyqorghan Aūdany	Taldyqorghan Audany	1518545
+KZ.12510144.1518545	Yeskel'dinskiy Rayon	Yeskel'dinskiy Rayon	1518545
 KZ.17.1518589	Talas Aūdany	Talas Audany	1518589
-KZ.14.1518650	Syrdarīya Aūdany	Syrdariya Audany	1518650
-KZ.17.1518673	Sverdlov Aūdany	Sverdlov Audany	1518673
+KZ.14.1518650	Syrdar’inskiy Rayon	Syrdar'inskiy Rayon	1518650
+KZ.17.1518673	Bayzakskiy Rayon	Bayzakskiy Rayon	1518673
 KZ.10.1518678	Suzakskiy Rayon	Suzakskiy Rayon	1518678
 KZ.16.1518835	Akkayynskiy Rayon	Akkayynskiy Rayon	1518835
 KZ.16.1518912	Sokolovka Aūdany	Sokolovka Audany	1518912
@@ -20597,20 +20601,20 @@ KZ.03.1519433	Sileti Aūdany	Sileti Audany	1519433
 KZ.10.1519452	Sayram Aūdany	Sayram Audany	1519452
 KZ.17.1519552	Sarysū Aūdany	Sarysu Audany	1519552
 KZ.10.1519675	Saryagachskiy Rayon	Saryagachskiy Rayon	1519675
-KZ.12510144.1519704	Sarqan Aūdany	Sarqan Audany	1519704
+KZ.12510144.1519704	Sarkandskiy Rayon	Sarkandskiy Rayon	1519704
 KZ.15.1519757	Samarskoe Aūdany	Samarskoe Audany	1519757
 KZ.16.1519834	Rūzaevka Aūdany	Ruzaevka Audany	1519834
 KZ.16.1520047	Presnov Aūyldyq Okrūgi	Presnov Auyldyq Okrugi	1520047
 KZ.11.1520238	Pavlodarskiy Rayon	Pavlodarskiy Rayon	1520238
-KZ.12510144.1520251	Panfīlov Aūdany	Panfilov Audany	1520251
+KZ.12510144.1520251	Panfilovskiy Rayon	Panfilovskiy Rayon	1520251
 KZ.10.1520258	Maktaaral’skiy Rayon	Maktaaral'skiy Rayon	1520258
 KZ.12.1520325	Osakarovka Aūdany	Osakarovka Audany	1520325
-KZ.12.1520378	Ordzhonīkīdze Aūdany	Ordzhonikidze Audany	1520378
+KZ.13.1520378	Denisovskiy Rayon	Denisovskiy Rayon	1520378
 KZ.12.1520497	Nura Aūdany	Nura Audany	1520497
 KZ.15.1520548	Novoshūl’ba Aūdany	Novoshul'ba Audany	1520548
-KZ.13.1520735	Naūryzym Aūdany	Nauryzym Audany	1520735
+KZ.13.1520735	Naurzumskiy Rayon	Naurzumskiy Rayon	1520735
 KZ.01.1520746	Rayymbek Aūdany	Rayymbek Audany	1520746
-KZ.17.1520845	Moyynqum Aūdany	Moyynqum Audany	1520845
+KZ.17.1520845	Moyynkumskiy Rayon	Moyynkumskiy Rayon	1520845
 KZ.16.1520854	Moskovskiy Rayon	Moskovskiy Rayon	1520854
 KZ.12.1520873	Molodezhnyy Aūdany	Molodezhnyy Audany	1520873
 KZ.12.1520952	Mīchūrīn Aūdany	Michurin Audany	1520952
@@ -20620,50 +20624,50 @@ KZ.15.1521109	Marqaköl Aūdany	Marqakol Audany	1521109
 KZ.16.1521151	Mamlyutskiy Rayon	Mamlyutskiy Rayon	1521151
 KZ.03.1521227	Bulandy	Bulandy	1521227
 KZ.15.1521244	Maqanshy Aūdany	Maqanshy Audany	1521244
-KZ.17.1521288	Lūgovoe Aūdany	Lugovoe Audany	1521288
+KZ.17.1521288	Rayon Turara Ryskulova	Rayon Turara Ryskulova	1521288
 KZ.16.1521352	Esil District	Esil District	1521352
 KZ.10.1521354	Kazygurtskiy Rayon	Kazygurtskiy Rayon	1521354
-KZ.13.1521358	Lenīn Aūdany	Lenin Audany	1521358
+KZ.13.1521358	Uzunkol'skiy Rayon	Uzunkol'skiy Rayon	1521358
 KZ.16.1521375	Lenīngrad Aūdany	Leningrad Audany	1521375
 KZ.10.1521378	Tolebiyskiy Rayon	Tolebiyskiy Rayon	1521378
 KZ.11.1521382	Akkulinskiy Rayon	Akkulinskiy Rayon	1521382
 KZ.16.1521400	Qyzyltū Aūdany	Qyzyltu Audany	1521400
 KZ.10.1521407	Otrarskiy Rayon	Otrarskiy Rayon	1521407
 KZ.16.1521634	Rayon Imeni Gabita Musrepova	Rayon Imeni Gabita Musrepova	1521634
-KZ.13.1521667	Qostanay Aūdany	Qostanay Audany	1521667
+KZ.13.1521667	Kostanayskiy Rayon	Kostanayskiy Rayon	1521667
 KZ.02.1521711	Kürti Aūdany	Kurti Audany	1521711
 KZ.03.1521748	Korgalzhyn	Korgalzhyn	1521748
-KZ.17.1521754	Qorday Aūdany	Qorday Audany	1521754
+KZ.17.1521754	Kordayskiy Rayon	Kordayskiy Rayon	1521754
 KZ.15.1521759	Kurchumskiy Rayon	Kurchumskiy Rayon	1521759
 KZ.03.1521995	Egindikol	Egindikol	1521995
 KZ.11.1522019	Aktogayskiy Rayon	Aktogayskiy Rayon	1522019
 KZ.16.1522032	Tayynshinskiy Rayon	Tayynshinskiy Rayon	1522032
-KZ.13.1522333	Komsomol Aūdany	Komsomol Audany	1522333
+KZ.13.1522333	Karabalykskiy Rayon	Karabalykskiy Rayon	1522333
 KZ.04.1522334	Bögetköl Aūdany	Bogetkol Audany	1522334
 KZ.12510143.1522504	Kokpektinskiy Rayon	Kokpektinskiy Rayon	1522504
 KZ.03.1522531	Kokshetau Gorodskaya Adminstratsiya	Kokshetau Gorodskaya Adminstratsiya	1522531
 KZ.03.1522599	Qīma Aūdany	Qima Audany	1522599
-KZ.12510144.1522636	Köksū Aūdany	Koksu Audany	1522636
+KZ.12510144.1522636	Koksuskiy Rayon	Koksuskiy Rayon	1522636
 KZ.10.1522640	Kīrov Aūdany	Kirov Audany	1522640
-KZ.12510144.1522739	Kerbulaq Aūdany	Kerbulaq Audany	1522739
+KZ.12510144.1522739	Kerbulakskiy Rayon	Kerbulakskiy Rayon	1522739
 KZ.16.1522808	Kellerovka Aūdany	Kellerovka Audany	1522808
 KZ.10.1522812	Kelesskiy Rayon	Kelesskiy Rayon	1522812
 KZ.02.1522816	Kegen Aūdany	Kegen Audany	1522816
-KZ.14.1522859	Qazaly Aūdany	Qazaly Audany	1522859
+KZ.14.1522859	Kazalinskiy Rayon	Kazalinskiy Rayon	1522859
 KZ.15.1522926	Katon-Karagayskiy Rayon	Katon-Karagayskiy Rayon	1522926
 KZ.02.1522943	Qaskeleng Aūdany	Qaskeleng Audany	1522943
-KZ.14.1522998	Qarmaqshy Aūdany	Qarmaqshy Audany	1522998
+KZ.14.1522998	Karmakshinskiy Rayon	Karmakshinskiy Rayon	1522998
 KZ.12.1523004	Qarqaraly Aūdany	Qarqaraly Audany	1523004
-KZ.12510144.1523101	Qaratal Aūdany	Qaratal Audany	1523101
+KZ.12510144.1523101	Karatal’skiy Rayon	Karatal'skiy Rayon	1523101
 KZ.13.1523115	Qarasū Aūdany	Qarasu Audany	1523115
 KZ.04.1523423	Äyteke Bī Aūdany	Ayteke Bi Audany	1523423
 KZ.12510144.1523500	Qapal Aūdany	Qapal Audany	1523500
-KZ.13.1523544	Qamysty Aūdany	Qamysty Audany	1523544
+KZ.13.1523544	Kamystinskiy Rayon	Kamystinskiy Rayon	1523544
 KZ.11.1523663	Terengköl Aūdany	Terengkol Audany	1523663
 KZ.11.1523767	Irtyshskiy Rayon	Irtyshskiy Rayon	1523767
 KZ.04.1523782	Yrghyz Aūdany	Yrghyz Audany	1523782
-KZ.02.1524128	Ile Aūdany	Ile Audany	1524128
-KZ.01.1524156	Kugalinskiy Rayon	Kugalinskiy Rayon	1524156
+KZ.02.1524128	Iliyskiy Rayon	Iliyskiy Rayon	1524128
+KZ.12510144.1524156	Kogalinskiy Sel'skiy Okrug	Kogalinskiy Sel'skiy Okrug	1524156
 KZ.15.1524226	Glubokovskiy Rayon	Glubokovskiy Rayon	1524226
 KZ.13.1524278	Fëdorovskiy Rayon	Fedorovskiy Rayon	1524278
 KZ.03.1524313	Birzhan sal	Birzhan sal	1524313
@@ -20672,10 +20676,10 @@ KZ.11.1524322	Ekibastuz Gorodskaya Administratsiya	Ekibastuz Gorodskaya Administ
 KZ.17.1524333	Zhūaly Aūdany	Zhualy Audany	1524333
 KZ.12.1524382	Zhezdi Aūdany	Zhezdi Audany	1524382
 KZ.10.1524384	Zhetisayskiy Rayon	Zhetisayskiy Rayon	1524384
-KZ.13.1524388	Dzhetygarinskiy Rayon	Dzhetygarinskiy Rayon	1524388
+KZ.13.1524388	Zhitikarinskiy Rayon	Zhitikarinskiy Rayon	1524388
 KZ.13.1524425	Zhangeldīn Aūdany	Zhangeldin Audany	1524425
 KZ.02.1524438	Zhambyl Aūdany	Zhambyl Audany	1524438
-KZ.17.1524439	Zhambyl Aūdany	Zhambyl Audany	1524439
+KZ.17.1524439	Zhambylskiy Rayon	Zhambylskiy Rayon	1524439
 KZ.16.1524440	Zhambylskiy Rayon	Zhambylskiy Rayon	1524440
 KZ.14.1524477	Zhalaghash Aūdany	Zhalaghash Audany	1524477
 KZ.03.1524603	Zharkain	Zharkain	1524603
@@ -20687,7 +20691,7 @@ KZ.02.1524792	Shelek Aūdany	Shelek Audany	1524792
 KZ.14.1524798	Shīeli Aūdany	Shieli Audany	1524798
 KZ.15.1524882	Shar Aūdany	Shar Audany	1524882
 KZ.10.1524885	Shardarinskiy Rayon	Shardarinskiy Rayon	1524885
-KZ.12510144.1524969	Burlyutobinskiy Rayon	Burlyutobinskiy Rayon	1524969
+KZ.12510144.1524969	Lepsinskiy Sel'skiy Okrug	Lepsinskiy Sel'skiy Okrug	1524969
 KZ.16.1525010	Rayon Magzhana Zhumabayeva	Rayon Magzhana Zhumabayeva	1525010
 KZ.10.1525042	Ordabasy Aūdany	Ordabasy Audany	1525042
 KZ.13.1525120	Mendykarinskiy Rayon	Mendykarinskiy Rayon	1525120
@@ -20704,29 +20708,29 @@ KZ.03.1526033	Atbasar	Atbasar	1526033
 KZ.03.1526056	Astrakhan	Astrakhan	1526056
 KZ.16.1526177	Aryqbalyq Aūdany	Aryqbalyq Audany	1526177
 KZ.13.1526209	Arqalyq Qalalyq Äkimshiligi	Arqalyq Qalalyq Akimshiligi	1526209
-KZ.14.1526248	Aral Aūdany	Aral Audany	1526248
-KZ.12510144.1526298	Üygentas Aūdany	Uygentas Audany	1526298
+KZ.14.1526248	Aral’skiy Rayon	Aral'skiy Rayon	1526248
+KZ.12510144.1526298	Kabanbayskiy Sel'skiy Okrug	Kabanbayskiy Sel'skiy Okrug	1526298
 KZ.13.1526321	Amantoghay Aūdany	Amantoghay Audany	1526321
 KZ.13.1526340	Amangeldi Aūdany	Amangeldi Audany	1526340
 KZ.10.1526412	Rayon Baydibeka	Rayon Baydibeka	1526412
 KZ.03.1526436	Akkol	Akkol	1526436
 KZ.01.1526489	Alakol District	Alakol District	1526489
 KZ.12.1526570	Aqtoghay Aūdany	Aqtoghay Audany	1526570
-KZ.12510144.1526631	Aqsū Aūdany	Aqsu Audany	1526631
+KZ.12510144.1526631	Aksuskiy Rayon	Aksuskiy Rayon	1526631
 KZ.15.1526637	Aqsūat Aūdany	Aqsuat Audany	1526637
 KZ.12.1526940	Agadyrskiy Rayon	Agadyrskiy Rayon	1526940
 KZ.12510143.1526967	Abayskiy Rayon	Abayskiy Rayon	1526967
 KZ.13.1537245	Altynsarinskiy Rayon	Altynsarinskiy Rayon	1537245
-KZ.13.1537246	Gorod Kustanay	Gorod Kustanay	1537246
-KZ.13.1537247	Zhitiqara Qalasy	Zhitiqara Qalasy	1537247
-KZ.13.1537248	Gorod Lisakovsk	Gorod Lisakovsk	1537248
-KZ.13.1537249	Gorod Rudnyy	Gorod Rudnyy	1537249
+KZ.13.1537246	Kostanay Gorodskaya Administratsiya	Kostanay Gorodskaya Administratsiya	1537246
+KZ.13.1537247	Zhitiqara Qalalyq Äkimdigi	Zhitiqara Qalalyq Akimdigi	1537247
+KZ.13.1537248	Lisakovsk Gorodskaya Administratsiya	Lisakovsk Gorodskaya Administratsiya	1537248
+KZ.13.1537249	Rudniy Gorodskaya Administratsiya	Rudniy Gorodskaya Administratsiya	1537249
 KZ.13.1537251	Oktyabr’ Aūdany	Oktyabr' Audany	1537251
 KZ.12.1537252	Toqyraūyn Aūdany	Toqyrauyn Audany	1537252
-KZ.12510145.1537254	Zhezqazghan Qalalyq Äkimshiligi	Zhezqazghan Qalalyq Akimshiligi	1537254
+KZ.12510145.1537254	Zhezkazgan Gorodskaya Administratsiya	Zhezkazgan Gorodskaya Administratsiya	1537254
 KZ.12.1537255	Balqash Qalasy	Balqash Qalasy	1537255
-KZ.12510145.1537256	Qarazhal Qalasy	Qarazhal Qalasy	1537256
-KZ.12510145.1537257	Qalasy Sätbaev	Qalasy Satbaev	1537257
+KZ.12510145.1537256	Karazhal Gorodskaya Administratsiya	Karazhal Gorodskaya Administratsiya	1537256
+KZ.12510145.1537257	Satpayev Gorodskaya Administratsiya	Satpayev Gorodskaya Administratsiya	1537257
 KZ.03.1537265	Stepnogorsk Gorodskaya Administratsiya	Stepnogorsk Gorodskaya Administratsiya	1537265
 KZ.12.1537266	Qaraghandy Qalasy	Qaraghandy Qalasy	1537266
 KZ.12.1537267	Abay Qalasy	Abay Qalasy	1537267
@@ -20737,14 +20741,14 @@ KZ.10.1537271	Arys' Gorodskaya Administratsiya	Arys' Gorodskaya Administratsiya	
 KZ.10.1537273	Arys Qalasy	Arys Qalasy	1537273
 KZ.10.1537274	Kentau Gorodskaya Administratsiya	Kentau Gorodskaya Administratsiya	1537274
 KZ.10.1537276	Türkistan Qalasy	Tuerkistan Qalasy	1537276
-KZ.17.1537277	Zhambyl Qalasy	Zhambyl Qalasy	1537277
+KZ.17.1537277	Taraz Gorodskaya Administratsiya	Taraz Gorodskaya Administratsiya	1537277
 KZ.17.1537278	Zhangatas Qalasy	Zhangatas Qalasy	1537278
 KZ.17.1537279	Qarataū Qalasy	Qaratau Qalasy	1537279
 KZ.17.1537280	Shū Qalasy	Shu Qalasy	1537280
 KZ.01.1537281	Kapshagay city	Kapshagay city	1537281
 KZ.02.1537282	Talghar Qalasy	Talghar Qalasy	1537282
 KZ.01.1537283	Taldyqorghan Qalasy	Taldyqorghan Qalasy	1537283
-KZ.12510144.1537284	Tekeli Qalasy	Tekeli Qalasy	1537284
+KZ.12510144.1537284	Tekeli Gorodskaya Administratsiya	Tekeli Gorodskaya Administratsiya	1537284
 KZ.15.1537285	Semey Qalasy	Semey Qalasy	1537285
 KZ.15.1537286	Öskemen Qalalyq Äkimshiligi	Oskemen Qalalyq Akimshiligi	1537286
 KZ.15.1537288	Ridder Gorodskaya Administratsiya	Ridder Gorodskaya Administratsiya	1537288
@@ -20772,6 +20776,11 @@ KZ.15.12485887	Zaysanskaya Gorodskaya Administratsiya	Zaysanskaya Gorodskaya Adm
 KZ.1537272.12518735	Karatauskiy Rayon	Karatauskiy Rayon	12518735
 KZ.10.12518736	Rayon Sauran	Rayon Sauran	12518736
 KZ.01.12522073	Nauryzbayskiy Rayon	Nauryzbayskiy Rayon	12522073
+KZ.13.12526813	Auliyekol'skiy Rayon	Auliyekol'skiy Rayon	12526813
+KZ.12510144.12530101	Taldykorgan Gorodskaya Administratsiya	Taldykorgan Gorodskaya Administratsiya	12530101
+KZ.14.12530995	Kyzylorda Gorodskaya Administratsiya	Kyzylorda Gorodskaya Administratsiya	12530995
+KZ.02.12533979	Karasayskiy Rayon	Karasayskiy Rayon	12533979
+KZ.03.12539745	Kosshy Gorodskaya Administratsiya	Kosshy Gorodskaya Administratsiya	12539745
 LA.22.0501	Muang Houayxay	Muang Houayxay	1651946
 LA.13.0804	Muang Ngeun	Muang Ngeun	1652070
 LA.03.0702	Muang Xiengkhor	Muang Xiengkhor	1652080
@@ -27094,7 +27103,7 @@ NI.12.4010	Municipio de Río Blanco	Municipio de Rio Blanco	3617068
 NI.13.0555	Municipio de Quilalí	Municipio de Quilali	3617108
 NI.08.3535	Municipio de Quezalguaque	Municipio de Quezalguaque	3617114
 NI.03.3030	Municipio de Puerto Morazán	Municipio de Puerto Morazan	3617145
-NI.17.9110	Municipio de Puerto Cabezas	Municipio de Puerto Cabezas	3617153
+NI.17.9110	Bilwi	Bilwi	3617153
 NI.05.2505	Municipio de Pueblo Nuevo	Municipio de Pueblo Nuevo	3617161
 NI.17.9135	Municipality of Prinzapolka	Municipality of Prinzapolka	3617168
 NI.15.8015	Municipio de Potosí	Municipio de Potosi	3617185
@@ -28107,8 +28116,8 @@ PA.10.0911	Distrito de Soná	Distrito de Sona	3700886
 PA.10.0910	Distrito de Santiago	Distrito de Santiago	3701113
 PA.06.0607	Distrito de Santa María	Distrito de Santa Maria	3701171
 PA.04.0305	Distrito de Santa Isabel	Distrito de Santa Isabel	3701183
-PA.10.0909	Distrito de Santa Fé	Distrito de Santa Fe	3701191
-PA.08.0810	Distrito San Miguelito	Distrito San Miguelito	3701328
+PA.10.0909	Santa Fe	Santa Fe	3701191
+PA.08.0810	Distrito de San Miguelito	Distrito de San Miguelito	3701328
 PA.02.0412	Distrito de San Lorenzo	Distrito de San Lorenzo	3701365
 PA.10.0908	Distrito de San Francisco	Distrito de San Francisco	3701474
 PA.02.0411	Distrito de San Félix	Distrito de San Felix	3701489
@@ -28161,7 +28170,7 @@ PA.01.0101	Distrito de Bocas del Toro	Distrito de Bocas del Toro	3713955
 PA.02.0402	Distrito de Barú	Distrito de Baru	3714267
 PA.08.0802	Distrito de Balboa	Distrito de Balboa	3714424
 PA.10.0901	Distrito de Atalaya	Distrito de Atalaya	3714595
-PA.13.1301	Distrito Arraiján	Distrito Arraijan	3714635
+PA.13.1301	Distrito de Arraiján	Distrito de Arraijan	3714635
 PA.03.0202	Distrito de Antón	Distrito de Anton	3714708
 PA.02.0401	Distrito de Alanje	Distrito de Alanje	3714937
 PA.03.0201	Distrito de Aguadulce	Distrito de Aguadulce	3715037
@@ -33836,11 +33845,11 @@ RU.73.463834	Zelenodolsky District	Zelenodolsky District	463834
 RU.27.463884	Zelenchukskiy Rayon	Zelenchukskiy Rayon	463884
 RU.80.464067	Zav’yalovskiy Rayon	Zav'yalovskiy Rayon	464067
 RU.21.464107	Zavolzhskiy Rayon	Zavolzhskiy Rayon	464107
-RU.47.464686	Zarayskiy Rayon	Zarayskiy Rayon	464686
+RU.47.464686	Gorodskoy Okrug Zaraysk	Gorodskoy Okrug Zaraysk	464686
 RU.76.464992	Zaokskiy Rayon	Zaokskiy Rayon	464992
 RU.62.465400	Zakharovskiy Rayon	Zakharovskiy Rayon	465400
 RU.73.465542	Zainskiy Rayon	Zainskiy Rayon	465542
-RU.47.465636	Sergiyevo-Posadskiy Rayon	Sergiyevo-Posadskiy Rayon	465636
+RU.47.465636	Sergiyevo-Posadskiy Gorodskoy Okrug	Sergiyevo-Posadskiy Gorodskoy Okrug	465636
 RU.43.465724	Zadonskiy Rayon	Zadonskiy Rayon	465724
 RU.21.466002	Yuzhskiy Rayon	Yuzhskiy Rayon	466002
 RU.90.466117	Yus’vinskiy Rayon	Yus'vinskiy Rayon	466117
@@ -33858,7 +33867,7 @@ RU.46.467756	Yel’nikovskiy Rayon	Yel'nikovskiy Rayon	467756
 RU.43.467976	Yeletskiy Rayon	Yeletskiy Rayon	467976
 RU.84.468037	Yelanskiy Rayon	Yelanskiy Rayon	468037
 RU.73.468080	Yelabuzhskiy Rayon	Yelabuzhskiy Rayon	468080
-RU.47.468247	Yegor’yevskiy Rayon	Yegor'yevskiy Rayon	468247
+RU.47.468247	Gorodskoy Okrug Yegor'yevsk	Gorodskoy Okrug Yegor'yevsk	468247
 RU.76.468669	Yasnogorskiy Rayon	Yasnogorskiy Rayon	468669
 RU.24.468746	Yashkul’skiy Rayon	Yashkul'skiy Rayon	468746
 RU.24.468775	Yashaltinskiy Rayon	Yashaltinskiy Rayon	468775
@@ -33883,7 +33892,7 @@ RU.42.471099	Vsevolozhskiy Rayon	Vsevolozhskiy Rayon	471099
 RU.51.471173	Voznesenskiy Rayon	Voznesenskiy Rayon	471173
 RU.85.471243	Vozhegodskiy Rayon	Vozhegodskiy Rayon	471243
 RU.51.471642	Voskresenskiy Rayon	Voskresenskiy Rayon	471642
-RU.47.471643	Voskresenskiy Rayon	Voskresenskiy Rayon	471643
+RU.47.471643	Gorodskoy Okrug Voskresensk	Gorodskoy Okrug Voskresensk	471643
 RU.67.471644	Voskresenskiy Rayon	Voskresenskiy Rayon	471644
 RU.51.471793	Vorotynskiy Rayon	Vorotynskiy Rayon	471793
 RU.48.471823	Severnyy Administrativnyy Okrug	Severnyy Administrativnyy Okrug	471823
@@ -33895,7 +33904,7 @@ RU.43.472303	Volovskiy Rayon	Volovskiy Rayon	472303
 RU.52.472321	Volotovskiy Rayon	Volotovskiy Rayon	472321
 RU.42.472350	Volosovskiy Rayon	Volosovskiy Rayon	472350
 RU.09.472424	Volokonovskiy Rayon	Volokonovskiy Rayon	472424
-RU.47.472430	Volokolamskiy Rayon	Volokolamskiy Rayon	472430
+RU.47.472430	Volokolamskiy Gorodskoy Okrug	Volokolamskiy Gorodskoy Okrug	472430
 RU.85.472453	Vologodskiy Rayon	Vologodskiy Rayon	472453
 RU.51.472482	Volodarskiy Rayon	Volodarskiy Rayon	472482
 RU.07.472484	Volodarskiy Rayon	Volodarskiy Rayon	472484
@@ -33916,7 +33925,7 @@ RU.86.475541	Verkhnemamonskiy Rayon	Verkhnemamonskiy Rayon	475541
 RU.21.475550	Verkhnelandekhovskiy Rayon	Verkhnelandekhovskiy Rayon	475550
 RU.86.475572	Verkhnekhavskiy Rayon	Verkhnekhavskiy Rayon	475572
 RU.33.475579	Verkhnekamskiy Rayon	Verkhnekamskiy Rayon	475579
-RU.76.475878	Venevskiy Rayon	Venevskiy Rayon	475878
+RU.76.475878	Venëvskiy Rayon	Venevskiy Rayon	475878
 RU.06.475937	Vel’skiy Rayon	Vel'skiy Rayon	475937
 RU.85.476029	Velikoustyugskiy Rayon	Velikoustyugskiy Rayon	476029
 RU.60.476048	Velikolukskiy Rayon	Velikolukskiy Rayon	476048
@@ -33976,7 +33985,7 @@ RU.77.482040	Toropetskiy Rayon	Toropetskiy Rayon	482040
 RU.46.482117	Torbeyevskiy Rayon	Torbeyevskiy Rayon	482117
 RU.51.482217	Tonshayevskiy Rayon	Tonshayevskiy Rayon	482217
 RU.51.482229	Tonkinskiy Rayon	Tonkinskiy Rayon	482229
-RU.72.482496	Tokarevskiy Rayon	Tokarevskiy Rayon	482496
+RU.72.482496	Tokarëvskiy Rayon	Tokarevskiy Rayon	482496
 RU.17.482588	Tlyaratinskiy Rayon	Tlyaratinskiy Rayon	482588
 RU.41.482808	Timskiy Rayon	Timskiy Rayon	482808
 RU.38.482964	Timashevskiy Rayon	Timashevskiy Rayon	482964
@@ -34000,7 +34009,7 @@ RU.25.484282	Tarusskiy Rayon	Tarusskiy Rayon	484282
 RU.17.484288	Tarumovskiy Rayon	Tarumovskiy Rayon	484288
 RU.85.484313	Tarnogskiy Rayon	Tarnogskiy Rayon	484313
 RU.86.484722	Talovskiy Rayon	Talovskiy Rayon	484722
-RU.47.484825	Taldomskiy Rayon	Taldomskiy Rayon	484825
+RU.47.484825	Taldomskiy Gorodskoy Okrug	Taldomskiy Gorodskoy Okrug	484825
 RU.17.484957	Tabasaranskiy Rayon	Tabasaranskiy Rayon	484957
 RU.34.485121	Sysol’skiy Rayon	Sysol'skiy Rayon	485121
 RU.34.485241	Syktyvdinskiy Rayon	Syktyvdinskiy Rayon	485241
@@ -34021,7 +34030,7 @@ RU.25.486662	Sukhinichskiy Rayon	Sukhinichskiy Rayon	486662
 RU.41.486813	Sudzhanskiy Rayon	Sudzhanskiy Rayon	486813
 RU.83.486831	Sudogodskiy Rayon	Sudogodskiy Rayon	486831
 RU.37.486846	Sudislavskiy Rayon	Sudislavskiy Rayon	486846
-RU.47.486955	Stupinskiy Rayon	Stupinskiy Rayon	486955
+RU.47.486955	Gorodskoy Okrug Stupino	Gorodskoy Okrug Stupino	486955
 RU.60.487109	Strugo-Krasnenskiy Rayon	Strugo-Krasnenskiy Rayon	487109
 RU.08.487493	Sterlitamakskiy Rayon	Sterlitamakskiy Rayon	487493
 RU.08.487497	Sterlibashevskiy Rayon	Sterlibashevskiy Rayon	487497
@@ -34048,7 +34057,7 @@ RU.17.490031	Shamilsky District	Shamilsky District	490031
 RU.51.490199	Sosnovskiy Rayon	Sosnovskiy Rayon	490199
 RU.48.490968	Zapadnyy Administrativnyy Okrug	Zapadnyy Administrativnyy Okrug	490968
 RU.41.490969	Solntsevskiy Rayon	Solntsevskiy Rayon	490969
-RU.47.490995	Solnechnogorskiy Rayon	Solnechnogorskiy Rayon	490995
+RU.47.490995	Gorodskoy Okrug Solnechnogorsk	Gorodskoy Okrug Solnechnogorsk	490995
 RU.37.491024	Soligalichskiy Rayon	Soligalichskiy Rayon	491024
 RU.52.491033	Soletskiy Rayon	Soletskiy Rayon	491033
 RU.85.491147	Sokol’skiy Rayon	Sokol'skiy Rayon	491147
@@ -34068,23 +34077,23 @@ RU.85.495059	Sheksninskiy Rayon	Sheksninskiy Rayon	495059
 RU.09.495111	Shebekinskiy Rayon	Shebekinskiy Rayon	495111
 RU.41.495207	Shchigrovskiy Rayon	Shchigrovskiy Rayon	495207
 RU.38.495252	Shcherbinovskiy Rayon	Shcherbinovskiy Rayon	495252
-RU.47.495337	Shchëlkovskiy Rayon	Shchelkovskiy Rayon	495337
-RU.47.495516	Shaturskiy Rayon	Shaturskiy Rayon	495516
+RU.47.495337	Gorodskoy Okrug Shchëlkovo	Gorodskoy Okrug Shchelkovo	495337
+RU.47.495516	Gorodskoy Okrug Shatura	Gorodskoy Okrug Shatura	495516
 RU.51.495559	Shatkovskiy Rayon	Shatkovskiy Rayon	495559
 RU.37.495704	Shar’inskiy Rayon	Shar'inskiy Rayon	495704
 RU.08.495761	Sharanskiy Rayon	Sharanskiy Rayon	495761
 RU.51.495765	Sharangskiy Rayon	Sharangskiy Rayon	495765
 RU.12.495940	Shalinskiy Rayon	Shalinskiy Rayon	495940
-RU.47.496029	Shakhovskoy Rayon	Shakhovskoy Rayon	496029
+RU.47.496029	Gorodskoy Okrug Shakhovskaya	Gorodskoy Okrug Shakhovskaya	496029
 RU.33.496196	Shabalinskiy Rayon	Shabalinskiy Rayon	496196
 RU.10.496244	Sevskiy Rayon	Sevskiy Rayon	496244
 RU.38.496265	Severskiy Rayon	Severskiy Rayon	496265
 RU.66.496477	Sestroretskiy Rayon	Sestroretskiy Rayon	496477
-RU.47.496526	Serpukhovskiy Rayon	Serpukhovskiy Rayon	496526
+RU.47.496526	Gorodskoy Okrug Serpukhov	Gorodskoy Okrug Serpukhov	496526
 RU.45.496560	Sernurskiy Rayon	Sernurskiy Rayon	496560
 RU.17.496609	Sergokalinskiy Rayon	Sergokalinskiy Rayon	496609
 RU.51.496799	Sergachskiy Rayon	Sergachskiy Rayon	496799
-RU.47.496894	Serebryano-Prudskiy Rayon	Serebryano-Prudskiy Rayon	496894
+RU.47.496894	Gorodskoy Okrug Serebryannyye Prudy	Gorodskoy Okrug Serebryannyye Prudy	496894
 RU.84.496956	Serafimovichskiy Rayon	Serafimovichskiy Rayon	496956
 RU.86.497203	Semilukskiy Rayon	Semilukskiy Rayon	497203
 RU.77.497660	Selizharovskiy Rayon	Selizharovskiy Rayon	497660
@@ -34111,7 +34120,7 @@ RU.73.499980	Rybno-Slobodskiy Rayon	Rybno-Slobodskiy Rayon	499980
 RU.88.500001	Rybinskiy Rayon	Rybinskiy Rayon	500001
 RU.62.500045	Ryazhskiy Rayon	Ryazhskiy Rayon	500045
 RU.62.500058	Ryazanskiy Rayon	Ryazanskiy Rayon	500058
-RU.47.500285	Ruzskiy Rayon	Ruzskiy Rayon	500285
+RU.47.500285	Ruzskiy Gorodskoy Okrug	Ruzskiy Gorodskoy Okrug	500285
 RU.46.500298	Ruzayevskiy Rayon	Ruzayevskiy Rayon	500298
 RU.17.500315	Rutul’skiy Rayon	Rutul'skiy Rayon	500315
 RU.84.500654	Rudnyanskiy Rayon	Rudnyanskiy Rayon	500654
@@ -34125,7 +34134,7 @@ RU.86.502082	Rep’yevskiy Rayon	Rep'yevskiy Rayon	502082
 RU.72.502790	Rasskazovskiy Rayon	Rasskazovskiy Rayon	502790
 RU.86.502892	Ramonskiy Rayon	Ramonskiy Rayon	502892
 RU.77.502898	Rameshkovskiy Rayon	Rameshkovskiy Rayon	502898
-RU.47.502966	Ramenskiy Rayon	Ramenskiy Rayon	502966
+RU.47.502966	Ramenskiy Gorodskoy Okrug	Ramenskiy Gorodskoy Okrug	502966
 RU.09.503055	Rakityanskiy Rayon	Rakityanskiy Rayon	503055
 RU.60.503373	Pytalovskiy Rayon	Pytalovskiy Rayon	503373
 RU.37.503399	Pyshchugskiy Rayon	Pyshchugskiy Rayon	503399
@@ -34187,7 +34196,7 @@ RU.51.512018	Pavlovskiy Rayon	Pavlovskiy Rayon	512018
 RU.81.512019	Pavlovskiy Rayon	Pavlovskiy Rayon	512019
 RU.86.512020	Pavlovskiy Rayon	Pavlovskiy Rayon	512020
 RU.38.512021	Pavlovskiy Rayon	Pavlovskiy Rayon	512021
-RU.47.512055	Pavlovo-Posadskiy Rayon	Pavlovo-Posadskiy Rayon	512055
+RU.47.512055	Pavlovo-Posadskiy Gorodskoy Okrug	Pavlovo-Posadskiy Gorodskoy Okrug	512055
 RU.37.512246	Pavinskiy Rayon	Pavinskiy Rayon	512246
 RU.52.512568	Parfinskiy Rayon	Parfinskiy Rayon	512568
 RU.37.512574	Parfen’yevskiy Rayon	Parfen'yevskiy Rayon	512574
@@ -34205,7 +34214,7 @@ RU.86.514196	Ostrogozhskiy Rayon	Ostrogozhskiy Rayon	514196
 RU.77.514249	Ostashkovskiy Rayon	Ostashkovskiy Rayon	514249
 RU.45.514738	Orshanskiy Rayon	Orshanskiy Rayon	514738
 RU.33.514967	Orichevskiy Rayon	Orichevskiy Rayon	514967
-RU.47.515022	Orekhovo-Zuyevskiy Rayon	Orekhovo-Zuyevskiy Rayon	515022
+RU.47.515022	Orekhovo-Zuyevskiy Gorodskoy Okrug	Orekhovo-Zuyevskiy Gorodskoy Okrug	515022
 RU.60.515157	Opochetskiy Rayon	Opochetskiy Rayon	515157
 RU.33.515173	Oparinskiy Rayon	Oparinskiy Rayon	515173
 RU.06.515237	Onezhskiy Rayon	Onezhskiy Rayon	515237
@@ -34219,7 +34228,7 @@ RU.73.515836	Nurlatskiy Rayon	Nurlatskiy Rayon	515836
 RU.41.515838	Oktyabr’skiy Rayon	Oktyabr'skiy Rayon	515838
 RU.84.515839	Oktyabr’skiy Rayon	Oktyabr'skiy Rayon	515839
 RU.24.515840	Oktyabr’skiy Rayon	Oktyabr'skiy Rayon	515840
-RU.47.516210	Odintsovskiy Rayon	Odintsovskiy Rayon	516210
+RU.47.516210	Odintsovskiy Gorodskoy Okrug	Odintsovskiy Gorodskoy Okrug	516210
 RU.41.516399	Oboyanskiy Rayon	Oboyanskiy Rayon	516399
 RU.13.516613	Nyazepetrovskiy Rayon	Nyazepetrovskiy Rayon	516613
 RU.06.516645	Nyandomskiy Rayon	Nyandomskiy Rayon	516645
@@ -34240,7 +34249,7 @@ RU.86.518742	Novokhoperskiy Rayon	Novokhoperskiy Rayon	518742
 RU.84.519061	Novoanninskiy Rayon	Novoanninskiy Rayon	519061
 RU.52.519322	Novgorodskiy Rayon	Novgorodskiy Rayon	519322
 RU.33.520040	Nolinskiy Rayon	Nolinskiy Rayon	520040
-RU.47.520066	Noginskiy Rayon	Noginskiy Rayon	520066
+RU.47.520066	Bogorodskiy Gorodskoy Okrug	Bogorodskiy Gorodskoy Okrug	520066
 RU.17.520075	Nogayskiy Rayon	Nogayskiy Rayon	520075
 RU.73.521116	Nizhnekamskiy Rayon	Nizhnekamskiy Rayon	521116
 RU.86.521145	Nizhnedevitskiy Rayon	Nizhnedevitskiy Rayon	521145
@@ -34259,7 +34268,7 @@ RU.65.522943	Neftegorskiy Rayon	Neftegorskiy Rayon	522943
 RU.19.523063	Nazranovskiy Rayon	Nazranovskiy Rayon	523063
 RU.10.523187	Navlinskiy Rayon	Navlinskiy Rayon	523187
 RU.12.523209	Naurskiy Rayon	Naurskiy Rayon	523209
-RU.47.523425	Naro-Fominskiy Rayon	Naro-Fominskiy Rayon	523425
+RU.47.523425	Naro-Fominskiy Gorodskoy Okrug	Naro-Fominskiy Gorodskoy Okrug	523425
 RU.07.523439	Narimanovskiy Rayon	Narimanovskiy Rayon	523439
 RU.33.523582	Nagorskiy Rayon	Nagorskiy Rayon	523582
 RU.13.523633	Nagaybakskiy Rayon	Nagaybakskiy Rayon	523633
@@ -34270,7 +34279,7 @@ RU.28.524099	Muyezerskiy Rayon	Muyezerskiy Rayon	524099
 RU.73.524181	Muslyumovskiy Rayon	Muslyumovskiy Rayon	524181
 RU.83.524284	Muromskiy Rayon	Muromskiy Rayon	524284
 RU.33.524412	Murashinskiy Rayon	Murashinskiy Rayon	524412
-RU.47.524708	Mozhayskiy Rayon	Mozhayskiy Rayon	524708
+RU.47.524708	Mozhayskiy Gorodskoy Okrug	Mozhayskiy Gorodskoy Okrug	524708
 RU.68.524734	Mozdokskiy Rayon	Mozdokskiy Rayon	524734
 RU.38.524810	Mostovskiy Rayon	Mostovskiy Rayon	524810
 RU.66.524915	Moskovskiy Rayon	Moskovskiy Rayon	524915
@@ -34319,17 +34328,17 @@ RU.25.532457	Lyudinovskiy Rayon	Lyudinovskiy Rayon	532457
 RU.52.532461	Lyubytinskiy Rayon	Lyubytinskiy Rayon	532461
 RU.48.532527	Yugo-Vostochnyy Administrativnyy Okrug	Yugo-Vostochnyy Administrativnyy Okrug	532527
 RU.88.532570	Lyubimskiy Rayon	Lyubimskiy Rayon	532570
-RU.47.532616	Lyuberetskiy Rayon	Lyuberetskiy Rayon	532616
+RU.47.532616	Gorodskoy Okrug Lyubertsy	Gorodskoy Okrug Lyubertsy	532616
 RU.51.532711	Lyskovskiy Rayon	Lyskovskiy Rayon	532711
 RU.46.532894	Lyambirskiy Rayon	Lyambirskiy Rayon	532894
 RU.33.533042	Luzskiy Rayon	Luzskiy Rayon	533042
 RU.42.533053	Luzhskiy Rayon	Luzhskiy Rayon	533053
 RU.51.533397	Lukoyanovskiy Rayon	Lukoyanovskiy Rayon	533397
 RU.21.533539	Lukhskiy Rayon	Lukhskiy Rayon	533539
-RU.47.533544	Lukhovitskiy Rayon	Lukhovitskiy Rayon	533544
+RU.47.533544	Gorodskoy Okrug Lukhovitsy	Gorodskoy Okrug Lukhovitsy	533544
 RU.49.533930	Lovozerskiy Rayon	Lovozerskiy Rayon	533930
 RU.28.533962	Loukhskiy Rayon	Loukhskiy Rayon	533962
-RU.47.533974	Lotoshinskiy Rayon	Lotoshinskiy Rayon	533974
+RU.47.533974	Gorodskoy Okrug Lotoshino	Gorodskoy Okrug Lotoshino	533974
 RU.42.534332	Lomonosovskiy Rayon	Lomonosovskiy Rayon	534332
 RU.42.534562	Lodeynopol’skiy Rayon	Lodeynopol'skiy Rayon	534562
 RU.86.534834	Liskinskiy Rayon	Liskinskiy Rayon	534834
@@ -34344,7 +34353,7 @@ RU.06.535840	Leshukonskiy Rayon	Leshukonskiy Rayon	535840
 RU.06.536011	Lenskiy Rayon	Lenskiy Rayon	536011
 RU.84.536043	Leninskiy Rayon	Leninskiy Rayon	536043
 RU.17.536044	Karabudakhkentskiy Rayon	Karabudakhkentskiy Rayon	536044
-RU.47.536086	Leninskiy Rayon	Leninskiy Rayon	536086
+RU.47.536086	Leninskiy Gorodskoy Okrug	Leninskiy Gorodskoy Okrug	536086
 RU.76.536087	Leninskiy Rayon	Leninskiy Rayon	536087
 RU.73.536160	Leninogorskiy Rayon	Leninogorskiy Rayon	536160
 RU.38.536193	Leningradskiy Rayon	Leningradskiy Rayon	536193
@@ -34394,7 +34403,7 @@ RU.08.542325	Krasnokamskiy Rayon	Krasnokamskiy Rayon	542325
 RU.09.542337	Krasnogvardeyskiy Rayon	Krasnogvardeyskiy Rayon	542337
 RU.01.542340	Krasnogvardeyskiy Rayon	Krasnogvardeyskiy Rayon	542340
 RU.66.542341	Krasnogvardeyskiy Rayon	Krasnogvardeyskiy Rayon	542341
-RU.47.542363	Krasnogorskiy Rayon	Krasnogorskiy Rayon	542363
+RU.47.542363	Gorodskoy Okrug Krasnogorsk	Gorodskoy Okrug Krasnogorsk	542363
 RU.10.542364	Krasnogorskiy Rayon	Krasnogorskiy Rayon	542364
 RU.06.542421	Krasnoborskiy Rayon	Krasnoborskiy Rayon	542421
 RU.51.542427	Krasnobakovskiy Rayon	Krasnobakovskiy Rayon	542427
@@ -34421,7 +34430,7 @@ RU.34.544396	Kortkerosskiy Rayon	Kortkerosskiy Rayon	544396
 RU.09.544704	Korochanskiy Rayon	Korochanskiy Rayon	544704
 RU.38.544895	Korenovskiy Rayon	Korenovskiy Rayon	544895
 RU.41.544901	Korenevskiy Rayon	Korenevskiy Rayon	544901
-RU.41.545221	Konyshevskiy Rayon	Konyshevskiy Rayon	545221
+RU.41.545221	Konyshëvskiy Rayon	Konyshevskiy Rayon	545221
 RU.06.545350	Konoshskiy Rayon	Konoshskiy Rayon	545350
 RU.28.545624	Kondopozhskiy Rayon	Kondopozhskiy Rayon	545624
 RU.77.545670	Konakovskiy Rayon	Konakovskiy Rayon	545670
@@ -34429,7 +34438,7 @@ RU.21.545702	Komsomol’skiy Rayon	Komsomol'skiy Rayon	545702
 RU.16.545703	Komsomol’skiy Rayon	Komsomol'skiy Rayon	545703
 RU.10.545945	Komarichskiy Rayon	Komarichskiy Rayon	545945
 RU.49.546084	Kol’skiy Rayon	Kol'skiy Rayon	546084
-RU.47.546247	Kolomenskiy Rayon	Kolomenskiy Rayon	546247
+RU.47.546247	Gorodskoy Okrug Kolomna	Gorodskoy Okrug Kolomna	546247
 RU.37.546275	Kologrivskiy Rayon	Kologrivskiy Rayon	546275
 RU.83.546520	Kol’chuginskiy Rayon	Kol'chuginskiy Rayon	546520
 RU.46.546795	Kochkurovskiy Rayon	Kochkurovskiy Rayon	546795
@@ -34437,7 +34446,7 @@ RU.90.546843	Kochevskiy Rayon	Kochevskiy Rayon	546843
 RU.34.547056	Knyazhpogostskiy Rayon	Knyazhpogostskiy Rayon	547056
 RU.51.547159	Knyagininskiy Rayon	Knyagininskiy Rayon	547159
 RU.10.547477	Klintsovskiy Rayon	Klintsovskiy Rayon	547477
-RU.47.547486	Klinskiy Rayon	Klinskiy Rayon	547486
+RU.47.547486	Gorodskoy Okrug Klin	Gorodskoy Okrug Klin	547486
 RU.10.547551	Klimovskiy Rayon	Klimovskiy Rayon	547551
 RU.84.547676	Kletskiy Rayon	Kletskiy Rayon	547676
 RU.10.547680	Kletnyanskiy Rayon	Kletnyanskiy Rayon	547680
@@ -34528,7 +34537,7 @@ RU.43.554804	Izmalkovskiy Rayon	Izmalkovskiy Rayon	554804
 RU.34.554843	Izhemskiy Rayon	Izhemskiy Rayon	554843
 RU.09.554969	Ivnyanskiy Rayon	Ivnyanskiy Rayon	554969
 RU.21.555207	Ivanovskiy Rayon	Ivanovskiy Rayon	555207
-RU.47.555740	Istrinskiy Rayon	Istrinskiy Rayon	555740
+RU.47.555740	Gorodskoy Okrug Istra	Gorodskoy Okrug Istra	555740
 RU.57.555790	Issinskiy Rayon	Issinskiy Rayon	555790
 RU.08.555977	Ishimbayskiy Rayon	Ishimbayskiy Rayon	555977
 RU.68.556219	Irafskiy Rayon	Irafskiy Rayon	556219
@@ -34595,12 +34604,12 @@ RU.84.564599	Dubovskiy Rayon	Dubovskiy Rayon	564599
 RU.61.564600	Dubovskiy Rayon	Dubovskiy Rayon	564600
 RU.46.564803	Dubenskiy Rayon	Dubenskiy Rayon	564803
 RU.73.564943	Drozhzhanovskiy Rayon	Drozhzhanovskiy Rayon	564943
-RU.47.565379	Domodedovskiy Rayon	Domodedovskiy Rayon	565379
+RU.47.565379	Gorodskoy Okrug Domodedovo	Gorodskoy Okrug Domodedovo	565379
 RU.43.565604	Dolgorukovskiy Rayon	Dolgorukovskiy Rayon	565604
 RU.90.565775	Dobryanskiy Rayon	Dobryanskiy Rayon	565775
 RU.43.565805	Dobrovskiy Rayon	Dobrovskiy Rayon	565805
 RU.43.565845	Dobrinskiy Rayon	Dobrinskiy Rayon	565845
-RU.47.565909	Dmitrovskiy Rayon	Dmitrovskiy Rayon	565909
+RU.47.565909	Dmitrovskiy Gorodskoy Okrug	Dmitrovskiy Gorodskoy Okrug	565909
 RU.41.565980	Dmitriyevskiy Rayon	Dmitriyevskiy Rayon	565980
 RU.51.566164	Diveyevskiy Rayon	Diveyevskiy Rayon	566164
 RU.38.566179	Dinskoy Rayon	Dinskoy Rayon	566179
@@ -34629,7 +34638,7 @@ RU.41.569338	Cheremisinovskiy Rayon	Cheremisinovskiy Rayon	569338
 RU.90.569358	Cherdynskiy Rayon	Cherdynskiy Rayon	569358
 RU.81.569361	Cherdaklinskiy Rayon	Cherdaklinskiy Rayon	569361
 RU.08.569578	Chekmagushevskiy Rayon	Chekmagushevskiy Rayon	569578
-RU.47.569587	Chekhovskiy Rayon	Chekhovskiy Rayon	569587
+RU.47.569587	Gorodskoy Okrug Chekhov	Gorodskoy Okrug Chekhov	569587
 RU.22.569634	Chegemskiy Rayon	Chegemskiy Rayon	569634
 RU.16.569698	Cheboksarskiy Rayon	Cheboksarskiy Rayon	569698
 RU.17.569892	Charodinskiy Rayon	Charodinskiy Rayon	569892
@@ -34789,15 +34798,15 @@ RU.23.825115	Svetlogorskiy Gorodskoy Okrug	Svetlogorskiy Gorodskoy Okrug	825115
 RU.23.825116	Pionerskiy Gorodskoy Okrug	Pionerskiy Gorodskoy Okrug	825116
 RU.23.825117	Svetlovskiy Gorodskoy Okrug	Svetlovskiy Gorodskoy Okrug	825117
 RU.23.825118	Kaliningradskiy Gorodskoy Okrug	Kaliningradskiy Gorodskoy Okrug	825118
-RU.17.826309	Gorod Makhachkala	Gorod Makhachkala	826309
+RU.17.826309	Gorodskoy Okrug Makhachkala	Gorodskoy Okrug Makhachkala	826309
 RU.21.826310	Gorod Furmanovo	Gorod Furmanovo	826310
 RU.17.830805	Bezhtinskiy Uchastok Rayon	Bezhtinskiy Uchastok Rayon	830805
-RU.17.830807	Gorod Buynaksk	Gorod Buynaksk	830807
-RU.17.830809	Gorod Derbent	Gorod Derbent	830809
-RU.17.830810	Gorod Dagestanskiye Ogni	Gorod Dagestanskiye Ogni	830810
-RU.17.830811	Gorod Izberbash	Gorod Izberbash	830811
+RU.17.830807	Gorodskoy Okrug Buynaksk	Gorodskoy Okrug Buynaksk	830807
+RU.17.830809	Gorodskoy Okrug Derbent	Gorodskoy Okrug Derbent	830809
+RU.17.830810	Gorodskoy Okrug Dagestanskiye Ogni	Gorodskoy Okrug Dagestanskiye Ogni	830810
+RU.17.830811	Gorodskoy Okrug Izberbash	Gorodskoy Okrug Izberbash	830811
 RU.17.830812	Gorod Kaspiysk	Gorod Kaspiysk	830812
-RU.17.830814	Gorod Kizlyar	Gorod Kizlyar	830814
+RU.17.830814	Gorodskoy Okrug Kizlyar	Gorodskoy Okrug Kizlyar	830814
 RU.17.830816	Gorod Yuzhno-Sukhokumsk	Gorod Yuzhno-Sukhokumsk	830816
 RU.12.858775	Itum-Kalinskiy Rayon	Itum-Kalinskiy Rayon	858775
 RU.73.862913	Gorod Kazan’	Gorod Kazan'	862913
@@ -35345,6 +35354,59 @@ RU.23.12514977	Ladushkinskiy Gorodskoy Okrug	Ladushkinskiy Gorodskoy Okrug	12514
 RU.10.12522070	Gorodskoy Okrug Fokino	Gorodskoy Okrug Fokino	12522070
 RU.10.12522071	Gorodskoy Okrug Sel'tso	Gorodskoy Okrug Sel'tso	12522071
 RU.10.12522072	Gorodskoy Okrug Klintsy	Gorodskoy Okrug Klintsy	12522072
+RU.56.12527681	Gorodskoy Okrug Livny	Gorodskoy Okrug Livny	12527681
+RU.56.12527682	Gorodskoy Okrug Mtsensk	Gorodskoy Okrug Mtsensk	12527682
+RU.56.12527683	Gorodskoy Okrug Orël	Gorodskoy Okrug Orel	12527683
+RU.56.12527684	Korsakovskiy Rayon	Korsakovskiy Rayon	12527684
+RU.56.12527685	Krasnozorenskiy Rayon	Krasnozorenskiy Rayon	12527685
+RU.56.12527686	Znamenskiy Rayon	Znamenskiy Rayon	12527686
+RU.56.12527687	Soskovskiy Rayon	Soskovskiy Rayon	12527687
+RU.56.12527688	Trosnyanskiy Rayon	Trosnyanskiy Rayon	12527688
+RU.77.12527690	Gorodskoy Okrug Torzhok	Gorodskoy Okrug Torzhok	12527690
+RU.77.12527691	Gorodskoy Okrug Tver'	Gorodskoy Okrug Tver'	12527691
+RU.76.12531606	Gorodskoy Okrug Donskoy	Gorodskoy Okrug Donskoy	12531606
+RU.76.12531607	Gorodskoy Okrug Novomoskovsk	Gorodskoy Okrug Novomoskovsk	12531607
+RU.76.12531608	Gorodskoy Okrug Novogurovskiy	Gorodskoy Okrug Novogurovskiy	12531608
+RU.76.12531609	Gorodskoy Okrug Tula	Gorodskoy Okrug Tula	12531609
+RU.76.12531610	Gorodskoy Okrug Slavniy	Gorodskoy Okrug Slavniy	12531610
+RU.76.12531611	Gorodskoy Okrug Yefremov	Gorodskoy Okrug Yefremov	12531611
+RU.76.12531612	Gorodskoy Okrug Aleksin	Gorodskoy Okrug Aleksin	12531612
+RU.25.12531613	Gorodskoy Okrug Gorod Kaluga	Gorodskoy Okrug Gorod Kaluga	12531613
+RU.25.12531614	Gorodskoy Okrug Obninsk	Gorodskoy Okrug Obninsk	12531614
+RU.62.12535924	Gorodskoy Okrug Ryazan'	Gorodskoy Okrug Ryazan'	12535924
+RU.62.12535925	Gorodskoy Okrug Kasimov	Gorodskoy Okrug Kasimov	12535925
+RU.62.12535926	Gorodskoy Okrug Sasovo	Gorodskoy Okrug Sasovo	12535926
+RU.62.12535927	Gorodskoy Okrug Skopin	Gorodskoy Okrug Skopin	12535927
+RU.60.12538072	Plyusskiy Rayon	Plyusskiy Rayon	12538072
+RU.60.12538073	Gorodskoy Okrug Pskov	Gorodskoy Okrug Pskov	12538073
+RU.60.12538074	Gorodskoy Okrug Velikiye Luki	Gorodskoy Okrug Velikiye Luki	12538074
+RU.17.12540213	Gorodskoy Okrug Kizilyurt	Gorodskoy Okrug Kizilyurt	12540213
+RU.17.12540214	Gorodskoy Okrug Khasavyurt	Gorodskoy Okrug Khasavyurt	12540214
+RU.17.12540215	Gorodskoy Okrug Yuzhno-Sukhokumsk	Gorodskoy Okrug Yuzhno-Sukhokumsk	12540215
+RU.17.12540216	Gorodskoy Okrug Kaspiysk	Gorodskoy Okrug Kaspiysk	12540216
+RU.47.12541988	Losino-Petrovskiy Gorodskoy Okrug	Losino-Petrovskiy Gorodskoy Okrug	12541988
+RU.47.12541989	Gorodskoy Okrug Fryazino	Gorodskoy Okrug Fryazino	12541989
+RU.47.12541990	Gorodskoy Okrug Chernogolovka	Gorodskoy Okrug Chernogolovka	12541990
+RU.47.12541991	Gorodskoy Okrug Elektrostal'	Gorodskoy Okrug Elektrostal'	12541991
+RU.47.12541992	Gorodskoy Okrug Dolgoprudnyy	Gorodskoy Okrug Dolgoprudnyy	12541992
+RU.47.12541993	Gorodskoy Okrug Voskhod	Gorodskoy Okrug Voskhod	12541993
+RU.47.12541994	Gorodskoy Okrug Zvëzdnyy Gorok	Gorodskoy Okrug Zvezdnyy Gorok	12541994
+RU.47.12541995	Gorodskoy Okrug Molodëzhnyy	Gorodskoy Okrug Molodezhnyy	12541995
+RU.47.12541996	Gorodskoy Okrug Dzerzhinskiy	Gorodskoy Okrug Dzerzhinskiy	12541996
+RU.47.12541997	Gorodskoy Okrug Dubna	Gorodskoy Okrug Dubna	12541997
+RU.47.12541998	Gorodskoy Okrug Zhukovskiy	Gorodskoy Okrug Zhukovskiy	12541998
+RU.47.12541999	Gorodskoy Okrug Korolëv	Gorodskoy Okrug Korolev	12541999
+RU.47.12542000	Gorodskoy Okrug Kotel'niki	Gorodskoy Okrug Kotel'niki	12542000
+RU.47.12542001	Gorodskoy Okrug Lytkarino	Gorodskoy Okrug Lytkarino	12542001
+RU.47.12542002	Gorodskoy Okrug Reutov	Gorodskoy Okrug Reutov	12542002
+RU.47.12542003	Gorodskoy Okrug Vlasikha	Gorodskoy Okrug Vlasikha	12542003
+RU.47.12542006	Gorodskoy Okrug Krasnoznamensk	Gorodskoy Okrug Krasnoznamensk	12542006
+RU.47.12542008	Gorodskoy Okrug Bronnitsy	Gorodskoy Okrug Bronnitsy	12542008
+RU.47.12542009	Gorodskoy Okrug Lobnya	Gorodskoy Okrug Lobnya	12542009
+RU.41.12544997	Gorodskoy Okrug Shchigry	Gorodskoy Okrug Shchigry	12544997
+RU.41.12544998	Gorodskoy Okrug Zheleznogorsk	Gorodskoy Okrug Zheleznogorsk	12544998
+RU.41.12544999	Gorodskoy Okrug L'gov	Gorodskoy Okrug L'gov	12544999
+RU.41.12545000	Gorodskoy Okrug Kurchatov	Gorodskoy Okrug Kurchatov	12545000
 RW.11.52	Nyagatare District	Nyagatare District	7688799
 RW.11.53	Gatsibo District	Gatsibo District	7688800
 RW.11.54	Kayonza District	Kayonza District	7688801
@@ -43210,7 +43272,7 @@ VE.05.0609	Municipio Pedraza	Municipio Pedraza	3630482
 VE.15.1515	Municipio Paz Castillo	Municipio Paz Castillo	3630495
 VE.20.2019	Municipio Panamericano	Municipio Panamericano	3630887
 VE.13.1306	Municipio Palavecino	Municipio Palavecino	3631101
-VE.23.2315	Municipio Páez	Municipio Paez	3631168
+VE.23.2315	Municipio Guajira	Municipio Guajira	3631168
 VE.15.1514	Municipio Páez	Municipio Paez	3631169
 VE.18.1808	Municipio Páez	Municipio Paez	3631170
 VE.03.0404	Municipio Páez	Municipio Paez	3631171
@@ -43256,7 +43318,7 @@ VE.04.0503	Municipio Girardot	Municipio Girardot	3640595
 VE.08.0903	Municipio Girardot	Municipio Girardot	3640596
 VE.20.2009	Municipio García de Hevia	Municipio Garcia de Hevia	3640668
 VE.11.1110	Municipio Federación	Municipio Federacion	3640848
-VE.08.0902	Municipio Falcón	Municipio Falcon	3640872
+VE.08.0902	Municipio Tinaquillo	Municipio Tinaquillo	3640872
 VE.11.1109	Municipio Falcón	Municipio Falcon	3640874
 VE.05.0607	Municipio Ezequiel Zamora	Municipio Ezequiel Zamora	3640879
 VE.18.1803	Municipio Esteller	Municipio Esteller	3640903
