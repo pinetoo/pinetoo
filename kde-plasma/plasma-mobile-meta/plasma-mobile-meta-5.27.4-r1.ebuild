@@ -25,7 +25,6 @@ RDEPEND="
 	>=kde-apps/ktrip-${GEAR_MIN}:${SLOT}
 	>=kde-apps/okular-${GEAR_MIN}:${SLOT}[mobile]
 	>=kde-apps/plasma-phonebook-${GEAR_MIN}:${SLOT}
-	>=kde-apps/tokodon-${GEAR_MIN}:${SLOT}
 	>=kde-apps/vakzination-${GEAR_MIN}:${SLOT}
 	kde-apps/plasma-camera
 	>=kde-apps/qmlkonsole-${GEAR_MIN}:${SLOT}
@@ -61,6 +60,7 @@ RDEPEND="
 	media-sound/vvave
 	net-im/kaidan
 	net-im/neochat
+	>=net-im/tokodon-${GEAR_MIN}
 	>=net-news/alligator-${GEAR_MIN}
 	x11-apps/maliit-keyboard
 	x11-misc/sddm

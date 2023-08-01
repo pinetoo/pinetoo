@@ -56,6 +56,9 @@ Added support for **PinePhone Pro**.
 * `kde-apps/keysmith`
   Now available in `::gentoo` (as `app-crypt/keysmith`)
 
+* `kde-apps/tokodon`
+  Now available in `::gentoo` (as `net-im/tokodon`)
+
 ## Other changes
 
 * `media-gfx/megapixels`
