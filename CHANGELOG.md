@@ -50,6 +50,9 @@ Added support for **PinePhone Pro**.
 * `kde-apps/kclock`
   Now available in `::gentoo` (as `kde-misc/kclock`)
 
+* `kde-apps/keysmith`
+  Now available in `::gentoo` (as `app-crypt/keysmith`)
+
 ## Other changes
 
 * `media-gfx/megapixels`
