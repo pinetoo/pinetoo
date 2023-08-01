@@ -6,11 +6,10 @@ EAPI=8
 QTMIN=5.15.2
 KFMIN=5.89.0
 
-inherit ecm plasma-mobile.kde.org
+inherit ecm gear.kde.org
 
 DESCRIPTION="Cross-platform calculator application built with the Kirigami framework"
 HOMEPAGE="https://apps.kde.org/kalk"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="GPL-3+"
 SLOT="5"
