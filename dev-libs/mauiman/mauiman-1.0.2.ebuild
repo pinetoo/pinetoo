@@ -22,3 +22,5 @@ DEPEND="
 	>=dev-qt/qtgui-${QTMIN}:5
 	dev-qt/qtsystems
 "
+
+RDEPEND="${DEPEND}"
