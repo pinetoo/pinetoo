@@ -14,13 +14,13 @@ KEYWORDS="~arm64"
 IUSE="accessibility +bluetooth +desktop-portal +dialer education games +gtk handbook haptic kwallet +pulseaudio +sms systemd thumbnail webengine"
 
 RDEPEND="
+	>=app-crypt/keysmith-${GEAR_MIN}
 	>=kde-apps/alligator-${GEAR_MIN}:${SLOT}
 	>=kde-apps/angelfish-${GEAR_MIN}:${SLOT}
 	>=kde-apps/calindori-${GEAR_MIN}:${SLOT}
 	>=kde-apps/itinerary-${GEAR_MIN}:${SLOT}
 	>=kde-apps/kaccounts-providers-${GEAR_MIN}:${SLOT}
 	>=kde-apps/kalk-${GEAR_MIN}:${SLOT}
-	>=kde-apps/keysmith-${GEAR_MIN}:${SLOT}
 	>=kde-apps/koko-${GEAR_MIN}:${SLOT}
 	>=kde-apps/kongress-${GEAR_MIN}:${SLOT}
 	>=kde-apps/ktrip-${GEAR_MIN}:${SLOT}
