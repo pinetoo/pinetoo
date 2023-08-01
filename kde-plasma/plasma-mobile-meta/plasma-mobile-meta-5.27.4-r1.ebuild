@@ -15,7 +15,6 @@ IUSE="accessibility +bluetooth +desktop-portal +dialer education games +gtk hand
 
 RDEPEND="
 	>=app-crypt/keysmith-${GEAR_MIN}
-	>=kde-apps/alligator-${GEAR_MIN}:${SLOT}
 	>=kde-apps/angelfish-${GEAR_MIN}:${SLOT}
 	>=kde-apps/calindori-${GEAR_MIN}:${SLOT}
 	>=kde-apps/itinerary-${GEAR_MIN}:${SLOT}
@@ -62,6 +61,7 @@ RDEPEND="
 	media-sound/vvave
 	net-im/kaidan
 	net-im/neochat
+	>=net-news/alligator-${GEAR_MIN}
 	x11-apps/maliit-keyboard
 	x11-misc/sddm
 	accessibility? ( >=app-accessibility/kontrast-${GEAR_MIN}:${SLOT} )

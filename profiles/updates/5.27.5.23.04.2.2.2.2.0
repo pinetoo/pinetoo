@@ -4,3 +4,5 @@ move kde-apps/kclock kde-misc/kclock
 slotmove kde-misc/kclock 5 0
 move kde-apps/keysmith app-crypt/keysmith
 slotmove app-crypt/keysmith 5 0
+move kde-apps/alligator net-news/alligator
+slotmove net-news/alligator 5 0
