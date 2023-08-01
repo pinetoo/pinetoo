@@ -44,6 +44,9 @@ Added support for **PinePhone Pro**.
 * `app-mobilephone/modemmanager-policykit-rules`
   Now provided by `net-misc/modemmanager::pinetoo`.
 
+* `kde-apps/alligator`
+  Now available in `::gentoo` (as `net-news/alligator`)
+
 * `kde-apps/kasts`
   Now available in `::gentoo` (as `media-sound/kasts`)
 
