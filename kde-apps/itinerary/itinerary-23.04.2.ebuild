@@ -3,7 +3,7 @@
 
 EAPI=8
 
-KFMIN=5.94.0
+KFMIN=5.100.0
 QTMIN=5.15.2
 inherit ecm gear.kde.org
 
@@ -17,7 +17,7 @@ IUSE="+holidays +metadata networkmanager thumbnail"
 
 DEPEND="
 	>=dev-libs/khealthcertificate-22.06:${SLOT}
-	dev-libs/kirigami-addons
+	>=dev-libs/kirigami-addons-0.6
 	>=dev-libs/kopeninghours-${PV}:${SLOT}
 	>=dev-libs/kosmindoormap-${PV}:${SLOT}
 	>=dev-libs/kpublictransport-${PV}:${SLOT}
