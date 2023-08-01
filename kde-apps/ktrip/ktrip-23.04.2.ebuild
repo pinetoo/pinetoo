@@ -5,7 +5,7 @@ EAPI=8
 
 KFMIN=5.88.0
 QTMIN=5.15.0
-inherit ecm plasma-mobile.kde.org
+inherit ecm gear.kde.org
 
 DESCRIPTION="Public Transport Assistance for Mobile Devices"
 HOMEPAGE="https://apps.kde.org/ktrip"
