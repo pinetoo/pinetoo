@@ -11,7 +11,7 @@ HOMEPAGE="https://manjaro.org/laptops/pine64/pinephone/"
 LICENSE="metapackage"
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE="geolocation +policykit"
+IUSE="geolocation"
 
 RDEPEND="
 	app-misc/pinephone-manjaro-tweaks
@@ -19,11 +19,11 @@ RDEPEND="
 	dev-libs/feedbackd
 	kde-plasma/plasma-mobile-settings
 	media-libs/alsa-ucm-pinephone
+	net-misc/modemmanager[qmi]
 	sys-apps/zswap
 	|| ( sys-boot/p-boot-bin sys-boot/p-boot-bin )
 	sys-boot/pinetoo-bootsplash
 	sys-firmware/pinephone-firmware
 	sys-kernel/pinephone-kernel
 	geolocation? ( sci-geosciences/gpsd )
-	policykit? ( app-mobilephone/modemmanager-policykit-rules )
 "

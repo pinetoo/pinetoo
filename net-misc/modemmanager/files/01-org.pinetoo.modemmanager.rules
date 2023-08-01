@@ -1,19 +1,12 @@
 // Let users in plugdev group make and answer phone calls
 polkit.addRule(function(action, subject) {
-    if (action.id == "org.freedesktop.ModemManager1.Voice" &&
+    if (/^org\.freedesktop\.ModemManager1\.(Control|Voice)$/.test(action.id) &&
         subject.isInGroup("plugdev") && subject.active) {
         return "yes";
     }
 });
 
 // Let geoclue modify ModemManager for location gathering
-polkit.addRule(function(action, subject) {
-    if (/^org\.freedesktop\.ModemManager1\.(Control|Device\.Control|Contacts|Messaging|Location)$/.test(action.id) &&
-        subject.isInGroup("plugdev") && subject.active) {
-        return "yes";
-    }
-});
-
 polkit.addRule(function(action, subject) {
     if (/^org\.freedesktop\.ModemManager1\.(Device\.Control|Location)$/.test(action.id) &&
         subject.isInGroup("geoclue")) {

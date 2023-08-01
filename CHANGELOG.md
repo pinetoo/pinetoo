@@ -26,6 +26,9 @@ Added support for **PinePhone Pro**.
 * `media-video/pipewire`
   Adapts ::gentoo package to enable `media-libs/libcamera` support.
 
+* `net-misc/modemmanager`
+  With some customizations required for the PinePhones.
+
 * `sys-devel/gcc-arm-none-eabi`
   Required for `sys-firmware/trusted-firmware-a`.
 
@@ -37,6 +40,9 @@ Added support for **PinePhone Pro**.
 * `sys-kernel/pinephonepro-kernel`
 
 ## Removed
+
+* `app-mobilephone/modemmanager-policykit-rules`
+  Now provided by `net-misc/modemmanager::pinetoo`.
 
 * `kde-apps/kasts`
   Now available in `::gentoo` (as `media-sound/kasts`)
