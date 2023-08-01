@@ -1,4 +1,8 @@
-# 5.27.4.23.01.0.2.2.2.0
+# 5.27.5.23.01.0.2.2.2.0
+
+**KDE Plasma** updated to **5.27.5**
+
+**KDE Gear** updated to **23.04.2**
 
 Added support for **PinePhone Pro**.
 

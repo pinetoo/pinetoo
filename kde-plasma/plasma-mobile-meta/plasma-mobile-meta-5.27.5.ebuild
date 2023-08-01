@@ -3,7 +3,7 @@
 
 EAPI=7
 
-GEAR_MIN=22.11
+GEAR_MIN=23.04.2
 
 DESCRIPTION="Meta package for a complete Plasma Mobile environment for smartphones"
 HOMEPAGE="https://www.plasma-mobile.org/"
@@ -24,8 +24,8 @@ RDEPEND="
 	>=kde-apps/kongress-${GEAR_MIN}:${SLOT}
 	>=kde-apps/ktrip-${GEAR_MIN}:${SLOT}
 	>=kde-apps/okular-${GEAR_MIN}:${SLOT}[mobile]
-	>=kde-apps/plasma-phonebook-${GEAR_MIN}:${SLOT}
-	>=kde-apps/vakzination-${GEAR_MIN}:${SLOT}
+	kde-apps/plasma-phonebook:${SLOT}
+	kde-apps/vakzination:${SLOT}
 	kde-apps/plasma-camera
 	>=kde-apps/qmlkonsole-${GEAR_MIN}:${SLOT}
 	>=kde-misc/kclock-${GEAR_MIN}
@@ -40,7 +40,7 @@ RDEPEND="
 	>=kde-plasma/oxygen-sounds-${PV}:${SLOT}
 	>=kde-plasma/plasma-mobile-${PV}:${SLOT}
 	kde-plasma/plasma-mobile-sounds
-	>=kde-plasma/plasma-settings-${GEAR_MIN}:${SLOT}
+	kde-plasma/plasma-settings:${SLOT}
 	>=kde-plasma/powerdevil-${PV}:${SLOT}
 	mail-client/kube
 	maui-apps/buho
@@ -59,7 +59,7 @@ RDEPEND="
 	>=media-video/plasmatube-${GEAR_MIN}:${SLOT}
 	media-sound/vvave
 	net-im/kaidan
-	net-im/neochat
+	>=net-im/neochat-${GEAR_MIN}
 	>=net-im/tokodon-${GEAR_MIN}
 	>=net-news/alligator-${GEAR_MIN}
 	x11-apps/maliit-keyboard
@@ -75,7 +75,7 @@ RDEPEND="
 	haptic? ( app-mobilephone/hfd-service )
 	kwallet? ( >=kde-plasma/kwallet-pam-${PV}:${SLOT} )
 	pulseaudio? ( >=kde-plasma/plasma-pa-${PV}:${SLOT} )
-	sms? ( >=app-mobilephone/spacebar-${GEAR_MIN}:${SLOT} )
+	sms? ( app-mobilephone/spacebar:${SLOT} )
 	systemd? ( media-gfx/bootsplash-systemd )
 	thumbnail? (
 		>=kde-apps/ffmpegthumbs-${PV}:${SLOT}
