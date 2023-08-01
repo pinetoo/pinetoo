@@ -6,11 +6,10 @@ EAPI=8
 QTMIN=5.15.0
 KFMIN=5.95.0
 
-inherit ecm plasma-mobile.kde.org
+inherit ecm gear.kde.org
 
 DESCRIPTION="Calendar application for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/calindori/"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="GPL-3+ LGPL-3+ BSD-2 CC0-1.0 CC-BY-SA-4.0"
 SLOT="5"
