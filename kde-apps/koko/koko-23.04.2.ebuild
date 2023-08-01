@@ -6,11 +6,10 @@ EAPI=8
 QTMIN=5.15.2
 KFMIN=5.87.0
 
-inherit ecm plasma-mobile.kde.org
+inherit ecm gear.kde.org
 
 DESCRIPTION="Image gallery application designed for desktop and touch devices"
 HOMEPAGE="https://apps.kde.org/koko/"
-SRC_URI="mirror://kde/stable/plasma-mobile/${PV}/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="LGPL-2+ LGPL-2.1 LGPL-2.1+ LGPL-3 BSD CC0-1.0 CC-BY-SA-4.0"
 SLOT="5"
