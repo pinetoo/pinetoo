@@ -1,0 +1,43 @@
+From 9cb5510b246fe5ea23a93bb97d0392585e3a1755 Mon Sep 17 00:00:00 2001
+From: Carl Schwan <carl@carlschwan.eu>
+Date: Mon, 24 Jul 2023 14:23:08 +0200
+Subject: [PATCH] Fix KMime header include
+
+There is no need to add KMime twice and this broke compilation on my
+machine and the CI.
+---
+ common/mailpreprocessor.cpp             | 4 ++--
+ examples/imapresource/imapserverproxy.h | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/common/mailpreprocessor.cpp b/common/mailpreprocessor.cpp
+index 4e54e777..06d9ebd7 100644
+--- a/common/mailpreprocessor.cpp
++++ b/common/mailpreprocessor.cpp
+@@ -24,8 +24,8 @@
+ #include <QTextDocument>
+ #include <QGuiApplication>
+ #include <QUuid>
+-#include <KMime/KMime/KMimeMessage>
+-#include <KMime/KMime/Headers>
++#include <KMime/KMimeMessage>
++#include <KMime/Headers>
+ #include <mime/mimetreeparser/objecttreeparser.h>
+ 
+ #include "pipeline.h"
+diff --git a/examples/imapresource/imapserverproxy.h b/examples/imapresource/imapserverproxy.h
+index c3e27ecc..512590aa 100644
+--- a/examples/imapresource/imapserverproxy.h
++++ b/examples/imapresource/imapserverproxy.h
+@@ -22,7 +22,7 @@
+ 
+ #include <KAsync/Async>
+ 
+-#include <KMime/KMime/KMimeMessage>
++#include <KMime/KMimeMessage>
+ #include <KIMAP2/ListJob>
+ #include <KIMAP2/Session>
+ #include <KIMAP2/FetchJob>
+-- 
+GitLab
+
