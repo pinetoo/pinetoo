@@ -5,8 +5,8 @@ EAPI=8
 
 KFMIN=5.81.0
 QTMIN=5.15.0
-PYTHON_COMPAT=( python3_{8..11} )
-inherit ecm plasma-mobile.kde.org python-single-r1
+PYTHON_COMPAT=( python3_{10..12} )
+inherit ecm gear.kde.org python-single-r1
 
 DESCRIPTION="Client for YouTube Music"
 HOMEPAGE="https://apps.kde.org/audiotube/"
@@ -18,8 +18,10 @@ IUSE=""
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 DEPEND="${PYTHON_DEPS}
+	>=dev-libs/kirigami-addons-0.6.0
 	dev-python/pybind11
-	~dev-python/ytmusicapi-0.24.0
+	~dev-python/ytmusicapi-0.25.0
+	>=dev-qt/qtconcurrent-${QTMIN}:${SLOT}
 	>=dev-qt/qtcore-${QTMIN}:${SLOT}
 	>=dev-qt/qtdeclarative-${QTMIN}:${SLOT}
 	>=dev-qt/qtgui-${QTMIN}:${SLOT}
@@ -31,6 +33,7 @@ DEPEND="${PYTHON_DEPS}
 	>=kde-frameworks/kcrash-${KFMIN}:${SLOT}
 	>=kde-frameworks/ki18n-${KFMIN}:${SLOT}
 	>=kde-frameworks/kirigami-${KFMIN}:${SLOT}
+	>=kde-frameworks/kwindowsystem-${KFMIN}:${SLOT}
 	$(python_gen_cond_dep '
 		net-misc/yt-dlp[${PYTHON_USEDEP}]
 	')
@@ -39,6 +42,7 @@ DEPEND="${PYTHON_DEPS}
 RDEPEND="${DEPEND}
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:${SLOT}
 	>=dev-qt/qtmultimedia-${QTMIN}:${SLOT}
+	>=kde-frameworks/purpose-${KFMIN}:${SLOT}
 "
 
 src_configure() {
