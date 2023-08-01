@@ -41,6 +41,9 @@ Added support for **PinePhone Pro**.
 
 ## Removed
 
+* `app-mobilephone/modemmanager-policykit-rules`
+  Now provided by `net-misc/modemmanager::pinetoo`.
+
 * `kde-apps/kasts`
   Now available in `::gentoo` (as `media-sound/kasts`)
 
