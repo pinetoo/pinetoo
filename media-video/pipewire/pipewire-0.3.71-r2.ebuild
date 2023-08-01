@@ -13,17 +13,17 @@ EAPI=8
 # continue to move quickly. It's not uncommon for fixes to be made shortly
 # after releases.
 
-PYTHON_COMPAT=( python3_{9..11} )
+PYTHON_COMPAT=( python3_{10..11} )
 
 inherit flag-o-matic meson-multilib optfeature prefix python-any-r1 systemd tmpfiles udev
 
-if [[ ${PV} == *_p* ]] ; then
-	MY_COMMIT=""
-	SRC_URI="https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/${MY_COMMIT}/pipewire-${MY_COMMIT}.tar.bz2 -> ${P}.tar.bz2"
-	S="${WORKDIR}"/${PN}-${MY_COMMIT}
-else
-	SRC_URI="https://gitlab.freedesktop.org/${PN}/${PN}/-/archive/${PV}/${P}.tar.bz2"
-fi
+	if [[ ${PV} == *_p* ]] ; then
+		MY_COMMIT=""
+		SRC_URI="https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/${MY_COMMIT}/pipewire-${MY_COMMIT}.tar.bz2 -> ${P}.tar.bz2"
+		S="${WORKDIR}"/${PN}-${MY_COMMIT}
+	else
+		SRC_URI="https://gitlab.freedesktop.org/${PN}/${PN}/-/archive/${PV}/${P}.tar.bz2"
+	fi
 
 KEYWORDS="~arm64"
 
@@ -92,21 +92,15 @@ RDEPEND="
 	)
 	dbus? ( sys-apps/dbus[${MULTILIB_USEDEP}] )
 	echo-cancel? ( media-libs/webrtc-audio-processing:0 )
-	extra? (
-		>=media-libs/libsndfile-1.0.20
-	)
+	extra? ( >=media-libs/libsndfile-1.0.20 )
 	ffmpeg? ( media-video/ffmpeg:= )
-	flatpak? (
-		dev-libs/glib
-	)
+	flatpak? ( dev-libs/glib )
 	gstreamer? (
 		>=dev-libs/glib-2.32.0:2
 		>=media-libs/gstreamer-1.10.0:1.0
 		media-libs/gst-plugins-base:1.0
 	)
-	gsettings? (
-		>=dev-libs/glib-2.26.0:2
-	)
+	gsettings? ( >=dev-libs/glib-2.26.0:2 )
 	jack-client? ( >=media-sound/jack2-1.9.10:2[dbus] )
 	jack-sdk? (
 		!media-sound/jack-audio-connection-kit
@@ -115,19 +109,12 @@ RDEPEND="
 	libcamera? ( media-libs/libcamera )
 	lv2? ( media-libs/lilv )
 	modemmanager? ( >=net-misc/modemmanager-1.10.0 )
-	pipewire-alsa? (
-		>=media-libs/alsa-lib-1.1.7[${MULTILIB_USEDEP}]
-	)
-	sound-server? (
-		!media-sound/pulseaudio[daemon(+)]
-		!media-sound/pulseaudio-daemon
-	)
+	pipewire-alsa? ( >=media-libs/alsa-lib-1.1.7[${MULTILIB_USEDEP}] )
+	sound-server? ( !media-sound/pulseaudio-daemon )
 	readline? ( sys-libs/readline:= )
 	ssl? ( dev-libs/openssl:= )
 	systemd? ( sys-apps/systemd )
-	system-service? (
-		acct-user/pipewire
-	)
+	system-service? ( acct-user/pipewire )
 	v4l? ( media-libs/libv4l )
 	X? (
 		media-libs/libcanberra
@@ -303,10 +290,10 @@ multilib_src_install_all() {
 
 	if ! use systemd; then
 		insinto /etc/xdg/autostart
-		newins "${FILESDIR}"/pipewire.desktop-r1 pipewire.desktop
+		newins "${FILESDIR}"/pipewire.desktop-r2 pipewire.desktop
 
 		exeinto /usr/bin
-		newexe "${FILESDIR}"/gentoo-pipewire-launcher.in gentoo-pipewire-launcher
+		newexe "${FILESDIR}"/gentoo-pipewire-launcher.in-r2 gentoo-pipewire-launcher
 
 		# Disable pipewire-pulse if sound-server is disabled.
 		if ! use sound-server ; then
@@ -411,6 +398,8 @@ pkg_postinst() {
 
 	if [[ ${HAD_SOUND_SERVER} -eq 0 || -z ${REPLACING_VERSIONS} ]] ; then
 		# TODO: We could drop most of this if we set up systemd presets?
+		# They're worth looking into because right now, the out-of-the-box experience
+		# is automatic on OpenRC, while it needs manual intervention on systemd.
 		if use sound-server && use systemd ; then
 			elog
 			elog "When switching from PulseAudio, you may need to disable PulseAudio:"
