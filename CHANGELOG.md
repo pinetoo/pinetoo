@@ -43,6 +43,10 @@ Added support for **PinePhone Pro**.
 
 * `sys-kernel/pinephonepro-kernel`
 
+## Package updates
+
+* `app-misc/iio-sensor-proxy-3.5`
+
 ## Removed
 
 * `app-mobilephone/modemmanager-policykit-rules`
