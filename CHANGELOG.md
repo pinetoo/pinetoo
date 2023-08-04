@@ -74,6 +74,9 @@ Added support for **PinePhone Pro**.
 
 ## Other changes
 
+* `acct-user/plasma-mobile`
+  The `plasma-mobile` user must be a member of the `plugdev` group.
+
 * `media-gfx/megapixels`
   Add support for PinePhone Pro and burst improvements for PinePhone.
 
