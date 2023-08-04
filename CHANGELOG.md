@@ -47,6 +47,8 @@ Added support for **PinePhone Pro**.
 
 * `app-misc/iio-sensor-proxy-3.5`
 
+* `dev-libs/libglibutil-1.0.71`
+
 ## Removed
 
 * `app-mobilephone/modemmanager-policykit-rules`
