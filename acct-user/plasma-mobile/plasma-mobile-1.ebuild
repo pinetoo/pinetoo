@@ -8,7 +8,7 @@ inherit acct-user
 KEYWORDS="~arm64"
 DESCRIPTION="Default user for Plasma Mobile auto-login"
 
-ACCT_USER_GROUPS=( "plasma-mobile" "wheel" "audio" "input" "video" )
+ACCT_USER_GROUPS=( "audio" "input" "plasma-mobile" "plugdev" "video" "wheel" )
 ACCT_USER_ID="-1"
 ACCT_USER_HOME="/home/${PN}"
 ACCT_USER_HOME_PERMS="700"
