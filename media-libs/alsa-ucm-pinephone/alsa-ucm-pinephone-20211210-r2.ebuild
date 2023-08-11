@@ -16,21 +16,18 @@ SLOT="0"
 KEYWORDS="~arm64"
 
 RDEPEND="
-	media-libs/alsa-ucm-conf
+	>=media-libs/alsa-ucm-conf-1.2.9
 	|| ( >sys-kernel/pinephone-kernel-5.14.0 >sys-kernel/pinephonepro-kernel-5.14.0 )
 "
 
 src_prepare() {
 	default
-	sed -i 's-	File "-&/Pine64/PinePhone/-' ucm2/PinePhone/PinePhone.conf || die
 	sed -i 's-	File "-&/Pine64/PinePhonePro/-' ucm2/PinePhonePro/PinePhonePro.conf || die
 }
 
 src_install() {
 	insinto /usr/share/alsa/ucm2/conf.d/simple-card
-	doins ucm2/PinePhone*/PinePhone*.conf
-	insinto /usr/share/alsa/ucm2/Pine64/PinePhone
-	doins ucm2/PinePhone/{HiFi,VoiceCall}.conf
+	doins ucm2/PinePhone*/PinePhonePro.conf
 	insinto /usr/share/alsa/ucm2/Pine64/PinePhonePro
 	doins ucm2/PinePhonePro/{HiFi,VoiceCall}.conf
 }

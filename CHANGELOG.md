@@ -1,3 +1,10 @@
+# 5.27.5.23.04.2.2.2.2.1
+
+## Other changes
+
+* `media-libs/alsa-ucm-pinephone`
+  Don't install PinePhone files which have been mainlined into `media-libs/alsa-ucm-conf-1.2.9`.
+
 # 5.27.5.23.04.2.2.2.2.0
 
 **KDE Plasma** updated to **5.27.5**
