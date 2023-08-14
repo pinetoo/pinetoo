@@ -2547,7 +2547,7 @@ PK.05	Sindh	Sindh	1164807
 PK.04	Punjab	Punjab	1167710
 PK.03	Khyber Pakhtunkhwa	Khyber Pakhtunkhwa	1168873
 PK.07	Gilgit-Baltistan	Gilgit-Baltistan	1168878
-PK.02	Balochistan	Balochistan	1183606
+PK.02	Balochistan Province	Balochistan Province	1183606
 PK.06	Azad Kashmir	Azad Kashmir	1184196
 PL.75	Lublin	Lublin	858785
 PL.77	Lesser Poland	Lesser Poland	858786

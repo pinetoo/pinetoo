@@ -17618,7 +17618,7 @@ JM.08.15025	Constant Spring	Constant Spring	11494915
 JM.08.15032	Havendale	Havendale	11494916
 JM.08.15009	Jacks Hill	Jacks Hill	11494917
 JM.17.15086	Port Royal	Port Royal	11494918
-JM.08.15085	Bull Bay/ Seven Mile	Bull Bay/ Seven Mile	11494919
+JM.08.15085	Bull Bay - Seven Mile	Bull Bay - Seven Mile	11494919
 JM.08.15068	Greenwich Town/ Newport West	Greenwich Town/ Newport West	11494920
 JM.17.15105	Southside	Southside	11494921
 JM.08.15126	Constitution Hill	Constitution Hill	11494922
@@ -18144,7 +18144,7 @@ JM.15.717	Duanvale	Duanvale	11495443
 JM.14.346	Duhaney Pen	Duhaney Pen	11495444
 JM.12.816	Down Town Montego Bay	Down Town Montego Bay	11495445
 JM.11.1106	Elderslie	Elderslie	11495446
-JM.14.339	Eleven Miles	Eleven Miles	11495447
+JM.14.339	Eleven Mile	Eleven Mile	11495447
 JM.07.433	Durham	Durham	11495448
 JM.01.1349	Effortville	Effortville	11495449
 JM.13.544	Enfield	Enfield	11495450
@@ -22800,6 +22800,7 @@ MM.15.MMR009D001	Magway District	Magway District	1312605
 MM.08.MMR010D003	Kyaukse District	Kyaukse District	1316697
 MM.01.MMR012D003	Kyaunkpyu District	Kyaunkpyu District	1316745
 MM.10.MMR005D004	Katha District	Katha District	1320151
+MM.17.1321934	Hmawbi	Hmawbi	1321934
 MM.03.MMR017D002	Hinthada District	Hinthada District	1325210
 MM.16.MMR007D001	Bago District	Bago District	1325361
 MM.04.MMR001D003	Bhamo District	Bhamo District	1328217
