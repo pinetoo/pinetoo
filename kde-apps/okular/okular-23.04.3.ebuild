@@ -71,6 +71,7 @@ RDEPEND="${DEPEND}
 
 PATCHES=(
 	"${FILESDIR}/${PN}-21.11.80-tests.patch" # bug 734138
+	"${FILESDIR}/${PN}-20.08.2-hide-mobile-app.patch" # avoid same-name entry
 )
 
 src_configure() {
@@ -79,7 +80,7 @@ src_configure() {
 		-DCMAKE_DISABLE_FIND_PACKAGE_KF5KHtml=ON
 		-DCMAKE_DISABLE_FIND_PACKAGE_LibZip=ON
 		-DFORCE_NOT_REQUIRED_DEPENDENCIES="KF5DocTools;CHM;KF5KHtml;LibZip;KF5Wallet;DjVuLibre;EPub;KF5KExiv2;Discount;QMobipocket;Poppler;JPEG;LibSpectre;KF5Purpose;Qt5TextToSpeech;TIFF;"
-		-DOKULAR_UI=$(usex qml "$(usex mobile "mobile" "both")" "desktop")
+		-DOKULAR_UI=$(usex qml "both" "desktop")
 		$(cmake_use_find_package crypt KF5Wallet)
 		$(cmake_use_find_package djvu DjVuLibre)
 		$(cmake_use_find_package epub EPub)
@@ -94,12 +95,6 @@ src_configure() {
 		$(cmake_use_find_package tiff TIFF)
 	)
 	ecm_src_configure
-
-	if use mobile; then
-		find -name '*.desktop' | xargs grep -l 'Exec=okular\>' | xargs sed -i 's/Exec=okular\>/Exec=okularkirigami/'
-	else
-		eapply "${FILESDIR}/${PN}-20.08.2-hide-mobile-app.patch"
-	fi
 }
 
 src_test() {
