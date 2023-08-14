@@ -36,6 +36,7 @@ DEPEND="${RDEPEND}
 src_configure() {
 	local mycmakeargs=(
 		-DCMAKE_DISABLE_FIND_PACKAGE_OsmTools=$(use osm && echo OFF || echo ON)
+		$(cmake_use_find_package networkmanager KF5NetworkManagerQt)
 	)
 	ecm_src_configure
 }
