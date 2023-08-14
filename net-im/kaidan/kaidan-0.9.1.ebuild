@@ -10,7 +10,7 @@ inherit ecm
 
 DESCRIPTION="Simple and user-friendly Jabber/XMPP client for every device and platform"
 HOMEPAGE="https://www.kaidan.im"
-SRC_URI="mirror://kde/unstable/${PN}/${PV}/${P}.tar.xz"
+SRC_URI="mirror://kde/unstable/${PN}/${P}.tar.xz"
 
 LICENSE="Apache-2.0 CC-BY-SA-4.0 GPL-3+ GPL-3-with-openssl-exception MIT"
 SLOT="5"
@@ -37,17 +37,11 @@ DEPEND="
 	>=kde-frameworks/kirigami-${KFMIN}:${SLOT}
 	>=kde-frameworks/qqc2-desktop-style-${KFMIN}:${SLOT}
 	<media-libs/zxing-cpp-2
-	>=net-libs/qxmpp-1.3.0
+	>=net-libs/qxmpp-1.3.0[omemo]
 	kde? ( >=kde-frameworks/knotifications-${KFMIN}:${SLOT} )
 	>=dev-qt/qtxml-${QTMIN}:${SLOT}
 "
 RDEPEND="${DEPEND}"
-
-src_prepare() {
-	default
-	cmake_src_prepare
-	eapply "${FILESDIR}"/${PN}-0.8.0-no-knotifications.patch
-}
 
 src_configure() {
 	local mycmakeargs=(
