@@ -4,10 +4,9 @@
 EAPI=8
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/core/linux-pinephone.git"
-EGIT_BRANCH="6.1-megi"
-EGIT_COMMIT="58cdacc1d177c372e949fc690be4a6a2040d236c"
+EGIT_COMMIT="e4f910224cb7e831ee56a9f163dc2c3f89688616"
 
-KERNEL_TAG="6.1-20230214-2103"
+KERNEL_TAG="6.3-20230612-0227"
 
 inherit git-r3 kernel-build
 
@@ -20,20 +19,10 @@ KEYWORDS="~arm64"
 IUSE="debug systemd"
 
 PATCHES=(
-	"${WORKDIR}/${P}/6.1.12-13.patch"
-	"${WORKDIR}/${P}/6.1.13-14.patch"
-	"${WORKDIR}/${P}/6.1.14-15.patch"
-	"${WORKDIR}/${P}/6.1.15-16.patch"
-	"${WORKDIR}/${P}/6.1.16-17.patch"
-	"${WORKDIR}/${P}/6.1.17-18.patch"
-	"${WORKDIR}/${P}/6.1.18-19.patch"
-	"${WORKDIR}/${P}/6.1.19-20.patch"
-	"${WORKDIR}/${P}/6.1.20-21.patch"
-	"${WORKDIR}/${P}/6.1.21-22.patch"
-	"${WORKDIR}/${P}/6.1.22-23.patch"
-	"${WORKDIR}/${P}/6.1.23-24.patch"
-	"${WORKDIR}/${P}/6.1.24-25.patch"
-	"${WORKDIR}/${P}/6.1.25-26.patch"
+	"${WORKDIR}/${P}/6.3.7-8.patch"
+	"${WORKDIR}/${P}/6.3.8-9.patch"
+	"${WORKDIR}/${P}/6.3.9-10.patch"
+	"${WORKDIR}/${P}/6.3.10-11.patch"
 	"${WORKDIR}/${P}/0101-arm64-dts-pinephone-drop-modem-power-node.patch"
 	"${WORKDIR}/${P}/0102-arm64-dts-pinephone-pro-remove-modem-node.patch"
 	"${WORKDIR}/${P}/0103-ccu-sun50i-a64-reparent-clocks-to-lower-speed-oscillator.patch"

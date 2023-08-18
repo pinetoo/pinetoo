@@ -6,6 +6,8 @@
 
 * `media-gfx/megapixels-1.7.0`
 
+* `sys-kernel/pinephone-kernel-6.3.11`
+
 ## Other changes
 
 * `media-libs/alsa-ucm-pinephone`
