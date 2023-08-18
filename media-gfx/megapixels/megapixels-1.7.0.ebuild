@@ -1,9 +1,9 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-inherit gnome2-utils meson
+inherit gnome2-utils meson optfeature
 
 DESCRIPTION="A GTK3 camera application"
 HOMEPAGE="https://gitlab.com/postmarketOS/megapixels"
@@ -29,6 +29,12 @@ RDEPEND="${DEPEND}
 	jpeg? ( media-gfx/imagemagick[jpeg,tiff] )
 "
 
+PATCHES=(
+	"${FILESDIR}/1.6.0-non_zero_pad_indices.patch"
+	"${FILESDIR}/1.6.0-config_media_formats.patch"
+	"${FILESDIR}/${PV}-pinephonepro_20230614.patch"
+)
+
 src_prepare() {
 	sed -i \
 		"s_<default>''</default>_<default>'/usr/share/megapixels/postprocess.sh'</default>_" \
@@ -38,4 +44,5 @@ src_prepare() {
 
 pkg_postinst() {
 	gnome2_schemas_update
+	optfeature "native image postprocessing" media-gfx/postprocessd
 }

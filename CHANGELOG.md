@@ -2,6 +2,10 @@
 
 **KDE Gear** updated to **23.04.3**
 
+## Package updates
+
+* `media-gfx/megapixels-1.7.0`
+
 ## Other changes
 
 * `media-libs/alsa-ucm-pinephone`
