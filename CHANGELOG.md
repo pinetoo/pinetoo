@@ -8,6 +8,8 @@
 
 * `sys-kernel/pinephone-kernel-6.3.11`
 
+* `sys-kernel/pinephonepro-kernel-6.3.11`
+
 ## Other changes
 
 * `media-libs/alsa-ucm-pinephone`
