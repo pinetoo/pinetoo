@@ -12,6 +12,9 @@
 
 ## Removed
 
+* `sys-devel/gcc-arm-none-eabi`
+  Use `cross-arm-none-eabi/gcc` instead.
+
 * `sys-kernel/linux-headers`
 
 ## Other changes
