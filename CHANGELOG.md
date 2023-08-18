@@ -6,6 +6,8 @@
 
 * `media-gfx/megapixels-1.7.0`
 
+* `sys-boot/p-boot-20220828`
+
 * `sys-kernel/pinephone-kernel-6.3.11`
 
 * `sys-kernel/pinephonepro-kernel-6.3.11`
