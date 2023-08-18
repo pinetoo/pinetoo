@@ -2,6 +2,11 @@
 
 **KDE Gear** updated to **23.04.3**
 
+## New packages
+
+* `sys-firmware/crust`
+  Required by `sys-boot/p-boot`
+
 ## Package updates
 
 * `media-gfx/megapixels-1.7.0`
