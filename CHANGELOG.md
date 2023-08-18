@@ -10,6 +10,10 @@
 
 * `sys-kernel/pinephonepro-kernel-6.3.11`
 
+## Removed
+
+* `sys-kernel/linux-headers`
+
 ## Other changes
 
 * `media-libs/alsa-ucm-pinephone`
