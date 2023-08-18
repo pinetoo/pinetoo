@@ -41,6 +41,7 @@ DEPEND="
 
 RDEPEND="${DEPEND}
 	~dev-libs/mauikit-filebrowsing-${PV}
+	>=dev-qt/qtmultimedia-${QTMIN}:5
 	>=kde-frameworks/kirigami-${KFMIN}:5
 	>=kde-frameworks/purpose-${KFMIN}:5
 "
