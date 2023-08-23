@@ -20,6 +20,7 @@ DEPEND="
 	~dev-libs/mauikit-${PV}
 	~dev-libs/mauikit-filebrowsing-${PV}
 	~dev-libs/mauikit-imagetools-${PV}
+	>=dev-qt/qtconcurrent-${QTMIN}:5
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
