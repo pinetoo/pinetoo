@@ -13,17 +13,17 @@ EAPI=8
 # continue to move quickly. It's not uncommon for fixes to be made shortly
 # after releases.
 
-PYTHON_COMPAT=( python3_{10..11} )
+PYTHON_COMPAT=( python3_{10..12} )
 
 inherit flag-o-matic meson-multilib optfeature prefix python-any-r1 systemd tmpfiles udev
 
-	if [[ ${PV} == *_p* ]] ; then
-		MY_COMMIT=""
-		SRC_URI="https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/${MY_COMMIT}/pipewire-${MY_COMMIT}.tar.bz2 -> ${P}.tar.bz2"
-		S="${WORKDIR}"/${PN}-${MY_COMMIT}
-	else
-		SRC_URI="https://gitlab.freedesktop.org/${PN}/${PN}/-/archive/${PV}/${P}.tar.bz2"
-	fi
+if [[ ${PV} == *_p* ]] ; then
+	MY_COMMIT=""
+	SRC_URI="https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/${MY_COMMIT}/pipewire-${MY_COMMIT}.tar.bz2 -> ${P}.tar.bz2"
+	S="${WORKDIR}"/${PN}-${MY_COMMIT}
+else
+	SRC_URI="https://gitlab.freedesktop.org/${PN}/${PN}/-/archive/${PV}/${P}.tar.bz2"
+fi
 
 KEYWORDS="~arm64"
 
@@ -33,8 +33,8 @@ HOMEPAGE="https://pipewire.org/"
 LICENSE="MIT LGPL-2.1+ GPL-2"
 # ABI was broken in 0.3.42 for https://gitlab.freedesktop.org/pipewire/wireplumber/-/issues/49
 SLOT="0/0.4"
-IUSE="bluetooth dbus doc echo-cancel extra ffmpeg flatpak gstreamer gsettings jack-client jack-sdk libcamera
-lv2 modemmanager pipewire-alsa readline sound-server ssl system-service systemd test v4l X zeroconf"
+IUSE="bluetooth dbus doc echo-cancel extra ffmpeg flatpak gstreamer gsettings ieee1394 jack-client jack-sdk liblc3 lv2 libcamera"
+IUSE+=" modemmanager pipewire-alsa readline sound-server ssl system-service systemd test v4l X zeroconf"
 
 # Once replacing system JACK libraries is possible, it's likely that
 # jack-client IUSE will need blocking to avoid users accidentally
@@ -101,11 +101,13 @@ RDEPEND="
 		media-libs/gst-plugins-base:1.0
 	)
 	gsettings? ( >=dev-libs/glib-2.26.0:2 )
+	ieee1394? ( media-libs/libffado[${MULTILIB_USEDEP}] )
 	jack-client? ( >=media-sound/jack2-1.9.10:2[dbus] )
 	jack-sdk? (
 		!media-sound/jack-audio-connection-kit
 		!media-sound/jack2
 	)
+	liblc3? ( media-sound/liblc3 )
 	libcamera? ( media-libs/libcamera )
 	lv2? ( media-libs/lilv )
 	modemmanager? ( >=net-misc/modemmanager-1.10.0 )
@@ -170,6 +172,7 @@ multilib_src_configure() {
 		$(meson_native_enabled man)
 		$(meson_feature test tests)
 		-Dinstalled_tests=disabled # Matches upstream; Gentoo never installs tests
+		$(meson_feature ieee1394 libffado)
 		$(meson_native_use_feature gstreamer)
 		$(meson_native_use_feature gstreamer gstreamer-device-provider)
 		$(meson_native_use_feature gsettings)
@@ -200,10 +203,6 @@ multilib_src_configure() {
 		$(meson_native_use_feature bluetooth bluez5-codec-opus)
 		$(meson_native_use_feature bluetooth libusb) # At least for now only used by bluez5 native (quirk detection of adapters)
 		$(meson_native_use_feature echo-cancel echo-cancel-webrtc) #807889
-		# Not yet packaged.
-		# http://www.bluez.org/le-audio-support-in-pipewire/
-		-Dbluez5-codec-lc3=disabled
-		-Dbluez5-codec-lc3plus=disabled
 		-Dcontrol=enabled # Matches upstream
 		-Daudiotestsrc=enabled # Matches upstream
 		-Dffmpeg=disabled # Disabled by upstream and no major developments to spa/plugins/ffmpeg/ since May 2020
@@ -216,6 +215,8 @@ multilib_src_configure() {
 		-Dsupport=enabled # Miscellaneous/common plugins, such as null sink
 		-Devl=disabled # Matches upstream
 		-Dtest=disabled # fakesink and fakesource plugins
+		-Dbluez5-codec-lc3plus=disabled # unpackaged
+		$(meson_native_use_feature liblc3 bluez5-codec-lc3)
 		$(meson_native_use_feature lv2)
 		$(meson_native_use_feature v4l v4l2)
 		$(meson_native_use_feature libcamera)
@@ -295,6 +296,8 @@ multilib_src_install_all() {
 		exeinto /usr/bin
 		newexe "${FILESDIR}"/gentoo-pipewire-launcher.in-r2 gentoo-pipewire-launcher
 
+		doman "${FILESDIR}"/gentoo-pipewire-launcher.1
+
 		# Disable pipewire-pulse if sound-server is disabled.
 		if ! use sound-server ; then
 			sed -i -s '/pipewire -c pipewire-pulse.conf/s/^/#/' "${ED}"/usr/bin/gentoo-pipewire-launcher || die
@@ -328,6 +331,13 @@ pkg_postinst() {
 
 	local ver
 	for ver in ${REPLACING_VERSIONS} ; do
+		if has_version kde-plasma/kwin[screencast] || has_version x11-wm/mutter[screencast] ; then
+			# https://bugs.gentoo.org/908490
+			# https://gitlab.freedesktop.org/pipewire/pipewire/-/issues/3243
+			ewarn "Please restart KWin/Mutter after upgrading PipeWire."
+			ewarn "Screencasting may not work until you do."
+		fi
+
 		if ver_test ${ver} -le 0.3.66-r1 ; then
 			elog ">=pipewire-0.3.66 uses the 'pipewire' group to manage permissions"
 			elog "and limits needed to function smoothly:"

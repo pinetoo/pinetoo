@@ -15,6 +15,8 @@
 
 * `media-gfx/megapixels-1.7.0`
 
+* `media-video/pipewire-0.3.77-r2`
+
 * `sys-boot/p-boot-20220828`
 
 * `sys-kernel/pinephone-kernel-6.3.11`
