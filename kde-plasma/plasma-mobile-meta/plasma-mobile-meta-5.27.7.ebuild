@@ -3,7 +3,7 @@
 
 EAPI=7
 
-GEAR_MIN=23.04.2
+GEAR_MIN=23.04.3
 
 DESCRIPTION="Meta package for a complete Plasma Mobile environment for smartphones"
 HOMEPAGE="https://www.plasma-mobile.org/"

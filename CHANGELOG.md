@@ -1,5 +1,7 @@
 # 5.27.5.23.04.3.3.0.0.0
 
+**KDE Plasma** updated to **5.27.7**
+
 **KDE Gear** updated to **23.04.3**
 
 **Maui apps** updated to **3.0.0**
