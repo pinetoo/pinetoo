@@ -21,7 +21,7 @@ RDEPEND="
 	media-libs/alsa-ucm-pinephone
 	net-misc/modemmanager[qmi]
 	sys-apps/zswap
-	|| ( sys-boot/p-boot-bin sys-boot/p-boot-bin )
+	|| ( sys-boot/p-boot sys-boot/p-boot-bin )
 	sys-boot/pinetoo-bootsplash
 	sys-firmware/pinephone-firmware
 	sys-kernel/pinephone-kernel
