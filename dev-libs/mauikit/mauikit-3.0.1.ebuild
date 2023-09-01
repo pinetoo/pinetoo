@@ -4,7 +4,7 @@
 EAPI=8
 
 QTMIN=5.15.0
-KFMIN=5.90.0
+KFMIN=5.95.0
 
 inherit ecm kde.org
 
@@ -12,12 +12,12 @@ DESCRIPTION="Kit for developing MAUI Apps"
 HOMEPAGE="https://mauikit.org/"
 SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
 
-LICENSE="LGPL-3"
-SLOT="5"
+LICENSE="AGPL-3+ GPL-3+ LGPL-3"
+SLOT="0"
 KEYWORDS="~arm64"
 
 DEPEND="
-	>=dev-libs/mauiman-1.0.2
+	~dev-libs/mauiman-${PV}
 	>=dev-qt/qtconcurrent-${QTMIN}:5
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdbus-${QTMIN}:5
