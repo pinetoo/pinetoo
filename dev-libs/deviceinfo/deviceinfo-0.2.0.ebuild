@@ -12,15 +12,22 @@ SRC_URI="https://gitlab.com/ubports/development/core/${PN}/-/archive/${PV}/${P}.
 KEYWORDS="~arm64"
 LICENSE="GPL-3"
 SLOT="0"
+IUSE="systemd"
 
 DEPEND="
 	dev-cpp/yaml-cpp
+	systemd? ( dev-libs/glib )
 "
-RDEPEND="${DEPEND}"
+RDEPEND="${DEPEND}
+	systemd? (
+		sys-apps/dbus
+		sys-apps/systemd
+	)"
 
 src_configure() {
 	local mycmakeargs=(
 		-DDISABLE_TESTS:BOOL=ON
+		-DWITH_EXTRAS:BOOL=$(usex systemd ON OFF)
 	)
 	cmake_src_configure
 }

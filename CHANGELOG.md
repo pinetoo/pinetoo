@@ -2,6 +2,8 @@
 
 ## Package updates
 
+* `dev-libs/deviceinfo-0.2.0`
+
 * `dev-libs/feedbackd-0.2.1`
 
 * `dev-libs/libglibutil-1.0.72`
