@@ -18,7 +18,7 @@ KEYWORDS="~arm64"
 
 DEPEND="
 	~dev-libs/mauikit-${PV}
-	dev-libs/mauikit-documents
+	~dev-libs/mauikit-documents-${PV}
 	~dev-libs/mauikit-filebrowsing-${PV}
 	app-text/poppler
 	>=dev-qt/qtcore-${QTMIN}:5
