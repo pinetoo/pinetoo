@@ -24,9 +24,9 @@ IUSE=""
 
 RDEPEND="
 	~dev-libs/mauikit-${PV}
-	dev-libs/mauikit-documents
+	~dev-libs/mauikit-documents-${PV}
 	~dev-libs/mauikit-filebrowsing-${PV}
-	dev-libs/mauikit-terminal
+	~dev-libs/mauikit-terminal-${PV}
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtdbus-${QTMIN}:5
