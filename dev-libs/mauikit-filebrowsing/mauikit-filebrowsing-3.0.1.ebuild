@@ -3,8 +3,8 @@
 
 EAPI=8
 
-QTMIN=5.15.0
-KFMIN=5.70.0
+QTMIN=5.15.2
+KFMIN=5.95.0
 
 inherit ecm kde.org
 
@@ -13,7 +13,7 @@ HOMEPAGE="https://mauikit.org/"
 SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
 
 LICENSE="LGPL-2.1+ BSD-2 CC0-1.0"
-SLOT="5"
+SLOT="0"
 KEYWORDS="~arm64"
 
 DEPEND="
@@ -28,10 +28,10 @@ DEPEND="
 	>=kde-frameworks/kauth-${KFMIN}:5
 	>=kde-frameworks/kcodecs-${KFMIN}:5
 	>=kde-frameworks/kconfig-${KFMIN}:5
+	>=kde-frameworks/kcoreaddons-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	>=kde-frameworks/kio-${KFMIN}:5
 	>=kde-frameworks/kjobwidgets-${KFMIN}:5
-	>=kde-frameworks/kcoreaddons-${KFMIN}:5
 	>=kde-frameworks/kservice-${KFMIN}:5
 	>=kde-frameworks/kwindowsystem-${KFMIN}:5
 	>=kde-frameworks/solid-${KFMIN}:5
