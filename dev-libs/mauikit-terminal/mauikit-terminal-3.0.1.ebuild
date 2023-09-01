@@ -3,8 +3,8 @@
 
 EAPI=8
 
-QTMIN=5.15.0
-KFMIN=5.70.0
+QTMIN=5.15.2
+KFMIN=5.91.0
 
 inherit ecm kde.org
 
@@ -13,11 +13,11 @@ HOMEPAGE="https://mauikit.org/"
 SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+"
-SLOT="5"
+SLOT="0"
 KEYWORDS="~arm64"
 
 DEPEND="
-	dev-libs/mauikit
+	~dev-libs/mauikit-${PV}
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
