@@ -4,7 +4,7 @@
 EAPI=8
 
 QTMIN=5.15.2
-KFMIN=5.94.0
+KFMIN=5.91.0
 
 inherit ecm kde.org
 
@@ -13,11 +13,11 @@ HOMEPAGE="https://invent.kde.org/maui/mauikit-imagetools"
 SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
 
 LICENSE="LGPL-2.1+ BSD-2 CC0-1.0"
-SLOT="5"
+SLOT="0"
 KEYWORDS="~arm64"
+IUSE="ocr"
 
 DEPEND="
-	<app-text/tesseract-5:0
 	~dev-libs/mauikit-${PV}
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
@@ -29,7 +29,11 @@ DEPEND="
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	media-gfx/exiv2
 	media-libs/kquickimageeditor
-	media-libs/leptonica
+	media-libs/opencv
+	ocr? (
+		<app-text/tesseract-5:0
+		media-libs/leptonica
+	)
 "
 
 RDEPEND="${DEPEND}
