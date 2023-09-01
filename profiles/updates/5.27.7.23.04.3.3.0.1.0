@@ -5,3 +5,4 @@ slotmove dev-libs/mauikit-documents 5 0
 slotmove dev-libs/mauikit-filebrowsing 5 0
 slotmove dev-libs/mauikit-imagetools 5 0
 slotmove dev-libs/mauikit-terminal 5 0
+slotmove dev-libs/mauikit-texteditor 5 0
