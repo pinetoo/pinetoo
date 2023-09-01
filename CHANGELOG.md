@@ -1,4 +1,9 @@
-# 5.27.7.23.04.3.3.0.0.1
+# 5.27.7.23.04.3.3.0.1.0
+
+## New packages
+
+* `app-text/tesseract`
+  Version 4 recovered from ::gentoo where it was removed as it is still a dependency for `dev-libs/mauikit-imagetools`.
 
 ## Package updates
 
