@@ -4,7 +4,7 @@
 EAPI=8
 
 QTMIN=5.15.2
-KFMIN=5.70.0
+KFMIN=5.107.0
 
 inherit ecm kde.org
 
@@ -13,7 +13,7 @@ HOMEPAGE="https://mauikit.org/"
 SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-3+"
-SLOT="5"
+SLOT="0"
 KEYWORDS="~arm64"
 
 DEPEND="
@@ -24,3 +24,12 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}"
+
+src_configure() {
+	# We will wait for Qt6 stabilization in ::gentoo
+	local mycmakeargs=(
+		-DBUILD_WITH_QT5:BOOL=ON
+		-DBUILD_WITH_QT6:BOOL=OFF
+	)
+	cmake_src_configure
+}
