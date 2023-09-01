@@ -20,26 +20,27 @@ DEPEND="
 	~dev-libs/mauikit-${PV}
 	~dev-libs/mauikit-accounts-${PV}
 	~dev-libs/mauikit-filebrowsing-${PV}
+	~dev-libs/mauikit-texteditor-${PV}
 	>=dev-qt/qtcore-${QTMIN}:5
-	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtdbus-${QTMIN}:5
-	>=dev-qt/qtsql-${QTMIN}:5
+	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
-	>=dev-qt/qtwidgets-${QTMIN}:5
 	>=dev-qt/qtnetwork-${QTMIN}:5
-	>=kde-frameworks/ki18n-${KFMIN}:5
-	>=kde-frameworks/kcoreaddons-${KFMIN}:5
-	>=kde-frameworks/kservice-${KFMIN}:5
-	>=kde-frameworks/kcompletion-${KFMIN}:5
-	>=kde-frameworks/kitemviews-${KFMIN}:5
-	>=kde-frameworks/kjobwidgets-${KFMIN}:5
-	>=kde-frameworks/solid-${KFMIN}:5
+	>=dev-qt/qtsql-${QTMIN}:5
+	>=dev-qt/qtwidgets-${QTMIN}:5
 	>=kde-frameworks/kauth-${KFMIN}:5
 	>=kde-frameworks/kcodecs-${KFMIN}:5
-	>=kde-frameworks/kwidgetsaddons-${KFMIN}:5
+	>=kde-frameworks/kcompletion-${KFMIN}:5
 	>=kde-frameworks/kconfigwidgets-${KFMIN}:5
-	>=kde-frameworks/kxmlgui-${KFMIN}:5
+	>=kde-frameworks/kcoreaddons-${KFMIN}:5
+	>=kde-frameworks/ki18n-${KFMIN}:5
+	>=kde-frameworks/kitemviews-${KFMIN}:5
+	>=kde-frameworks/kjobwidgets-${KFMIN}:5
+	>=kde-frameworks/kservice-${KFMIN}:5
+	>=kde-frameworks/kwidgetsaddons-${KFMIN}:5
 	>=kde-frameworks/kwindowsystem-${KFMIN}:5
+	>=kde-frameworks/kxmlgui-${KFMIN}:5
+	>=kde-frameworks/solid-${KFMIN}:5
 "
 
 RDEPEND="${DEPEND}
