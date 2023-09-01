@@ -1,3 +1,9 @@
+# 5.27.5.23.04.3.3.0.0.1
+
+## Package updates
+
+* `dev-libs/feedbackd-0.2.1`
+
 # 5.27.7.23.04.3.3.0.0.0
 
 **KDE Plasma** updated to **5.27.7**
