@@ -20,12 +20,11 @@ KEYWORDS="~arm64"
 RESTRICT="strip"
 IUSE="debug"
 
-DEPEND="!sys-boot/p-boot-bin"
+RDEPEND="!sys-boot/p-boot-bin"
 
-BDEPEND="
-	dev-lang/php[cli]
-	sys-firmware/crust
-"
+DEPEND="sys-firmware/crust:="
+
+BDEPEND="dev-lang/php[cli]"
 
 S=${WORKDIR}
 

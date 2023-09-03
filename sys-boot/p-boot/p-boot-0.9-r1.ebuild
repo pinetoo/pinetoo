@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="~arm64"
 RESTRICT="strip"
 
-DEPEND="!sys-boot/p-boot-bin"
+RDEPEND="!sys-boot/p-boot-bin"
 
 BDEPEND="dev-lang/php[cli]"
 
