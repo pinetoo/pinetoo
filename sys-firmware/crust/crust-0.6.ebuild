@@ -24,11 +24,6 @@ pkg_pretend() {
 	fi
 }
 
-src_prepare() {
-	default
-	sed -i 's/^LDFLAGS\s\+=/& -Wl,--no-warn-rwx-segments/' Makefile || die
-}
-
 src_configure() {
 	for p in ${PLATS}; do
 		if use ${p}; then
