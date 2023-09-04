@@ -13,6 +13,8 @@
 
 * `dev-libs/libglibutil-1.0.72`
 
+* `media-libs/libcamera-0.1.0`
+
 * `sys-firmware/crust-0.6`
 
 # 5.27.7.23.04.3.3.0.0.0

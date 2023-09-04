@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=( python3_{10..11} )
+PYTHON_COMPAT=( python3_{10..12} )
 EGIT_REPO_URI="https://git.libcamera.org/libcamera/libcamera.git"
 EGIT_COMMIT="v${PV}"
 
@@ -14,7 +14,7 @@ HOMEPAGE="http://libcamera.org"
 LICENSE="LGPL-2.1+"
 SLOT="0"
 KEYWORDS="~arm64"
-IUSE="debug doc drm gstreamer libevent jpeg python qt5 sdl test trace udev udev unwind v4l2"
+IUSE="debug doc drm gstreamer libevent jpeg python qt5 sdl test trace udev unwind v4l2"
 REQUIRED_USE="drm? ( libevent ) jpeg? ( sdl ) sdl? ( libevent )"
 RESTRICT="!test? ( test )"
 
@@ -30,6 +30,9 @@ RDEPEND="
 	gstreamer? ( media-libs/gstreamer )
 	libevent? (
 		test? ( dev-cpp/gtest )
+	)
+	python? (
+		dev-python/pybind11
 	)
 	qt5? (
 		dev-qt/qtcore:5
@@ -69,6 +72,7 @@ src_configure() {
 		$(meson_feature gstreamer)
 		$(meson_feature python pycamera)
 		$(meson_use test)
+		$(meson_feature udev)
 		$(meson_use v4l2)
 		--buildtype $(usex debug debug plain)
 	)
