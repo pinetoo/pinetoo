@@ -1,5 +1,7 @@
 # 5.27.7.23.04.3.3.0.1.0
 
+**Maui apps** updated to **3.0.1**
+
 ## New packages
 
 * `app-text/tesseract`
