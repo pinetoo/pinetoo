@@ -4,7 +4,7 @@
 EAPI=8
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/core/linux-pinephonepro.git"
-EGIT_COMMIT="620c916fddf3b7092b463cac2197a922c6f0cfdc"
+EGIT_COMMIT="cfcdb4f55645baa19467ed5590bedb10c781091b"
 
 KERNEL_TAG="6.3-20230612-0227"
 
@@ -12,7 +12,7 @@ inherit git-r3 kernel-build
 
 DESCRIPTION="Linux kernel for the PinePhone"
 HOMEPAGE="https://megous.com/git/linux"
-SRC_URI="https://github.com/megous/linux/archive/refs/tags/orange-pi-${KERNEL_TAG}.tar.gz"
+SRC_URI="https://distfiles.pinetoo.org/distfiles/orange-pi-${KERNEL_TAG}.tar.gz"
 
 LICENSE="GPL-2"
 KEYWORDS="~arm64"
@@ -23,6 +23,8 @@ PATCHES=(
 	"${WORKDIR}/${P}/6.3.8-9.patch"
 	"${WORKDIR}/${P}/6.3.9-10.patch"
 	"${WORKDIR}/${P}/6.3.10-11.patch"
+	"${WORKDIR}/${P}/6.3.11-12.patch"
+	"${WORKDIR}/${P}/6.3.12-13.patch"
 	"${WORKDIR}/${P}/0101-arm64-dts-pinephone-drop-modem-power-node.patch"
 	"${WORKDIR}/${P}/0102-arm64-dts-pinephone-pro-remove-modem-node.patch"
 	"${WORKDIR}/${P}/0103-arm64-dts-rk3399-pinephone-pro-add-modem-RI-pin.patch"
