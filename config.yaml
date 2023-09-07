@@ -1,0 +1,32 @@
+baseURL: https://pinetoo.org
+languageCode: en-ie
+title: Gentoo Portage overlay for the PinePhone
+theme: ace-documentation
+pygmentsCodeFences: true
+pygmentsStyle: monokailight
+
+params:
+  ordersectionsby: weight
+  disableSearch: true
+  highlightClientSide: false
+  menushortcutsnewtab: false
+  toc: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    endLevel: 4
+
+menu:
+  shortcuts:
+    - name: by Chuso.net
+      url: https://chuso.net
+      weight: 1
+    - name: "<i class='fab fa-github'></i>"
+      url: https://github.com/pinetoo
+      weight: 2
+    - name: "<button class='btn btn-success mt-n1'>Repository</button>"
+      url: https://github.com/pinetoo/pinetoo
+      weight: 3
