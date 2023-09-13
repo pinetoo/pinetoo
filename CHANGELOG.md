@@ -1,5 +1,10 @@
 # 5.27.7.23.04.3.3.0.1.1
 
+## New packages
+
+* `maui-apps/maui-meta`
+  MauKit apps were removed from kde-plasma/plasma-mobile-meta and moved to their own metapackage as an optional dependency for kde-plasma/plasma-mobile-meta.
+
 ## Other changes
 
 * `kde-apps/okular`

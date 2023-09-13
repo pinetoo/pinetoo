@@ -5,6 +5,8 @@ EAPI=7
 
 GEAR_MIN=23.04.3
 
+inherit optfeature
+
 DESCRIPTION="Meta package for a complete Plasma Mobile environment for smartphones"
 HOMEPAGE="https://www.plasma-mobile.org/"
 
@@ -43,21 +45,12 @@ RDEPEND="
 	kde-plasma/plasma-settings:${SLOT}
 	>=kde-plasma/powerdevil-${PV}:${SLOT}
 	mail-client/kube
-	maui-apps/buho
-	maui-apps/clip
-	maui-apps/communicator
-	maui-apps/index
-	maui-apps/nota
-	maui-apps/pix
-	maui-apps/shelf
-	maui-apps/station
 	media-gfx/megapixels
 	>=media-sound/audiotube-${GEAR_MIN}:${SLOT}
 	>=media-sound/kasts-${GEAR_MIN}
 	>=media-sound/elisa-${GEAR_MIN}:${SLOT}
 	>=media-sound/krecorder-${GEAR_MIN}
 	>=media-video/plasmatube-${GEAR_MIN}:${SLOT}
-	media-sound/vvave
 	net-im/kaidan
 	>=net-im/neochat-${GEAR_MIN}
 	>=net-im/tokodon-${GEAR_MIN}
@@ -82,3 +75,7 @@ RDEPEND="
 		>=kde-apps/thumbnailers-${PV}:${SLOT}
 	)
 "
+
+pkg_postinst() {
+	optfeature "additional convergent applications from the MauiKit suite" maui-apps/maui-meta
+}
