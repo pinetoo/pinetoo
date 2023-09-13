@@ -19,10 +19,9 @@ SLOT="0"
 KEYWORDS="~arm64"
 IUSE=""
 
-BDEPEND="sys-firmware/trusted-firmware-a"
+DEPEND="sys-firmware/trusted-firmware-a"
 
-RDEPEND="${DEPEND}
-	dev-embedded/u-boot-tools"
+RDEPEND="dev-embedded/u-boot-tools"
 
 PATCHES=(
 	"${S}/1001-Correct-boot-order-to-be-USB-SD-eMMC.patch"
@@ -57,7 +56,7 @@ src_configure() {
 }
 
 src_compile() {
-	emake BL31=/usr/share/trusted-firmware/bl31.elf
+	emake BL31=${ESYSROOT}/usr/share/trusted-firmware/bl31.elf
 }
 
 src_install() {
