@@ -7,6 +7,10 @@
 
 * `media-tv/telly-skout`
 
+## Package updates
+
+* `dev-libs/libglibutil-1.0.74`
+
 ## Other changes
 
 * `kde-apps/okular`
