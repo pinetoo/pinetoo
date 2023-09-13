@@ -59,7 +59,7 @@ src_compile() {
 	unset CFLAGS CXXFLAGS CPPFLAGS LDFLAGS
 	emake PLAT=sun50i_a64 bl31 SUNXI_PBOOT=1 SUNXI_SETUP_REGULATORS=1 SUNXI_AMEND_DTB=1 LOG_LEVEL=$(usex debug LOG_LEVEL_NOTICE LOG_LEVEL_ERROR)
 	cp build/sun50i_a64/release/bl31.bin fw.bin || die
-	dd if=/usr/share/crust/scp.bin of=fw.bin bs=1k seek=48 || die
+	dd if=${ESYSROOT}/usr/share/crust/scp.bin of=fw.bin bs=1k seek=48 || die
 	cd "../${P}" || die
 	eninja
 }
