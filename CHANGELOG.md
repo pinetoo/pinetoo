@@ -5,6 +5,8 @@
 * `maui-apps/maui-meta`
   MauKit apps were removed from kde-plasma/plasma-mobile-meta and moved to their own metapackage as an optional dependency for kde-plasma/plasma-mobile-meta.
 
+* `media-tv/telly-skout`
+
 ## Other changes
 
 * `kde-apps/okular`

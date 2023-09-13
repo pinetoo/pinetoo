@@ -51,6 +51,7 @@ RDEPEND="
 	>=media-sound/elisa-${GEAR_MIN}:${SLOT}
 	>=media-sound/krecorder-${GEAR_MIN}
 	>=media-video/plasmatube-${GEAR_MIN}:${SLOT}
+	>=media-tv/telly-skout-${GEAR_MIN}:${SLOT}
 	net-im/kaidan
 	>=net-im/neochat-${GEAR_MIN}
 	>=net-im/tokodon-${GEAR_MIN}
