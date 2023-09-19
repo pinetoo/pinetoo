@@ -3,8 +3,9 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{8..11} )
+PYTHON_COMPAT=( python3_{8..12} )
 
+DISTUTILS_USE_PEP517=setuptools
 DISTUTILS_EXT=1
 inherit distutils-r1
 
@@ -25,6 +26,6 @@ BDEPEND="
 	dev-python/cython[${PYTHON_USEDEP}]
 "
 
-python_compile() {
-	distutils-r1_python_compile --cython
+python_configure_all () {
+	DISTUTILS_ARGS=( --cython )
 }

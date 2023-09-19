@@ -11,6 +11,8 @@
 
 * `dev-libs/libglibutil-1.0.74`
 
+* `dev-python/gbinder-python-1.1.2`
+
 ## Other changes
 
 * `kde-apps/okular`
