@@ -44,6 +44,9 @@ DEPEND="
 	>=kde-frameworks/solid-${KFMIN}:5
 	net-misc/mobile-broadband-provider-info
 	net-misc/networkmanager[teamd=]
+	mobile? (
+		net-dns/dnsmasq
+	)
 	openconnect? (
 		net-vpn/networkmanager-openconnect
 		net-vpn/openconnect:=

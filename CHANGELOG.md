@@ -16,6 +16,9 @@
 * `kde-apps/okular`
   Fixed mobile UI accidentally disabled.
 
+* `kde-plasma/plasma-nm`
+  Pull `net-dns/dnsmasq` as a dependency for Wi-Fi hotspots.
+
 # 5.27.7.23.04.3.3.0.1.0
 
 **Maui apps** updated to **3.0.1**
