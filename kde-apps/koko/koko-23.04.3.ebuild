@@ -17,7 +17,7 @@ KEYWORDS="~arm64"
 IUSE=""
 
 DEPEND="
-	media-gfx/exiv2
+	media-gfx/exiv2:=
 	>=dev-qt/qtcore-${QTMIN}:${SLOT}
 	>=dev-qt/qtdeclarative-${QTMIN}:${SLOT}
 	>=dev-qt/qttest-${QTMIN}:${SLOT}

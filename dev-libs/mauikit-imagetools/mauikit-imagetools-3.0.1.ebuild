@@ -27,7 +27,7 @@ DEPEND="
 	>=dev-qt/qtsql-${QTMIN}:5
 	>=kde-frameworks/kcoreaddons-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
-	media-gfx/exiv2
+	media-gfx/exiv2:=
 	media-libs/kquickimageeditor
 	media-libs/opencv
 	ocr? (
