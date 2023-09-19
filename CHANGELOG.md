@@ -21,6 +21,9 @@
 * `kde-plasma/plasma-nm`
   Pull `net-dns/dnsmasq` as a dependency for Wi-Fi hotspots.
 
+* `sys-kernel/pinephone-kernel`
+  Changed `SRC_URI` after upstream vanished.
+
 # 5.27.7.23.04.3.3.0.1.0
 
 **Maui apps** updated to **3.0.1**

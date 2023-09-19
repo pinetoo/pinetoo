@@ -12,7 +12,7 @@ inherit git-r3 kernel-build
 
 DESCRIPTION="Linux kernel for the PinePhone"
 HOMEPAGE="https://megous.com/git/linux"
-SRC_URI="https://github.com/megous/linux/archive/refs/tags/orange-pi-${KERNEL_TAG}.tar.gz"
+SRC_URI="https://distfiles.pinetoo.org/distfiles/orange-pi-${KERNEL_TAG}.tar.gz"
 
 LICENSE="GPL-2"
 KEYWORDS="~arm64"
