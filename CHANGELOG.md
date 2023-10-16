@@ -10,6 +10,8 @@
 
 * `dev-util/cmake-extras-1.7`
 
+* `media-video/pipewire-0.3.80`
+
 # 5.27.7.23.04.3.3.0.1.1
 
 ## New packages
