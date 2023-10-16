@@ -1,5 +1,7 @@
 # 5.27.8.23.04.3.3.0.1.2
 
+**KDE Plasma** updated to **5.27.8**
+
 ## Package updates
 
 * `dev-libs/deviceinfo-0.2.1`
