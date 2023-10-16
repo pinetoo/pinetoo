@@ -16,6 +16,8 @@ IUSE="android qt5"
 
 RDEPEND="
 	dev-libs/deviceinfo
+	sys-apps/accountsservice
+	sys-apps/dbus
 	virtual/libudev
 	android? (
 		dev-libs/libgbinder
