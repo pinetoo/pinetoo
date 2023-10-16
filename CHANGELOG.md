@@ -1,3 +1,9 @@
+# 5.27.8.23.04.3.3.0.1.2
+
+## Package updates
+
+* `dev-libs/deviceinfo-0.2.1`
+
 # 5.27.7.23.04.3.3.0.1.1
 
 ## New packages
