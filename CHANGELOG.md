@@ -2,6 +2,10 @@
 
 **KDE Plasma** updated to **5.27.8**
 
+## New packages
+
+* `sys-power/ats`
+
 ## Package updates
 
 * `dev-libs/deviceinfo-0.2.1`
