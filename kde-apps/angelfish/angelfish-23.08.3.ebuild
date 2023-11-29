@@ -13,10 +13,13 @@ HOMEPAGE="https://apps.kde.org/angelfish/"
 LICENSE="GPL-2+ LGPL-2 LGPL-2+ MIT"
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE="haptic"
+IUSE="adblocker haptic"
+RESTRICT="adblocker? ( network-sandbox )"
 
 DEPEND="
+	dev-db/futuresql5
 	>=dev-libs/kirigami-addons-0.6
+	dev-libs/qcoro5
 	>=dev-qt/qtcore-${QTMIN}:${SLOT}
 	>=dev-qt/qtdeclarative-${QTMIN}:${SLOT}
 	>=dev-qt/qtgui-${QTMIN}:${SLOT}
@@ -38,6 +41,7 @@ DEPEND="
 	>=kde-frameworks/kwindowsystem-${KFMIN}:${SLOT}
 	>=kde-frameworks/purpose-${KFMIN}:${SLOT}
 	>=kde-frameworks/qqc2-desktop-style-${KFMIN}:${SLOT}
+	adblocker? ( dev-util/corrosion )
 	haptic? ( dev-qt/qtfeedback:${SLOT} )
 "
 

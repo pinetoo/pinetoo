@@ -6,6 +6,7 @@
     <name>Jesus Perez Rey</name>
   </maintainer>
   <use>
+    <flag name="adblocker">Add support for ads blocking. It requires network access during build, disabling network sandboxing.</flag>
     <flag name="haptic">Pull <pkg>dev-qt/qtfeedback</pkg> for haptic feedback support.</flag>
   </use>
 </pkgmetadata>
