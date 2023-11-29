@@ -4,7 +4,7 @@
 EAPI=8
 
 KFMIN=5.100.0
-QTMIN=5.15.2
+QTMIN=5.15.10
 inherit ecm gear.kde.org
 
 DESCRIPTION="Itinerary and boarding pass management application"
@@ -48,10 +48,11 @@ DEPEND="
 	>=kde-frameworks/knotifications-${KFMIN}:${SLOT}
 	>=kde-frameworks/kunitconversion-${KFMIN}:${SLOT}
 	>=kde-frameworks/kwindowsystem-${KFMIN}:${SLOT}
-	>=kde-frameworks/plasma-${KFMIN}:${SLOT}
 	>=kde-frameworks/prison-${KFMIN}:${SLOT}
 	>=kde-frameworks/solid-${KFMIN}:${SLOT}
 	>=kde-frameworks/qqc2-desktop-style-${KFMIN}:${SLOT}
+	>=kde-plasma/libplasma-${KFMIN}:${SLOT}
+	net-libs/libquotient
 	x11-misc/shared-mime-info
 	sys-libs/zlib
 	holidays? ( >=kde-frameworks/kholidays-${KFMIN}:${SLOT} )
