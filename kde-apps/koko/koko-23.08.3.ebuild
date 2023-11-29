@@ -56,9 +56,9 @@ RDEPEND="${DEPEND}
 	>=dev-qt/qtmultimedia-${QTMIN}:${SLOT}
 	>=dev-qt/qtquickcontrols-${QTMIN}:${SLOT}
 	>=dev-qt/qtquickcontrols2-${QTMIN}:${SLOT}
-	>=kde-frameworks/plasma-${KFMIN}:${SLOT}
 	>=kde-frameworks/kirigami-${KFMIN}:${SLOT}
-	>=kde-frameworks/purpose-${KFMIN}:${SLOT}"
+	>=kde-frameworks/purpose-${KFMIN}:${SLOT}
+	>=kde-plasma/libplasma-${KFMIN}:${SLOT}"
 
 BDEPEND="app-arch/unzip"
 
