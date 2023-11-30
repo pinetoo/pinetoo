@@ -5,6 +5,10 @@
 * `dev-util/corrosion`
   Dependency for `kde-app/angelfish[adblocker]`
 
+## Package updates
+
+* `dev-python/ytmusicapi-1.0.2`
+
 # 5.27.8.23.04.3.3.0.1.0
 
 **KDE Plasma** updated to **5.27.8**
