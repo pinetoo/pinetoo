@@ -36,6 +36,7 @@ DEPEND="${PYTHON_DEPS}
 "
 
 RDEPEND="${DEPEND}
+	dev-libs/kirigami-addons
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:${SLOT}
 	>=dev-qt/qtmultimedia-${QTMIN}:${SLOT}
 	$(python_gen_cond_dep '
