@@ -4,7 +4,7 @@
 EAPI=8
 
 KFMIN=5.101.0
-QTMIN=5.5.0
+QTMIN=5.15.2
 inherit ecm gear.kde.org
 
 DESCRIPTION="Terminal app for Plasma Mobile"
