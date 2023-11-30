@@ -21,14 +21,14 @@ DEPEND="
 	>=dev-qt/qtcore-${QTMIN}:${SLOT}
 	>=dev-qt/qtdeclarative-${QTMIN}:${SLOT}
 	>=dev-qt/qtgui-${QTMIN}:${SLOT}
-	>=kde-frameworks/plasma-${KFMIN}:${SLOT}
 	>=kde-frameworks/kwindowsystem-${KFMIN}:${SLOT}
-	>=kde-frameworks/kwayland-${KFMIN}:${SLOT}
 	>=kde-frameworks/kpackage-${KFMIN}:${SLOT}
 	>=kde-frameworks/kcoreaddons-${KFMIN}:${SLOT}
 	>=kde-frameworks/knewstuff-${KFMIN}:${SLOT}
 	>=kde-frameworks/kservice-${KFMIN}:${SLOT}
 	>=kde-frameworks/ki18n-${KFMIN}:${SLOT}
+	>=kde-plasma/kwayland-${KFMIN}:${SLOT}
+	>=kde-plasma/libplasma-${KFMIN}:${SLOT}
 "
 
 RDEPEND="${DEPEND}
