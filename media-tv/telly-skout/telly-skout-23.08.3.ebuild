@@ -24,6 +24,7 @@ DEPEND="
 	>=dev-qt/qtsql-${QTMIN}:${SLOT}
 	>=dev-qt/qttest-${QTMIN}:${SLOT}
 	>=dev-qt/qtwidgets-${QTMIN}:${SLOT}
+	>=dev-qt/qtxml-${QTMIN}:${SLOT}
 	>=kde-frameworks/kcoreaddons-${KFMIN}:${SLOT}
 	>=kde-frameworks/kconfig-${KFMIN}:${SLOT}
 	>=kde-frameworks/kcrash-${KFMIN}:${SLOT}
