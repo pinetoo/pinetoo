@@ -18,12 +18,15 @@ IUSE=""
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 DEPEND="${PYTHON_DEPS}
+	dev-db/futuresql5
 	>=dev-libs/kirigami-addons-0.6.0
+	dev-libs/qcoro5
 	dev-python/pybind11
-	~dev-python/ytmusicapi-0.25.0
+	~dev-python/ytmusicapi-1.0.2
 	>=dev-qt/qtconcurrent-${QTMIN}:${SLOT}
 	>=dev-qt/qtcore-${QTMIN}:${SLOT}
 	>=dev-qt/qtdeclarative-${QTMIN}:${SLOT}
+	>=dev-qt/qtdbus-${QTMIN}:${SLOT}
 	>=dev-qt/qtgui-${QTMIN}:${SLOT}
 	>=dev-qt/qtnetwork-${QTMIN}:${SLOT}
 	>=dev-qt/qtquickcontrols2-${QTMIN}:${SLOT}
