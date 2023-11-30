@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="project">
-		<email>kde@gentoo.org</email>
-		<name>Gentoo KDE Project</name>
+		<email>pinetoo@chuso.net</email>
+		<name>Jesus Perez Rey</name>
 	</maintainer>
 	<upstream>
 		<bugs-to>https://bugs.kde.org/</bugs-to>
