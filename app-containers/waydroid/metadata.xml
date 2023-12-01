@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="person">
-    <email>parona@protonmail.com</email>
-    <name>Alfred Wingate</name>
+    <email>pinetoo@chuso.net</email>
+    <name>Jesus Perez Rey</name>
   </maintainer>
   <upstream>
     <remote-id type="github">anbox/anbox</remote-id>

@@ -11,7 +11,14 @@
 
 ## Package updates
 
+* `app-emulation/waydroid-1.4.2`
+
 * `dev-python/ytmusicapi-1.0.2`
+
+## Other changes
+
+* `app-containers/waydroid`
+  Renamed from `app-emulation/waydroid` to match `::guru` naming.
 
 # 5.27.8.23.04.3.3.0.1.0
 
