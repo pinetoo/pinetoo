@@ -17,6 +17,8 @@
 
 * `dev-libs/libgbinder-1.1.35`
 
+* `dev-libs/libglibutil-1.0.75`
+
 ## Other changes
 
 * `app-containers/waydroid`
