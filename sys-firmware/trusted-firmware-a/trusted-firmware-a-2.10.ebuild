@@ -36,6 +36,6 @@ src_compile() {
 }
 
 src_install() {
-	insinto "/usr/share/trusted-firmware"
+	insinto "/usr/share/trusted-firmware:="
 	doins "build/${PLAT}/release/bl31/bl31.elf"
 }

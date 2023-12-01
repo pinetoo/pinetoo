@@ -19,6 +19,8 @@
 
 * `dev-libs/libglibutil-1.0.75`
 
+* `sys-firmware/trusted-firmware-a-2.10`
+
 # 5.27.8.23.04.3.3.0.1.2
 
 **KDE Plasma** updated to **5.27.8**
