@@ -3,7 +3,7 @@
 
 EAPI=7
 
-GEAR_MIN=23.04.3
+GEAR_MIN=23.08.3
 
 inherit optfeature
 
@@ -44,7 +44,6 @@ RDEPEND="
 	kde-plasma/plasma-mobile-sounds
 	kde-plasma/plasma-settings:${SLOT}
 	>=kde-plasma/powerdevil-${PV}:${SLOT}
-	mail-client/kube
 	media-gfx/megapixels
 	>=media-sound/audiotube-${GEAR_MIN}:${SLOT}
 	>=media-sound/kasts-${GEAR_MIN}
