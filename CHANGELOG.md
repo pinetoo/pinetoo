@@ -11,6 +11,8 @@
 
 ## Package updates
 
+* `app-emulation/waydroid-1.4.2`
+
 * `dev-python/ytmusicapi-1.0.2`
 
 # 5.27.8.23.04.3.3.0.1.2
