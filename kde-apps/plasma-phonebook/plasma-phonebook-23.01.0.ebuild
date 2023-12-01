@@ -38,6 +38,6 @@ RDEPEND="
 	${DEPEND}
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:${SLOT}
 	>=dev-qt/qtquickcontrols-${QTMIN}:${SLOT}
-	>=kde-frameworks/plasma-${KFMIN}:${SLOT}
 	>=kde-frameworks/qqc2-desktop-style-${KFMIN}:${SLOT}
+	>=kde-plasma/libplasma-${KFMIN}:${SLOT}
 "

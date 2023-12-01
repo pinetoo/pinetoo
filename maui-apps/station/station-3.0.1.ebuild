@@ -29,7 +29,7 @@ DEPEND="
 	>=dev-qt/qtwidgets-${QTMIN}:5
 	>=kde-frameworks/kcoreaddons-${KFMIN}:5
 	>=kde-frameworks/ki18n-${KFMIN}:5
-	>=kde-frameworks/plasma-${KFMIN}:5
+	>=kde-plasma/libplasma-${KFMIN}:5
 	>=x11-libs/qmltermwidget-0.2.0-r1
 "
 

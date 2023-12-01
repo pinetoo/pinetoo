@@ -34,8 +34,8 @@ DEPEND="
 	>=kde-frameworks/kio-${KFMIN}:${SLOT}
 	>=kde-frameworks/modemmanager-qt-${KFMIN}:${SLOT}
 	>=kde-frameworks/networkmanager-qt-${KFMIN}:${SLOT}
-	>=kde-frameworks/plasma-${KFMIN}:${SLOT}
 	>=kde-frameworks/solid-${KFMIN}:${SLOT}
+	>=kde-plasma/libplasma-${KFMIN}:${SLOT}
 	x11-apps/maliit-keyboard
 "
 

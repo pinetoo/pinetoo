@@ -1,11 +1,11 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
 EGIT_REPO_URI="https://invent.kde.org/bshah/${PN}.git"
 
-inherit cmake git-r3 systemd
+inherit cmake git-r3
 
 DESCRIPTION="Plymouth shim service for offline updates"
 HOMEPAGE="https://invent.kde.org/bshah/plymouth-shim"
@@ -25,4 +25,4 @@ DEPEND="
 
 RDEPEND="${DEPEND}
 	kde-frameworks/kirigami
-	kde-frameworks/plasma:5"
+	kde-plasma/libplasma:5"
