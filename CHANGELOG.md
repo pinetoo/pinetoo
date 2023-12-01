@@ -15,6 +15,8 @@
 
 * `dev-python/ytmusicapi-1.0.2`
 
+* `dev-libs/libgbinder-1.1.35`
+
 ## Other changes
 
 * `app-containers/waydroid`
