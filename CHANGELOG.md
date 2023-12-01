@@ -1,5 +1,9 @@
 # 5.27.9.23.08.3.3.0.1.0
 
+**KDE Plasma** updated to **5.27.9**
+
+**KDE Gear** updated to **23.08.3**
+
 ## New packages
 
 * `dev-util/corrosion`
