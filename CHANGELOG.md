@@ -15,6 +15,8 @@
 
 * `dev-python/ytmusicapi-1.0.2`
 
+* `dev-libs/libgbinder-1.1.35`
+
 # 5.27.8.23.04.3.3.0.1.2
 
 **KDE Plasma** updated to **5.27.8**
