@@ -25,4 +25,4 @@ DEPEND="
 
 RDEPEND="${DEPEND}
 	kde-frameworks/kirigami
-	kde-frameworks/plasma:5"
+	kde-plasma/libplasma:5"
