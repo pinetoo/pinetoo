@@ -21,6 +21,11 @@
 
 * `sys-firmware/trusted-firmware-a-2.10`
 
+## Other changes
+
+* `sys-boot/u-boot`
+  Added missing BDEPEND `sys-apps/dtc`
+
 # 5.27.8.23.04.3.3.0.1.2
 
 **KDE Plasma** updated to **5.27.8**
