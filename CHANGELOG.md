@@ -26,6 +26,9 @@
 * `app-containers/waydroid`
   Renamed from `app-emulation/waydroid` to match `::guru` naming.
 
+* `sys-boot/u-boot`
+  Added missing BDEPEND `sys-apps/dtc`
+
 # 5.27.8.23.04.3.3.0.1.0
 
 **KDE Plasma** updated to **5.27.8**

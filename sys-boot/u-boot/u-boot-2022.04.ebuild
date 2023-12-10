@@ -19,6 +19,8 @@ SLOT="0"
 KEYWORDS="~arm64"
 IUSE=""
 
+BDEPEND="sys-apps/dtc"
+
 DEPEND="sys-firmware/trusted-firmware-a"
 
 RDEPEND="dev-embedded/u-boot-tools"
@@ -56,7 +58,7 @@ src_configure() {
 }
 
 src_compile() {
-	emake BL31=${ESYSROOT}/usr/share/trusted-firmware/bl31.elf
+	emake BL31="${ESYSROOT}/usr/share/trusted-firmware/bl31.elf"
 }
 
 src_install() {
