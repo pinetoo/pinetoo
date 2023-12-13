@@ -36,7 +36,6 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}
-	>=kde-frameworks/kirigami-${KFMIN}:5
 	>=dev-qt/qtgraphicaleffects-${QTMIN}:5
 	>=dev-qt/qtmultimedia-${QTMIN}:5
 "
