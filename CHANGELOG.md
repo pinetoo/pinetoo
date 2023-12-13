@@ -1,3 +1,10 @@
+# 5.27.9.23.08.3.3.0.1.0
+
+## New packages
+
+* `dev-util/corrosion`
+  Dependency for `kde-app/angelfish[adblocker]`
+
 # 5.27.8.23.04.3.3.0.1.0
 
 **KDE Plasma** updated to **5.27.8**
