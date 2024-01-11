@@ -4,6 +4,11 @@
 
 * `app-text/tesseract-4.1.3`
 
+## Other changes
+
+* `dev-qt/qtfeedback`
+  Fixed including missing patch.
+
 # 5.27.9.23.08.3.3.0.2.0
 
 **Maui apps** updated to **3.0.2**
