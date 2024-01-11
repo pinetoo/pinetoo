@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -108,7 +108,7 @@ RDEPEND="
 		!media-sound/jack2
 	)
 	liblc3? ( media-sound/liblc3 )
-	libcamera? ( media-libs/libcamera )
+	libcamera? ( ~media-libs/libcamera-0.1.0 )
 	lv2? ( media-libs/lilv )
 	modemmanager? ( >=net-misc/modemmanager-1.10.0 )
 	pipewire-alsa? ( >=media-libs/alsa-lib-1.1.7[${MULTILIB_USEDEP}] )

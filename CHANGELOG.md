@@ -4,6 +4,8 @@
 
 * `app-text/tesseract-4.1.3`
 
+* `media-libs/libcamera-0.2.0`
+
 ## Other changes
 
 * `dev-qt/qtfeedback`
