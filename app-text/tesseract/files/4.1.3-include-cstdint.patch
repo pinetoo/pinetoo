@@ -1,0 +1,22 @@
+diff -ur tesseract-4.1.3/src/ccutil/helpers.h tesseract-4.1.3/src/ccutil/helpers.h
+--- tesseract-4.1.3/src/ccutil/helpers.h	2024-01-11 18:34:40.486508821 +0100
++++ tesseract-4.1.3/src/ccutil/helpers.h	2024-01-11 18:46:40.334717895 +0100
+@@ -22,6 +22,7 @@
+ #define TESSERACT_CCUTIL_HELPERS_H_
+ 
+ #include <cassert>
++#include <cstdint>
+ #include <cstdio>
+ #include <cstring>
+ #include <functional>
+diff -ur tesseract-4.1.3/src/dict/matchdefs.h tesseract-4.1.3/src/dict/matchdefs.h
+--- tesseract-4.1.3/src/dict/matchdefs.h	2024-01-11 18:34:40.506508773 +0100
++++ tesseract-4.1.3/src/dict/matchdefs.h	2024-01-11 18:42:02.235427700 +0100
+@@ -21,6 +21,7 @@
+ /**----------------------------------------------------------------------------
+           Include Files and Type Defines
+ ----------------------------------------------------------------------------**/
++#include <cstdint>
+ #include <cstdio>
+ #include "unichar.h"
+ 

@@ -1,3 +1,9 @@
+# 5.27.10.23.08.4.3.0.2.0
+
+## Package updates
+
+* `app-text/tesseract-4.1.3`
+
 # 5.27.9.23.08.3.3.0.2.0
 
 **Maui apps** updated to **3.0.2**
