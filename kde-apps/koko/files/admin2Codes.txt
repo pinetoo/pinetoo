@@ -1166,7 +1166,7 @@ AR.07.02003	Comuna 3	Comuna 3	11524830
 AR.07.02008	Comuna 8	Comuna 8	11524831
 AR.07.02004	Comuna 4	Comuna 4	11524832
 AR.07.02005	Comuna 5	Comuna 5	11524833
-AR.23.94028	Antártida Argentina	Antartida Argentina	11524834
+AR.23.94028	Argentine Antarctica	Argentine Antarctica	11524834
 AR.23.94021	Islas del Atlántico Sur	Islas del Atlantico Sur	11524835
 AR.07.02013	Comuna 13	Comuna 13	11524836
 AR.07.02014	Comuna 14	Comuna 14	11524837
@@ -8244,7 +8244,7 @@ BY.05.621740	Slutski Rayon	Slutski Rayon	621740
 BY.03.621752	Slonimskiy Rayon	Slonimskiy Rayon	621752
 BY.06.621846	Slawharadski Rayon	Slawharadski Rayon	621846
 BY.07.621985	Shumilinski Rayon	Shumilinski Rayon	621985
-BY.06.622033	Shklowski Rayon	Shklowski Rayon	622033
+BY.06.622033	Škloŭski Rajon	Sklouski Rajon	622033
 BY.03.622114	Shchuchynski Rayon	Shchuchynski Rayon	622114
 BY.07.622178	Sharkawshchynski Rayon	Sharkawshchynski Rayon	622178
 BY.07.622261	Syennyenski Rayon	Syennyenski Rayon	622261
@@ -8254,7 +8254,7 @@ BY.02.622799	Rechytski Rayon	Rechytski Rayon	622799
 BY.05.622968	Pukhavichy Raion	Pukhavichy Raion	622968
 BY.01.622998	Pruzhanskiy Rayon	Pruzhanskiy Rayon	622998
 BY.07.623176	Pastawski Rayon	Pastawski Rayon	623176
-BY.07.623283	Polatski Rayon	Polatski Rayon	623283
+BY.07.623283	Polotskiy Rayon	Polotskiy Rayon	623283
 BY.01.623548	Pinskiy Rayon	Pinskiy Rayon	623548
 BY.02.623580	Pyetrykawski Rayon	Pyetrykawski Rayon	623580
 BY.04.623628	Pyershamayski Rayon	Pyershamayski Rayon	623628
@@ -8265,7 +8265,7 @@ BY.03.624062	Ashmyanski Rayon	Ashmyanski Rayon	624062
 BY.07.624077	Arshanski Rayon	Arshanski Rayon	624077
 BY.04.624196	Kastrychnitski Rayon	Kastrychnitski Rayon	624196
 BY.02.624197	Aktsyabrski Rayon	Aktsyabrski Rayon	624197
-BY.03.624498	Novogrudskiy Rayon	Novogrudskiy Rayon	624498
+BY.03.624498	Navahrudski rajon	Navahrudski rajon	624498
 BY.05.624699	Nyasvizhski Rayon	Nyasvizhski Rayon	624699
 BY.02.624798	Narawlyanski Rayon	Narawlyanski Rayon	624798
 BY.05.624858	Myadzyel’ski Rayon	Myadzyel'ski Rayon	624858
@@ -8295,15 +8295,15 @@ BY.06.626626	Krasnapol’ski Rayon	Krasnapol'ski Rayon	626626
 BY.06.626807	Kastsyukovitski Rayon	Kastsyukovitski Rayon	626807
 BY.02.626914	Karmyanski Rayon	Karmyanski Rayon	626914
 BY.03.626938	Karelitski Rayon	Karelitski Rayon	626938
-BY.05.626951	Kapyl’ski Rayon	Kapyl'ski Rayon	626951
+BY.05.626951	Kapyĺski Rajon	Kapylski Rajon	626951
 BY.01.627146	Kobrinskiy Rayon	Kobrinskiy Rayon	627146
 BY.06.627199	Klimavitski Rayon	Klimavitski Rayon	627199
 BY.06.627204	Klichawski Rayon	Klichawski Rayon	627204
 BY.05.627213	Klyetski Rayon	Klyetski Rayon	627213
 BY.06.627271	Kirawski Rayon	Kirawski Rayon	627271
-BY.02.627360	Khoynitski Rayon	Khoynitski Rayon	627360
+BY.02.627360	Chojnicki rajon	Chojnicki rajon	627360
 BY.06.627380	Khotsimski Rayon	Khotsimski Rayon	627380
-BY.01.627709	Kamenetskiy Rayon	Kamenetskiy Rayon	627709
+BY.01.627709	Kamianiecki rajon	Kamianiecki rajon	627709
 BY.02.627748	Kalinkavitski Rayon	Kalinkavitski Rayon	627748
 BY.03.627794	Iwyewski Rayon	Iwyewski Rayon	627794
 BY.01.627799	Ivatsevichskiy Rayon	Ivatsevichskiy Rayon	627799
@@ -8313,7 +8313,7 @@ BY.07.628152	Haradotski Rayon	Haradotski Rayon	628152
 BY.06.628237	Horatski Rayon	Horatski Rayon	628237
 BY.02.628280	Homyel’ski Rayon	Homyel'ski Rayon	628280
 BY.06.628386	Hluski Rayon	Hluski Rayon	628386
-BY.07.628404	Hlybotski Rayon	Hlybotski Rayon	628404
+BY.07.628404	Hlybocki Rajon	Hlybocki Rajon	628404
 BY.01.628532	Gantsevichskiy Rayon	Gantsevichskiy Rayon	628532
 BY.04.628577	Frunzyenski Rayon	Frunzyenski Rayon	628577
 BY.05.628641	Dzyarzhynski Rayon	Dzyarzhynski Rayon	628641
@@ -13303,7 +13303,7 @@ FR.84.69	Rhône	Rhone	2987410
 FR.32.62	Pas-de-Calais	Pas-de-Calais	2988430
 FR.28.61	Orne	Orne	2989247
 FR.32.60	Oise	Oise	2989663
-FR.32.59	Nord	Nord	2990129
+FR.32.59	Département du Nord	Departement du Nord	2990129
 FR.27.58	Nièvre	Nievre	2990371
 FR.44.57	Moselle	Moselle	2991627
 FR.53.56	Morbihan	Morbihan	2991879
@@ -14854,22 +14854,22 @@ HR.19.3204122	Grad Biograd na Moru	Grad Biograd na Moru	3204122
 HR.10.3204319	Grad Beli Manastir	Grad Beli Manastir	3204319
 HR.03.7577034	Grad Dubrovnik	Grad Dubrovnik	7577034
 HR.20.8260123	Općina Dubrava	Opcina Dubrava	8260123
-HR.21.8531816	Gradska četvrt Donji grad	Gradska cetvrt Donji grad	8531816
-HR.21.8531817	Gradska četvrt Gornji Grad - Medvescak	Gradska cetvrt Gornji Grad - Medvescak	8531817
-HR.21.8531820	Gradska četvrt Trnje	Gradska cetvrt Trnje	8531820
-HR.21.8531822	Gradska četvrt Maksimir	Gradska cetvrt Maksimir	8531822
-HR.21.8531823	Gradska cetvrt Pescenica - Zitnjak	Gradska cetvrt Pescenica - Zitnjak	8531823
-HR.21.8531824	Gradska cetvrt Novi Zagreb - istok	Gradska cetvrt Novi Zagreb - istok	8531824
-HR.21.8531825	Gradska četvrt Novi Zagreb - zapad	Gradska cetvrt Novi Zagreb - zapad	8531825
-HR.21.8531826	Gradska četvrt Tresnjevka - sjever	Gradska cetvrt Tresnjevka - sjever	8531826
-HR.21.8531827	Gradska četvrt Tresnjevka - jug	Gradska cetvrt Tresnjevka - jug	8531827
-HR.21.8531828	Gradska četvrt Črnomerec	Gradska cetvrt Crnomerec	8531828
-HR.21.8531829	Gradska četvrt Gornja Dubrava	Gradska cetvrt Gornja Dubrava	8531829
-HR.21.8531830	Gradska četvrt Donja Dubrava	Gradska cetvrt Donja Dubrava	8531830
-HR.21.8531831	Gradska četvrt Stenjevec	Gradska cetvrt Stenjevec	8531831
-HR.21.8531832	Podsused - Vrapce	Podsused - Vrapce	8531832
-HR.21.8531833	Gradska četvrt Podsljeme	Gradska cetvrt Podsljeme	8531833
-HR.21.8531834	Gradska četvrt Brezovica	Gradska cetvrt Brezovica	8531834
+HR.21.8531816	Donji grad	Donji grad	8531816
+HR.21.8531817	Gornji grad – Medveščak	Gornji grad - Medvescak	8531817
+HR.21.8531820	Trnje	Trnje	8531820
+HR.21.8531822	Maksimir	Maksimir	8531822
+HR.21.8531823	Peščenica – Žitnjak	Pescenica - Zitnjak	8531823
+HR.21.8531824	Novi Zagreb – istok	Novi Zagreb - istok	8531824
+HR.21.8531825	Novi Zagreb - zapad	Novi Zagreb - zapad	8531825
+HR.21.8531826	Trešnjevka – sjever	Tresnjevka - sjever	8531826
+HR.21.8531827	Trešnjevka – jug	Tresnjevka - jug	8531827
+HR.21.8531828	Črnomerec	Crnomerec	8531828
+HR.21.8531829	Gornja Dubrava	Gornja Dubrava	8531829
+HR.21.8531830	Donja Dubrava	Donja Dubrava	8531830
+HR.21.8531831	Stenjevec	Stenjevec	8531831
+HR.21.8531832	Podsused - Vrapče	Podsused - Vrapce	8531832
+HR.21.8531833	Podsljeme	Podsljeme	8531833
+HR.21.8531834	Brezovica	Brezovica	8531834
 HR.13.9076750	Rogoznica Općina	Rogoznica Opcina	9076750
 HR.15.9076752	Dugi Rat Općina	Dugi Rat Opcina	9076752
 HR.19.9077071	Novigrad Općina	Novigrad Opcina	9077071
@@ -16146,7 +16146,7 @@ IN.26.289	West Tripura	West Tripura	1252864
 IN.30.250	West Siang	West Siang	1252865
 IN.30.246	West Kameng	West Kameng	1252869
 IN.02.546	West Godāvari	West Godavari	1252873
-IN.29.242	West District	West District	1252877
+IN.29.242	Gyalshing	Gyalshing	1252877
 IN.16.504	Wardha	Wardha	1252944
 IN.40.540	Warangal Rural	Warangal Rural	1252949
 IN.02.544	Vishākhapatnam	Vishakhapatnam	1253103
@@ -16180,7 +16180,7 @@ IN.36.179	Sultānpur	Sultanpur	1255497
 IN.12.010	Srīnagar	Srinagar	1255639
 IN.02.542	Srīkākulam	Srikakulam	1255649
 IN.26.290	South Tripura	South Tripura	1255671
-IN.29.243	South District	South District	1255681
+IN.29.243	Namchi	Namchi	1255681
 IN.10.076	Sonīpat	Sonipat	1255745
 IN.16.526	Solapur	Solapur	1255847
 IN.11.031	Solan	Solan	1255851
@@ -16251,7 +16251,7 @@ IN.24.118	Pāli	Pali	1260724
 IN.38.358	Palāmu	Palamu	1260783
 IN.16.525	Osmanabad	Osmanabad	1261013
 IN.26.292	North Tripura	North Tripura	1261174
-IN.29.241	North District	North District	1261190
+IN.29.241	Mangan	Mangan	1261190
 IN.03.315	Dima Hasao District	Dima Hasao District	1261192
 IN.40.533	Nizamabad	Nizamabad	1261260
 IN.25.611	Nilgiris	Nilgiris	1261391
@@ -16386,7 +16386,7 @@ IN.23.043	Firozpur	Firozpur	1271884
 IN.36.172	Fatehpur	Fatehpur	1271920
 IN.36.159	Farrukhābād	Farrukhabad	1271943
 IN.23.045	Faridkot	Faridkot	1271950
-IN.36.177	Faizābād	Faizabad	1271977
+IN.36.177	Ayodhya	Ayodhya	1271977
 IN.36.161	Etāwah	Etawah	1271989
 IN.36.201	Etah	Etah	1271993
 IN.13.595	Ernākulam	Ernakulam	1272019
@@ -16394,7 +16394,7 @@ IN.30.251	East Siang	East Siang	1272115
 IN.35.466	Khandwa district	Khandwa district	1272117
 IN.30.247	East Kameng	East Kameng	1272120
 IN.02.545	East Godāvari	East Godavari	1272123
-IN.29.244	East District	East District	1272129
+IN.29.244	Gangtok	Gangtok	1272129
 IN.37.409	Durg	Durg	1272182
 IN.24.124	Dūngarpur	Dungarpur	1272203
 IN.52.494	Diu	Diu	1272504
@@ -16658,10 +16658,10 @@ IN.10.069	Panchkula	Panchkula	8402825
 IN.23.047	Mansa	Mansa	8407027
 IN.23.042	Moga	Moga	8407028
 IN.23.054	Barnala	Barnala	8407165
-IN.23.8407166	Fazilka	Fazilka	8407166
+IN.23.651	Fazilka	Fazilka	8407166
 IN.23.052	Ajitgarh	Ajitgarh	8407426
 IN.23.039	Shahid Bhagat Singh Nagar	Shahid Bhagat Singh Nagar	8407479
-IN.23.8408318	Pathankot	Pathankot	8408318
+IN.23.662	Pathankot	Pathankot	8408318
 IN.23.050	Tarn Taran	Tarn Taran	8408319
 IN.21.394	Nuapada	Nuapada	8533697
 IN.21.389	Gajapati	Gajapati	8533699
@@ -16831,7 +16831,7 @@ IN.40.690	Bhadradri Kothagudem	Bhadradri Kothagudem	11875556
 IN.40.681	Jagitial	Jagitial	11875557
 IN.40.680	Nirmal	Nirmal	11875558
 IN.40.693	Wanaparthy	Wanaparthy	11875559
-IN.40.686	Warangal Urban	Warangal Urban	11875560
+IN.40.686	Hanamkonda	Hanamkonda	11875560
 IN.40.697	Yadadri Bhuvanagiri	Yadadri Bhuvanagiri	11875561
 IN.26.654	Gomati	Gomati	11875562
 IN.26.655	Unakoti	Unakoti	11875563
@@ -16869,9 +16869,38 @@ IN.40.780	Mulugu	Mulugu	12572551
 IN.35.782	Niwari	Niwari	12572552
 IN.30.778	Kamle	Kamle	12572553
 IN.30.784	Lepa Rada	Lepa Rada	12572554
-IN.31.12572555	Saitual	Saitual	12572555
-IN.31.12572556	Khawzawl	Khawzawl	12572556
-IN.31.12572557	Hnahthial	Hnahthial	12572557
+IN.31.727	Saitual	Saitual	12572555
+IN.31.728	Khawzawl	Khawzawl	12572556
+IN.31.726	Hnahthial	Hnahthial	12572557
+IN.02.745	Alluri Sitharama Raju	Alluri Sitharama Raju	12680239
+IN.02.744	Anakapalli	Anakapalli	12680240
+IN.02.753	Annamayya	Annamayya	12680241
+IN.03.739	Bajali	Bajali	12680242
+IN.02.750	Bapatla	Bapatla	12680243
+IN.20.758	Chumoukedima	Chumoukedima	12680244
+IN.18.740	Eastern West Khasi Hills	Eastern West Khasi Hills	12680245
+IN.02.748	Eluru	Eluru	12680246
+IN.37.734	Gaurella Pendra Marwahi	Gaurella Pendra Marwahi	12680247
+IN.37.759	Khairgarh Chhuikhadan Gandai	Khairgarh Chhuikhadan Gandai	12680248
+IN.02.747	Konaseema	Konaseema	12680249
+IN.23.737	Malerkotla	Malerkotla	12680250
+IN.37.760	Manendragarh Chirimiri Bharatpur	Manendragarh Chirimiri Bharatpur	12680251
+IN.37.761	Mohla Manpur Ambagarh Chouki	Mohla Manpur Ambagarh Chouki	12680252
+IN.02.755	Nandyal	Nandyal	12680253
+IN.20.736	Noklak	Noklak	12680254
+IN.02.749	NTR	NTR	12680255
+IN.29.741	Pakyong	Pakyong	12680256
+IN.02.751	Palnadu	Palnadu	12680257
+IN.02.743	Parvathipuram Manyam	Parvathipuram Manyam	12680258
+IN.37.762	Sakti	Sakti	12680259
+IN.37.763	Sarangarh Bilaigarh	Sarangarh Bilaigarh	12680260
+IN.02.746	Kakinada	Kakinada	12680261
+IN.29.742	Soreng	Soreng	12680262
+IN.02.754	Sri Sathya Sai	Sri Sathya Sai	12680263
+IN.02.752	Tirupati	Tirupati	12680264
+IN.20.757	Tseminyu	Tseminyu	12680265
+IN.19.738	Vijayanagar	Vijayanagar	12680266
+IN.03.756	Tamulpur	Tamulpur	12680267
 IQ.08.89569	Zakho District	Zakho District	89569
 IQ.18.90148	Tikrit District	Tikrit District	90148
 IQ.15.90392	Tel Afar District	Tel Afar District	90392
@@ -18050,7 +18079,7 @@ JM.16.1067	Cairn Curran	Cairn Curran	11495337
 JM.16.1028	Beaufort	Beaufort	11495338
 JM.16.1061	Strathbogie	Strathbogie	11495339
 JM.16.1045	Broughton	Broughton	11495340
-JM.16.1070	Lenox Bigwoods	Lenox Bigwoods	11495341
+JM.16.1070	Lennox Bigwoods	Lennox Bigwoods	11495341
 JM.16.1072	Leamington	Leamington	11495342
 JM.16.1022	Dundee	Dundee	11495343
 JM.04.1229	Banana Ground - Part of	Banana Ground - Part of	11495344
@@ -18505,7 +18534,7 @@ JP.08.1848677	Yama-gun	Yama-gun	1848677
 JP.45.1848678	Yamaguchi Shi	Yamaguchi Shi	1848678
 JP.11.1848699	Yamagata-gun	Yamagata-gun	1848699
 JP.37.1848772	Yaizu Shi	Yaizu Shi	1848772
-JP.38.1848775	Yaita-shi	Yaita-shi	1848775
+JP.38.1848775	Yaita Shi	Yaita Shi	1848775
 JP.47.1848816	Yaeyama-gun	Yaeyama-gun	1848816
 JP.13.1848845	Yabu-shi	Yabu-shi	1848845
 JP.23.1848873	Watarai-gun	Watarai-gun	1848873
@@ -18514,7 +18543,7 @@ JP.34.1848915	Wakō-shi	Wako-shi	1848915
 JP.43.1848936	Wakayama Shi	Wakayama Shi	1848936
 JP.15.1848973	Wajima Shi	Wajima Shi	1848973
 JP.05.1849041	Uwajima-shi	Uwajima-shi	1849041
-JP.38.1849052	Utsunomiya-shi	Utsunomiya-shi	1849052
+JP.38.1849052	Utsunomiya Shi	Utsunomiya Shi	1849052
 JP.21.1849062	Uto Shi	Uto Shi	1849062
 JP.30.1849092	Usuki Shi	Usuki Shi	1849092
 JP.30.1849160	Usa Shi	Usa Shi	1849160
@@ -18556,7 +18585,7 @@ JP.31.1850139	Tomata-gun	Tomata-gun	1850139
 JP.39.1850156	Tokushima Shi	Tokushima Shi	1850156
 JP.34.1850180	Tokorozawa-shi	Tokorozawa-shi	1850180
 JP.01.1850183	Tokoname-shi	Tokoname-shi	1850183
-JP.09.1850200	Toki-shi	Toki-shi	1850200
+JP.09.1850200	Toki Shi	Toki Shi	1850200
 JP.29.1850218	Tōkamachi-shi	Tokamachi-shi	1850218
 JP.01.1850219	Tōkai-shi	Tokai-shi	1850219
 JP.41.1850247	Tōhaku-gun	Tohaku-gun	1850247
@@ -18567,7 +18596,7 @@ JP.04.1850520	Tateyama-shi	Tateyama-shi	1850520
 JP.18.1850587	Tarumizu Shi	Tarumizu Shi	1850587
 JP.10.1850653	Tano-gun	Tano-gun	1850653
 JP.43.1850706	Tanabe Shi	Tanabe Shi	1850706
-JP.40.1850731	Tama-shi	Tama-shi	1850731
+JP.40.1850731	Tama Shi	Tama Shi	1850731
 JP.31.1850741	Tamano Shi	Tamano Shi	1850741
 JP.21.1850743	Tamana Shi	Tamana Shi	1850743
 JP.21.1850744	Tamana-gun	Tamana-gun	1850744
@@ -18586,12 +18615,12 @@ JP.17.1851095	Takamatsu Shi	Takamatsu Shi	1851095
 JP.32.1851123	Takaishi Shi	Takaishi Shi	1851123
 JP.31.1851133	Takahashi Shi	Takahashi Shi	1851133
 JP.13.1851159	Taka-gun	Taka-gun	1851159
-JP.09.1851192	Tajimi-shi	Tajimi-shi	1851192
+JP.09.1851192	Tajimi Shi	Tajimi Shi	1851192
 JP.01.1851258	Tahara-shi	Tahara-shi	1851258
 JP.07.1851268	Tagawa Shi	Tagawa Shi	1851268
 JP.07.1851269	Tagawa-gun	Tagawa-gun	1851269
 JP.37.1851274	Tagata-gun	Tagata-gun	1851274
-JP.40.1851306	Tachikawa-shi	Tachikawa-shi	1851306
+JP.40.1851306	Tachikawa Shi	Tachikawa Shi	1851306
 JP.15.1851337	Suzu Shi	Suzu Shi	1851337
 JP.23.1851345	Suzuka-shi	Suzuka-shi	1851345
 JP.26.1851356	Suzaka-shi	Suzaka-shi	1851356
@@ -18606,7 +18635,7 @@ JP.40.1851510	Suginami-ku	Suginami-ku	1851510
 JP.22.1851574	Sōraku-gun	Soraku-gun	1851574
 JP.18.1851576	Soo Gun	Soo Gun	1851576
 JP.17.1851654	Shōzu-gun	Shozu-gun	1851654
-JP.37.1851714	Shizuoka-shi	Shizuoka-shi	1851714
+JP.37.1851714	Shizuoka Shi	Shizuoka Shi	1851714
 JP.34.1851882	Shiraoka-shi	Shiraoka-shi	1851882
 JP.38.1851957	Shioya-gun	Shioya-gun	1851957
 JP.26.1852001	Shiojiri-shi	Shiojiri-shi	1852001
@@ -18614,7 +18643,7 @@ JP.01.1852044	Shinshiro-shi	Shinshiro-shi	1852044
 JP.40.1852083	Shinjuku-ku	Shinjuku-ku	1852083
 JP.43.1852105	Shingū Shi	Shingu Shi	1852105
 JP.40.1852140	Shinagawa-ku	Shinagawa-ku	1852140
-JP.14.1852162	Shimotsuma-shi	Shimotsuma-shi	1852162
+JP.14.1852162	Shimotsuma Shi	Shimotsuma Shi	1852162
 JP.38.1852170	Shimotsuga-gun	Shimotsuga-gun	1852170
 JP.26.1852186	Shimotakai-gun	Shimotakai-gun	1852186
 JP.45.1852222	Shimonoseki Shi	Shimonoseki Shi	1852222
@@ -18659,7 +18688,7 @@ JP.19.1853293	Sagamihara-shi	Sagamihara-shi	1853293
 JP.29.1853313	Sado Shi	Sado Shi	1853313
 JP.35.1853408	Rittō-shi	Ritto-shi	1853408
 JP.05.1853424	Ōzu-shi	Ozu-shi	1853424
-JP.38.1853473	Oyama-shi	Oyama-shi	1853473
+JP.38.1853473	Oyama Shi	Oyama Shi	1853473
 JP.42.1853505	Oyabe Shi	Oyabe Shi	1853505
 JP.23.1853513	Owase Shi	Owase Shi	1853513
 JP.01.1853518	Owariasahi-shi	Owariasahi-shi	1853518
@@ -18694,7 +18723,7 @@ JP.06.1854517	Ōi-gun	Oi-gun	1854517
 JP.07.1854627	Ogōri-shi	Ogori-shi	1854627
 JP.33.1854650	Ogi-shi	Ogi-shi	1854650
 JP.02.1854681	Oga-shi	Oga-shi	1854681
-JP.09.1854700	Ōgaki-shi	Ogaki-shi	1854700
+JP.09.1854700	Ōgaki Shi	Ogaki Shi	1854700
 JP.19.1854744	Odawara-shi	Odawara-shi	1854744
 JP.36.1854750	Ōda Shi	Oda Shi	1854750
 JP.31.1854770	Oda-gun	Oda-gun	1854770
@@ -18736,7 +18765,7 @@ JP.28.1855604	Nara-shi	Nara-shi	1855604
 JP.20.1855637	Nankoku Shi	Nankoku Shi	1855637
 JP.42.1855693	Namerikawa-shi	Namerikawa-shi	1855693
 JP.30.1855742	Nakatsu Shi	Nakatsu Shi	1855742
-JP.09.1855750	Nakatsugawa-shi	Nakatsugawa-shi	1855750
+JP.09.1855750	Nakatsugawa Shi	Nakatsugawa Shi	1855750
 JP.17.1855768	Nakatado-gun	Nakatado-gun	1855768
 JP.26.1855829	Nakano Shi	Nakano Shi	1855829
 JP.40.1855848	Nakano-ku	Nakano-ku	1855848
@@ -18759,12 +18788,12 @@ JP.35.1856237	Nagahama-shi	Nagahama-shi	1856237
 JP.23.1856290	Nabari-shi	Nabari-shi	1856290
 JP.39.1856299	Myōzai Gun	Myozai Gun	1856299
 JP.40.1856366	Musashino-shi	Musashino-shi	1856366
-JP.40.1856368	Musashimurayama-shi	Musashimurayama-shi	1856368
+JP.40.1856368	Musashi-murayama Shi	Musashi-murayama Shi	1856368
 JP.20.1856389	Muroto Shi	Muroto Shi	1856389
 JP.07.1856443	Munakata-shi	Munakata-shi	1856443
 JP.09.1856506	Motosu-gun	Motosu-gun	1856506
 JP.35.1856568	Moriyama-shi	Moriyama-shi	1856568
-JP.09.1856666	Mizunami-shi	Mizunami-shi	1856666
+JP.09.1856666	Mizunami Shi	Mizunami Shi	1856666
 JP.11.1856691	Miyoshi Shi	Miyoshi Shi	1856691
 JP.39.1856695	Miyoshi-gun	Miyoshi-gun	1856695
 JP.01.1856697	Miyoshi-shi	Miyoshi-shi	1856697
@@ -18781,7 +18810,7 @@ JP.37.1856971	Mishima Shi	Mishima Shi	1856971
 JP.32.1856974	Mishima-gun	Mishima-gun	1856974
 JP.34.1856987	Misato Shi	Misato Shi	1856987
 JP.32.1857043	Minoo Shi	Minoo Shi	1857043
-JP.09.1857051	Minokamo-shi	Minokamo-shi	1857051
+JP.09.1857051	Mino-kamo Shi	Mino-kamo Shi	1857051
 JP.45.1857072	Mine Shi	Mine Shi	1857072
 JP.40.1857091	Minato-ku	Minato-ku	1857091
 JP.05.1857121	Minamiuwa-gun	Minamiuwa-gun	1857121
@@ -18808,7 +18837,7 @@ JP.17.1857664	Marugame Shi	Marugame Shi	1857664
 JP.18.1857710	Makurazaki Shi	Makurazaki Shi	1857710
 JP.22.1857764	Maizuru Shi	Maizuru Shi	1857764
 JP.10.1857842	Maebashi Shi	Maebashi Shi	1857842
-JP.40.1857869	Machida-shi	Machida-shi	1857869
+JP.40.1857869	Machida Shi	Machida Shi	1857869
 JP.22.1857906	Kyōto Shi	Kyoto Shi	1857906
 JP.23.1857965	Kuwana-shi	Kuwana-shi	1857965
 JP.23.1857966	Kuwana-gun	Kuwana-gun	1857966
@@ -18820,7 +18849,7 @@ JP.42.1858253	Kurobe Shi	Kurobe Shi	1858253
 JP.11.1858288	Kure-shi	Kure-shi	1858288
 JP.07.1858305	Kuraten-gun	Kuraten-gun	1858305
 JP.31.1858309	Kurashiki Shi	Kurashiki Shi	1858309
-JP.40.1858346	Kunitachi-shi	Kunitachi-shi	1858346
+JP.40.1858346	Kunitachi Shi	Kunitachi Shi	1858346
 JP.47.1858371	Kunigami-gun	Kunigami-gun	1858371
 JP.31.1858395	Kume-gun	Kume-gun	1858395
 JP.23.1858408	Kumano-shi	Kumano-shi	1858408
@@ -18837,11 +18866,11 @@ JP.26.1858856	Komoro Shi	Komoro Shi	1858856
 JP.39.1858900	Komatsushima Shi	Komatsushima Shi	1858900
 JP.15.1858904	Komatsu Shi	Komatsu Shi	1858904
 JP.01.1858921	Komaki-shi	Komaki-shi	1858921
-JP.26.1858938	Komagane-shi	Komagane-shi	1858938
+JP.26.1858938	Komagane Shi	Komagane Shi	1858938
 JP.40.1858941	Komae-shi	Komae-shi	1858941
-JP.40.1858962	Kokubunji-shi	Kokubunji-shi	1858962
+JP.40.1858962	Kokubunji Shi	Kokubunji Shi	1858962
 JP.35.1858984	Kōka-shi	Koka-shi	1858984
-JP.14.1859082	Koga-shi	Koga-shi	1859082
+JP.14.1859082	Koga Shi	Koga Shi	1859082
 JP.40.1859087	Koganei-shi	Koganei-shi	1859087
 JP.07.1859090	Koga-shi	Koga-shi	1859090
 JP.46.1859096	Kōfu-shi	Kofu-shi	1859096
@@ -18895,11 +18924,11 @@ JP.33.1859936	Kashima	Kashima	1859936
 JP.28.1859955	Kashiba-shi	Kashiba-shi	1859955
 JP.31.1859989	Kasaoka Shi	Kasaoka Shi	1859989
 JP.01.1860033	Kariya-shi	Kariya-shi	1860033
-JP.38.1860097	Kanuma-shi	Kanuma-shi	1860097
+JP.38.1860097	Kanuma Shi	Kanuma Shi	1860097
 JP.10.1860108	Kanra-gun	Kanra-gun	1860108
 JP.17.1860119	Kan’onji Shi	Kan'onji Shi	1860119
 JP.09.1860188	Kani-gun	Kani-gun	1860188
-JP.09.1860193	Kani-shi	Kani-shi	1860193
+JP.09.1860193	Kani Shi	Kani Shi	1860193
 JP.15.1860240	Kanazawa-shi	Kanazawa-shi	1860240
 JP.29.1860308	Kamo Shi	Kamo Shi	1860308
 JP.09.1860326	Kamo-gun	Kamo-gun	1860326
@@ -18910,7 +18939,7 @@ JP.22.1860633	Kameoka Shi	Kameoka Shi	1860633
 JP.19.1860670	Kamakura Shi	Kamakura Shi	1860670
 JP.13.1860701	Kako-gun	Kako-gun	1860701
 JP.13.1860702	Kakogawa Shi	Kakogawa Shi	1860702
-JP.09.1860734	Kakamigahara-shi	Kakamigahara-shi	1860734
+JP.09.1860734	Kakamigahara Shi	Kakamigahara Shi	1860734
 JP.32.1860764	Kaizuka Shi	Kaizuka Shi	1860764
 JP.09.1860766	Kaizu-shi	Kaizu-shi	1860766
 JP.43.1860774	Kaisō-gun	Kaiso-gun	1860774
@@ -18931,7 +18960,7 @@ JP.18.1861090	Izumi Shi	Izumi Shi	1861090
 JP.32.1861094	Izumiōtsu Shi	Izumiotsu Shi	1861094
 JP.05.1861141	Iyo-gun	Iyo-gun	1861141
 JP.05.1861143	Iyo-shi	Iyo-shi	1861143
-JP.37.1861167	Iwata-shi	Iwata-shi	1861167
+JP.37.1861167	Iwata Shi	Iwata Shi	1861167
 JP.45.1861209	Iwakuni Shi	Iwakuni Shi	1861209
 JP.29.1861238	Iwafune-gun	Iwafune-gun	1861238
 JP.47.1861279	Itoman Shi	Itoman Shi	1861279
@@ -18947,7 +18976,7 @@ JP.34.1861469	Iruma-shi	Iruma-shi	1861469
 JP.34.1861470	Iruma-gun	Iruma-gun	1861470
 JP.01.1861527	Inuyama-shi	Inuyama-shi	1861527
 JP.01.1861601	Inazawa-shi	Inazawa-shi	1861601
-JP.26.1861606	Ina-shi	Ina-shi	1861606
+JP.26.1861606	Ina Shi	Ina Shi	1861606
 JP.40.1861634	Inagi-shi	Inagi-shi	1861634
 JP.42.1861653	Imizu Shi	Imizu Shi	1861653
 JP.38.1861696	Nikko-shi	Nikko-shi	1861696
@@ -18958,7 +18987,7 @@ JP.27.1861758	Iki Shi	Iki Shi	1861758
 JP.32.1861785	Ikeda Shi	Ikeda Shi	1861785
 JP.07.1861834	Iizuka Shi	Iizuka Shi	1861834
 JP.26.1861837	Iiyama Shi	Iiyama Shi	1861837
-JP.26.1861858	Iida-shi	Iida-shi	1861858
+JP.26.1861858	Iida Shi	Iida Shi	1861858
 JP.23.1861901	Iga-shi	Iga-shi	1861901
 JP.01.1861940	Ichinomiya Shi	Ichinomiya Shi	1861940
 JP.04.1861964	Ichikawa Shi	Ichikawa Shi	1861964
@@ -18973,14 +19002,14 @@ JP.30.1862367	Hita Shi	Hita Shi	1862367
 JP.11.1862412	Hiroshima-shi	Hiroshima-shi	1862412
 JP.19.1862461	Hiratsuka Shi	Hiratsuka Shi	1862461
 JP.32.1862538	Hirakata Shi	Hirakata Shi	1862538
-JP.40.1862576	Hino-shi	Hino-shi	1862576
+JP.40.1862576	Hino Shi	Hino Shi	1862576
 JP.41.1862590	Hino Gun	Hino Gun	1862590
 JP.42.1862610	Himi Shi	Himi Shi	1862610
 JP.13.1862625	Himeji Shi	Himeji Shi	1862625
 JP.35.1862635	Hikone-shi	Hikone-shi	1862635
 JP.34.1862655	Hiki-gun	Hiki-gun	1862655
 JP.45.1862667	Hikari Shi	Hikari Shi	1862667
-JP.40.1862703	Higashiyamato-shi	Higashiyamato-shi	1862703
+JP.40.1862703	Higashiyamato Shi	Higashiyamato Shi	1862703
 JP.25.1862717	Higashiusuki-gun	Higashiusuki-gun	1862717
 JP.44.1862730	Higashitagawa-gun	Higashitagawa-gun	1862730
 JP.27.1862734	Higashisonigi-gun	Higashisonigi-gun	1862734
@@ -18999,14 +19028,14 @@ JP.11.1863017	Hatsukaichi-shi	Hatsukaichi-shi	1863017
 JP.20.1863048	Hata-gun	Hata-gun	1863048
 JP.34.1863058	Hasuda-shi	Hasuda-shi	1863058
 JP.43.1863079	Hashimoto Shi	Hashimoto Shi	1863079
-JP.09.1863084	Hashima-shi	Hashima-shi	1863084
+JP.09.1863084	Hashima Shi	Hashima Shi	1863084
 JP.09.1863085	Hashima-gun	Hashima-gun	1863085
 JP.34.1863182	Hannō-shi	Hanno-shi	1863182
 JP.32.1863185	Hannan Shi	Hannan Shi	1863185
 JP.26.1863187	Hanishina-gun	Hanishina-gun	1863187
 JP.01.1863204	Handa-shi	Handa-shi	1863204
 JP.40.1863251	Hamura-shi	Hamura-shi	1863251
-JP.37.1863288	Hamamatsu-shi	Hamamatsu-shi	1863288
+JP.37.1863288	Hamamatsu Shi	Hamamatsu Shi	1863288
 JP.36.1863308	Hamada Shi	Hamada Shi	1863308
 JP.15.1863340	Hakui Shi	Hakui Shi	1863340
 JP.37.1863397	Haibara-gun	Haibara-gun	1863397
@@ -19021,16 +19050,16 @@ JP.28.1863538	Gose Shi	Gose Shi	1863538
 JP.29.1863539	Gosen Shi	Gosen Shi	1863539
 JP.28.1863590	Gojō-shi	Gojo-shi	1863590
 JP.47.1863626	Ginowan Shi	Ginowan Shi	1863626
-JP.09.1863639	Gifu-shi	Gifu-shi	1863639
+JP.09.1863639	Gifu Shi	Gifu Shi	1863639
 JP.09.1863645	Gero-shi	Gero-shi	1863645
 JP.35.1863686	Gamō-gun	Gamo-gun	1863686
 JP.01.1863692	Gamagōri-shi	Gamagori-shi	1863692
 JP.09.1863710	Fuwa-gun	Fuwa-gun	1863710
 JP.04.1863711	Futtsu Shi	Futtsu Shi	1863711
-JP.40.1863780	Fussa-shi	Fussa-shi	1863780
+JP.40.1863780	Fussa Shi	Fussa Shi	1863780
 JP.04.1863903	Funabashi-shi	Funabashi-shi	1863903
 JP.11.1863914	Fukuyama Shi	Fukuyama Shi	1863914
-JP.37.1863944	Fukuroi-shi	Fukuroi-shi	1863944
+JP.37.1863944	Fukuroi Shi	Fukuroi Shi	1863944
 JP.07.1863955	Fukuoka-shi	Fukuoka-shi	1863955
 JP.06.1863982	Fukui-shi	Fukui-shi	1863982
 JP.22.1864008	Fukuchiyama Shi	Fukuchiyama Shi	1864008
@@ -19095,7 +19124,7 @@ JP.13.1865383	Amagasaki Shi	Amagasaki Shi	1865383
 JP.18.1865399	Akune Shi	Akune Shi	1865399
 JP.13.1865406	Akō Shi	Ako Shi	1865406
 JP.13.1865409	Akō-gun	Ako-gun	1865409
-JP.40.1865425	Akishima-shi	Akishima-shi	1865425
+JP.40.1865425	Akishima Shi	Akishima Shi	1865425
 JP.20.1865426	Aki Shi	Aki Shi	1865426
 JP.11.1865442	Aki-gun	Aki-gun	1865442
 JP.20.1865443	Aki Gun	Aki Gun	1865443
@@ -19117,7 +19146,7 @@ JP.44.2110552	Yamagata Shi	Yamagata Shi	2110552
 JP.04.2110578	Yachiyo-shi	Yachiyo-shi	2110578
 JP.16.2110604	Waga-gun	Waga-gun	2110604
 JP.14.2110701	Tsuchiura-shi	Tsuchiura-shi	2110701
-JP.14.2110728	Toride-shi	Toride-shi	2110728
+JP.14.2110728	Toride Shi	Toride Shi	2110728
 JP.16.2110732	Tōno-shi	Tono-shi	2110732
 JP.04.2110747	Tomisato-shi	Tomisato-shi	2110747
 JP.24.2110755	Tome Shi	Tome Shi	2110755
@@ -19141,8 +19170,8 @@ JP.04.2111171	Katori-shi	Katori-shi	2111171
 JP.04.2111211	Sambu-gun	Sambu-gun	2111211
 JP.04.2111215	Sakura-shi	Sakura-shi	2111215
 JP.44.2111245	Sagae-shi	Sagae-shi	2111245
-JP.14.2111256	Ryūgasaki-shi	Ryugasaki-shi	2111256
-JP.38.2111324	Ōtawara-shi	Otawara-shi	2111324
+JP.14.2111256	Ryūgasaki Shi	Ryugasaki Shi	2111256
+JP.38.2111324	Ōtawara Shi	Otawara Shi	2111324
 JP.40.2111520	Ogasawara Shichō	Ogasawara Shicho	2111520
 JP.16.2111528	Ōfunato-shi	Ofunato-shi	2111528
 JP.08.2111613	Nishishirakawa-gun	Nishishirakawa-gun	2111613
@@ -19163,14 +19192,14 @@ JP.44.2111850	Mogami-gun	Mogami-gun	2111850
 JP.04.2111854	Mobara Shi	Mobara Shi	2111854
 JP.16.2111883	Miyako-shi	Miyako-shi	2111883
 JP.24.2111889	Miyagi Gun	Miyagi Gun	2111889
-JP.14.2111899	Mito-shi	Mito-shi	2111899
+JP.14.2111899	Mito Shi	Mito Shi	2111899
 JP.02.2111935	Minamiakita-gun	Minamiakita-gun	2111935
 JP.24.2112074	Kurokawa-gun	Kurokawa-gun	2112074
 JP.24.2112092	Kurihara Shi	Kurihara Shi	2112092
 JP.14.2112115	Kuji-gun	Kuji-gun	2112115
 JP.08.2112139	Kōriyama Shi	Koriyama Shi	2112139
 JP.16.2112223	Kitakami-shi	Kitakami-shi	2112223
-JP.14.2112231	Kitaibaraki-shi	Kitaibaraki-shi	2112231
+JP.14.2112231	Kitaibaraki Shi	Kitaibaraki Shi	2112231
 JP.02.2112235	Kitaakita-gun	Kitaakita-gun	2112235
 JP.24.2112261	Kesennuma Shi	Kesennuma Shi	2112261
 JP.16.2112264	Kesen-gun	Kesen-gun	2112264
@@ -19178,7 +19207,7 @@ JP.24.2112306	Katta-gun	Katta-gun	2112306
 JP.04.2112318	Katori-gun	Katori-gun	2112318
 JP.04.2112330	Kashiwa Shi	Kashiwa Shi	2112330
 JP.14.2112334	Kashima-shi	Kashima-shi	2112334
-JP.14.2112342	Kasama-shi	Kasama-shi	2112342
+JP.14.2112342	Kasama Shi	Kasama Shi	2112342
 JP.04.2112386	Kamogawa-shi	Kamogawa-shi	2112386
 JP.14.2112399	Kamisu-shi	Kamisu-shi	2112399
 JP.44.2112407	Kaminoyama-shi	Kaminoyama-shi	2112407
@@ -19194,8 +19223,8 @@ JP.14.2112616	Inashiki-gun	Inashiki-gun	2112616
 JP.04.2112631	Imba-gun	Imba-gun	2112631
 JP.16.2112655	Ichinoseki-shi	Ichinoseki-shi	2112655
 JP.04.2112663	Ichihara Shi	Ichihara Shi	2112663
-JP.14.2112704	Hitachi-shi	Hitachi-shi	2112704
-JP.14.2112705	Hitachiōta-shi	Hitachiota-shi	2112705
+JP.14.2112704	Hitachi Shi	Hitachi Shi	2112704
+JP.14.2112705	Hitachi-ōta Shi	Hitachi-ota Shi	2112705
 JP.44.2112756	Higashiokitama-gun	Higashiokitama-gun	2112756
 JP.44.2112760	Higashimurayama-gun	Higashimurayama-gun	2112760
 JP.14.2112766	Higashiibaraki-gun	Higashiibaraki-gun	2112766
@@ -19445,12 +19474,12 @@ JP.27.7418811	Unzen Shi	Unzen Shi	7418811
 JP.09.7418819	Ibi-gun	Ibi-gun	7418819
 JP.09.7418820	Ōno Gun	Ono Gun	7418820
 JP.09.7418821	Yōrō-gun	Yoro-gun	7418821
-JP.09.7419031	Gujō-shi	Gujo-shi	7419031
+JP.09.7419031	Gujō Shi	Gujo Shi	7419031
 JP.09.7419032	Hida Shi	Hida Shi	7419032
-JP.09.7419033	Mino-shi	Mino-shi	7419033
-JP.09.7419034	Mizuho-shi	Mizuho-shi	7419034
-JP.09.7419035	Motosu-shi	Motosu-shi	7419035
-JP.09.7419036	Yamagata-shi	Yamagata-shi	7419036
+JP.09.7419033	Mino Shi	Mino Shi	7419033
+JP.09.7419034	Mizuho Shi	Mizuho Shi	7419034
+JP.09.7419035	Motosu Shi	Motosu Shi	7419035
+JP.09.7419036	Yamagata Shi	Yamagata Shi	7419036
 JP.12.7428076	Abashiri-gun	Abashiri-gun	7428076
 JP.12.7428077	Akan-gun	Akan-gun	7428077
 JP.12.7428078	Akkeshi-gun	Akkeshi-gun	7428078
@@ -19535,24 +19564,24 @@ JP.08.7451502	Ishikawa-gun	Ishikawa-gun	7451502
 JP.08.7451503	Iwase-gun	Iwase-gun	7451503
 JP.08.7451504	Ōnuma-gun	Onuma-gun	7451504
 JP.08.7451517	Minamisōma Shi	Minamisoma Shi	7451517
-JP.14.7452677	Bandō-shi	Bando-shi	7452677
-JP.14.7452678	Chikusei-shi	Chikusei-shi	7452678
-JP.14.7452680	Hitachiōmiya-shi	Hitachiomiya-shi	7452680
-JP.14.7452799	Hokota-shi	Hokota-shi	7452799
-JP.14.7452800	Ishioka-shi	Ishioka-shi	7452800
+JP.14.7452677	Bandō Shi	Bando Shi	7452677
+JP.14.7452678	Chikusei Shi	Chikusei Shi	7452678
+JP.14.7452680	Hitachi-ōmiya Shi	Hitachi-omiya Shi	7452680
+JP.14.7452799	Hokota Shi	Hokota Shi	7452799
+JP.14.7452800	Ishioka Shi	Ishioka Shi	7452800
 JP.14.7452801	Itako Shi	Itako Shi	7452801
-JP.14.7452802	Jōsō-shi	Joso-shi	7452802
-JP.14.7452804	Namegata-shi	Namegata-shi	7452804
-JP.14.7452805	Omitama-shi	Omitama-shi	7452805
-JP.14.7452807	Takahagi-shi	Takahagi-shi	7452807
-JP.14.7452808	Tsukubamirai-shi	Tsukubamirai-shi	7452808
-JP.14.7452809	Tsukuba-shi	Tsukuba-shi	7452809
-JP.14.7452810	Ushiku-shi	Ushiku-shi	7452810
-JP.38.7453512	Nasukarasuyama-shi	Nasukarasuyama-shi	7453512
-JP.38.7453513	Nasushiobara-shi	Nasushiobara-shi	7453513
-JP.38.7453516	Sakura-shi	Sakura-shi	7453516
-JP.38.7453517	Sano-shi	Sano-shi	7453517
-JP.38.7453590	Tochigi-shi	Tochigi-shi	7453590
+JP.14.7452802	Jōsō Shi	Joso Shi	7452802
+JP.14.7452804	Namegata Shi	Namegata Shi	7452804
+JP.14.7452805	Omitama Shi	Omitama Shi	7452805
+JP.14.7452807	Takahagi Shi	Takahagi Shi	7452807
+JP.14.7452808	Tsukuba-mirai Shi	Tsukuba-mirai Shi	7452808
+JP.14.7452809	Tsukuba Shi	Tsukuba Shi	7452809
+JP.14.7452810	Ushiku Shi	Ushiku Shi	7452810
+JP.38.7453512	Nasu-karasuyama Shi	Nasu-karasuyama Shi	7453512
+JP.38.7453513	Nasu-shiobara Shi	Nasu-shiobara Shi	7453513
+JP.38.7453516	Sakura Shi	Sakura Shi	7453516
+JP.38.7453517	Sano Shi	Sano Shi	7453517
+JP.38.7453590	Tochigi Shi	Tochigi Shi	7453590
 JP.10.7453747	Agatsuma-gun	Agatsuma-gun	7453747
 JP.10.7453748	Tone-gun	Tone-gun	7453748
 JP.10.7453835	Annaka Shi	Annaka Shi	7453835
@@ -19560,7 +19589,7 @@ JP.10.7453836	Fujioka Shi	Fujioka Shi	7453836
 JP.10.7453839	Kiryū Shi	Kiryu Shi	7453839
 JP.10.7453841	Midori Shi	Midori Shi	7453841
 JP.10.7453843	Numata Shi	Numata Shi	7453843
-JP.10.7453849	Tatebayashi-shi	Tatebayashi-shi	7453849
+JP.10.7453849	Tatebayashi Shi	Tatebayashi Shi	7453849
 JP.34.7458572	Kodama-gun	Kodama-gun	7458572
 JP.34.7458573	Ōsato-gun	Osato-gun	7458573
 JP.34.7464121	Chichibu-shi	Chichibu-shi	7464121
@@ -19614,14 +19643,14 @@ JP.33.8300623	Karatsu Shi	Karatsu Shi	8300623
 JP.32.8300631	Moriguchi Shi	Moriguchi Shi	8300631
 JP.37.8301106	Itō Shi	Ito Shi	8301106
 JP.37.8301107	Kakegawa Shi	Kakegawa Shi	8301107
-JP.37.8301108	Kosai-shi	Kosai-shi	8301108
+JP.37.8301108	Kosai Shi	Kosai Shi	8301108
 JP.27.8301120	Isahaya Shi	Isahaya Shi	8301120
 JP.12.8301405	Mikasa-shi	Mikasa-shi	8301405
 JP.24.8303940	Natori Shi	Natori Shi	8303940
 JP.24.8303941	Tagajō Shi	Tagajo Shi	8303941
-JP.14.8304033	Hitachinaka-shi	Hitachinaka-shi	8304033
-JP.14.8304034	Inashiki-shi	Inashiki-shi	8304034
-JP.14.8304035	Sakuragawa-shi	Sakuragawa-shi	8304035
+JP.14.8304033	Hitachinaka Shi	Hitachinaka Shi	8304033
+JP.14.8304034	Inashiki Shi	Inashiki Shi	8304034
+JP.14.8304035	Sakuragawa Shi	Sakuragawa Shi	8304035
 JP.34.8304212	Kumagaya Shi	Kumagaya Shi	8304212
 JP.34.8304213	Kasukabe Shi	Kasukabe Shi	8304213
 JP.34.8304214	Ageo Shi	Ageo Shi	8304214
@@ -19629,8 +19658,8 @@ JP.34.8304215	Shiki Shi	Shiki Shi	8304215
 JP.04.8304237	Kisarazu Shi	Kisarazu Shi	8304237
 JP.04.8304238	Yachimata-shi	Yachimata-shi	8304238
 JP.06.8304246	Sabae Shi	Sabae Shi	8304246
-JP.40.8304374	Akiruno-shi	Akiruno-shi	8304374
-JP.40.8304375	Hachiōji-shi	Hachioji-shi	8304375
+JP.40.8304374	Akiruno Shi	Akiruno Shi	8304374
+JP.40.8304375	Hachiōji Shi	Hachioji Shi	8304375
 JP.40.8304376	Nishitōkyō-shi	Nishitokyo-shi	8304376
 JP.03.8534376	Nishitsugaru-gun	Nishitsugaru-gun	8534376
 JP.18.8714932	Kumage-gun	Kumage-gun	8714932
@@ -19640,7 +19669,7 @@ JP.38.8739981	Shimotsuke-shi	Shimotsuke-shi	8739981
 JP.35.8740424	Takashima-shi	Takashima-shi	8740424
 JP.11.8740425	Etajima-shi	Etajima-shi	8740425
 JP.45.8740711	Kumage-gun	Kumage-gun	8740711
-JP.14.8741149	Kasumigaura-shi	Kasumigaura-shi	8741149
+JP.14.8741149	Kasumigaura Shi	Kasumigaura Shi	8741149
 JP.08.9035647	Tamura-shi	Tamura-shi	9035647
 JP.08.9035648	Motomiya-shi	Motomiya-shi	9035648
 JP.07.9035649	Itoshima-shi	Itoshima-shi	9035649
@@ -20769,7 +20798,6 @@ KZ.10.8739752	Kazygurt District	Kazygurt District	8739752
 KZ.17.8739769	Bayzak District	Bayzak District	8739769
 KZ.17.8739777	Korday	Korday	8739777
 KZ.12.9072845	Bukhar-Zhyrau	Bukhar-Zhyrau	9072845
-KZ.01.11184241	Zhambyl District	Zhambyl District	11184241
 KZ.09.11886715	Munaily	Munaily	11886715
 KZ.06.11886716	Zhylyoi	Zhylyoi	11886716
 KZ.06.11886717	Kyzylkoga	Kyzylkoga	11886717
@@ -34021,7 +34049,7 @@ RU.37.486013	Susaninskiy Rayon	Susaninskiy Rayon	486013
 RU.84.486070	Surovikinskiy Rayon	Surovikinskiy Rayon	486070
 RU.10.486147	Surazhskiy Rayon	Surazhskiy Rayon	486147
 RU.28.486183	Suoyarvskiy Rayon	Suoyarvskiy Rayon	486183
-RU.19.486197	Sunzhenskiy Rayon	Sunzhenskiy Rayon	486197
+RU.19.486197	Sernovodskiy Rayon	Sernovodskiy Rayon	486197
 RU.33.486207	Sunskiy Rayon	Sunskiy Rayon	486207
 RU.17.486360	Suleyman-Stal’skiy Rayon	Suleyman-Stal'skiy Rayon	486360
 RU.25.486662	Sukhinichskiy Rayon	Sukhinichskiy Rayon	486662
@@ -34310,7 +34338,7 @@ RU.67.529068	Marksovskiy Rayon	Marksovskiy Rayon	529068
 RU.45.529194	Mari-Turekskiy Rayon	Mari-Turekskiy Rayon	529194
 RU.16.529342	Mariinsko-Posadskiy Rayon	Mariinsko-Posadskiy Rayon	529342
 RU.52.529386	Marëvskiy Rayon	Marevskiy Rayon	529386
-RU.37.529502	Manturovskiy Rayon	Manturovskiy Rayon	529502
+RU.37.529502	Gorodskoy Okrug Manturovo	Gorodskoy Okrug Manturovo	529502
 RU.41.529503	Manturovskiy Rayon	Manturovskiy Rayon	529503
 RU.73.529705	Mamadyshskiy Rayon	Mamadyshskiy Rayon	529705
 RU.25.530848	Maloyaroslavetskiy Rayon	Maloyaroslavetskiy Rayon	530848
@@ -34765,7 +34793,7 @@ RU.12.584297	Achkhoy-Martanovskiy Rayon	Achkhoy-Martanovskiy Rayon	584297
 RU.08.584324	Abzelilovskiy Rayon	Abzelilovskiy Rayon	584324
 RU.38.584439	Abinskiy Rayon	Abinskiy Rayon	584439
 RU.01.824962	Takhtamukayskiy Rayon	Takhtamukayskiy Rayon	824962
-RU.07.824964	Gorod Astrakhan’	Gorod Astrakhan'	824964
+RU.07.824964	Gorodskoy Okrug Astrakhan'	Gorodskoy Okrug Astrakhan'	824964
 RU.09.824989	Gorod Alekseyevka	Gorod Alekseyevka	824989
 RU.09.824990	Grayvoronskiy Rayon	Grayvoronskiy Rayon	824990
 RU.09.824991	Krasnenskiy Rayon	Krasnenskiy Rayon	824991
@@ -34804,7 +34832,7 @@ RU.17.830810	Gorodskoy Okrug Dagestanskiye Ogni	Gorodskoy Okrug Dagestanskiye Og
 RU.17.830811	Gorodskoy Okrug Izberbash	Gorodskoy Okrug Izberbash	830811
 RU.17.830812	Gorod Kaspiysk	Gorod Kaspiysk	830812
 RU.17.830814	Gorodskoy Okrug Kizlyar	Gorodskoy Okrug Kizlyar	830814
-RU.17.830816	Gorod Yuzhno-Sukhokumsk	Gorod Yuzhno-Sukhokumsk	830816
+RU.17.830816	Gorodskoy Okrug Yuzhno-Sukhokumsk	Gorodskoy Okrug Yuzhno-Sukhokumsk	830816
 RU.12.858775	Itum-Kalinskiy Rayon	Itum-Kalinskiy Rayon	858775
 RU.73.862913	Gorod Kazan’	Gorod Kazan'	862913
 RU.73.862914	Atninskiy Rayon	Atninskiy Rayon	862914
@@ -35712,7 +35740,6 @@ RU.77.12625692	Kimry	Kimry	12625692
 RU.77.12625693	ZATO Solnechny	ZATO Solnechny	12625693
 RU.77.12625694	Zharkovsky District	Zharkovsky District	12625694
 RU.77.12625696	Vesyegonsky District	Vesyegonsky District	12625696
-RU.78.12625771	Ishim Urban District	Ishim Urban District	12625771
 RU.78.12625773	Ishim Urban District	Ishim Urban District	12625773
 RU.78.12625774	Tobolsk Urban District	Tobolsk Urban District	12625774
 RU.78.12625776	Tyumen Urban District	Tyumen Urban District	12625776
@@ -35954,6 +35981,47 @@ RU.79.12640311	Chedi-Kholsky District	Chedi-Kholsky District	12640311
 RU.79.12640312	Dzun-Khemchiksky District	Dzun-Khemchiksky District	12640312
 RU.79.12640313	Bay-Tayginsky District	Bay-Tayginsky District	12640313
 RU.79.12640315	Mongun-Tayginsky District	Mongun-Tayginsky District	12640315
+RU.79.12640345	Tes-Khemsky District	Tes-Khemsky District	12640345
+RU.79.12640346	Piy-Khemsky District	Piy-Khemsky District	12640346
+RU.79.12640348	Tandinsky District	Tandinsky District	12640348
+RU.79.12640349	Ulug-Khemsky District	Ulug-Khemsky District	12640349
+RU.79.12640350	Chaa-Kholsky District	Chaa-Kholsky District	12640350
+RU.77.12640351	Udomelsky District	Udomelsky District	12640351
+RU.77.12640352	Vyshnevolotsky District	Vyshnevolotsky District	12640352
+RU.76.12640353	Belyovsky District	Belyovsky District	12640353
+RU.59.12640372	Alexandrovsky District	Alexandrovsky District	12640372
+RU.75.12640373	ZATO Seversk	ZATO Seversk	12640373
+RU.75.12640374	Asino Region	Asino Region	12640374
+RU.75.12640375	Kedrovy Urban District	Kedrovy Urban District	12640375
+RU.75.12640379	Strezhevoy Urban District	Strezhevoy Urban District	12640379
+RU.75.12640383	Pervomay Region	Pervomay Region	12640383
+RU.75.12640387	Parabelsky District	Parabelsky District	12640387
+RU.71.12640390	Sosvinsky City District	Sosvinsky City District	12640390
+RU.71.12640391	Artinsky District	Artinsky District	12640391
+RU.71.12640392	Uralsky	Uralsky	12640392
+RU.71.12640394	Tavdinsky Urban District	Tavdinsky Urban District	12640394
+RU.61.12640399	Kamensk-Sha Urban District	Kamensk-Sha Urban District	12640399
+RU.37.12648950	Gorodskoy Okrug Kostroma	Gorodskoy Okrug Kostroma	12648950
+RU.37.12648951	Gorodskoy Okrug Buy	Gorodskoy Okrug Buy	12648951
+RU.37.12648952	Gorodskoy Okrug Shar'ya	Gorodskoy Okrug Shar'ya	12648952
+RU.12.12650623	Gorodskoy Okrug Groznyy	Gorodskoy Okrug Groznyy	12650623
+RU.12.12650624	Sharoyskiy Rayon	Sharoyskiy Rayon	12650624
+RU.12.12650625	Shatoyskiy Rayon	Shatoyskiy Rayon	12650625
+RU.12.12650626	Gudermesskoye Gorodskoye Poseleniye	Gudermesskoye Gorodskoye Poseleniye	12650626
+RU.19.12653089	Gorodskoy Okrug Karabulak	Gorodskoy Okrug Karabulak	12653089
+RU.45.12661325	Gorodskoy Okrug Koz'modemy'ansk	Gorodskoy Okrug Koz'modemy'ansk	12661325
+RU.51.12662531	Gorodskoy Okrug Nizhniy Novgorod	Gorodskoy Okrug Nizhniy Novgorod	12662531
+RU.51.12662532	Gorodskoy Okrug Arzamas	Gorodskoy Okrug Arzamas	12662532
+RU.51.12662533	Gorodskoy Okrug Sokol'skiy	Gorodskoy Okrug Sokol'skiy	12662533
+RU.51.12662534	Gorodskoy Okrug Sarov	Gorodskoy Okrug Sarov	12662534
+RU.51.12662535	Gorodskoy Okrug Vorotynskiy	Gorodskoy Okrug Vorotynskiy	12662535
+RU.51.12662536	Gorodskoy Okrug Dzerzhinsk	Gorodskoy Okrug Dzerzhinsk	12662536
+RU.28.12663427	Petrozavodskiy Gorodskoy Okrug	Petrozavodskiy Gorodskoy Okrug	12663427
+RU.28.12663428	Kostomukshskiy Gorodskoy Okrug	Kostomukshskiy Gorodskoy Okrug	12663428
+RU.43.12666369	Gorodskoy Okrug Lipetsk	Gorodskoy Okrug Lipetsk	12666369
+RU.70.12690098	Gorodskoy Okrug Nevinnomyssk	Gorodskoy Okrug Nevinnomyssk	12690098
+RU.70.12690099	Gorodskoy Okrug Stavropol'	Gorodskoy Okrug Stavropol'	12690099
+RU.70.12690100	Gorodskoy Okrug Zheleznovodsk	Gorodskoy Okrug Zheleznovodsk	12690100
 RW.11.52	Nyagatare District	Nyagatare District	7688799
 RW.11.53	Gatsibo District	Gatsibo District	7688800
 RW.11.54	Kayonza District	Kayonza District	7688801
@@ -40133,7 +40201,7 @@ UA.19.5604	Dubenska Miskrada	Dubenska Miskrada	9289934
 UA.19.5606	Rivnenska Miskrada	Rivnenska Miskrada	9289988
 UA.15.4610	Stryys’ka Mis’krada	Stryys'ka Mis'krada	9290334
 UA.15.4608	Sambirs’ka Mis’krada	Sambirs'ka Mis'krada	9290363
-UA.27.1808	Zviahel Miskrada	Zviahel Miskrada	9640803
+UA.27.1808	Zviahel Raion	Zviahel Raion	9640803
 UA.13.3202	Bilotserkivska Miskrada	Bilotserkivska Miskrada	9644965
 UA.02.7404	Nizhyns’ka Mis’krada	Nizhyns'ka Mis'krada	9806344
 UA.02.7406	Novhorod-Sivers’ka Mis’krada	Novhorod-Sivers'ka Mis'krada	9806345
@@ -44169,7 +44237,7 @@ VN.20.786	Huyện Nhà Bè	Huyen Nha Be	1904894
 VN.20.787	Huyện Cần Giờ	Huyen Can Gio	1904895
 VN.45.747	Thành Phố Vũng Tàu	Thanh Pho Vung Tau	1904896
 VN.45.748	Thành Phố Bà Rịa	Thanh Pho Ba Ria	1904897
-VN.45.754	Huyện Tân Thành	Huyen Tan Thanh	1904898
+VN.45.754	Thị Xã Phú Mỹ	Thi Xa Phu My	1904898
 VN.45.750	Huyện Châu Đức	Huyen Chau GJuc	1904899
 VN.45.753	Huyện Đất Đỏ	Huyen GJat GJo	1904900
 VN.45.751	Huyện Xuyên Mộc	Huyen Xuyen Moc	1904901
@@ -44432,7 +44500,7 @@ VN.34.387	Huyện Quan Sơn	Huyen Quan Son	1905243
 VN.34.385	Huyện Quan Hóa	Huyen Quan Hoa	1905244
 VN.34.384	Huyện Mường Lát	Huyen Muong Lat	1905245
 VN.64.461	Thành Phố Đông Hà	Thanh Pho GJong Ha	1905247
-VN.64.467	Huyện Đa Krông	Huyen GJa Krong	1905248
+VN.64.467	Huyện ĐaKrông	Huyen DaKrong	1905248
 VN.64.465	Huyện Hướng Hóa	Huyen Huong Hoa	1905249
 VN.64.470	Huyện Hải Lăng	Huyen Hai Lang	1905250
 VN.64.462	Thị Xã Quảng Trị	Thi Xa Quang Tri	1905251
@@ -44469,7 +44537,7 @@ VN.78.490	Quận Liên Chiểu	Quan Lien Chieu	1905472
 VN.78.497	Huyện Hòa Vang	Huyen Hoa Vang	1905473
 VN.78.498	Huyện Hoàng Sa	Huyen Hoang Sa	1905474
 VN.75.718	Thành Phố Thủ Dầu Một	Thanh Pho Thu Dau Mot	1905476
-VN.75.725	Thị Xã Thuận An	Thi Xa Thuan An	1905477
+VN.75.725	Thành Phố Thuận An	Thanh Pho Thuan An	1905477
 VN.75.723	Thị Xã Tân Uyên	Thi Xa Tan Uyen	1905478
 VN.75.721	Thị Xã Bến Cát	Thi Xa Ben Cat	1905479
 VN.76.695	Huyện Đồng Phú	Huyen GJong Phu	1905481
@@ -44545,7 +44613,7 @@ VN.46.551	Huyện Vân Canh	Huyen Van Canh	1905554
 VN.46.547	Huyện Tây Sơn	Huyen Tay Son	1905555
 VN.46.548	Phu Cat District	Phu Cat District	1905556
 VN.46.545	Huyện Phù Mỹ	Huyen Phu My	1905557
-VN.46.543	Huyện Hoài Nhơn	Huyen Hoai Nhon	1905558
+VN.46.543	Thị Xã Hoài Nhơn	Thi Xa Hoai Nhon	1905558
 VN.46.546	Huyện Vĩnh Thạnh	Huyen Vinh Thanh	1905559
 VN.46.544	Huyện Hoài Ân	Huyen Hoai An	1905560
 VN.46.542	Huyện An Lão	Huyen An Lao	1905561
@@ -44702,7 +44770,7 @@ VN.88.656	Huyện Lắk	Huyen Lak	2591717
 VN.91.663	Huyện Đắk Mil	Huyen GJak Mil	2591718
 VN.88.655	Huyện Krông Ana	Huyen Krong Ana	2591721
 VN.88.653	Huyện Krông Bông	Huyen Krong Bong	2591722
-VN.88.654	Huyện Krông Păk	Huyen Krong Pak	2591723
+VN.88.654	Huyện Krông Pắk	Huyen Krong Pak	2591723
 VN.88.651	Huyện Ea Kar	Huyen Ea Kar	2591724
 VN.88.652	Huyện M’Đrắk	Huyen M'GJrak	2591725
 VN.88.648	Huyện Cư M’Gar	Huyen Cu M'Gar	2591727
@@ -44756,7 +44824,7 @@ VN.49.626	Huyện Đak Đoa	Huyen GJak GJoa	8701100
 VN.49.634	Huyện Đak Pơ	Huyen GJak Po	8701101
 VN.20.767	Tân Phú	Tan Phu	8714530
 VN.32.127	Huyen Sop Cop	Huyen Sop Cop	8714967
-VN.61.564	Huyện Đông Hòa	Huyen GJong Hoa	8719342
+VN.61.564	Thị Xã Đông Hòa	Thi Xa Dong Hoa	8719342
 VN.88.657	Huyện Cư Kuin	Huyen Cu Kuin	8724351
 VN.88.644	Thị Xã Buôn Hồ	Thi Xa Buon Ho	8724352
 VN.91.661	Huyen Dak Glong	Huyen Dak Glong	8727411
@@ -44783,7 +44851,7 @@ VN.76.697	Huyện Chơn Thành	Huyen Chon Thanh	9078134
 VN.76.689	Thị Xã Đồng Xoài	Thi Xa GJong Xoai	9078135
 VN.76.698	Huyện Phú Riềng	Huyen Phu Rieng	9078138
 VN.75.719	Huyện Bàu Bàng	Huyen Bau Bang	9091202
-VN.75.724	Thị Xã Dĩ An	Thi Xa Di An	9091481
+VN.75.724	Thành Phố Dĩ An	Thanh Pho Di An	9091481
 VN.75.720	Huyện Dầu Tiêng	Huyen Dau Tieng	9091482
 VN.24.795	Thị Xã Kiến Tường	Thi Xa Kien Tuong	9101340
 VN.37.817	Thị Xã Cai Lậy	Thi Xa Cai Lay	9113513
