@@ -8,6 +8,10 @@
 
 ## Removed
 
+* `dev-libs/sink`
+  Discontinued upstream. It doesn't build with current versions of `dev-lib/flatbuffer`.
+  Depends on `net-libd/kdav2` which is also abandoned upstream and removed from `::gentoo`.
+
 * `kde-misc/kpeoplesink`
   Discontinued upstream. Depends on `dev-libs/sink`.
 
