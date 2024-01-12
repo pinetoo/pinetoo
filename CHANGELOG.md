@@ -10,6 +10,8 @@
 
 * `media-libs/libcamera-0.2.0`
 
+* `media-video/pipewire-1.0.0-r1`
+
 ## Removed
 
 * `dev-libs/sink`
