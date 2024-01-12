@@ -11,6 +11,9 @@
 * `kde-misc/kpeoplesink`
   Discontinued upstream. Depends on `dev-libs/sink`.
 
+* `mail-client/kube`
+  Abandoned upstream. Depends on `dev-libs/sink`.
+
 ## Other changes
 
 * `dev-qt/qtfeedback`
