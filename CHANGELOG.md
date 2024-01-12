@@ -1,5 +1,9 @@
 # 5.27.10.23.08.4.3.0.2.0
 
+**KDE Plasma** updated to **5.27.10**
+
+**KDE Gear** updated to **23.08.4**
+
 ## Package updates
 
 * `app-text/tesseract-4.1.3`
