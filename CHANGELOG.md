@@ -18,6 +18,9 @@
 * `mail-client/kube`
   Abandoned upstream. Depends on `dev-libs/sink`.
 
+* `net-libs/kimap2`
+  No consumers left. No releases in two years.
+
 ## Other changes
 
 * `dev-qt/qtfeedback`
