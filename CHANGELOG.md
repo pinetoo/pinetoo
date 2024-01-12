@@ -6,6 +6,11 @@
 
 * `media-libs/libcamera-0.2.0`
 
+## Removed
+
+* `kde-misc/kpeoplesink`
+  Discontinued upstream. Depends on `dev-libs/sink`.
+
 ## Other changes
 
 * `dev-qt/qtfeedback`
