@@ -24,8 +24,6 @@ RDEPEND="
 
 DEPEND="${RDEPEND}"
 
-BDEPEND="dev-util/meson"
-
 pkg_postinst() {
 	systemd_enable_service multi-user.target "${PN}.service"
 }
