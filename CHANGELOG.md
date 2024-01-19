@@ -4,6 +4,11 @@
 
 **KDE Gear** updated to **23.08.4**
 
+## New packages
+
+* `media-libs/leptonica`
+  Version 1.82.0 required by `app-text/tesseract-4*`.
+
 ## Package updates
 
 * `app-text/tesseract-4.1.3`
