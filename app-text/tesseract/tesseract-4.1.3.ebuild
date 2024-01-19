@@ -15,10 +15,11 @@ KEYWORDS="~arm64"
 IUSE="doc jpeg opencl openmp png static-libs tiff training webp"
 
 COMMON_DEPEND=">=media-libs/leptonica-1.74:=[${MULTILIB_USEDEP},zlib,tiff?,jpeg?,png?,webp?]
+	<media-libs/leptonica-1.83.0
 	opencl? (
 		virtual/opencl[${MULTILIB_USEDEP}]
 		media-libs/tiff:=[${MULTILIB_USEDEP}]
-		media-libs/leptonica:=[tiff]
+		media-libs/leptonica[tiff]
 	)
 	training? (
 		dev-libs/icu:=

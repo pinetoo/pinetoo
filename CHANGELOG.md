@@ -32,6 +32,9 @@
 * `dev-qt/qtfeedback`
   Fixed including missing patch.
 
+* `app-text/tesseract`
+  Lock `media-libs/leptonica` dependency to version 1.82.0 as it doesn't build with newer versions.
+
 # 5.27.9.23.08.3.3.0.2.0
 
 **Maui apps** updated to **3.0.2**
