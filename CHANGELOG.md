@@ -40,6 +40,9 @@
 * `app-text/tesseract`
   Lock `media-libs/leptonica` dependency to version 1.82.0 as it doesn't build with newer versions.
 
+* `dev-libs/mauikit`
+  Break circular dependency with `dev-libs/mauikit-filebrowsing`
+
 * `dev-libs/mauikit-imagetools`
   Removed `ocr` USE flag and build OCR support unconditionally instead as the package doesn't build without it.
 
