@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -15,9 +15,9 @@ SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
 LICENSE="LGPL-2.1+ BSD-2 CC0-1.0"
 SLOT="0"
 KEYWORDS="~arm64"
-IUSE="ocr"
 
 DEPEND="
+	<app-text/tesseract-5:0
 	~dev-libs/mauikit-${PV}
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
@@ -29,11 +29,8 @@ DEPEND="
 	>=kde-frameworks/ki18n-${KFMIN}:5
 	media-gfx/exiv2:=
 	media-libs/kquickimageeditor
+	media-libs/leptonica
 	media-libs/opencv
-	ocr? (
-		<app-text/tesseract-5:0
-		media-libs/leptonica
-	)
 "
 
 RDEPEND="${DEPEND}

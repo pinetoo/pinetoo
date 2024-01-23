@@ -40,6 +40,9 @@
 * `app-text/tesseract`
   Lock `media-libs/leptonica` dependency to version 1.82.0 as it doesn't build with newer versions.
 
+* `dev-libs/mauikit-imagetools`
+  Removed `ocr` USE flag and build OCR support unconditionally instead as the package doesn't build without it.
+
 # 5.27.9.23.08.3.3.0.2.0
 
 **Maui apps** updated to **3.0.2**

@@ -5,9 +5,6 @@
     <email>pinetoo@chuso.net</email>
     <name>Jesus Perez Rey</name>
   </maintainer>
-  <use>
-    <flag name="ocr">Pull <pkg>media-libs/leptonica</pkg> and <pkg>app-text/tesseract</pkg> for OCR support.</flag>
-  </use>
   <upstream>
     <remote-id type="kde-invent">maui/mauikit-imagetools</remote-id>
   </upstream>
