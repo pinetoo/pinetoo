@@ -1,3 +1,9 @@
+# 5.27.10.23.08.4.3.0.2.1
+
+## Package updates
+
+* `app-mobilephone/hfd-service-0.2.2`
+
 # 5.27.10.23.08.4.3.0.2.0
 
 **KDE Plasma** updated to **5.27.10**

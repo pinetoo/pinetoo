@@ -6,7 +6,7 @@
     <name>Jesus Perez Rey</name>
   </maintainer>
   <use>
-    <flag name="android">Support Android emulation via <pkg>dev-libs/libgbinder</pkg> (for example, for <pkg>app-emulation/waydroid</pkg></flag>
+    <flag name="android">Support Android emulation via <pkg>dev-libs/libgbinder</pkg> (for example, for <pkg>app-containers/waydroid</pkg></flag>
   </use>
   <upstream>
     <remote-id type="gitlab">ubports/development/core/hfd-service</remote-id>
