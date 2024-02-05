@@ -6,6 +6,8 @@
 
 * `dev-libs/libglibutil-1.0.76`
 
+* `dev-libs/deviceinfo-0.2.2`
+
 # 5.27.10.23.08.4.3.0.2.0
 
 **KDE Plasma** updated to **5.27.10**
