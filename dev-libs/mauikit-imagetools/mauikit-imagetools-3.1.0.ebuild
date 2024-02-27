@@ -16,9 +16,12 @@ LICENSE="LGPL-2.1+ BSD-2 CC0-1.0"
 SLOT="0"
 KEYWORDS="~arm64"
 
+PATCHES=( "${FILESDIR}/${PV}-missing_headers.patch" )
+
 DEPEND="
 	<app-text/tesseract-5:0
 	~dev-libs/mauikit-${PV}
+	~dev-libs/mauikit-calendar-${PV}
 	>=dev-qt/qtcore-${QTMIN}:5
 	>=dev-qt/qtdeclarative-${QTMIN}:5
 	>=dev-qt/qtgui-${QTMIN}:5
