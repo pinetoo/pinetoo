@@ -15,3 +15,8 @@ media-video/ffmpeg opus
 
 # There are still WiFi networks "protected" with WEP out there
 net-wireless/wpa_supplicant wep
+
+# At this moment there is no use of Akonadi in Plasma Mobile
+# other than as a dependency for dev-libs/mauikit-calendar
+# and for that we don't need a MySQL server process running
+kde-apps/akonadi -mysql sqlite
