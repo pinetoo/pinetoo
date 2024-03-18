@@ -4,6 +4,10 @@
 
 **KDE Gear** updated to **23.08.5**
 
+## New packages
+
+* `maui-apps/agenda`
+
 ## Package updates
 
 * `dev-libs/libgbinder-1.1.38`
