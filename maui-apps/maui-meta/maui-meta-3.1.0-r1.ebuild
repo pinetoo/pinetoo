@@ -9,6 +9,7 @@ HOMEPAGE="https://mauikit.org/apps/"
 LICENSE="metapackage"
 SLOT="0"
 KEYWORDS="~arm64"
+IUSE="sdk"
 
 RDEPEND="
 	maui-apps/agenda
@@ -22,4 +23,7 @@ RDEPEND="
 	~maui-apps/shelf-${PV}
 	~maui-apps/station-${PV}
 	~media-sound/vvave-${PV}
+	sdk? (
+		dev-vcs/bonsai
+	)
 "

@@ -5,7 +5,7 @@
     <email>pinetoo@chuso.net</email>
     <name>Jesus Perez Rey</name>
   </maintainer>
-  <use>
-    <flag name="sdk">Pull in developer-specific packages.</flag>
-  </use>
+  <upstream>
+    <remote-id type="kde-invent">maui/bonsai</remote-id>
+  </upstream>
 </pkgmetadata>

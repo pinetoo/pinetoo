@@ -6,6 +6,8 @@
 
 ## New packages
 
+* `dev-vcs/bonsai`
+
 * `maui-apps/agenda`
 
 * `maui-apps/arca`
