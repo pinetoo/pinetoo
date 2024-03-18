@@ -57,12 +57,21 @@ BDEPEND="
 	$(python_gen_any_dep 'dev-python/ply[${PYTHON_USEDEP}]')
 	$(python_gen_any_dep 'dev-python/pyyaml[${PYTHON_USEDEP}]')
 	doc? (
-		app-doc/doxygen
+		app-text/doxygen
 		dev-texlive/texlive-latexextra
 		media-gfx/graphviz
 		$(python_gen_any_dep 'dev-python/sphinx[${PYTHON_USEDEP}]')
 	)
 "
+
+python_check_deps() {
+	python_has_version "dev-python/jinja[${PYTHON_USEDEP}]" &&
+	python_has_version "dev-python/ply[${PYTHON_USEDEP}]" &&
+	python_has_version "dev-python/pyyaml[${PYTHON_USEDEP}]" &&
+	if use doc; then
+		python_has_version "dev-python/sphinx[${PYTHON_USEDEP}]"
+	fi
+}
 
 src_configure() {
 	local emesonargs=(
@@ -74,7 +83,6 @@ src_configure() {
 		$(meson_use test)
 		$(meson_feature udev)
 		$(meson_use v4l2)
-		--buildtype $(usex debug debug plain)
 	)
 	if use libevent; then
 		emesonargs+=($(meson_feature test lc-compliance))
