@@ -8,6 +8,8 @@
 
 * `maui-apps/agenda`
 
+* `maui-apps/arca`
+
 ## Package updates
 
 * `dev-libs/libgbinder-1.1.38`
