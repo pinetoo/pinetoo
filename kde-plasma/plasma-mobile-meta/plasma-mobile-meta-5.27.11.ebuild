@@ -3,7 +3,7 @@
 
 EAPI=7
 
-GEAR_MIN=23.08.4
+GEAR_MIN=23.08.5
 
 inherit optfeature
 
