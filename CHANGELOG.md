@@ -4,6 +4,10 @@
 
 **KDE Gear** updated to **23.08.5**
 
+## Package updates
+
+* `dev-libs/libgbinder-1.1.38`
+
 # 5.27.10.23.08.4.3.1.0.0
 
 **Maui apps** updated to **3.1.0**
