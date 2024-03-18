@@ -23,11 +23,11 @@ EAPI=8
 : ${PIPEWIRE_DOCS_PREBUILT:=1}
 
 PIPEWIRE_DOCS_PREBUILT_DEV=sam
-PIPEWIRE_DOCS_VERSION="${PV}"
+PIPEWIRE_DOCS_VERSION=$(ver_cut 1-2).0
 # Default to generating docs (inc. man pages) if no prebuilt; overridden later
 PIPEWIRE_DOCS_USEFLAG="+man"
 PYTHON_COMPAT=( python3_{10..12} )
-inherit flag-o-matic meson-multilib optfeature prefix python-any-r1 systemd tmpfiles udev
+inherit meson-multilib optfeature prefix python-any-r1 systemd tmpfiles udev
 
 if [[ ${PV} == 9999 ]]; then
 	PIPEWIRE_DOCS_PREBUILT=0
@@ -141,7 +141,7 @@ RDEPEND="
 		!media-sound/jack2
 	)
 	liblc3? ( media-sound/liblc3 )
-	libcamera? ( ~media-libs/libcamera-0.1.0 )
+	libcamera? ( >=media-libs/libcamera-0.2.0 )
 	lv2? ( media-libs/lilv )
 	modemmanager? ( >=net-misc/modemmanager-1.10.0 )
 	pipewire-alsa? ( >=media-libs/alsa-lib-1.1.7[${MULTILIB_USEDEP}] )
@@ -194,9 +194,6 @@ src_prepare() {
 }
 
 multilib_src_configure() {
-	# https://bugs.gentoo.org/838301
-	filter-flags -fno-semantic-interposition
-
 	local emesonargs=(
 		-Ddocdir="${EPREFIX}"/usr/share/doc/${PF}
 
