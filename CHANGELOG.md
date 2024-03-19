@@ -12,6 +12,8 @@
 
 * `maui-apps/arca`
 
+* `maui-apps/booth`
+
 ## Package updates
 
 * `dev-libs/libgbinder-1.1.38`

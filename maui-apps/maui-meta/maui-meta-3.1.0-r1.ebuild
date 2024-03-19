@@ -14,6 +14,7 @@ IUSE="sdk"
 RDEPEND="
 	maui-apps/agenda
 	maui-apps/arca
+	maui-apps/booth
 	~maui-apps/buho-${PV}
 	~maui-apps/clip-${PV}
 	~maui-apps/communicator-${PV}
