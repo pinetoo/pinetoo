@@ -8,6 +8,8 @@
 
 * `dev-vcs/bonsai`
 
+* `dev-util/strike`
+
 * `maui-apps/agenda`
 
 * `maui-apps/arca`
