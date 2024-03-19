@@ -27,5 +27,6 @@ RDEPEND="
 	www-client/fiery
 	sdk? (
 		dev-vcs/bonsai
+		dev-util/strike
 	)
 "
