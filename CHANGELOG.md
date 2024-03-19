@@ -22,6 +22,10 @@
 
 * `dev-libs/libgbinder-1.1.38`
 
+## Moved
+
+* `kde-apps/angelfish` -> `www-client/angelfish`
+
 # 5.27.10.23.08.4.3.1.0.0
 
 **Maui apps** updated to **3.1.0**
