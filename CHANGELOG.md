@@ -14,6 +14,8 @@
 
 * `maui-apps/booth`
 
+* `www-apps/fiery`
+
 ## Package updates
 
 * `dev-libs/libgbinder-1.1.38`

@@ -24,6 +24,7 @@ RDEPEND="
 	~maui-apps/shelf-${PV}
 	~maui-apps/station-${PV}
 	~media-sound/vvave-${PV}
+	www-client/fiery
 	sdk? (
 		dev-vcs/bonsai
 	)
