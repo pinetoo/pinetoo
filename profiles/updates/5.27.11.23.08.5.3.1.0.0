@@ -1,1 +1,2 @@
 move kde-apps/angelfish www-client/angelfish
+move dev-util/cmake-extras dev-build/cmake-extras

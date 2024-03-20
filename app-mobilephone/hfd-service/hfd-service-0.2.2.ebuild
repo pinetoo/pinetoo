@@ -30,4 +30,4 @@ RDEPEND="
 
 DEPEND="${RDEPEND}"
 
-BDEPEND="dev-util/cmake-extras"
+BDEPEND="dev-build/cmake-extras"
