@@ -41,7 +41,7 @@ DEPEND="
 	>=kde-frameworks/kwindowsystem-${KFMIN}:${SLOT}
 	>=kde-frameworks/purpose-${KFMIN}:${SLOT}
 	>=kde-frameworks/qqc2-desktop-style-${KFMIN}:${SLOT}
-	adblocker? ( dev-util/corrosion )
+	adblocker? ( dev-build/corrosion )
 	haptic? ( dev-qt/qtfeedback:${SLOT} )
 "
 

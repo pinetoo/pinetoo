@@ -26,6 +26,8 @@
 
 * `dev-util/cmake-extras` -> `dev-build/cmake-extras`
 
+* `dev-util/corrosion` -> `dev-build/corrosion`
+
 * `kde-apps/angelfish` -> `www-client/angelfish`
 
 # 5.27.10.23.08.4.3.1.0.0
