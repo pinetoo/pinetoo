@@ -22,7 +22,9 @@
 
 * `dev-libs/libgbinder-1.1.38`
 
-## Moved
+## Moved packages
+
+* `dev-util/cmake-extras` -> `dev-build/cmake-extras`
 
 * `kde-apps/angelfish` -> `www-client/angelfish`
 
