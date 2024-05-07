@@ -1,3 +1,9 @@
+# 5.27.11.23.08.5.3.1.0.1
+
+## Package updates
+
+* `dev-libs/libglibutil-1.0.77`
+
 # 5.27.11.23.08.5.3.1.0.0
 
 **KDE Plasma** updated to **5.27.11**
