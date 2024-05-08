@@ -6,7 +6,7 @@
 
 * `dev-libs/libgbinder-1.1.39`
 
-* `dev-libs/libglibutil-1.0.77`
+* `dev-libs/libglibutil-1.0.79`
 
 * `media-video/pipewire-1.0.4`
 
