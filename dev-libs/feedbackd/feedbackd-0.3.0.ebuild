@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -7,21 +7,20 @@ VALA_USE_DEPEND="vapigen"
 inherit gnome2-utils meson udev vala
 
 MY_P=${PN}-v${PV}
-GMOBILE_COMMIT="d483537aee4778b114ce5d50c4c8a9f8d58337ed"
-
-KEYWORDS="~arm64"
+GMOBILE_VER="0.1.0"
 
 DESCRIPTION="A daemon to provide feedback triggered by application events"
 HOMEPAGE="https://source.puri.sm/Librem5/feedbackd"
 SRC_URI="
 	https://source.puri.sm/Librem5/feedbackd/-/archive/v${PV}/${MY_P}.tar.bz2
-	daemon? ( https://gitlab.gnome.org/guidog/gmobile/-/archive/${GMOBILE_COMMIT}/gmobile-${GMOBILE_COMMIT}.tar.bz2 )
+	daemon? ( https://gitlab.gnome.org/World/Phosh/gmobile/-/archive/v${GMOBILE_VER}/gmobile-v${GMOBILE_VER}.tar.bz2 )
 "
 
 S=${WORKDIR}/${MY_P}
 
 LICENSE="GPL-3+ LGPL-2.1+"
 SLOT="0"
+KEYWORDS="~arm64"
 IUSE="+daemon doc +man"
 
 DEPEND="
@@ -44,7 +43,7 @@ RDEPEND="${DEPEND}
 BDEPEND="
 	dev-libs/gobject-introspection
 	$(vala_depend)
-	doc? ( dev-util/gtk-doc-am )
+	doc? ( dev-build/gtk-doc-am )
 "
 PDEPEND="dev-libs/feedbackd-device-themes"
 
@@ -52,8 +51,8 @@ src_unpack() {
 	unpack "${MY_P}.tar.bz2"
 	if use daemon; then
 		cd "${S}/subprojects" || die
-		unpack "gmobile-${GMOBILE_COMMIT}.tar.bz2"
-		rmdir gmobile && mv "gmobile-${GMOBILE_COMMIT}" gmobile || die
+		unpack "gmobile-v${GMOBILE_VER}.tar.bz2"
+		mv "gmobile-v${GMOBILE_VER}" gmobile || die
 	fi
 }
 

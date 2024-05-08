@@ -2,6 +2,8 @@
 
 ## Package updates
 
+* `dev-libs/feedbackd-0.3.0`
+
 * `dev-libs/libglibutil-1.0.77`
 
 * `media-video/pipewire-1.0.4`
