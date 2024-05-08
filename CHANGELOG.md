@@ -12,6 +12,8 @@
 
 * `sys-kernel/pinephone-kernel-6.7.6`
 
+* `sys-kernel/pinephonepro-kernel-6.7.6`
+
 # 5.27.11.23.08.5.3.1.0.0
 
 **KDE Plasma** updated to **5.27.11**
