@@ -47,7 +47,7 @@ else
 		PIPEWIRE_DOCS_USEFLAG="man"
 	fi
 
-	KEYWORDS="arm64"
+	KEYWORDS="~arm64"
 fi
 
 DESCRIPTION="Multimedia processing graphs"

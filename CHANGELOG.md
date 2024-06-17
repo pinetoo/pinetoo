@@ -8,7 +8,7 @@
 
 * `dev-libs/libglibutil-1.0.79`
 
-* `media-video/pipewire-1.0.4`
+* `media-video/pipewire-1.0.5`
 
 * `sys-kernel/pinephone-kernel-6.7.6`
 
