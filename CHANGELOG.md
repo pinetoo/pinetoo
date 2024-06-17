@@ -1,5 +1,9 @@
 # 5.27.11.23.08.5.3.1.0.1
 
+## Profile changes
+
+Migrated from 17.0 to 23.0 after upstream Gentoo 17.0 profile was marked deprecated.
+
 ## Package updates
 
 * `dev-libs/feedbackd-0.3.0`
