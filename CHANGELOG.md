@@ -10,6 +10,8 @@
 
 * `media-video/pipewire-1.0.5`
 
+* `net-misc/modemmanager-1.20.6`
+
 * `sys-kernel/pinephone-kernel-6.7.6`
 
 * `sys-kernel/pinephonepro-kernel-6.7.6`
