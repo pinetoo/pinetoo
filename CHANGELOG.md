@@ -14,6 +14,8 @@ Migrated from 17.0 to 23.0 after upstream Gentoo 17.0 profile was marked depreca
 
 * `media-video/pipewire-1.0.5`
 
+* `media-libs/libcamera-0.3.0`
+
 * `net-misc/modemmanager-1.20.6`
 
 * `sys-kernel/pinephone-kernel-6.7.6`
