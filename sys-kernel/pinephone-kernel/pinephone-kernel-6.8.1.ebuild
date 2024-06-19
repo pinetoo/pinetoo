@@ -4,7 +4,8 @@
 EAPI=8
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/core/linux-pinephone.git"
-EGIT_COMMIT="838798919578393d1f183c533a33dd53d75b91e1"
+EGIT_BRANCH="$(ver_cut 1-2)-megi"
+EGIT_COMMIT="8722bb026c1132559a68ea29e3744c4e4bf0cdf0"
 
 inherit git-r3 kernel-2 kernel-build
 detect_version
@@ -28,8 +29,6 @@ PATCHES=(
 	"${WORKDIR}/${P}/0106-panic-led.patch"
 	"${WORKDIR}/${P}/0008-arm64-dts-allwinner-a64-h5-Add-CPU-idle-states.patch"
 	"${WORKDIR}/${P}/0083-media-ov5640-Update-last-busy-timestamp-to-reset-aut.patch"
-	"${WORKDIR}/${P}/usb-serial-option-add-reset-resume-callback-for-WWAN.patch"
-	"${WORKDIR}/${P}/Revert-usb-quirks-Add-USB_QUIRK_RESET-for-Quectel-EG25G-Modem.patch"
 )
 
 src_unpack() {

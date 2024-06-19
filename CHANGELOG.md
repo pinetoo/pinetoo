@@ -18,7 +18,7 @@ Migrated from 17.0 to 23.0 after upstream Gentoo 17.0 profile was marked depreca
 
 * `net-misc/modemmanager-1.20.6`
 
-* `sys-kernel/pinephone-kernel-6.7.6`
+* `sys-kernel/pinephone-kernel-6.8.1`
 
 * `sys-kernel/pinephonepro-kernel-6.7.6`
 
