@@ -4,7 +4,8 @@
 EAPI=8
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/core/linux-pinephonepro.git"
-EGIT_COMMIT="6516ee2ea8cd082fc51ccde9ec6403c14588b0f1"
+EGIT_BRANCH="$(ver_cut 1-2)-megi"
+EGIT_COMMIT="06d85296c1783e02e6523e1d1cf81c26440d61e2"
 
 inherit git-r3 kernel-2 kernel-build
 detect_version
@@ -23,8 +24,6 @@ PATCHES=(
 	"${WORKDIR}/${P}/0101-arm64-dts-pinephone-drop-modem-power-node.patch"
 	"${WORKDIR}/${P}/0102-arm64-dts-pinephone-pro-remove-modem-node.patch"
 	"${WORKDIR}/${P}/0103-arm64-dts-rk3399-pinephone-pro-add-modem-RI-pin.patch"
-	"${WORKDIR}/${P}/usb-serial-option-add-reset-resume-callback-for-WWAN.patch"
-	"${WORKDIR}/${P}/Revert-usb-quirks-Add-USB_QUIRK_RESET-for-Quectel-EG25G-Modem.patch"
 )
 
 src_unpack() {
