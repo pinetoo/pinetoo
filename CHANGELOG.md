@@ -20,7 +20,11 @@ Migrated from 17.0 to 23.0 after upstream Gentoo 17.0 profile was marked depreca
 
 * `sys-kernel/pinephone-kernel-6.8.1`
 
-* `sys-kernel/pinephonepro-kernel-6.8.1`
+* `sys-kernel/pinephonepro-kernel`
+
+  * Added `6.8.1` but hardmasked because it doesn't boot with U-Boot.
+
+  * Downgraded to `6.6.0.20231104.22589` following switch from xnux's kernel with Manjaro's patches to Pine64's kernel with postmarketOS configuration, which seems to be the new reference implementation.
 
 # 5.27.11.23.08.5.3.1.0.0
 
