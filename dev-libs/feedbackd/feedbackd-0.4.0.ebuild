@@ -7,26 +7,26 @@ VALA_USE_DEPEND="vapigen"
 inherit gnome2-utils meson udev vala
 
 MY_P=${PN}-v${PV}
-GMOBILE_VER="0.1.0"
 
 DESCRIPTION="A daemon to provide feedback triggered by application events"
 HOMEPAGE="https://source.puri.sm/Librem5/feedbackd"
-SRC_URI="
-	https://source.puri.sm/Librem5/feedbackd/-/archive/v${PV}/${MY_P}.tar.bz2
-	daemon? ( https://gitlab.gnome.org/World/Phosh/gmobile/-/archive/v${GMOBILE_VER}/gmobile-v${GMOBILE_VER}.tar.bz2 )
-"
+SRC_URI="https://source.puri.sm/Librem5/feedbackd/-/archive/v${PV}/${MY_P}.tar.bz2"
 
 S=${WORKDIR}/${MY_P}
 
 LICENSE="GPL-3+ LGPL-2.1+"
 SLOT="0"
 KEYWORDS="~arm64"
-IUSE="+daemon doc +man"
+IUSE="+daemon doc introspection +man test"
+RESTRICT="!test? ( test )"
+REQUIRED_USE="doc? ( daemon ) introspection? ( daemon ) test? ( daemon )"
 
 DEPEND="
 	dev-libs/glib
+	dev-libs/gmobile
 	sys-apps/dbus
 	daemon? (
+		dev-libs/gmobile
 		dev-libs/json-glib
 		dev-libs/libgudev
 		media-libs/gsound
@@ -36,6 +36,7 @@ DEPEND="
 		dev-python/docutils
 	)
 	man? ( dev-python/docutils )
+	test? ( dev-util/umockdev )
 "
 RDEPEND="${DEPEND}
 	acct-group/feedbackd
@@ -46,15 +47,6 @@ BDEPEND="
 	doc? ( dev-build/gtk-doc-am )
 "
 PDEPEND="dev-libs/feedbackd-device-themes"
-
-src_unpack() {
-	unpack "${MY_P}.tar.bz2"
-	if use daemon; then
-		cd "${S}/subprojects" || die
-		unpack "gmobile-v${GMOBILE_VER}.tar.bz2"
-		mv "gmobile-v${GMOBILE_VER}" gmobile || die
-	fi
-}
 
 src_prepare() {
 	default
@@ -67,7 +59,9 @@ src_configure() {
 	local emesonargs=(
 		$(meson_use daemon)
 		$(meson_use doc gtk_doc)
+		$(meson_feature introspection)
 		$(meson_use man)
+		$(meson_use test tests)
 	)
 	meson_src_configure
 }

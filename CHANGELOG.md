@@ -5,6 +5,10 @@
 * `dev-libs/gmobile`
   Dependency for `dev-libs/feedbackd`.
 
+## Package updates
+
+* `dev-libs/feedbackd-0.4.0`
+
 # 5.27.11.23.08.5.3.1.0.1
 
 ## Profile changes
