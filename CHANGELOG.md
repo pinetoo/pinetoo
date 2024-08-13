@@ -1,3 +1,10 @@
+# 5.27.11.23.08.5.3.1.0.2
+
+## New packages
+
+* `dev-libs/gmobile`
+  Dependency for `dev-libs/feedbackd`.
+
 # 5.27.11.23.08.5.3.1.0.1
 
 ## Profile changes
