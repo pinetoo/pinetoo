@@ -7,6 +7,8 @@
 
 ## Package updates
 
+* `app-containers/waydroid-1.4.3`
+
 * `dev-libs/feedbackd-0.4.0`
 
 * `dev-libs/feedbackd-device-themes-0.4.0`
