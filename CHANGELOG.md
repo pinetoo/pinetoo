@@ -5,6 +5,9 @@
 * `dev-libs/gmobile`
   Dependency for `dev-libs/feedbackd`.
 
+* `dev-libs/kopeninghours`
+  Recovered version in SLOT 5 which was removed from `::gentoo` but is still required by `dev-libs/kosmindoormap` and `kde-apps/itinerary`.
+
 * `dev-libs/kosmindoormap`
   Recovered version in SLOT 5 which was removed from `::gentoo` but is still required by `kde-apps/itinerary`.
 
