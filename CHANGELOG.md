@@ -5,6 +5,9 @@
 * `dev-libs/gmobile`
   Dependency for `dev-libs/feedbackd`.
 
+* `dev-libs/kosmindoormap`
+  Recovered version in SLOT 4 which was removed from `::gentoo` but is still required by `kde-apps/itinerary`.
+
 ## Package updates
 
 * `app-containers/waydroid-1.4.3`
