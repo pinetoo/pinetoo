@@ -13,6 +13,8 @@
 
 * `dev-libs/feedbackd-device-themes-0.4.0`
 
+* `dev-libs/libgbinder-1.1.40`
+
 * `media-video/pipewire-1.0.7-r1`
 
 # 5.27.11.23.08.5.3.1.0.1
