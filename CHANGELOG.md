@@ -15,6 +15,8 @@
 
 * `dev-libs/libgbinder-1.1.40`
 
+* `media-libs/libcamera-0.3.1`
+
 * `media-video/pipewire-1.0.7-r1`
 
 # 5.27.11.23.08.5.3.1.0.1

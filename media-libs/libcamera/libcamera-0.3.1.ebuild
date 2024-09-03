@@ -14,7 +14,7 @@ HOMEPAGE="http://libcamera.org"
 LICENSE="LGPL-2.1+"
 SLOT="0"
 KEYWORDS="~arm64"
-IUSE="debug doc drm gstreamer libevent jpeg python qt5 sdl test trace udev unwind v4l2"
+IUSE="debug doc drm gstreamer libevent jpeg python qt6 sdl test trace udev unwind v4l2"
 REQUIRED_USE="drm? ( libevent ) jpeg? ( sdl ) sdl? ( libevent )"
 RESTRICT="!test? ( test )"
 
@@ -34,10 +34,9 @@ RDEPEND="
 	python? (
 		dev-python/pybind11
 	)
-	qt5? (
-		dev-qt/qtcore:5
-		dev-qt/qtgui:5
-		dev-qt/qtwidgets:5
+	qt6? (
+		dev-libs/libatomic_ops
+		dev-qt/qtbase:6[gui,opengl,widgets]
 		media-libs/tiff
 	)
 	trace? ( dev-util/lttng-ust )
@@ -77,7 +76,7 @@ src_configure() {
 	local emesonargs=(
 		$(meson_feature doc documentation)
 		$(meson_feature libevent cam)
-		$(meson_feature qt5 qcam)
+		$(meson_feature qt6 qcam)
 		$(meson_feature gstreamer)
 		$(meson_feature python pycamera)
 		$(meson_use test)
