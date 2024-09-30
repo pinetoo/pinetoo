@@ -1,0 +1,10 @@
+--- plasma-mobile-6.1.5/CMakeLists.txt	2024-09-29 21:54:42.808099731 +0200
++++ plasma-mobile-6.1.5/CMakeLists.txt	2024-09-29 21:54:54.398083703 +0200
+@@ -38,6 +38,7 @@
+ include(KDEGitCommitHooks)
+ include(KDEClangFormat)
+ include(FeatureSummary)
++include(ECMQmlModule)
+ 
+ add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
+ 
