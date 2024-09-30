@@ -5,6 +5,9 @@
 		<email>pinetoo@chuso.net</email>
 		<name>Jesus Perez Rey</name>
 	</maintainer>
+	<use>
+		<flag name="osm">Pull <pkg>sci-geosciences/osmctools</pkg> optional dependency</flag>
+	</use>
 	<upstream>
 		<bugs-to>https://bugs.kde.org/</bugs-to>
 		<remote-id type="kde-invent">libraries/kosmindoormap</remote-id>
