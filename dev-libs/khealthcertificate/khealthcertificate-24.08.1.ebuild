@@ -3,8 +3,8 @@
 
 EAPI=8
 
-QTMIN=5.15.0
-KFMIN=5.240
+QTMIN=6.6.0
+KFMIN=5.240.0
 inherit ecm gear.kde.org
 
 DESCRIPTION="Handling of digital vaccination, test and recovery certificates"
@@ -16,16 +16,16 @@ KEYWORDS="~arm64"
 
 DEPEND="
 	dev-libs/openssl
-	>=dev-qt/qtbase-${QTMIN}:6[network]
-	>=dev-qt/qtdeclarative-${QTMIN}:6
-	>=kde-frameworks/karchive-${KFMIN}:6
-	>=kde-frameworks/kcodecs-${KFMIN}:6
-	>=kde-frameworks/ki18n-${KFMIN}:6
+	>=dev-qt/qtbase-${QTMIN}:${SLOT}[network]
+	>=dev-qt/qtdeclarative-${QTMIN}:${SLOT}
+	>=kde-frameworks/karchive-${KFMIN}:${SLOT}
+	>=kde-frameworks/kcodecs-${KFMIN}:${SLOT}
+	>=kde-frameworks/ki18n-${KFMIN}:${SLOT}
 	sys-libs/zlib
 	!dev-libs/khealthcertificate:5
 "
 
 RDEPEND="${DEPEND}
-	>=kde-frameworks/kirigami-${KFMIN}:6
-	>=kde-frameworks/prison-${KFMIN}:6
+	>=kde-frameworks/kirigami-${KFMIN}:${SLOT}
+	>=kde-frameworks/prison-${KFMIN}:${SLOT}
 "
