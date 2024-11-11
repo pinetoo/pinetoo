@@ -7,5 +7,9 @@
   </maintainer>
   <use>
     <flag name="lockscreen">Enable showing and answering calls from the lock screen.</flag>
+    <flag name="haptic">Pull <pkg>dev-libs/ktactilefeedback</pkg> for haptic feedback support.</flag>
   </use>
+  <upstream>
+    <remote-id type="kde-invent">plasma-mobile/plasma-dialer</remote-id>
+  </upstream>
 </pkgmetadata>
