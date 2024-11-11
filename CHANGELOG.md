@@ -1,3 +1,10 @@
+# 6.1.5.24.08.1.3.1.0.0
+
+## New packages
+
+* `dev-libs/ktactilefeedback`
+  New dependency for `kde-apps/plasma-dialer`
+
 # 5.27.11.23.08.5.3.1.0.2
 
 ## New packages

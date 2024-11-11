@@ -1,0 +1,27 @@
+From e53782b6f315944f7219c95b97bfa6f4edc58f47 Mon Sep 17 00:00:00 2001
+From: Alexey Andreyev <aa13q@ya.ru>
+Date: Wed, 3 Jul 2024 17:27:59 +0300
+Subject: [PATCH] Fix up headers deployment
+
+---
+ src/feedback/CMakeLists.txt | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/feedback/CMakeLists.txt b/src/feedback/CMakeLists.txt
+index e8faa1e..8a29d72 100644
+--- a/src/feedback/CMakeLists.txt
++++ b/src/feedback/CMakeLists.txt
+@@ -36,8 +36,8 @@ ecm_generate_headers(KFeedback_HEADERS
+     REQUIRED_HEADERS KFeedback_HEADERS
+ )
+ 
+-install(FILES ${QtFeedback_HEADERS}
+-        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/KTactileFeedback
++install(FILES ${KFeedback_HEADERS}
++        DESTINATION ${KDE_INSTALL_INCLUDEDIR}/KTactileFeedback
+         COMPONENT Devel)
+ 
+ install(TARGETS KTactileFeedback
+-- 
+GitLab
+
