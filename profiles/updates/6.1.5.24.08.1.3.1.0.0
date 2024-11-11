@@ -6,3 +6,4 @@ slotmove kde-apps/kongress 5 0
 slotmove kde-apps/ktrip 5 0
 slotmove kde-apps/plasma-dialer 5 0
 slotmove kde-apps/plasma-phonebook 5 0
+slotmove kde-apps/qmlkonsole 5 0
