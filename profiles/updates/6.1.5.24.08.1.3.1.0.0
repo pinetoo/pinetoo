@@ -12,3 +12,4 @@ slotmove kde-plasma/plasma-settings 5 0
 slotmove media-sound/audiotube 5 0
 slotmove media-tv/telly-skout 5 0
 slotmove media-video/plasmatube 5 0
+slotmove www-client/angelfish 5 0
