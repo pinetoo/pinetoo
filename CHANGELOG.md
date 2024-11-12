@@ -5,6 +5,11 @@
 * `dev-libs/ktactilefeedback`
   New dependency for `kde-apps/plasma-dialer`
 
+## Removed
+
+* `kde-apps/vakzination`
+  No new releases in one year, not ported to KDE 6.
+
 # 5.27.11.23.08.5.3.1.0.2
 
 ## New packages
