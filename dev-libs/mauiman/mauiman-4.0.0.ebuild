@@ -3,8 +3,8 @@
 
 EAPI=8
 
-QTMIN=5.15.2
-KFMIN=5.107.0
+QTMIN=6.4.0
+KFMIN=5.240.0
 
 inherit ecm kde.org
 
@@ -16,17 +16,11 @@ LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~arm64"
 
-DEPEND="
-	>=dev-qt/qtcore-${QTMIN}:5
-	>=dev-qt/qtdbus-${QTMIN}:5
-	>=dev-qt/qtgui-${QTMIN}:5
-	dev-qt/qtsystems
-"
+DEPEND=">=dev-qt/qtbase-${QTMIN}:6[dbus,gui]"
 
 RDEPEND="${DEPEND}"
 
 src_configure() {
-	# We will wait for Qt6 stabilization in ::gentoo
 	local mycmakeargs=(
 		-DBUILD_WITH_QT5:BOOL=ON
 		-DBUILD_WITH_QT6:BOOL=OFF
