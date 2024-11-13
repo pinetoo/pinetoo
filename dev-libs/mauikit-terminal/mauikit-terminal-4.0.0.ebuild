@@ -3,8 +3,8 @@
 
 EAPI=8
 
-QTMIN=5.15.2
-KFMIN=5.91.0
+QTMIN=5.4.0
+KFMIN=5.240.0
 
 inherit ecm kde.org
 
@@ -17,18 +17,16 @@ SLOT="0"
 KEYWORDS="~arm64"
 
 DEPEND="
+	>=dev-qt/qtbase-${QTMIN}:6[gui,widgets]
 	~dev-libs/mauikit-${PV}
-	>=dev-qt/qtcore-${QTMIN}:5
-	>=dev-qt/qtdeclarative-${QTMIN}:5
-	>=dev-qt/qtgui-${QTMIN}:5
-	>=dev-qt/qtnetwork-${QTMIN}:5
-	>=dev-qt/qtwidgets-${QTMIN}:5
-	>=kde-frameworks/kconfig-${KFMIN}:5
-	>=kde-frameworks/kcoreaddons-${KFMIN}:5
-	>=kde-frameworks/ki18n-${KFMIN}:5
-	x11-libs/qmltermwidget
+	>=dev-qt/qt5compat-${QTMIN}:6
+	>=dev-qt/qtdeclarative-${QTMIN}:6
+	>=kde-frameworks/kconfig-${KFMIN}:6
+	>=kde-frameworks/kcoreaddons-${KFMIN}:6
+	>=kde-frameworks/ki18n-${KFMIN}:6
+	>=kde-frameworks/kpty-${KFMIN}:6
 "
 
 RDEPEND="${DEPEND}
-	>=dev-qt/qtquickcontrols2-${QTMIN}:5
+	x11-libs/qmltermwidget
 "
