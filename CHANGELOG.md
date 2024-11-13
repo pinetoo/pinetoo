@@ -1,5 +1,9 @@
 # 6.1.5.24.08.1.3.1.0.0
 
+**KDE Plasma** updated to **6.1.5**
+
+**KDE Gear** updated to **24.08.1**
+
 ## New packages
 
 * `dev-libs/ktactilefeedback`
