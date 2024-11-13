@@ -18,11 +18,8 @@ DEPEND="
 	dev-qt/qtcore:5
 	dev-qt/qtdbus:5
 	dev-qt/qtdeclarative:5
-	dev-qt/qtgui:5
 	dev-qt/qtquickcontrols2:5
-	sys-apps/dbus
 	sys-apps/systemd"
 
 RDEPEND="${DEPEND}
-	kde-frameworks/kirigami
-	kde-plasma/libplasma:5"
+	kde-frameworks/kirigami:5"
