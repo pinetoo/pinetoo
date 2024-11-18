@@ -1,0 +1,24 @@
+diff -ur maui-clip-4.0.0/CMakeLists.txt maui-clip-4.0.0/CMakeLists.txt
+--- maui-clip-4.0.0/CMakeLists.txt	2024-11-18 13:52:35.643871397 +0100
++++ maui-clip-4.0.0/CMakeLists.txt	2024-11-18 13:53:01.653843924 +0100
+@@ -39,7 +39,7 @@
+ if(ANDROID)
+     find_package(taglib 1.4 REQUIRED)
+ else()
+-    find_package(TagLib 1.4 REQUIRED)
++    find_package(Taglib REQUIRED)
+ endif()
+ if(ANDROID)
+     find_package(Qt6 ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE COMPONENTS QuickControls2)
+diff -ur maui-clip-4.0.0/src/CMakeLists.txt maui-clip-4.0.0/src/CMakeLists.txt
+--- maui-clip-4.0.0/src/CMakeLists.txt	2024-11-18 13:52:35.643871397 +0100
++++ maui-clip-4.0.0/src/CMakeLists.txt	2024-11-18 13:53:01.653843924 +0100
+@@ -112,7 +112,7 @@
+ endif()
+ 
+ set(Taglib_LIBRARIES
+-    TagLib::tag)
++    Taglib::Taglib)
+ 
+ target_link_libraries(${PROJECT_NAME}
+     PRIVATE
