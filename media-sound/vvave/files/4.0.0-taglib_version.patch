@@ -1,0 +1,24 @@
+diff -ur vvave-4.0.0/CMakeLists.txt vvave-4.0.0/CMakeLists.txt
+--- vvave-4.0.0/CMakeLists.txt	2024-11-18 13:15:19.126251673 +0100
++++ vvave-4.0.0/CMakeLists.txt	2024-11-18 13:24:10.545684839 +0100
+@@ -49,7 +49,7 @@
+ if(ANDROID)
+     find_package(taglib 1.4 REQUIRED)
+ else()
+-    find_package(TagLib 1.4 REQUIRED)
++    find_package(Taglib REQUIRED)
+ endif()
+ 
+ if(UNIX AND NOT ANDROID)
+diff -ur vvave-4.0.0/src/CMakeLists.txt vvave-4.0.0/src/CMakeLists.txt
+--- vvave-4.0.0/src/CMakeLists.txt	2024-11-18 13:15:19.126251673 +0100
++++ vvave-4.0.0/src/CMakeLists.txt	2024-11-18 13:22:43.525777991 +0100
+@@ -125,7 +125,7 @@
+ target_include_directories(${PROJECT_NAME} PRIVATE ${Taglib_INCLUDE_DIRS})
+ 
+ set(Taglib_LIBRARIES
+-    TagLib::tag)
++    Taglib::Taglib)
+ 
+ target_link_libraries(${PROJECT_NAME}
+     PRIVATE
