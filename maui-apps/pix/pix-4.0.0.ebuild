@@ -3,14 +3,16 @@
 
 EAPI=8
 
-KFMIN=5.60.0
-QTMIN=5.14.0
+KFMIN=5.240.0
+QTMIN=6.5.2
 
 inherit ecm kde.org
 
 DESCRIPTION="Image gallery and viewer with basic editing features"
 HOMEPAGE="https://mauikit.org/apps/pix/"
-SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/${P}.tar.xz"
+SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/maui-${P}.tar.xz"
+
+S="${WORKDIR}/maui-${P}"
 
 LICENSE="GPL-3+"
 SLOT="0"
@@ -20,15 +22,11 @@ DEPEND="
 	~dev-libs/mauikit-${PV}
 	~dev-libs/mauikit-filebrowsing-${PV}
 	~dev-libs/mauikit-imagetools-${PV}
-	>=dev-qt/qtconcurrent-${QTMIN}:5
-	>=dev-qt/qtcore-${QTMIN}:5
-	>=dev-qt/qtdeclarative-${QTMIN}:5
-	>=dev-qt/qtgui-${QTMIN}:5
-	>=dev-qt/qtnetwork-${QTMIN}:5
-	>=dev-qt/qtpositioning-${QTMIN}:5
-	>=dev-qt/qtwidgets-${QTMIN}:5
-	>=kde-frameworks/kcoreaddons-${KFMIN}:5
-	>=kde-frameworks/ki18n-${KFMIN}:5
+	>=dev-qt/qtbase-${QTMIN}:6[concurrent,widgets]
+	>=dev-qt/qtdeclarative-${QTMIN}:6
+	>=dev-qt/qtpositioning-${QTMIN}:6
+	>=kde-frameworks/kcoreaddons-${KFMIN}:6
+	>=kde-frameworks/ki18n-${KFMIN}:6
 "
 
 RDEPEND="${DEPEND}
