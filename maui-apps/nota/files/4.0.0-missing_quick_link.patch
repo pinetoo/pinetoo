@@ -1,0 +1,24 @@
+From 69a7fe11e4c6c41ce4cceef27fd1e4792653d481 Mon Sep 17 00:00:00 2001
+From: Camilo Higuita <chiguitar@unal.edu.co>
+Date: Tue, 1 Oct 2024 09:24:59 -0500
+Subject: [PATCH] fix building issue by linking to Qt6::Quick
+
+---
+ src/CMakeLists.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index e36a6cb..d8c95ed 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -82,6 +82,7 @@ target_link_libraries(${PROJECT_NAME}
+     MauiKit4::FileBrowsing
+     MauiKit4::TextEditor
+     Qt6::Core
++    Qt6::Quick
+     Qt6::Qml
+     KF6::CoreAddons
+     KF6::I18n)
+-- 
+GitLab
+

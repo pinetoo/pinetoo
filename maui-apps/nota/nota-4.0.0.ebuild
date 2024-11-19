@@ -3,8 +3,8 @@
 
 EAPI=8
 
-KFMIN=5.60.0
-QTMIN=5.14.0
+KFMIN=5.240.0
+QTMIN=6.5.2
 
 inherit ecm kde.org
 
@@ -20,18 +20,15 @@ DEPEND="
 	~dev-libs/mauikit-${PV}
 	~dev-libs/mauikit-filebrowsing-${PV}
 	~dev-libs/mauikit-terminal-${PV}
-	>=dev-qt/qtcore-${QTMIN}:5
-	>=dev-qt/qtdbus-${QTMIN}:5
-	>=dev-qt/qtdeclarative-${QTMIN}:5
-	>=dev-qt/qtgui-${QTMIN}:5
-	>=dev-qt/qtnetwork-${QTMIN}:5
-	>=dev-qt/qtwidgets-${QTMIN}:5
-	>=kde-frameworks/kcoreaddons-${KFMIN}:5
-	>=kde-frameworks/ki18n-${KFMIN}:5
+	>=dev-qt/qtbase-${QTMIN}:6[dbus,sql,widgets]
+	>=dev-qt/qtdeclarative-${QTMIN}:6
+	>=dev-qt/qtmultimedia-${QTMIN}:6
+	>=kde-frameworks/kcoreaddons-${KFMIN}:6
+	>=kde-frameworks/ki18n-${KFMIN}:6
 "
 
 RDEPEND="${DEPEND}
 	~dev-libs/mauikit-texteditor-${PV}
-	>=dev-qt/qtquickcontrols-${QTMIN}:5
-	>=dev-qt/qtquickcontrols2-${QTMIN}:5
 "
+
+PATCHES=( "${FILESDIR}/${PV}-missing_quick_link.patch" )
