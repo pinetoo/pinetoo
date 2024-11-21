@@ -14,6 +14,9 @@
 * `kde-apps/vakzination`
   No new releases in one year, not ported to KDE 6.
 
+* `maui-apps/booth`
+  No activity in 9 months. Not ported to MauiKit 4. Not usable on the PinePhone.
+
 # 5.27.11.23.08.5.3.1.0.2
 
 ## New packages
