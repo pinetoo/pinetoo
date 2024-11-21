@@ -14,6 +14,9 @@
 * `kde-apps/vakzination`
   No new releases in one year, not ported to KDE 6.
 
+* `dev-vcs/bonsai`
+  No activity in 9 months. Not ported to MauiKit 4. Not usable on the PinePhone.
+
 * `maui-apps/booth`
   No activity in 9 months. Not ported to MauiKit 4. Not usable on the PinePhone.
 
