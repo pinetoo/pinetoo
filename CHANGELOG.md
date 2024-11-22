@@ -17,6 +17,8 @@
 
 * `dev-libs/feedbackd-0.5.0`
 
+* `dev-libs/libgbinder-1.1.41`
+
 ## Removed
 
 * `dev-python/ytmusicapi`
