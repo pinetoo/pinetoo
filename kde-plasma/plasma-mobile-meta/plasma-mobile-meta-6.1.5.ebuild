@@ -48,7 +48,6 @@ RDEPEND="
 	>=media-sound/krecorder-${GEAR_MIN}
 	>=media-video/plasmatube-${GEAR_MIN}
 	>=media-tv/telly-skout-${GEAR_MIN}
-	net-im/kaidan
 	>=net-im/neochat-${GEAR_MIN}
 	>=net-im/tokodon-${GEAR_MIN}
 	>=net-news/alligator-${GEAR_MIN}

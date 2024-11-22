@@ -39,6 +39,9 @@
 * `maui-apps/booth`
   No activity in 9 months. Not ported to MauiKit 4. Not usable on the PinePhone.
 
+* `net-im/kaidan`
+  Not ported to Qt6 yet. It doesn't build.
+
 # 5.27.11.23.08.5.3.1.0.2
 
 ## New packages
