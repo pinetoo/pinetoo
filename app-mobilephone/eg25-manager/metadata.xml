@@ -9,4 +9,7 @@
     <flag name="modemmanager">Add support for <pkg>net-misc/modemmanager</pkg></flag>
     <flag name="ofono">Add support for <pkg>net-misc/ofono</pkg></flag>
   </use>
+  <upstream>
+    <remote-id type="gitlab">mobian1/eg25-manager</remote-id>
+  </upstream>
 </pkgmetadata>

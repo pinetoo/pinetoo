@@ -11,6 +11,10 @@
 * `dev-libs/ktactilefeedback`
   New dependency for `kde-apps/plasma-dialer`
 
+## Package updates
+
+* `app-mobilephone/eg25-manager-0.5.2`
+
 ## Removed
 
 * `kde-apps/vakzination`
