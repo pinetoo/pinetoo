@@ -19,6 +19,9 @@
 
 ## Removed
 
+* `dev-python/ytmusicapi`
+  No longer required, we can use the version from `::gentoo`
+
 * `kde-apps/vakzination`
   No new releases in one year, not ported to KDE 6.
 
