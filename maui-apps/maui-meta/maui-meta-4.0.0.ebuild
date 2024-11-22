@@ -9,12 +9,9 @@ HOMEPAGE="https://mauikit.org/apps/"
 LICENSE="metapackage"
 SLOT="0"
 KEYWORDS="~arm64"
-IUSE="sdk"
+IUSE="experimental sdk"
 
 RDEPEND="
-	maui-apps/agenda
-	maui-apps/arca
-	maui-apps/booth
 	~maui-apps/buho-${PV}
 	~maui-apps/clip-${PV}
 	~maui-apps/communicator-${PV}
@@ -24,9 +21,12 @@ RDEPEND="
 	~maui-apps/shelf-${PV}
 	~maui-apps/station-${PV}
 	~media-sound/vvave-${PV}
-	www-client/fiery
-	sdk? (
-		dev-vcs/bonsai
-		dev-util/strike
+	experimental? (
+		~maui-apps/agenda-1.0.0
+		~maui-apps/arca-1.0.0
+		~www-client/fiery-2.0.0
+		sdk? (
+			~dev-util/strike-2.0.0
+		)
 	)
 "

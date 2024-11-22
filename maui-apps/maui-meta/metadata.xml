@@ -6,6 +6,7 @@
     <name>Jesus Perez Rey</name>
   </maintainer>
   <use>
+    <flag name="experimental">Install applications that don't have a stable release yet.</flag>
     <flag name="sdk">Pull in developer-specific packages.</flag>
   </use>
 </pkgmetadata>
