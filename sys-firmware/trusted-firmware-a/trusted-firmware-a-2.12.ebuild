@@ -5,7 +5,8 @@ EAPI=7
 
 DESCRIPTION="Trusted Firmware for A profile Arm CPUs"
 HOMEPAGE="https://www.trustedfirmware.org/"
-SRC_URI="https://git.trustedfirmware.org/TF-A/${PN}.git/snapshot/${P}.tar.gz"
+SRC_URI="https://git.trustedfirmware.org/plugins/gitiles/TF-A/${PN}.git/+archive/v${PV}.tar.gz -> ${P}.tar.gz"
+S="${WORKDIR}"
 
 LICENSE="BSD"
 SLOT="0"
@@ -32,10 +33,10 @@ src_compile() {
 			break
 		fi
 	done
-	emake PLAT="${PLAT}" LOG_LEVEL=$(usex debug LOG_LEVEL_NOTICE LOG_LEVEL_ERROR)
+	emake PLAT="${PLAT}" LOG_LEVEL=$(usex debug LOG_LEVEL_NOTICE LOG_LEVEL_ERROR) CROSS_COMPILE="${CHOST}-"
 }
 
 src_install() {
-	insinto "/usr/share/trusted-firmware:="
+	insinto "/usr/share/trusted-firmware"
 	doins "build/${PLAT}/release/bl31/bl31.elf"
 }

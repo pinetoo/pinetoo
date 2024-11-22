@@ -25,6 +25,8 @@
 
 * `media-video/pipewire-1.2.5`
 
+* `sys-firmware/trusted-firmware-a-2.12`
+
 ## Removed
 
 * `dev-python/ytmusicapi`
