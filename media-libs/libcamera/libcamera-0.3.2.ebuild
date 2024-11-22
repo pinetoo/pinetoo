@@ -2,14 +2,14 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 EGIT_REPO_URI="https://git.libcamera.org/libcamera/libcamera.git"
 EGIT_COMMIT="v${PV}"
 
 inherit git-r3 meson python-any-r1
 
 DESCRIPTION="Camera support library for Linux"
-HOMEPAGE="http://libcamera.org"
+HOMEPAGE="https://libcamera.org"
 
 LICENSE="LGPL-2.1+"
 SLOT="0"
@@ -20,6 +20,7 @@ RESTRICT="!test? ( test )"
 
 RDEPEND="
 	dev-libs/libyaml
+	dev-util/lttng-ust
 	>=net-libs/gnutls-3.3:=
 	libevent? (
 		dev-libs/libevent

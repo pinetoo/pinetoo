@@ -19,6 +19,8 @@
 
 * `dev-libs/libgbinder-1.1.41`
 
+* `media-libs/libcamera-0.3.2`
+
 ## Removed
 
 * `dev-python/ytmusicapi`
