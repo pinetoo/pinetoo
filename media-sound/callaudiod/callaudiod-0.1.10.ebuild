@@ -9,9 +9,9 @@ DESCRIPTION="Call audio routing daemon"
 HOMEPAGE="https://gitlab.com/mobian1/callaudiod"
 SRC_URI="https://gitlab.com/mobian1/${PN}/-/archive/${PV}/${P}.tar.bz2"
 
-KEYWORDS="~arm64"
 LICENSE="GPL-3"
 SLOT="0"
+KEYWORDS="~arm64"
 
 BDEPEND="dev-util/gdbus-codegen
 	dev-util/glib-utils"

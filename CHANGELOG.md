@@ -21,6 +21,8 @@
 
 * `media-libs/libcamera-0.3.2`
 
+* `media-sound/callaudiod-0.1.10`
+
 ## Removed
 
 * `dev-python/ytmusicapi`
