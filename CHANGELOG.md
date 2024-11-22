@@ -23,6 +23,8 @@
 
 * `media-sound/callaudiod-0.1.10`
 
+* `media-video/pipewire-1.2.5`
+
 ## Removed
 
 * `dev-python/ytmusicapi`

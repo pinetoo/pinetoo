@@ -23,10 +23,10 @@ EAPI=8
 : ${PIPEWIRE_DOCS_PREBUILT:=1}
 
 PIPEWIRE_DOCS_PREBUILT_DEV=sam
-PIPEWIRE_DOCS_VERSION=$(ver_cut 1-2).0
+PIPEWIRE_DOCS_VERSION="$(ver_cut 1-2).0"
 # Default to generating docs (inc. man pages) if no prebuilt; overridden later
 PIPEWIRE_DOCS_USEFLAG="+man"
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 inherit meson-multilib optfeature prefix python-any-r1 systemd tmpfiles udev
 
 if [[ ${PV} == 9999 ]]; then
@@ -56,7 +56,7 @@ HOMEPAGE="https://pipewire.org/"
 LICENSE="MIT LGPL-2.1+ GPL-2"
 # ABI was broken in 0.3.42 for https://gitlab.freedesktop.org/pipewire/wireplumber/-/issues/49
 SLOT="0/0.4"
-IUSE="${PIPEWIRE_DOCS_USEFLAG} bluetooth dbus doc echo-cancel extra ffmpeg flatpak gstreamer gsettings ieee1394 jack-client jack-sdk liblc3 lv2"
+IUSE="${PIPEWIRE_DOCS_USEFLAG} bluetooth elogind dbus doc echo-cancel extra ffmpeg flatpak gstreamer gsettings ieee1394 jack-client jack-sdk liblc3 lv2"
 IUSE+=" libcamera modemmanager pipewire-alsa readline roc selinux sound-server ssl system-service systemd test v4l X zeroconf"
 
 # Once replacing system JACK libraries is possible, it's likely that
@@ -123,8 +123,9 @@ RDEPEND="
 		>=net-wireless/bluez-4.101:=
 		virtual/libusb:1
 	)
+	elogind? ( sys-auth/elogind )
 	dbus? ( sys-apps/dbus[${MULTILIB_USEDEP}] )
-	echo-cancel? ( media-libs/webrtc-audio-processing:1 )
+	echo-cancel? ( >=media-libs/webrtc-audio-processing-1.2:1 )
 	extra? ( >=media-libs/libsndfile-1.0.20 )
 	ffmpeg? ( media-video/ffmpeg:= )
 	flatpak? ( dev-libs/glib )
@@ -140,8 +141,8 @@ RDEPEND="
 		!media-sound/jack-audio-connection-kit
 		!media-sound/jack2
 	)
-	liblc3? ( media-sound/liblc3 )
 	libcamera? ( >=media-libs/libcamera-0.2.0 )
+	liblc3? ( media-sound/liblc3 )
 	lv2? ( media-libs/lilv )
 	modemmanager? ( >=net-misc/modemmanager-1.10.0 )
 	pipewire-alsa? ( >=media-libs/alsa-lib-1.1.7[${MULTILIB_USEDEP}] )
@@ -176,11 +177,6 @@ PDEPEND=">=media-video/wireplumber-0.5.2"
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-0.3.25-enable-failed-mlock-warning.patch
-	# https://bugs.gentoo.org/933218
-	# https://gitlab.freedesktop.org/pipewire/pipewire/-/merge_requests/2028
-	"${FILESDIR}"/${P}-automagic-webrtc-audio-processing.patch
-	# https://gitlab.freedesktop.org/pipewire/pipewire/-/merge_requests/2061
-	"${FILESDIR}"/${P}-automagic-gsettings.patch
 )
 
 pkg_setup() {
@@ -197,6 +193,15 @@ src_prepare() {
 }
 
 multilib_src_configure() {
+	local logind=disabled
+	if multilib_is_native_abi ; then
+		if use systemd ; then
+			logind=enabled
+		elif use elogind ; then
+			logind=enabled
+		fi
+	fi
+
 	local emesonargs=(
 		-Ddocdir="${EPREFIX}"/usr/share/doc/${PF}
 
@@ -212,6 +217,8 @@ multilib_src_configure() {
 		$(meson_native_use_feature gstreamer gstreamer-device-provider)
 		$(meson_native_use_feature gsettings)
 		$(meson_native_use_feature systemd)
+		-Dlogind=${logind}
+		-Dlogind-provider=$(usex systemd 'libsystemd' 'libelogind')
 
 		$(meson_native_use_feature system-service systemd-system-service)
 		-Dsystemd-system-unit-dir="$(systemd_get_systemunitdir)"
@@ -280,7 +287,20 @@ multilib_src_configure() {
 		$(meson_native_use_feature X x11)
 		$(meson_native_use_feature X x11-xfixes)
 		$(meson_native_use_feature X libcanberra)
+
+		# TODO
+		-Dsnap=disabled
 	)
+
+	# This installs the schema file for pulseaudio-daemon, iff we are replacing
+	# the official sound-server
+	if use !sound-server; then
+		emesonargs+=( '-Dgsettings-pulse-schema=disabled' )
+	else
+		emesonargs+=(
+			$(meson_native_use_feature gsettings gsettings-pulse-schema)
+		)
+	fi
 
 	meson_src_configure
 }
