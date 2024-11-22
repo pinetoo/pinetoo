@@ -6,6 +6,6 @@
     <name>Jesus Perez Rey</name>
   </maintainer>
   <upstream>
-    <remote-id type="kde-invent">maui/fiery</remote-id>
+    <remote-id type="kde-invent">maui/maui-fiery</remote-id>
   </upstream>
 </pkgmetadata>
