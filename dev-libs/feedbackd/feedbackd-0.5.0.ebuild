@@ -66,12 +66,6 @@ src_configure() {
 	meson_src_configure
 }
 
-src_install() {
-	default
-	meson_src_install
-	udev_newrules debian/feedbackd.udev 90-feedbackd.rules
-}
-
 pkg_postinst() {
 	gnome2_schemas_update
 	udev_reload

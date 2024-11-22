@@ -15,6 +15,8 @@
 
 * `app-mobilephone/eg25-manager-0.5.2`
 
+* `dev-libs/feedbackd-0.5.0`
+
 ## Removed
 
 * `kde-apps/vakzination`
