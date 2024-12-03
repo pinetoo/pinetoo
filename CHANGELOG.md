@@ -31,6 +31,8 @@
 
 * `sys-firmware/rtl8723bt-firmware-megi-20240211`
 
+* `sys-kernel/pinephone-kernel-6.11.3`
+
 ## Removed
 
 * `dev-python/ytmusicapi`

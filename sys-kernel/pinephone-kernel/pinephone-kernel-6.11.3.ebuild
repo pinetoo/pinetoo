@@ -5,22 +5,22 @@ EAPI=8
 
 EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/core/linux-pinephone.git"
 EGIT_BRANCH="$(ver_cut 1-2)-megi"
-EGIT_COMMIT="8722bb026c1132559a68ea29e3744c4e4bf0cdf0"
+EGIT_COMMIT="3dca9f0b980109ea86f55d6df6969fb8501cce3a"
 
-inherit git-r3 kernel-2 kernel-build
-detect_version
+KERNEL_TAG="20241010-2301"
+
+inherit git-r3 kernel-build
 
 DESCRIPTION="Linux kernel for the PinePhone"
 HOMEPAGE="https://megous.com/git/linux"
-SRC_URI="${KERNEL_URI}
-	https://xff.cz/kernels/${KV_MAJOR}.${KV_MINOR}/patches/all.patch -> ${PV}-megi.patch"
+SRC_URI="https://codeberg.org/megi/linux/archive/orange-pi-$(ver_cut 1).$(ver_cut 2)-${KERNEL_TAG}.tar.gz"
+S="${WORKDIR}/linux"
 
 LICENSE="GPL-2"
 KEYWORDS="~arm64"
 IUSE="debug"
 
 PATCHES=(
-	"${DISTDIR}/${PV}-megi.patch"
 	"${WORKDIR}/${P}/0101-arm64-dts-pinephone-drop-modem-power-node.patch"
 	"${WORKDIR}/${P}/0102-arm64-dts-pinephone-pro-remove-modem-node.patch"
 	"${WORKDIR}/${P}/0103-ccu-sun50i-a64-reparent-clocks-to-lower-speed-oscillator.patch"
@@ -32,7 +32,7 @@ PATCHES=(
 )
 
 src_unpack() {
-	kernel-2_src_unpack
+	default
 	git-r3_src_unpack
 }
 
