@@ -25,6 +25,8 @@
 
 * `media-video/pipewire-1.2.5`
 
+* `sys-firmware/brcmfmac_sdio-firmware-20240601`
+
 * `sys-firmware/trusted-firmware-a-2.12`
 
 * `sys-firmware/rtl8723bt-firmware-megi-20240211`
