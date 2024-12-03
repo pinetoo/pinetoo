@@ -27,6 +27,8 @@
 
 * `sys-firmware/trusted-firmware-a-2.12`
 
+* `sys-firmware/rtl8723bt-firmware-megi-20240211`
+
 ## Removed
 
 * `dev-python/ytmusicapi`
