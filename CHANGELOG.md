@@ -33,6 +33,8 @@
 
 * `sys-kernel/pinephone-kernel-6.11.3`
 
+* `sys-kernel/pinephonepro-kernel-6.11.3`
+
 ## Removed
 
 * `dev-python/ytmusicapi`

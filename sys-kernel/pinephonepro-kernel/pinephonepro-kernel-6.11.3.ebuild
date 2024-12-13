@@ -7,27 +7,27 @@ EGIT_REPO_URI="https://gitlab.manjaro.org/manjaro-arm/packages/core/linux-pineph
 EGIT_BRANCH="$(ver_cut 1-2)-megi"
 EGIT_COMMIT="06d85296c1783e02e6523e1d1cf81c26440d61e2"
 
-inherit git-r3 kernel-2 kernel-build
-detect_version
+KERNEL_TAG="20241010-2301"
+
+inherit git-r3 kernel-build
 
 DESCRIPTION="Linux kernel for the PinePhone"
 HOMEPAGE="https://megous.com/git/linux"
-SRC_URI="${KERNEL_URI}
-	https://xff.cz/kernels/${KV_MAJOR}.${KV_MINOR}/patches/all.patch -> ${PV}-megi.patch"
+SRC_URI="https://codeberg.org/megi/linux/archive/orange-pi-$(ver_cut 1).$(ver_cut 2)-${KERNEL_TAG}.tar.gz"
+S="${WORKDIR}/linux"
 
 LICENSE="GPL-2"
 KEYWORDS="~arm64"
 IUSE="debug"
 
 PATCHES=(
-	"${DISTDIR}/${PV}-megi.patch"
 	"${WORKDIR}/${P}/0101-arm64-dts-pinephone-drop-modem-power-node.patch"
 	"${WORKDIR}/${P}/0102-arm64-dts-pinephone-pro-remove-modem-node.patch"
 	"${WORKDIR}/${P}/0103-arm64-dts-rk3399-pinephone-pro-add-modem-RI-pin.patch"
 )
 
 src_unpack() {
-	kernel-2_src_unpack
+	default
 	git-r3_src_unpack
 }
 
