@@ -14,6 +14,9 @@
 * `media-libs/libdng`
   Required for media-gfx/megapixels-2
 
+* `media-libs/libmegapixels`
+  Required for media-gfx/megapixels-2
+
 ## Package updates
 
 * `app-mobilephone/eg25-manager-0.5.2`
