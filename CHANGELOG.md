@@ -11,6 +11,9 @@
 * `dev-libs/ktactilefeedback`
   New dependency for `kde-apps/plasma-dialer`
 
+* `media-libs/libdng`
+  Required for media-gfx/megapixels-2
+
 ## Package updates
 
 * `app-mobilephone/eg25-manager-0.5.2`
