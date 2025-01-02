@@ -25,6 +25,8 @@
 
 * `dev-libs/libgbinder-1.1.41`
 
+* `media-gfx/megapixels-2.0.0_alpha1`
+
 * `media-libs/libcamera-0.3.2`
 
 * `media-sound/callaudiod-0.1.10`

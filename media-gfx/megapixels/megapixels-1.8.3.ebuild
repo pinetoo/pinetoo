@@ -6,8 +6,9 @@ EAPI=7
 inherit gnome2-utils meson optfeature
 
 DESCRIPTION="A GTK3 camera application"
-HOMEPAGE="https://gitlab.com/postmarketOS/megapixels"
-SRC_URI="https://gitlab.com/postmarketOS/${PN}/-/archive/${PV}/${P}.tar.bz2"
+HOMEPAGE="https://gitlab.com/megapixels-org/Megapixels"
+SRC_URI="https://gitlab.com/megapixels-org/Megapixels/-/archive/${PV}/${P/me/Me}.tar.bz2"
+S="${WORKDIR}/${P/me/Me}"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -28,12 +29,6 @@ RDEPEND="${DEPEND}
 	exif? ( media-libs/exiftool )
 	jpeg? ( media-gfx/imagemagick[jpeg,tiff] )
 "
-
-PATCHES=(
-	"${FILESDIR}/1.6.0-non_zero_pad_indices.patch"
-	"${FILESDIR}/1.6.0-config_media_formats.patch"
-	"${FILESDIR}/${PV}-pinephonepro_20230614.patch"
-)
 
 src_prepare() {
 	sed -i \

@@ -6,6 +6,6 @@
     <name>Jesus Perez Rey</name>
   </maintainer>
   <upstream>
-    <remote-id type="gitlab">postmarketOS/megapixels</remote-id>
+    <remote-id type="gitlab">megapixels-org/Megapixels</remote-id>
   </upstream>
 </pkgmetadata>
