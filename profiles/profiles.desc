@@ -1,12 +1,9 @@
-arm64	pinetoo/linux/arm64/23.0/mobile/pinephone/plasma/systemd/merged-usr	dev
-arm64	pinetoo/linux/arm64/23.0/mobile/pinephone/plasma/systemd		exp
+arm64	pinetoo/linux/arm64/23.0/mobile/pinephone/plasma/systemd		dev
 arm64	pinetoo/linux/arm64/23.0/mobile/pinephone/plasma			exp
 arm64	pinetoo/linux/arm64/23.0/mobile/pinephone				exp
-arm64	pinetoo/linux/arm64/23.0/mobile/pinephonepro/plasma/systemd/merged-usr	dev
-arm64	pinetoo/linux/arm64/23.0/mobile/pinephonepro/plasma/systemd		exp
+arm64	pinetoo/linux/arm64/23.0/mobile/pinephonepro/plasma/systemd		dev
 arm64	pinetoo/linux/arm64/23.0/mobile/pinephonepro/plasma			exp
 arm64	pinetoo/linux/arm64/23.0/mobile/pinephonepro				exp
-arm64	pinetoo/linux/arm64/23.0/mobile/plasma/systemd/merged-usr		exp
 arm64	pinetoo/linux/arm64/23.0/mobile/plasma/systemd				exp
 arm64	pinetoo/linux/arm64/23.0/mobile/plasma					exp
 arm64	pinetoo/linux/arm64/23.0/mobile						exp
