@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -13,10 +13,10 @@ DESCRIPTION="Library for accessing public transport timetables and other informa
 HOMEPAGE="https://invent.kde.org/libraries/kpublictransport
 	https://www.volkerkrause.eu/2019/03/02/kpublictransport-introduction.html"
 
-LICENSE="LGPL-2+ osm? ( ODbL-1.0 )"
+LICENSE="LGPL-2+"
 SLOT="6"
-KEYWORDS="~arm64"
-IUSE="networkmanager osm"
+KEYWORDS="~amd64 ~arm64"
+IUSE="networkmanager"
 
 RDEPEND="
 	dev-libs/protobuf:=
@@ -25,7 +25,6 @@ RDEPEND="
 	>=kde-frameworks/ki18n-${KFMIN}:6
 	sys-libs/zlib
 	networkmanager? ( >=kde-frameworks/networkmanager-qt-${KFMIN}:6 )
-	osm? ( sci-geosciences/osmctools )
 "
 DEPEND="${RDEPEND}
 	test? ( >=dev-qt/qtbase-${QTMIN}:6[widgets] )
@@ -33,7 +32,7 @@ DEPEND="${RDEPEND}
 
 src_configure() {
 	local mycmakeargs=(
-		-DCMAKE_DISABLE_FIND_PACKAGE_OsmTools=$(use osm && echo OFF || echo ON)
+		-DCMAKE_DISABLE_FIND_PACKAGE_OsmTools=ON # we have no use for it
 		$(cmake_use_find_package networkmanager KF6NetworkManagerQt)
 	)
 	ecm_src_configure
