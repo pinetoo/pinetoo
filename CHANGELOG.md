@@ -1,5 +1,12 @@
 # 6.1.5.24.08.1.4.0.0.0
 
+## Removed
+
+* `dev-libs/kosmindoormap`
+  Not really needed. No relevant difference with the ::gentoo version.
+
+# 6.1.5.24.08.1.4.0.0.0
+
 **KDE Plasma** updated to **6.1.5**
 
 **KDE Gear** updated to **24.08.1**
