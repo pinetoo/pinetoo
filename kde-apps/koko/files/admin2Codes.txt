@@ -485,16 +485,88 @@ AL.51.10944425	Bashkia Konispol	Bashkia Konispol	10944425
 AL.51.10944426	Bashkia Sarandë	Bashkia Sarande	10944426
 AL.51.10944427	Bashkia Selenicë	Bashkia Selenice	10944427
 AL.51.10944428	Bashkia Vlorë	Bashkia Vlore	10944428
-AM.08.174761	Sisian	Sisian	174761
-AM.10.174959	Vayk'i Shrjan	Vayk'i Shrjan	174959
-AM.11.616200	Spandaryanskiy Rayon	Spandaryanskiy Rayon	616200
 AM.11.616205	Arabkir	Arabkir	616205
-AM.11.616233	Shaumyanskiy Rayon	Shaumyanskiy Rayon	616233
-AM.11.616323	Ordzhonikidzevskiy Rayon	Ordzhonikidzevskiy Rayon	616323
-AM.04.616436	Martuni	Martuni	616436
-AM.11.616485	Leninskiy Rayon	Leninskiy Rayon	616485
-AM.11.616624	Imeni Dvadtsati Shesti Komissarov Rayon	Imeni Dvadtsati Shesti Komissarov Rayon	616624
-AM.01.7874001	Achtarak	Achtarak	7874001
+AM.08.13133004	Kapan Municipality	Kapan Municipality	13133004
+AM.08.13133005	Goris Municipality	Goris Municipality	13133005
+AM.08.13133006	Meghri Municipality	Meghri Municipality	13133006
+AM.08.13133007	Sisian Municipality	Sisian Municipality	13133007
+AM.08.13133008	Kajaran Municipality	Kajaran Municipality	13133008
+AM.08.13133009	Tatev Municipality	Tatev Municipality	13133009
+AM.08.13133010	Tegh Municipality	Tegh Municipality	13133010
+AM.10.13133019	Yeghegnadzor Municipality	Yeghegnadzor Municipality	13133019
+AM.10.13133022	Jermuk Municipality	Jermuk Municipality	13133022
+AM.10.13133023	Vayk Municipality	Vayk Municipality	13133023
+AM.10.13133025	Areni Municipality	Areni Municipality	13133025
+AM.10.13133026	Yeghegis Municipality	Yeghegis Municipality	13133026
+AM.02.13133028	Artashat Municipality	Artashat Municipality	13133028
+AM.02.13133029	Ararat Municipality	Ararat Municipality	13133029
+AM.02.13133030	Masis Municipality	Masis Municipality	13133030
+AM.02.13133031	Vedi Municipality	Vedi Municipality	13133031
+AM.02.13133032	Verin Dvin Municipality	Verin Dvin Municipality	13133032
+AM.04.13156120	Gavar Municipality	Gavar Municipality	13156120
+AM.04.13156121	Chambarak Municipality	Chambarak Municipality	13156121
+AM.04.13156122	Martuni Municipality	Martuni Municipality	13156122
+AM.04.13156123	Sevan Municipality	Sevan Municipality	13156123
+AM.04.13156124	Vardenis Municipality	Vardenis Municipality	13156124
+AM.09.13156180	Dilijan Municipality	Dilijan Municipality	13156180
+AM.09.13156181	Ijevan Municipality	Ijevan Municipality	13156181
+AM.09.13156182	Berd Municipality	Berd Municipality	13156182
+AM.09.13156183	Noyemberyan Municipality	Noyemberyan Municipality	13156183
+AM.06.13156275	Alaverdi Municipality	Alaverdi Municipality	13156275
+AM.06.13156276	Tumanyan Municipality	Tumanyan Municipality	13156276
+AM.06.13156277	Pambak Municipality	Pambak Municipality	13156277
+AM.06.13156278	Lermontovo Municipality	Lermontovo Municipality	13156278
+AM.06.13156279	Fioletovo Municipality	Fioletovo Municipality	13156279
+AM.06.13156280	Vanadzor Municipality	Vanadzor Municipality	13156280
+AM.06.13156281	Spitak Municipality	Spitak Municipality	13156281
+AM.06.13156282	Stepanavan Municipality	Stepanavan Municipality	13156282
+AM.06.13156283	Tashir Municipality	Tashir Municipality	13156283
+AM.06.13156284	Gyulagarak Municipality	Gyulagarak Municipality	13156284
+AM.06.13156285	Lori Berd Municipality	Lori Berd Municipality	13156285
+AM.07.13156473	Amasia Municipality	Amasia Municipality	13156473
+AM.07.13156474	Ashotsk Municipality	Ashotsk Municipality	13156474
+AM.07.13156475	Gyumri Municipality	Gyumri Municipality	13156475
+AM.07.13156476	Akhuryan Municipality	Akhuryan Municipality	13156476
+AM.07.13156477	Artik Municipality	Artik Municipality	13156477
+AM.07.13156478	Ani Municipality	Ani Municipality	13156478
+AM.01.13156510	Tsaghkahovit Municipality	Tsaghkahovit Municipality	13156510
+AM.01.13156511	Alagyaz Municipality	Alagyaz Municipality	13156511
+AM.01.13156512	Aparan Municipality	Aparan Municipality	13156512
+AM.01.13156513	Ashtarak Municipality	Ashtarak Municipality	13156513
+AM.01.13156514	Talin Municipality	Talin Municipality	13156514
+AM.01.13156515	Arevut Municipality	Arevut Municipality	13156515
+AM.01.13156516	Metsadzor Municipality	Metsadzor Municipality	13156516
+AM.01.13156517	Shamiram Municipality	Shamiram Municipality	13156517
+AM.05.13156540	Nairi Municipality	Nairi Municipality	13156540
+AM.05.13156542	Nor Hachn Municipality	Nor Hachn Municipality	13156542
+AM.05.13156543	Arzni Municipality	Arzni Municipality	13156543
+AM.05.13156544	Abovyan Municipality	Abovyan Municipality	13156544
+AM.05.13156545	Jrvezh Municipality	Jrvezh Municipality	13156545
+AM.05.13156546	Garni Municipality	Garni Municipality	13156546
+AM.05.13156547	Byureghavan Municipality	Byureghavan Municipality	13156547
+AM.05.13156548	Akunk Municipality	Akunk Municipality	13156548
+AM.05.13156549	Charentsavan Municipality	Charentsavan Municipality	13156549
+AM.05.13156550	Hrazdan Municipality	Hrazdan Municipality	13156550
+AM.05.13156551	Tsaghkadzor Municipality	Tsaghkadzor Municipality	13156551
+AM.03.13156552	Ferik Municipality	Ferik Municipality	13156552
+AM.03.13156553	Vagharshapat Municipality	Vagharshapat Municipality	13156553
+AM.03.13156554	Parakar Municipality	Parakar Municipality	13156554
+AM.03.13156555	Khoy Municipality	Khoy Municipality	13156555
+AM.03.13156556	Araks Municipality	Araks Municipality	13156556
+AM.03.13156557	Metsamor Municipality	Metsamor Municipality	13156557
+AM.03.13156558	Armavir Municipality	Armavir Municipality	13156558
+AM.03.13156559	Baghramyan Municipality	Baghramyan Municipality	13156559
+AM.11.13156594	Ajapnyak	Ajapnyak	13156594
+AM.11.13156595	Avan	Avan	13156595
+AM.11.13156596	Davtashen	Davtashen	13156596
+AM.11.13156597	Erebuni	Erebuni	13156597
+AM.11.13156598	Kanaker-Zeytun	Kanaker-Zeytun	13156598
+AM.11.13156599	Kentron District	Kentron District	13156599
+AM.11.13156600	Malatia-Sebastia	Malatia-Sebastia	13156600
+AM.11.13156601	Nork-Marash	Nork-Marash	13156601
+AM.11.13156602	Nor Nork	Nor Nork	13156602
+AM.11.13156603	Nubarashen	Nubarashen	13156603
+AM.11.13156604	Shengavit	Shengavit	13156604
 AO.18.145530	Saurimo	Saurimo	145530
 AO.17.145723	Lucapa	Lucapa	145723
 AO.17.145775	Chitato	Chitato	145775
@@ -10690,7 +10762,7 @@ CN.14.5425	Ngari Diqu	Ngari Diqu	1280456
 CN.14.5406	Nagqu Shi	Nagqu Shi	1280515
 CN.14.5401	Lhasa Shi	Lhasa Shi	1280735
 CN.13.6530	Kezilesu	Kezilesu	1280828
-CN.13.6531	Kaxgar Diqu	Kaxgar Diqu	1280848
+CN.13.6531	Kashi Diqu	Kashi Diqu	1280848
 CN.15.6209	Jiuquan Shi	Jiuquan Shi	1280931
 CN.15.6202	Jiayuguan Shi	Jiayuguan Shi	1280956
 CN.13.6532	Hetian	Hetian	1281018
@@ -10700,15 +10772,15 @@ CN.29.5334	Dêqên Tibetan Autonomous Prefecture	Deqen Tibetan Autonomous Prefec
 CN.29.5331	Dehong Daizu Jingpozu Zizhizhou	Dehong Daizu Jingpozu Zizhizhou	1281381
 CN.29.5305	Baoshan Shi	Baoshan Shi	1281672
 CN.13.6501	Urumqi Shi	Urumqi Shi	1529101
-CN.13.6504	Turpan Diqu	Turpan Diqu	1529113
+CN.13.6504	Tulufan	Tulufan	1529113
 CN.13.6542	Tacheng Diqu	Tacheng Diqu	1529166
-CN.13.6502	Karamay Shi	Karamay Shi	1529400
-CN.13.6540	Ili Kazak Zizhizhou	Ili Kazak Zizhizhou	1529434
-CN.13.6505	Kumul Diqu	Kumul Diqu	1529483
+CN.13.6502	Kelamayi Shi	Kelamayi Shi	1529400
+CN.13.6540	Yili	Yili	1529434
+CN.13.6505	Hami	Hami	1529483
 CN.13.6523	Changji Huizu Zizhizhou	Changji Huizu Zizhizhou	1529568
-CN.13.6527	Bortala Mongol Zizhizhou	Bortala Mongol Zizhizhou	1529581
-CN.13.6528	Bayingolin Mongol Zizhizhou	Bayingolin Mongol Zizhizhou	1529604
-CN.13.6543	Altay Diqu	Altay Diqu	1529650
+CN.13.6527	Bortala	Bortala	1529581
+CN.13.6528	Bayinguoleng Menggu Zizhizhou	Bayinguoleng Menggu Zizhizhou	1529604
+CN.13.6543	Aletai Diqu	Aletai Diqu	1529650
 CN.13.6529	Aksu Diqu	Aksu Diqu	1529658
 CN.18.5203	Zunyi Shi	Zunyi Shi	1783620
 CN.32.5103	Zigong Shi	Zigong Shi	1783744
@@ -13651,7 +13723,7 @@ DZ.35.12952554	Djendel	Djendel	12952554
 DZ.38.12952555	Tabelbala	Tabelbala	12952555
 DZ.35.12952556	El Abadia	El Abadia	12952556
 DZ.35.12952557	El Amra	El Amra	12952557
-DZ.36.12952558	Ain Larbaa	Ain Larbaa	12952558
+DZ.36.12952558	Aïn Larbaâ	Ain Larbaa	12952558
 DZ.36.12952559	Ain Temouchent	Ain Temouchent	12952559
 DZ.35.12952560	Rouina	Rouina	12952560
 DZ.01.12952561	Bir Mourad Rais	Bir Mourad Rais	12952561
@@ -14829,7 +14901,7 @@ FR.44.88	Vosges	Vosges	2967681
 FR.11.75	Paris	Paris	2968815
 FR.75.86	Vienne	Vienne	2969280
 FR.52.85	Vendée	Vendee	2970140
-FR.93.84	Vaucluse	Vaucluse	2970554
+FR.93.84	Département du Vaucluse	Departement du Vaucluse	2970554
 FR.93.83	Var	Var	2970749
 FR.11.95	Val d'Oise	Val d'Oise	2971071
 FR.11.94	Val-de-Marne	Val-de-Marne	2971090
@@ -15256,6 +15328,7 @@ GE.04.9093934	Kobuletis Munitsip’alit’et’i	Kobuletis Munitsip'alit'et'i	90
 GE.04.9165838	Batumi	Batumi	9165838
 GE.02.9883703	Tkvarcheli district	Tkvarcheli district	9883703
 GE.73.10285963	Tskhinvali District	Tskhinvali District	10285963
+GE.51.13132123	Samgori District	Samgori District	13132123
 GF.GF.973	Guyane	Guyane	6690606
 GH.08.402	Keta	Keta	2299646
 GH.11.1005	Nadowli	Nadowli	7647177
@@ -17909,7 +17982,7 @@ IN.28.341	Hāora	Haora	1270397
 IN.11.028	Hamīrpur	Hamirpur	1270456
 IN.36.168	Hamīrpur	Hamirpur	1270457
 IN.35.421	Gwalior	Gwalior	1270585
-IN.10.086	Gurgaon	Gurgaon	1270644
+IN.10.086	Gurugram district	Gurugram district	1270644
 IN.23.035	Gurdaspur	Gurdaspur	1270648
 IN.02.548	Guntūr	Guntur	1270669
 IN.35.458	Guna	Guna	1270712
@@ -20018,7 +20091,7 @@ JO.15.8621684	Liwā’ ar Ruwayshid	Liwa' ar Ruwayshid	8621684
 JO.02.8621685	Liwā’ ash Shūnah al Janūbīyah	Liwa' ash Shunah al Janubiyah	8621685
 JO.02.8621686	Liwā’ Dayr ‘Allā	Liwa' Dayr `Alla	8621686
 JO.02.8621687	Liwā’ ‘Ayn al Bāshā	Liwa' `Ayn al Basha	8621687
-JO.02.8621688	Liwā’ Māḩiş wa al Fuḩayş	Liwa' Mahis wa al Fuhays	8621688
+JO.02.8621688	Liwa Mahis wa-al-Fuhays	Liwa Mahis wa-al-Fuhays	8621688
 JO.17.8621689	Liwā’ Qaşabat az Zarqā’	Liwa' Qasabat az Zarqa'	8621689
 JO.17.8621690	Liwā’ ar Ruşayfah	Liwa' ar Rusayfah	8621690
 JO.17.8621691	Liwā’ al Hāshimīyah	Liwa' al Hashimiyah	8621691
@@ -29750,7 +29823,7 @@ PA.13.1301	Distrito de Arraiján	Distrito de Arraijan	3714635
 PA.03.0202	Distrito de Antón	Distrito de Anton	3714708
 PA.02.0401	Distrito de Alanje	Distrito de Alanje	3714937
 PA.03.0201	Distrito de Aguadulce	Distrito de Aguadulce	3715037
-PA.10.0912	Mariato District	Mariato District	9857610
+PA.10.0912	Distrito de Mariato	Distrito de Mariato	9857610
 PA.11.1102	Sambú	Sambu	9857626
 PA.12.1204	Nole Düima	Nole Dueima	9857644
 PA.12.1203	Müna	Muena	9857648
@@ -37008,14 +37081,14 @@ RU.20.2018795	Nukutskiy Rayon	Nukutskiy Rayon	2018795
 RU.20.2019196	Nizhneilimskiy Rayon	Nizhneilimskiy Rayon	2019196
 RU.93.2019322	Nerchinsko-Zavodskiy Rayon	Nerchinsko-Zavodskiy Rayon	2019322
 RU.93.2019324	Nerchinskiy Rayon	Nerchinskiy Rayon	2019324
-RU.63.2019491	Namskiy Rayon	Namskiy Rayon	2019491
+RU.63.2019491	Namskiy Ulus	Namskiy Ulus	2019491
 RU.59.2019548	Nadezhdinskiy Rayon	Nadezhdinskiy Rayon	2019548
 RU.11.2019707	Mukhorshibirskiy Rayon	Mukhorshibirskiy Rayon	2019707
 RU.93.2019909	Mogochinskiy Rayon	Mogochinskiy Rayon	2019909
-RU.63.2019952	Mirninskiy Rayon	Mirninskiy Rayon	2019952
+RU.63.2019952	Mirninskiy Ulus	Mirninskiy Ulus	2019952
 RU.05.2019985	Mikhaylovskiy Rayon	Mikhaylovskiy Rayon	2019985
 RU.59.2019986	Mikhaylovskiy Rayon	Mikhaylovskiy Rayon	2019986
-RU.63.2020094	Megino-Kangalasskiy Rayon	Megino-Kangalasskiy Rayon	2020094
+RU.63.2020094	Megino-Kangalasskiy Ulus	Megino-Kangalasskiy Ulus	2020094
 RU.05.2020117	Mazanovskiy Rayon	Mazanovskiy Rayon	2020117
 RU.20.2020302	Mamsko-Chuyskiy Rayon	Mamsko-Chuyskiy Rayon	2020302
 RU.05.2020589	Magdagachinskiy Rayon	Magdagachinskiy Rayon	2020589
@@ -37028,7 +37101,7 @@ RU.20.2021089	Kuytunskiy Rayon	Kuytunskiy Rayon	2021089
 RU.11.2021185	Kurumkanskiy Rayon	Kurumkanskiy Rayon	2021185
 RU.93.2021617	Krasnokamenskiy Rayon	Krasnokamenskiy Rayon	2021617
 RU.05.2021792	Konstantinovskiy Rayon	Konstantinovskiy Rayon	2021792
-RU.63.2021938	Kobyayskiy Rayon	Kobyayskiy Rayon	2021938
+RU.63.2021938	Kobyayskiy Ulus	Kobyayskiy Ulus	2021938
 RU.11.2022001	Kizhinginskiy Rayon	Kizhinginskiy Rayon	2022001
 RU.59.2022059	Kirovskiy Rayon	Kirovskiy Rayon	2022059
 RU.20.2022082	Kirenskiy Rayon	Kirenskiy Rayon	2022082
@@ -37048,17 +37121,17 @@ RU.20.2023332	Kachugskiy Rayon	Kachugskiy Rayon	2023332
 RU.11.2023349	Kabanskiy Rayon	Kabanskiy Rayon	2023349
 RU.05.2023386	Ivanovskiy Rayon	Ivanovskiy Rayon	2023386
 RU.20.2023464	Irkutskiy Rayon	Irkutskiy Rayon	2023464
-RU.63.2023916	Gornyy Rayon	Gornyy Rayon	2023916
+RU.63.2023916	Gornyy Ulus	Gornyy Ulus	2023916
 RU.93.2024124	Gazimuro-Zavodskiy Rayon	Gazimuro-Zavodskiy Rayon	2024124
 RU.20.2024464	Ekhirit-Bulagatskiy Rayon	Ekhirit-Bulagatskiy Rayon	2024464
 RU.11.2024574	Dzhidinskiy Rayon	Dzhidinskiy Rayon	2024574
-RU.63.2025240	Churapchinskiy Rayon	Churapchinskiy Rayon	2025240
+RU.63.2025240	Churapchinskiy Ulus	Churapchinskiy Ulus	2025240
 RU.93.2025332	Chitinskiy Rayon	Chitinskiy Rayon	2025332
 RU.93.2025455	Chernyshevskiy Rayon	Chernyshevskiy Rayon	2025455
 RU.59.2025486	Chernigovskiy Rayon	Chernigovskiy Rayon	2025486
 RU.20.2025526	Cheremkhovskiy Rayon	Cheremkhovskiy Rayon	2025526
 RU.05.2025915	Bureyskiy Rayon	Bureyskiy Rayon	2025915
-RU.63.2025971	Bulunskiy Rayon	Bulunskiy Rayon	2025971
+RU.63.2025971	Bulunskiy Ulus	Bulunskiy Ulus	2025971
 RU.20.2026092	Bratskiy Rayon	Bratskiy Rayon	2026092
 RU.93.2026128	Borzinskiy Rayon	Borzinskiy Rayon	2026128
 RU.20.2026543	Bokhanskiy Rayon	Bokhanskiy Rayon	2026543
@@ -37074,7 +37147,7 @@ RU.11.2027104	Barguzinskiy Rayon	Barguzinskiy Rayon	2027104
 RU.93.2027182	Baleyskiy Rayon	Baleyskiy Rayon	2027182
 RU.05.2027485	Arkharinskiy Rayon	Arkharinskiy Rayon	2027485
 RU.59.2027594	Anuchinskiy Rayon	Anuchinskiy Rayon	2027594
-RU.63.2027729	Anabarskiy Rayon	Anabarskiy Rayon	2027729
+RU.63.2027729	Anabarskiy Natsional'nyy Ulus	Anabarskiy Natsional'nyy Ulus	2027729
 RU.30.2027744	Amurskiy Rayon	Amurskiy Rayon	2027744
 RU.93.2027942	Aleksandrovo-Zavodskiy Rayon	Aleksandrovo-Zavodskiy Rayon	2027942
 RU.63.2027964	Aldansky District	Aldansky District	2027964
@@ -37125,7 +37198,7 @@ RU.92.2126347	Bystrinskiy Rayon	Bystrinskiy Rayon	2126347
 RU.15.2126681	Bilibinskiy Rayon	Bilibinskiy Rayon	2126681
 RU.64.2127149	Anivskiy Rayon	Anivskiy Rayon	2127149
 RU.15.2127198	Anadyrskiy Rayon	Anadyrskiy Rayon	2127198
-RU.63.2127257	Allaikhovskiy Rayon	Allaikhovskiy Rayon	2127257
+RU.63.2127257	Allaikhovskiy Ulus	Allaikhovskiy Ulus	2127257
 RU.92.2127270	Aleutskiy Rayon	Aleutskiy Rayon	2127270
 RU.64.2127281	Aleksandrovsk-Sakhalinskiy Rayon	Aleksandrovsk-Sakhalinskiy Rayon	2127281
 RU.63.2127365	Abyysky District	Abyysky District	2127365
@@ -37931,6 +38004,38 @@ RU.91.13097885	Gorodskoy Okrug Sharypovo	Gorodskoy Okrug Sharypovo	13097885
 RU.09.13109581	Gorodskoy Okrug Gubkin	Gorodskoy Okrug Gubkin	13109581
 RU.09.13109582	Gorodskoy Okrug Staryy Oskol	Gorodskoy Okrug Staryy Oskol	13109582
 RU.09.13109583	Gorodskoy Okrug Valuyki	Gorodskoy Okrug Valuyki	13109583
+RU.55.13130796	Sorochinskiy Gorodskoy Okrug	Sorochinskiy Gorodskoy Okrug	13130796
+RU.55.13130797	ZATO Komarovskiy	ZATO Komarovskiy	13130797
+RU.55.13130798	Yasnenskiy Gorodskoy Okrug	Yasnenskiy Gorodskoy Okrug	13130798
+RU.55.13130799	Gorodskoy Okrug Orenburg	Gorodskoy Okrug Orenburg	13130799
+RU.55.13130800	Gayskiy Gorodskoy Okrug	Gayskiy Gorodskoy Okrug	13130800
+RU.61.13130801	Gorodskoy Okrug Buzuluk	Gorodskoy Okrug Buzuluk	13130801
+RU.55.13130802	Kuvandykskiy Gorodskoy Okrug	Kuvandykskiy Gorodskoy Okrug	13130802
+RU.55.13130803	Sol'-Iletskiy Gorodskoy Okrug	Sol'-Iletskiy Gorodskoy Okrug	13130803
+RU.55.13130804	Gorodskoy Okrug Orsk	Gorodskoy Okrug Orsk	13130804
+RU.55.13130805	Abdulinskiy Gorodskoy Okrug	Abdulinskiy Gorodskoy Okrug	13130805
+RU.63.13131637	Gorodskoy Okrug Zhatay	Gorodskoy Okrug Zhatay	13131637
+RU.63.13131638	Neryungrinskiy Ulus	Neryungrinskiy Ulus	13131638
+RU.63.13131639	Eveno-Bytantayskiy Natsional'nyy Ulus	Eveno-Bytantayskiy Natsional'nyy Ulus	13131639
+RU.15.13131974	Gorodskoy Okrug Pevek	Gorodskoy Okrug Pevek	13131974
+RU.15.13131975	Providenskiy Gorodskoy Okrug	Providenskiy Gorodskoy Okrug	13131975
+RU.08.13138558	Gorodskoye Poseleniye Meleuz	Gorodskoye Poseleniye Meleuz	13138558
+RU.08.13138559	Gorodskoye Poseleniye Uchaly	Gorodskoye Poseleniye Uchaly	13138559
+RU.08.13138560	Gorodskoye Poseleniye Davlekanovo	Gorodskoye Poseleniye Davlekanovo	13138560
+RU.08.13138561	Gorodskoy Okrug Sterlitamak	Gorodskoy Okrug Sterlitamak	13138561
+RU.08.13138562	Gorodskoye Poseleniye Belebey	Gorodskoye Poseleniye Belebey	13138562
+RU.08.13138563	Gorodskoye Poseleniye Birsk	Gorodskoye Poseleniye Birsk	13138563
+RU.08.13138564	Gorodskoye Poseleniye Ishimbay	Gorodskoye Poseleniye Ishimbay	13138564
+RU.08.13138565	Gorodskoye Poseleniye Yanaul	Gorodskoye Poseleniye Yanaul	13138565
+RU.08.13138566	Gorodskoy Okrug Oktyabr'skiy	Gorodskoy Okrug Oktyabr'skiy	13138566
+RU.08.13138567	Gorodskoye Poseleniye Tuymazy	Gorodskoye Poseleniye Tuymazy	13138567
+RU.08.13138568	Gorodskoye Poseleniye Dyurtyuli	Gorodskoye Poseleniye Dyurtyuli	13138568
+RU.08.13138569	Gorodskoye Poseleniye Beloretsk	Gorodskoye Poseleniye Beloretsk	13138569
+RU.08.13138570	Gorodskoye Poseleniye Blagoveshchensk	Gorodskoye Poseleniye Blagoveshchensk	13138570
+RU.08.13138571	Gorodskoye Poseleniye Baymak	Gorodskoye Poseleniye Baymak	13138571
+RU.92.13139227	Gorodskoy Okrug Petropavlovsk-Kamchatskiy	Gorodskoy Okrug Petropavlovsk-Kamchatskiy	13139227
+RU.92.13139228	Yelizovskoye Gorodskoye Poseleniye	Yelizovskoye Gorodskoye Poseleniye	13139228
+RU.92.13139229	Vilyuchinskiy Gorodskoy Okrug	Vilyuchinskiy Gorodskoy Okrug	13139229
 RW.11.52	Nyagatare District	Nyagatare District	7688799
 RW.11.53	Gatsibo District	Gatsibo District	7688800
 RW.11.54	Kayonza District	Kayonza District	7688801
@@ -38080,6 +38185,9 @@ SA.19.10972382	Tabūk	Tabuk	10972382
 SA.19.10972383	Taymā’	Tayma'	10972383
 SA.19.10972384	Umluj	Umluj	10972384
 SA.14.11906054	Ghran	Ghran	11906054
+SA.17.13191966	Harub	Harub	13191966
+SA.17.13191967	At-Tuwal	At-Tuwal	13191967
+SA.17.13191968	Fayfa	Fayfa	13191968
 SB.11.0215	Munda	Munda	8987088
 SB.11.0225	Noro	Noro	9035073
 SB.14.1001	Nggosi	Nggosi	12041744
@@ -42204,7 +42312,6 @@ US.AR.143	Washington County	Washington County	4135394
 US.AR.145	White County	White County	4136143
 US.AR.147	Woodruff County	Woodruff County	4137047
 US.AR.149	Yell County	Yell County	4137268
-US.DC.001	Washington County	Washington County	4140987
 US.DE.001	Kent County	Kent County	4143221
 US.DE.003	New Castle County	New Castle County	4143835
 US.DE.005	Sussex County	Sussex County	4144895
@@ -46542,7 +46649,7 @@ VN.49.638	Huyện Phú Thiện	Huyen Phu Thien	8701098
 VN.49.635	Huyện Ia Pa	Huyen Ia Pa	8701099
 VN.49.626	Huyện Đak Đoa	Huyen GJak GJoa	8701100
 VN.49.634	Huyện Đak Pơ	Huyen GJak Po	8701101
-VN.20.767	Tân Phú	Tan Phu	8714530
+VN.20.767	Tân Phú District	Tan Phu District	8714530
 VN.32.127	Huyen Sop Cop	Huyen Sop Cop	8714967
 VN.61.564	Thị Xã Đông Hòa	Thi Xa Dong Hoa	8719342
 VN.88.657	Huyện Cư Kuin	Huyen Cu Kuin	8724351
@@ -46574,7 +46681,7 @@ VN.75.719	Huyện Bàu Bàng	Huyen Bau Bang	9091202
 VN.75.724	Thành Phố Dĩ An	Thanh Pho Di An	9091481
 VN.75.720	Huyện Dầu Tiêng	Huyen Dau Tieng	9091482
 VN.24.795	Thị Xã Kiến Tường	Thi Xa Kien Tuong	9101340
-VN.37.817	Thị Xã Cai Lậy	Thi Xa Cai Lay	9113513
+VN.37.817	Thị xã Cai Lậy	Thi xa Cai Lay	9113513
 VN.37.825	Huyện Tân Phú Đông	Huyen Tan Phu GJong	9113514
 VN.21.913	Huyện U Minh Thượng	Huyen U Minh Thuong	9280591
 VN.09.868	Thị Xã Hồng Ngự	Thi Xa Hong Ngu	9289553
