@@ -6,6 +6,7 @@
     <name>Jesus Perez Rey</name>
   </maintainer>
   <use>
+    <flag name="matrix">Enable Matrix instant messaging support</flag>
     <flag name="metadata">Enable metadata extraction</flag>
     <flag name="thumbnail">Enable thumbnails support</flag>
   </use>
