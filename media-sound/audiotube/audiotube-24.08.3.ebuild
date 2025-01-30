@@ -1,11 +1,11 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 KFMIN=5.240.0
 QTMIN=6.4.0
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 inherit ecm gear.kde.org python-single-r1
 
 DESCRIPTION="Client for YouTube Music"
