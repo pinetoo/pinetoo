@@ -1,5 +1,9 @@
 # 6.1.5.24.08.1.4.0.0.0
 
+## Package updates
+
+* `app-misc/iio-sensor-proxy-3.6`
+
 ## Removed
 
 * `dev-libs/kosmindoormap`
