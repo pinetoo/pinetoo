@@ -1,10 +1,10 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-QTMIN=6.6.0
-KFMIN=6.2.0
+QTMIN=6.7.0
+KFMIN=6.5.0
 inherit ecm plasma.kde.org
 
 MY_PV="v${PV}"
