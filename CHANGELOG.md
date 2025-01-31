@@ -4,6 +4,8 @@
 
 * `app-misc/iio-sensor-proxy-3.6`
 
+* `app-mobilephone/hfd-service-0.2.3`
+
 ## Removed
 
 * `dev-libs/kosmindoormap`
