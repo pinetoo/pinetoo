@@ -1,11 +1,10 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 ECM_TEST="true"
-KFMIN=6.5.0
-PVCUT=$(ver_cut 1-3)
+KFMIN=6.6.0
 QTMIN=6.7.2
 inherit ecm plasma.kde.org
 
@@ -13,11 +12,11 @@ DESCRIPTION="KDE Plasma applet for NetworkManager"
 
 LICENSE="GPL-2 LGPL-2.1"
 SLOT="6"
-KEYWORDS="~arm64"
+KEYWORDS="amd64 arm64 ~loong ~ppc64 ~riscv ~x86"
 IUSE="mobile openconnect teamd"
 
 DEPEND="
-	>=app-crypt/qca-2.3.7:2[qt6]
+	>=app-crypt/qca-2.3.7:2[qt6(+)]
 	dev-libs/qcoro[dbus]
 	>=dev-qt/qtbase-${QTMIN}:6[dbus,gui,network,widgets,xml]
 	>=dev-qt/qtdeclarative-${QTMIN}:6[widgets]
@@ -39,7 +38,7 @@ DEPEND="
 	>=kde-frameworks/modemmanager-qt-${KFMIN}:6
 	>=kde-frameworks/networkmanager-qt-${KFMIN}:6[teamd=]
 	>=kde-frameworks/solid-${KFMIN}:6
-	>=kde-plasma/libplasma-${PVCUT}:6
+	>=kde-plasma/libplasma-${KDE_CATV}:6
 	net-misc/mobile-broadband-provider-info
 	net-misc/networkmanager[teamd=]
 	mobile? (
