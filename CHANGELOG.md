@@ -8,6 +8,8 @@
 
 * `dev-libs/feedbackd-0.7.0`
 
+* `dev-libs/libgbinder-1.1.42`
+
 ## Removed
 
 * `dev-libs/kosmindoormap`
