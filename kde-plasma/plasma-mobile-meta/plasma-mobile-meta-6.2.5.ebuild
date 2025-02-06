@@ -3,7 +3,7 @@
 
 EAPI=7
 
-GEAR_MIN=24.08.1
+GEAR_MIN=24.08.3
 
 inherit optfeature
 
@@ -57,7 +57,7 @@ RDEPEND="
 	accessibility? ( >=app-accessibility/kontrast-${GEAR_MIN}:${SLOT} )
 	bluetooth? ( >=kde-plasma/bluedevil-${PV}:${SLOT} )
 	desktop-portal? ( >=kde-plasma/xdg-desktop-portal-kde-${PV}:${SLOT} )
-	dialer? ( >=kde-apps/plasma-dialer-${PV} )
+	dialer? ( >=app-mobilephone/plasma-dialer-${PV} )
 	education? ( webengine? ( >=kde-apps/kalgebra-${GEAR_MIN}:${SLOT} ) )
 	games? ( games-kids/gcompris )
 	gtk? ( >=kde-plasma/breeze-gtk-${PV}:${SLOT} )
@@ -65,7 +65,7 @@ RDEPEND="
 	haptic? ( app-mobilephone/hfd-service )
 	kwallet? ( >=kde-plasma/kwallet-pam-${PV}:${SLOT} )
 	pulseaudio? ( >=kde-plasma/plasma-pa-${PV}:${SLOT} )
-	sms? ( app-mobilephone/spacebar )
+	sms? ( >=app-mobilephone/spacebar-${PV} )
 	systemd? ( media-gfx/bootsplash-systemd )
 	thumbnail? (
 		>=kde-apps/ffmpegthumbs-${PV}:${SLOT}
