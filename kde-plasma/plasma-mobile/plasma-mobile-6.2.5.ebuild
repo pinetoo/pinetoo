@@ -1,10 +1,10 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-KFMIN=6.2.0
-QTMIN=6.6.0
+KFMIN=6.5.0
+QTMIN=6.7.0
 inherit ecm plasma.kde.org
 
 DESCRIPTION="General UI components for Plasma Phone"
@@ -38,10 +38,12 @@ DEPEND="
 	>=kde-frameworks/modemmanager-qt-${KFMIN}:${SLOT}
 	>=kde-frameworks/networkmanager-qt-${KFMIN}:${SLOT}
 	>=kde-frameworks/solid-${KFMIN}:${SLOT}
+	>=kde-plasma/plasma-activities-${PV}:${SLOT}
 	>=kde-plasma/kwayland-${PV}:${SLOT}
 	>=kde-plasma/kwin-${PV}:${SLOT}
 	>=kde-plasma/libkscreen-${PV}:${SLOT}
 	>=kde-plasma/libplasma-${PV}:${SLOT}
+	>=kde-plasma/plasma-pa-${PV}:${SLOT}
 	>=kde-plasma/plasma-workspace-${PV}:${SLOT}
 	media-libs/fontconfig
 	media-libs/freetype
@@ -58,6 +60,7 @@ RDEPEND="${DEPEND}
 	>=kde-frameworks/kdeclarative-${KFMIN}:${SLOT}
 	>=kde-frameworks/kirigami-${KFMIN}:${SLOT}
 	>=kde-frameworks/knewstuff-${KFMIN}:${SLOT}
+	>=kde-frameworks/ksvg-${KFMIN}:${SLOT}
 	>=kde-plasma/milou-${PV}:${SLOT}
 	kde-plasma/plasma-mimeapps-list
 	>=kde-plasma/plasma-nm-${PV}:${SLOT}
@@ -66,4 +69,4 @@ RDEPEND="${DEPEND}
 	x11-misc/xdg-user-dirs
 "
 
-PATCHES=( "${FILESDIR}/${PV}-ecm-qmlmodule.patch" )
+PATCHES=( "${FILESDIR}/6.1.5-ecm-qmlmodule.patch" )
