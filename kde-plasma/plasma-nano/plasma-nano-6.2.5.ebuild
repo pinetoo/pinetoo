@@ -3,8 +3,8 @@
 
 EAPI=8
 
-KFMIN=6.2.0
-QTMIN=6.6.0
+KFMIN=6.5.0
+QTMIN=6.7.0
 inherit ecm plasma.kde.org
 
 DESCRIPTION="A minimal Plasma shell package intended for embedded devices"
