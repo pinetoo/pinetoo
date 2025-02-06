@@ -6,7 +6,7 @@
 
 * `app-mobilephone/hfd-service-0.2.3`
 
-* `dev-libs/feedbackd-0.6.0`
+* `dev-libs/feedbackd-0.7.0`
 
 ## Removed
 
