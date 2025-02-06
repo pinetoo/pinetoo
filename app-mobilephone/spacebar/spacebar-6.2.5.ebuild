@@ -1,15 +1,14 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-QTMIN=6.6.0
-KFMIN=6.0.0
-inherit ecm gear.kde.org
+QTMIN=6.7.0
+KFMIN=6.5.0
+inherit ecm plasma.kde.org
 
 DESCRIPTION="SMS Application for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/spacebar/"
-SRC_URI="mirror://kde/stable/${PN}/${KDE_ORG_NAME}-${PV}.tar.xz"
 
 LICENSE="GPL-2+"
 SLOT="0"
@@ -25,6 +24,7 @@ DEPEND="
 	dev-db/futuresql
 	>=dev-qt/qtbase-${QTMIN}:6[concurrent,gui,widgets,sql]
 	>=dev-qt/qtdeclarative-${QTMIN}:6[sql]
+	>=kde-frameworks/kcrash-${KFMIN}:6
 	>=kde-frameworks/kirigami-${KFMIN}:6
 	>=kde-frameworks/ki18n-${KFMIN}:6
 	>=kde-frameworks/kcontacts-${KFMIN}:6
@@ -43,5 +43,3 @@ DEPEND="
 RDEPEND="${DEPEND}
 	>=dev-qt/qt5compat-${QTMIN}:6
 "
-
-PATCHES=( "${FILESDIR}/24.05.0-duplicate-definitions.patch" )
