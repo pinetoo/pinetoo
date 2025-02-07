@@ -16,6 +16,8 @@
 
 * `dev-libs/libgbinder-1.1.42`
 
+* `media-libs/libcamera-0.4.0`
+
 ## Removed
 
 * `dev-libs/kosmindoormap`
