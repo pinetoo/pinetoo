@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -8,11 +8,15 @@ KFMIN=5.240.0
 
 inherit ecm kde.org
 
-DESCRIPTION="A simple minimal IDE for the Linux phones"
-HOMEPAGE="https://invent.kde.org/maui/strike"
-SRC_URI="mirror://kde/stable/maui/${PN}/${PV}/maui-${P}.tar.xz"
+MY_PN="maui-${PN}"
+MY_PV="v${PV}"
+MY_P="${MY_PN}-${MY_PV}"
 
-S="${WORKDIR}/maui-${P}"
+DESCRIPTION="A simple minimal IDE for the Linux phones"
+HOMEPAGE="https://invent.kde.org/maui/maui-strike"
+SRC_URI="https://invent.kde.org/maui/${MY_PN}/-/archive/${MY_PV}/${MY_P}.tar.bz2"
+
+S="${WORKDIR}/${MY_P}"
 
 LICENSE="LGPL-3"
 SLOT="0"

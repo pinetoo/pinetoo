@@ -6,6 +6,6 @@
     <name>Jesus Perez Rey</name>
   </maintainer>
   <upstream>
-    <remote-id type="kde-invent">maui/strike</remote-id>
+    <remote-id type="kde-invent">maui/maui-strike</remote-id>
   </upstream>
 </pkgmetadata>
