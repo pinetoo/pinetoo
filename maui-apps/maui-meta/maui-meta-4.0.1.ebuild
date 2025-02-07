@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -22,11 +22,11 @@ RDEPEND="
 	~maui-apps/station-${PV}
 	~media-sound/vvave-${PV}
 	experimental? (
-		~maui-apps/agenda-1.0.0
-		~maui-apps/arca-1.0.0
-		~www-client/fiery-2.0.0
+		~maui-apps/agenda-1.0.1
+		~maui-apps/arca-1.0.1
+		~www-client/fiery-2.0.1
 		sdk? (
-			~dev-util/strike-2.0.0
+			~dev-util/strike-2.0.1
 		)
 	)
 "

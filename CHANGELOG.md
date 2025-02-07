@@ -1,8 +1,10 @@
-# 6.2.5.24.08.3.4.0.0.0
+# 6.2.5.24.08.3.4.0.1.0
 
 **KDE Plasma** updated to **6.2.5**
 
 **KDE Gear** updated to **24.08.3**
+
+**Maui apps** updated to **4.0.1**
 
 ## Package updates
 
