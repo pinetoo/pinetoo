@@ -18,6 +18,8 @@
 
 * `media-libs/libcamera-0.4.0`
 
+* `media-video/pipewire-1.2.7`
+
 ## Removed
 
 * `dev-libs/kosmindoormap`
