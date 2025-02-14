@@ -6,6 +6,10 @@
 
 **Maui apps** updated to **4.0.1**
 
+### Default USE flags added:
+
+* `telephony`
+
 ## Package updates
 
 * `app-misc/iio-sensor-proxy-3.6`

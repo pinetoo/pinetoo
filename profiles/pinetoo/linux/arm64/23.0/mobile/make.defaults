@@ -1,1 +1,1 @@
-USE="bluetooth mobile share tslib vpx webp wireless -cdda -gpm -joystick -ppp -smartcard"
+USE="bluetooth mobile share tslib telephony vpx webp wireless -cdda -gpm -joystick -ppp -smartcard"
