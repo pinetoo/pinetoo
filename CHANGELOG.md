@@ -1,3 +1,13 @@
+# 6.2.5.24.08.3.4.0.1.1
+
+## Package updates
+
+* `sys-kernel/pinephonepro-kernel-6.13.0`
+
+## Other changes
+
+`sys-kernel/pinephonepro-kernel` now uses Pine64's kernel instead of Megi's one.
+
 # 6.2.5.24.08.3.4.0.1.0
 
 **KDE Plasma** updated to **6.2.5**
@@ -6,7 +16,7 @@
 
 **Maui apps** updated to **4.0.1**
 
-### Default USE flags added:
+## Default USE flags added:
 
 * `telephony`
 
