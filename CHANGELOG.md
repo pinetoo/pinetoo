@@ -1,5 +1,9 @@
 # 6.2.5.24.08.3.4.0.1.1
 
+## New packages
+
+* `media-gfx/snapshot`
+
 ## Package updates
 
 * `sys-kernel/pinephonepro-kernel-6.13.0`
