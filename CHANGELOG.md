@@ -1,3 +1,10 @@
+# 6.2.5.24.12.3.4.0.1.0
+
+## Removed
+
+* `dev-libs/kpublictransport`
+  No difference with the `::gentoo` one.
+
 # 6.2.5.24.08.3.4.0.1.0
 
 **KDE Plasma** updated to **6.2.5**
