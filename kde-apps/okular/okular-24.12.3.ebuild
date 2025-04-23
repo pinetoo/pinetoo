@@ -6,7 +6,7 @@ EAPI=8
 ECM_HANDBOOK="optional"
 ECM_TEST="forceoptional"
 PVCUT=$(ver_cut 1-3)
-KFMIN=6.5.0
+KFMIN=6.7.0
 QTMIN=6.7.2
 inherit ecm gear.kde.org
 
@@ -50,7 +50,7 @@ DEPEND="
 	epub? ( app-text/ebook-tools )
 	markdown? ( >=app-text/discount-2.2.7-r1:= )
 	mobi? ( >=kde-apps/kdegraphics-mobipocket-${PVCUT}:6 )
-	pdf? ( >=app-text/poppler-23.12.0[nss,qt6] )
+	pdf? ( >=app-text/poppler-24.10.0[nss,qt6] )
 	phonon? ( >=media-libs/phonon-4.12.0[qt6(+)] )
 	postscript? ( app-text/libspectre )
 	share? ( >=kde-frameworks/purpose-${KFMIN}:6 )
@@ -63,14 +63,13 @@ RDEPEND="${DEPEND}
 "
 
 PATCHES=(
-	"${FILESDIR}/${PN}-24.04.80-tests.patch" # bug 734138
 	"${FILESDIR}/${PN}-23.08.5-implicit-vasprintf.patch" # bug 922345; pending upstream
+	"${FILESDIR}/${PN}-24.11.80-tests.patch" # git master; bug 734138
 )
 
 src_configure() {
 	local mycmakeargs=(
-		-DCMAKE_DISABLE_FIND_PACKAGE_LibZip=ON
-		-DFORCE_NOT_REQUIRED_DEPENDENCIES="KF6DocTools;LibZip;KF6Wallet;DjVuLibre;EPub;Discount;QMobipocket6;Poppler;LibSpectre;KF6Purpose;Qt6TextToSpeech;TIFF;"
+		-DFORCE_NOT_REQUIRED_DEPENDENCIES="KF6DocTools;KF6Wallet;DjVuLibre;EPub;Discount;QMobipocket6;Poppler;LibSpectre;KF6Purpose;Qt6TextToSpeech;TIFF;"
 		-DOKULAR_UI=$(usex qml "$(usex mobile "mobile" "both")" "desktop")
 		$(cmake_use_find_package crypt KF6Wallet)
 		$(cmake_use_find_package djvu DjVuLibre)
