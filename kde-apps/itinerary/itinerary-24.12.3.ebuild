@@ -3,7 +3,7 @@
 
 EAPI=8
 
-KFMIN=5.245.0
+KFMIN=6.6
 QTMIN=6.5.0
 inherit ecm gear.kde.org
 
@@ -32,6 +32,7 @@ DEPEND="
 	>=kde-apps/kmime-${PV}:6
 	>=kde-apps/kpkpass-${PV}:6
 	>=kde-frameworks/kcalendarcore-${KFMIN}:6
+	>=kde-frameworks/kcolorscheme-${KFMIN}:6
 	>=kde-frameworks/kcontacts-${KFMIN}:6
 	>=kde-frameworks/kcoreaddons-${KFMIN}:6
 	>=kde-frameworks/kcrash-${KFMIN}:6
