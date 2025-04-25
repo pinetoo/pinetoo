@@ -1,0 +1,19 @@
+--- koko-24.12.3/CMakeLists.txt	2025-04-25 21:08:05.862528157 +0200
++++ koko-24.12.3/CMakeLists.txt	2025-04-25 21:07:25.142566210 +0200
+@@ -30,6 +30,7 @@
+ include(KDEClangFormat)
+ include(KDEGitCommitHooks)
+ include(ECMSetupVersion)
++include(ECMQmlModule)
+ 
+ ecm_setup_version(${PROJECT_VERSION}
+     VARIABLE_PREFIX KOKO
+@@ -37,8 +38,6 @@
+ )
+ find_package(Qt6 ${QT_MIN_VERSION} REQUIRED NO_MODULE COMPONENTS Qml Quick Widgets Test Sql Positioning Svg)
+ 
+-qt_policy(SET QTP0001 NEW)
+-
+ if(ANDROID)
+     find_package(Qt6 ${QT_MIN_VERSION} REQUIRED NO_MODULE COMPONENTS AndroidExtras)
+ endif()
