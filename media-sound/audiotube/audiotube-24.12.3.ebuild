@@ -3,7 +3,7 @@
 
 EAPI=8
 
-KFMIN=5.240.0
+KFMIN=6.5.0
 QTMIN=6.4.0
 PYTHON_COMPAT=( python3_{10..13} )
 inherit ecm gear.kde.org python-single-r1
@@ -25,7 +25,8 @@ DEPEND="${PYTHON_DEPS}
 	>=dev-qt/qtdeclarative-${QTMIN}:6
 	>=dev-qt/qtmultimedia-${QTMIN}:6
 	>=dev-qt/qtsvg-${QTMIN}:6
-	>=dev-python/ytmusicapi-1.0.2
+	>=dev-python/ytmusicapi-1.10.1
+	>=kde-frameworks/kconfig-${KFMIN}:6
 	>=kde-frameworks/kcoreaddons-${KFMIN}:6
 	>=kde-frameworks/kcrash-${KFMIN}:6
 	>=kde-frameworks/ki18n-${KFMIN}:6
