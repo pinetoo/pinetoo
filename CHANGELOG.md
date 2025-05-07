@@ -2,6 +2,10 @@
 
 **KDE Gear** updated to **24.12.3**
 
+## Package updates
+
+* `dev-build/corrosion-0.5.2`
+
 ## Removed
 
 * `dev-libs/kpublictransport`
