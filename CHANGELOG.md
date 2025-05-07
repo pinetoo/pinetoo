@@ -12,6 +12,8 @@
 
 * `dev-libs/deviceinfo-0.2.3`
 
+* `dev-libs/feedbackd-0.8.1`
+
 ## Removed
 
 * `dev-libs/kpublictransport`
