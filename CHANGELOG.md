@@ -14,6 +14,8 @@
 
 * `dev-libs/feedbackd-0.8.1`
 
+* `dev-libs/feedbackd-device-themes-0.8.2`
+
 ## Removed
 
 * `dev-libs/kpublictransport`
