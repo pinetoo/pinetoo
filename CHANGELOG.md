@@ -1,5 +1,7 @@
 # 6.2.5.24.12.3.4.0.1.0
 
+**KDE Gear** updated to **24.12.3**
+
 ## Removed
 
 * `dev-libs/kpublictransport`
