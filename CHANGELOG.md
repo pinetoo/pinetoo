@@ -16,6 +16,8 @@
 
 * `dev-libs/feedbackd-device-themes-0.8.2`
 
+* `dev-libs/libglibutil-1.0.80`
+
 ## Removed
 
 * `dev-libs/kpublictransport`
