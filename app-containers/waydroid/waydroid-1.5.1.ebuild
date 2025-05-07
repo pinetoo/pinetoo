@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,12 +9,12 @@ DESCRIPTION="Container-based approach to boot a full Android system on a regular
 HOMEPAGE="https://waydro.id/"
 
 SRC_URI="https://github.com/${PN}/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
-KEYWORDS="~amd64 ~arm64"
-IUSE="dbus nftables systemd"
+LICENSE="GPL-3"
 REQUIRED_USE="systemd? ( dbus )"
 
-LICENSE="GPL-3"
 SLOT="0"
+KEYWORDS="~amd64 ~arm64"
+IUSE="dbus nftables systemd"
 
 DEPEND="
 	app-containers/lxc
