@@ -10,6 +10,8 @@
 
 * `dev-build/corrosion-0.5.2`
 
+* `dev-libs/deviceinfo-0.2.3`
+
 ## Removed
 
 * `dev-libs/kpublictransport`
