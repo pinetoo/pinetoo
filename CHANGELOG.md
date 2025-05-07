@@ -6,6 +6,8 @@
 
 * `app-containers/waydroid-1.5.1`
 
+* `app-misc/iio-sensor-proxy-3.7`
+
 * `dev-build/corrosion-0.5.2`
 
 ## Removed
