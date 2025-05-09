@@ -78,7 +78,11 @@ src_configure() {
 		$(meson_feature gstreamer)
 		$(meson_feature python pycamera)
 		$(meson_feature udev)
-		$(meson_use v4l2)
+		$(meson_feature v4l2)
+		# Just disable Raspberry Pi 5 because it requires additional dependecnies
+		# and it's out of the scope of this repositoru
+		-Dpipelines=imx8-isi,ipu3,mali-c55,rkisp1,simple,uvcvideo
+		-Dipas=ipu3,mali-c55,rkisp1,simple,vimc
 	)
 	meson_src_configure
 }

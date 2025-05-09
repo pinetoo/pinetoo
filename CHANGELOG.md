@@ -18,6 +18,8 @@
 
 * `dev-libs/libglibutil-1.0.80`
 
+* `media-libs/libcamera-0.5.0`
+
 ## Removed
 
 * `dev-libs/kpublictransport`
