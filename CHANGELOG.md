@@ -22,6 +22,8 @@
 
 * `media-libs/libcamera-0.5.0`
 
+* `media-video/pipewire-1.2.7-r2`
+
 ## Removed
 
 * `dev-libs/kpublictransport`
