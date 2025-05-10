@@ -8,6 +8,8 @@
 
 * `app-misc/iio-sensor-proxy-3.7`
 
+* `dev-build/cmake-extras-1.8`
+
 * `dev-build/corrosion-0.5.2`
 
 * `dev-libs/deviceinfo-0.2.3`
