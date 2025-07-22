@@ -24,6 +24,8 @@
 
 * `media-video/pipewire-1.2.7-r2`
 
+* `sys-kernel/pinephone-kernel-6.15.6`
+
 ## Removed
 
 * `dev-libs/kpublictransport`
