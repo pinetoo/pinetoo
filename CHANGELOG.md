@@ -26,6 +26,8 @@
 
 * `sys-kernel/pinephone-kernel-6.15.6`
 
+* `sys-kernel/pinephonepro-kernel-6.13.0`
+
 ## Removed
 
 * `dev-libs/kpublictransport`
