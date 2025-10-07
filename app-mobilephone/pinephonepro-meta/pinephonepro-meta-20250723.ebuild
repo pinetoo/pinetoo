@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -23,6 +23,9 @@ RDEPEND="
 	sys-apps/zswap
 	sys-boot/u-boot
 	sys-boot/pinetoo-bootsplash
-	sys-kernel/pinephonepro-kernel
+	|| (
+		sys-kernel/pinephonepro-kernel
+		sys-kernel/pinephonepro-manjaro-kernel
+	)
 	geolocation? ( sci-geosciences/gpsd )
 "

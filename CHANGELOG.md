@@ -33,6 +33,10 @@
 * `dev-libs/kpublictransport`
   No difference with the `::gentoo` one.
 
+## Other changes
+
+* A new `sys-kernel/pinephonepro-manjaro-kernel` package was added with those versions of `sys-kernel/pinephonepro-kernel` that include Manjaro patches, to avoid confusion.
+
 # 6.2.5.24.08.3.4.0.1.0
 
 **KDE Plasma** updated to **6.2.5**
