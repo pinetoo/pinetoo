@@ -3,8 +3,8 @@
 
 EAPI=8
 
-QTMIN=6.7.0
-KFMIN=6.5.0
+QTMIN=6.8.0
+KFMIN=6.14.0
 inherit ecm plasma.kde.org
 
 DESCRIPTION="SMS Application for Plasma Mobile"
