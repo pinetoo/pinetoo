@@ -3,8 +3,8 @@
 
 EAPI=8
 
-KFMIN=6.5.0
-QTMIN=6.7.0
+KFMIN=6.14.0
+QTMIN=6.8.0
 inherit ecm plasma.kde.org
 
 DESCRIPTION="General UI components for Plasma Phone"
@@ -16,14 +16,14 @@ KEYWORDS="~arm64"
 
 DEPEND="
 	dev-libs/glib:2
-	dev-libs/qcoro
+	dev-libs/qcoro[dbus]
 	dev-libs/kirigami-addons:${SLOT}
 	>=dev-qt/qtbase-${QTMIN}:${SLOT}[dbus,gui]
 	>=dev-qt/qtdeclarative-${QTMIN}:${SLOT}
 	>=dev-qt/qtsensors-${QTMIN}:${SLOT}
+	>=dev-qt/qtwayland-${QTMIN}:${SLOT}
 	>=kde-frameworks/kcmutils-${KFMIN}:${SLOT}
 	>=kde-frameworks/kconfig-${KFMIN}:${SLOT}
-	>=kde-frameworks/kconfigwidgets-${KFMIN}:${SLOT}
 	>=kde-frameworks/kcoreaddons-${KFMIN}:${SLOT}
 	>=kde-frameworks/kdbusaddons-${KFMIN}:${SLOT}
 	>=kde-frameworks/kglobalaccel-${KFMIN}:${SLOT}
@@ -39,8 +39,10 @@ DEPEND="
 	>=kde-frameworks/networkmanager-qt-${KFMIN}:${SLOT}
 	>=kde-frameworks/solid-${KFMIN}:${SLOT}
 	>=kde-plasma/plasma-activities-${PV}:${SLOT}
+	>=kde-plasma/kpipewire-${PV}:${SLOT}
 	>=kde-plasma/kwayland-${PV}:${SLOT}
 	>=kde-plasma/kwin-${PV}:${SLOT}
+	>=kde-plasma/layer-shell-qt-${PV}:${SLOT}
 	>=kde-plasma/libkscreen-${PV}:${SLOT}
 	>=kde-plasma/libplasma-${PV}:${SLOT}
 	>=kde-plasma/plasma-pa-${PV}:${SLOT}
@@ -53,7 +55,6 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}
-	>=kde-plasma/kpipewire-${PV}:${SLOT}
 	>=dev-qt/qt5compat-${QTMIN}:${SLOT}
 	>=kde-frameworks/bluez-qt-${KFMIN}:${SLOT}
 	>=kde-frameworks/kcoreaddons-${KFMIN}:${SLOT}

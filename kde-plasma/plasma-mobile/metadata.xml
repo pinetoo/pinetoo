@@ -5,4 +5,7 @@
     <email>pinetoo@chuso.net</email>
     <name>Jesus Perez Rey</name>
   </maintainer>
+  <upstream>
+    <remote-id type="kde-invent">plasma/plasma-mobile</remote-id>
+  </upstream>
 </pkgmetadata>
