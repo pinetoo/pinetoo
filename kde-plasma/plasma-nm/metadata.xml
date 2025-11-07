@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <maintainer type="person">
-    <email>pinetoo@chuso.net</email>
-    <name>Jesus Perez Rey</name>
-  </maintainer>
-  <use>
-    <flag name="mobile">Build the mobile version</flag>
-    <flag name="openconnect">Build support for the OpenConnect VPN client</flag>
-    <flag name="teamd">Enable Teamd control support</flag>
-  </use>
+	<maintainer type="person">
+		<email>pinetoo@chuso.net</email>
+		<name>Jesus Perez Rey</name>
+	</maintainer>
+	<upstream>
+		<bugs-to>https://bugs.kde.org/</bugs-to>
+	</upstream>
+	<use>
+		<flag name="mobile">Build the mobile version</flag>
+		<flag name="openconnect">Build support for the OpenConnect VPN client</flag>
+		<flag name="teamd">Enable Teamd control support</flag>
+	</use>
 </pkgmetadata>

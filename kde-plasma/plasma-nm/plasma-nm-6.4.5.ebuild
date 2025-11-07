@@ -4,15 +4,15 @@
 EAPI=8
 
 ECM_TEST="true"
-KFMIN=6.6.0
-QTMIN=6.7.2
-inherit ecm plasma.kde.org
+KFMIN=6.16.0
+QTMIN=6.8.1
+inherit ecm plasma.kde.org xdg
 
 DESCRIPTION="KDE Plasma applet for NetworkManager"
 
 LICENSE="GPL-2 LGPL-2.1"
 SLOT="6"
-KEYWORDS="amd64 arm64 ~loong ~ppc64 ~riscv ~x86"
+KEYWORDS="~arm64"
 IUSE="mobile openconnect teamd"
 
 DEPEND="
@@ -20,6 +20,7 @@ DEPEND="
 	dev-libs/qcoro[dbus]
 	>=dev-qt/qtbase-${QTMIN}:6[dbus,gui,network,widgets,xml]
 	>=dev-qt/qtdeclarative-${QTMIN}:6[widgets]
+	>=kde-frameworks/kcmutils-${KFMIN}:6
 	>=kde-frameworks/kcolorscheme-${KFMIN}:6
 	>=kde-frameworks/kcompletion-${KFMIN}:6
 	>=kde-frameworks/kconfig-${KFMIN}:6
@@ -39,6 +40,7 @@ DEPEND="
 	>=kde-frameworks/networkmanager-qt-${KFMIN}:6[teamd=]
 	>=kde-frameworks/solid-${KFMIN}:6
 	>=kde-plasma/libplasma-${KDE_CATV}:6
+	!<kde-plasma/plasma-mobile-6.4.5
 	net-misc/mobile-broadband-provider-info
 	net-misc/networkmanager[teamd=]
 	mobile? (
@@ -70,7 +72,7 @@ src_configure() {
 }
 
 pkg_postinst() {
-	ecm_pkg_postinst
+	xdg_pkg_postinst
 
 	if ! has_version "kde-frameworks/kcmutils:6"; then
 		elog "${PN} is not terribly useful without kde-frameworks/kcmutils:6."
