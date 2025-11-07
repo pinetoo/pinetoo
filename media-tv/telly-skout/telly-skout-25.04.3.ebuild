@@ -4,7 +4,7 @@
 EAPI=8
 
 QTMIN=6.6.0
-KFMIN=6.0.0
+KFMIN=6.4.0
 
 inherit ecm gear.kde.org optfeature xdg
 
