@@ -44,7 +44,7 @@ RDEPEND="${DEPEND}
 
 BDEPEND="app-arch/unzip"
 
-PATCHES=( "${FILESDIR}/${PV}-cmake_ecm_qml_module.patch" )
+PATCHES=( "${FILESDIR}/24.12.3-cmake_ecm_qml_module.patch" )
 
 src_prepare() {
 	cmake_src_prepare
