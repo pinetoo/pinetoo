@@ -6,9 +6,9 @@ EAPI=8
 ECM_HANDBOOK="optional"
 ECM_TEST="forceoptional"
 PVCUT=$(ver_cut 1-3)
-KFMIN=6.7.0
+KFMIN=6.13.0
 QTMIN=6.7.2
-inherit ecm gear.kde.org
+inherit ecm gear.kde.org xdg
 
 DESCRIPTION="Universal document viewer based on KDE Frameworks"
 HOMEPAGE="https://okular.kde.org https://apps.kde.org/okular/"
@@ -64,7 +64,6 @@ RDEPEND="${DEPEND}
 
 PATCHES=(
 	"${FILESDIR}/${PN}-23.08.5-implicit-vasprintf.patch" # bug 922345; pending upstream
-	"${FILESDIR}/${PN}-24.11.80-tests.patch" # git master; bug 734138
 )
 
 src_configure() {
