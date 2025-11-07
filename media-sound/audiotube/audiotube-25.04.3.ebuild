@@ -5,7 +5,7 @@ EAPI=8
 
 KFMIN=6.5.0
 QTMIN=6.4.0
-PYTHON_COMPAT=( python3_{10..13} )
+PYTHON_COMPAT=( python3_{10..14} )
 inherit ecm gear.kde.org python-single-r1
 
 DESCRIPTION="Client for YouTube Music"
@@ -25,7 +25,7 @@ DEPEND="${PYTHON_DEPS}
 	>=dev-qt/qtdeclarative-${QTMIN}:6
 	>=dev-qt/qtmultimedia-${QTMIN}:6
 	>=dev-qt/qtsvg-${QTMIN}:6
-	>=dev-python/ytmusicapi-1.10.1
+	>=dev-python/ytmusicapi-1.10.2
 	>=kde-frameworks/kconfig-${KFMIN}:6
 	>=kde-frameworks/kcoreaddons-${KFMIN}:6
 	>=kde-frameworks/kcrash-${KFMIN}:6
