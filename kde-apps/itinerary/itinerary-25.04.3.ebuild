@@ -3,8 +3,8 @@
 
 EAPI=8
 
-KFMIN=6.6
-QTMIN=6.5.0
+KFMIN=6.11
+QTMIN=6.7.0
 inherit ecm gear.kde.org
 
 DESCRIPTION="Itinerary and boarding pass management application"
@@ -13,7 +13,7 @@ HOMEPAGE="https://apps.kde.org/itinerary/"
 LICENSE="LGPL-2+"
 SLOT="0"
 KEYWORDS="~arm64"
-IUSE="matrix +metadata networkmanager thumbnail"
+IUSE="matrix +metadata thumbnail"
 
 DEPEND="
 	dev-libs/kirigami-addons:6
@@ -50,12 +50,10 @@ DEPEND="
 	x11-misc/shared-mime-info
 	matrix? ( net-libs/libquotient )
 	metadata? ( >=kde-frameworks/kfilemetadata-${KFMIN}:6 )
-	networkmanager? ( >=kde-frameworks/networkmanager-qt-${KFMIN}:6 )
 	thumbnail? ( >=kde-frameworks/kio-${KFMIN}:6 )
 "
 
 RDEPEND="${DEPEND}
 	>=dev-qt/qt5compat-${QTMIN}:6
 	>=kde-frameworks/kirigami-${KFMIN}:6
-	>=dev-libs/kpublictransport-${PV}:6
 "
