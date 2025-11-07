@@ -3,8 +3,8 @@
 
 EAPI=8
 
-KFMIN=5.240.0
-QTMIN=6.5.0
+KFMIN=6.14.0
+QTMIN=6.8.0
 inherit ecm plasma.kde.org
 
 DESCRIPTION="Dialer for Plasma Mobile"
