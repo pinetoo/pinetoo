@@ -1,5 +1,9 @@
 # 6.4.5.25.04.3.4.0.2.0
 
+## New packages
+
+* `app-text/arianna`
+
 ## Removed
 
 * `kde-frameworks/qqc2-breeze-style`
