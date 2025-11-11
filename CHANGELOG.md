@@ -2,6 +2,8 @@
 
 ## New packages
 
+* `app-misc/kalm`
+
 * `app-text/arianna`
 
 * `sys-apps/kjournald`
