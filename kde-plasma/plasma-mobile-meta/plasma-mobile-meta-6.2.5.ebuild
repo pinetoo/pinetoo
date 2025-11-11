@@ -67,7 +67,10 @@ RDEPEND="
 	kwallet? ( >=kde-plasma/kwallet-pam-${PV}:${SLOT} )
 	pulseaudio? ( >=kde-plasma/plasma-pa-${PV}:${SLOT} )
 	sms? ( >=app-mobilephone/spacebar-${PV} )
-	systemd? ( media-gfx/bootsplash-systemd )
+	systemd? (
+		media-gfx/bootsplash-systemd
+		sys-apps/kjournald
+	)
 	thumbnail? (
 		>=kde-apps/ffmpegthumbs-${PV}:${SLOT}
 		>=kde-apps/thumbnailers-${PV}:${SLOT}

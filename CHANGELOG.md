@@ -4,6 +4,8 @@
 
 * `app-text/arianna`
 
+* `sys-apps/kjournald`
+
 ## Removed
 
 * `kde-frameworks/qqc2-breeze-style`
