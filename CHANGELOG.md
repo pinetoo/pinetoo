@@ -4,6 +4,8 @@
 
 * `app-misc/kalm`
 
+* `app-misc/klevernotes`
+
 * `app-text/arianna`
 
 * `sys-apps/kjournald`

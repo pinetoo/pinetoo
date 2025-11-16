@@ -19,6 +19,7 @@ RDEPEND="
 	>=app-crypt/keysmith-${GEAR_MIN}
 	>=app-text/arianna-${GEAR_MIN}
 	>=app-misc/kalm-${GEAR_MIN}
+	app-misc/klevernotes
 	>=kde-apps/calindori-${GEAR_MIN}
 	>=kde-apps/itinerary-${GEAR_MIN}
 	>=kde-apps/kaccounts-providers-${GEAR_MIN}:${SLOT}
