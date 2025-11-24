@@ -14,6 +14,10 @@
 
 * `sys-apps/kjournald`
 
+## Package updates
+
+* `kde-apps/plasma-camera-2.1.0`
+
 ## Removed
 
 * `kde-frameworks/qqc2-breeze-style`
