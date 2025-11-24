@@ -3,7 +3,7 @@
 
 EAPI=7
 
-GEAR_MIN=24.08.3
+GEAR_MIN=25.04.3
 
 inherit optfeature
 
@@ -18,8 +18,11 @@ IUSE="accessibility +bluetooth +desktop-portal +dialer education games +gtk hand
 RDEPEND="
 	>=app-crypt/keysmith-${GEAR_MIN}
 	>=app-text/arianna-${GEAR_MIN}
+	>=app-misc/francis-${GEAR_MIN}
 	>=app-misc/kalm-${GEAR_MIN}
 	app-misc/klevernotes
+	>=app-office/merkuro-${GEAR_MIN}
+	app-text/marknote
 	>=kde-apps/calindori-${GEAR_MIN}
 	>=kde-apps/itinerary-${GEAR_MIN}
 	>=kde-apps/kaccounts-providers-${GEAR_MIN}:${SLOT}
@@ -27,6 +30,7 @@ RDEPEND="
 	>=kde-apps/koko-${GEAR_MIN}
 	>=kde-apps/kongress-${GEAR_MIN}
 	>=kde-apps/ktrip-${GEAR_MIN}
+	>=kde-apps/marble-${GEAR_MIN}
 	>=kde-apps/okular-${GEAR_MIN}:${SLOT}[mobile]
 	kde-apps/plasma-phonebook
 	kde-apps/plasma-camera
@@ -51,6 +55,7 @@ RDEPEND="
 	>=media-sound/krecorder-${GEAR_MIN}
 	>=media-video/plasmatube-${GEAR_MIN}
 	>=media-tv/telly-skout-${GEAR_MIN}
+	net-im/kaidan
 	>=net-im/neochat-${GEAR_MIN}
 	>=net-im/tokodon-${GEAR_MIN}
 	>=net-news/alligator-${GEAR_MIN}
@@ -61,7 +66,10 @@ RDEPEND="
 	bluetooth? ( >=kde-plasma/bluedevil-${PV}:${SLOT} )
 	desktop-portal? ( >=kde-plasma/xdg-desktop-portal-kde-${PV}:${SLOT} )
 	dialer? ( >=app-mobilephone/plasma-dialer-${PV} )
-	education? ( webengine? ( >=kde-apps/kalgebra-${GEAR_MIN}:${SLOT} ) )
+	education? (
+		kde-apps/kwordquiz
+		webengine? ( >=kde-apps/kalgebra-${GEAR_MIN}:${SLOT} )
+	)
 	games? ( games-kids/gcompris )
 	gtk? ( >=kde-plasma/breeze-gtk-${PV}:${SLOT} )
 	handbook? ( >=kde-apps/khelpcenter-${PV}:${SLOT} )

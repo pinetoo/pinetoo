@@ -7,7 +7,7 @@
   </maintainer>
   <use>
     <flag name="desktop-portal">Enable <pkg>sys-apps/xdg-desktop-portal</pkg> backend implementation for Plasma</flag>
-    <flag name="dialer">Pull <pkg>kde-apps/plasma-dialer</pkg> for making and receiving phone calls</flag>
+    <flag name="dialer">Pull <pkg>app-mobilephone/plasma-dialer</pkg> for making and receiving phone calls</flag>
     <flag name="education">Pull <pkg>kde-apps/kalgebra</pkg></flag>
     <flag name="games">Pull <pkg>games-kids/gcompris</pkg></flag>
     <flag name="haptic">Pull <pkg>app-mobilephone/hfd-service</pkg> for haptic feedback support.</flag>

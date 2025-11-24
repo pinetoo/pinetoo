@@ -1,5 +1,9 @@
 # 6.4.5.25.04.3.4.0.2.0
 
+**KDE Plasma** updated to **6.4.5**
+
+**KDE Gear** updated to **25.04.3**
+
 ## New packages
 
 * `app-misc/kalm`
@@ -14,6 +18,16 @@
 
 * `kde-frameworks/qqc2-breeze-style`
   Duplicate of kde-plasma/qqc2-breeze-style::gentoo
+
+## Other changes
+
+* New dependecies for `kde-plasma/plasma-mobile-meta`:
+  * `app-misc/francis`
+  * `app-office/merkuro`
+  * `app-text/marknote`
+  * `kde-apps/kwordquiz`
+  * `kde-apps/marble`
+  * `net-im/kaidan`
 
 # 6.2.5.24.12.3.4.0.1.0
 
