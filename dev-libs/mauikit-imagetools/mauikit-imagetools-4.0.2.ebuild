@@ -20,9 +20,10 @@ DEPEND="
 	<app-text/tesseract-5:0
 	~dev-libs/mauikit-${PV}
 	~dev-libs/mauikit-filebrowsing-${PV}
-	>=dev-qt/qtbase-${QTMIN}:6[concurrent,sql]
+	>=dev-qt/qtbase-${QTMIN}:6[concurrent,gui,sql]
 	>=dev-qt/qtdeclarative-${QTMIN}:6
 	>=dev-qt/qtpositioning-${QTMIN}:6
+	kde-apps/libkexiv2:6
 	>=kde-frameworks/kcoreaddons-${KFMIN}:6
 	>=kde-frameworks/ki18n-${KFMIN}:6
 	media-gfx/exiv2:=
