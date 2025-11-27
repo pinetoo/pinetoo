@@ -18,6 +18,8 @@
 
 ## Package updates
 
+* `dev-python/gbinder-python-1.3.0`
+
 * `kde-apps/plasma-camera-2.1.0`
 
 ## Removed

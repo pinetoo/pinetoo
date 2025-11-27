@@ -6,6 +6,6 @@
     <name>Jesus Perez Rey</name>
   </maintainer>
   <upstream>
-    <remote-id type="github">erfanoabdi/gbinder-python</remote-id>
+    <remote-id type="github">waydroid/gbinder-python</remote-id>
   </upstream>
 </pkgmetadata>
