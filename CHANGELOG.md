@@ -34,6 +34,8 @@
 
 * `media-libs/libdng-0.2.2`
 
+* `media-libs/libmegapixels-0.2.3`
+
 ## Removed
 
 * `kde-frameworks/qqc2-breeze-style`
