@@ -31,5 +31,4 @@ DEPEND="
 	>=kde-frameworks/kio-${KFMIN}:6
 "
 
-RDEPEND="${DEPEND}
-	media-libs/kquickimageeditor"
+RDEPEND="${DEPEND}"
