@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=( python3_{10..13} )
+PYTHON_COMPAT=( python3_{10..14} )
 EGIT_REPO_URI="https://git.libcamera.org/libcamera/libcamera.git"
 EGIT_COMMIT="v${PV}"
 
@@ -18,6 +18,7 @@ IUSE="debug doc drm gstreamer libevent jpeg python qt6 sdl trace udev unwind v4l
 REQUIRED_USE="drm? ( libevent ) jpeg? ( sdl ) sdl? ( libevent )"
 
 RDEPEND="
+	dev-cpp/gtest
 	dev-libs/libyaml
 	dev-util/lttng-ust
 	>=net-libs/gnutls-3.3:=
@@ -80,7 +81,7 @@ src_configure() {
 		$(meson_feature udev)
 		$(meson_feature v4l2)
 		# Just disable Raspberry Pi 5 because it requires additional dependecnies
-		# and it's out of the scope of this repositoru
+		# and it's out of the scope of this repository
 		-Dpipelines=imx8-isi,ipu3,mali-c55,rkisp1,simple,uvcvideo
 		-Dipas=ipu3,mali-c55,rkisp1,simple,vimc
 	)

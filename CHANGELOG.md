@@ -34,6 +34,8 @@
 
 * `media-gfx/megapixels-2.0.0`
 
+* `media-libs/libcamera-0.5.2`
+
 * `media-libs/libdng-0.2.2`
 
 * `media-libs/libmegapixels-0.2.3`
