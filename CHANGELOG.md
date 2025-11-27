@@ -22,6 +22,8 @@
 
 * `app-misc/iio-sensor-proxy-3.8`
 
+* `dev-build/cmake-extras-1.9`
+
 * `dev-python/gbinder-python-1.3.0`
 
 * `kde-apps/plasma-camera-2.1.0`
