@@ -6,7 +6,7 @@
     <name>Jesus Perez Rey</name>
   </maintainer>
   <upstream>
-    <remote-id type="github">anbox/anbox</remote-id>
+    <remote-id type="github">waydroid/waydroid</remote-id>
   </upstream>
   <use>
     <flag name="nftables">Use <pkg>net-firewall/nftables</pkg> instead of <pkg>net-firewall/iptables</pkg></flag>

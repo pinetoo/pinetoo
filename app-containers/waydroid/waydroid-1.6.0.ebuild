@@ -23,9 +23,9 @@ DEPEND="
 
 RDEPEND="
 	${DEPEND}
+	dev-python/dbus-python
 	dev-python/pygobject
 	net-dns/dnsmasq
-	dbus? ( dev-python/dbus-python )
 	nftables? ( net-firewall/nftables )
 	!nftables? ( net-firewall/iptables )
 "

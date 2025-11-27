@@ -18,6 +18,8 @@
 
 ## Package updates
 
+* `app-containers/waydroid-1.6.0`
+
 * `dev-python/gbinder-python-1.3.0`
 
 * `kde-apps/plasma-camera-2.1.0`
