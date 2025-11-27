@@ -1,9 +1,9 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-EGIT_REPO_URI="https://megous.com/git/p-boot"
+EGIT_REPO_URI="https://xff.cz/git/p-boot"
 EGIT_COMMIT="0.9"
 
 inherit git-r3 ninja-utils
