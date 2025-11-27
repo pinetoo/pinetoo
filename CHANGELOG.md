@@ -44,6 +44,8 @@
 
 * `media-video/pipewire-1.4.7-r2`
 
+* `sys-boot/p-boot-20240320`
+
 ## Removed
 
 * `kde-frameworks/qqc2-breeze-style`
