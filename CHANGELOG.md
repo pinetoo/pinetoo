@@ -24,6 +24,8 @@
 
 * `dev-build/cmake-extras-1.9`
 
+* `dev-libs/deviceinfo-0.2.4`
+
 * `dev-python/gbinder-python-1.3.0`
 
 * `kde-apps/plasma-camera-2.1.0`
