@@ -32,6 +32,8 @@
 
 * `kde-apps/plasma-camera-2.1.0`
 
+* `media-libs/libdng-0.2.2`
+
 ## Removed
 
 * `kde-frameworks/qqc2-breeze-style`
