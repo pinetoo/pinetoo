@@ -23,7 +23,7 @@ RDEPEND="
 	~media-sound/vvave-${PV}
 	experimental? (
 		~maui-apps/agenda-1.0.2
-		~maui-apps/arca-1.0.1
+		~maui-apps/arca-1.0.2
 		~www-client/fiery-2.0.1
 		sdk? (
 			~dev-util/strike-2.0.1
