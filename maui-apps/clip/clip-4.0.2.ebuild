@@ -33,7 +33,6 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}
-	>=dev-qt/qt5compat-${QTMIN}:6
 	>=dev-qt/qtwebview-${QTMIN}:6
 	>=kde-frameworks/kirigami-${KFMIN}:6
 	~media-sound/vvave-${PV}
