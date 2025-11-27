@@ -38,6 +38,8 @@
 
 * `media-libs/libmegapixels-0.2.3`
 
+* `media-sound/callaudiod-0.1.99`
+
 ## Removed
 
 * `kde-frameworks/qqc2-breeze-style`
