@@ -4,6 +4,8 @@
 
 **KDE Gear** updated to **25.04.3**
 
+**Maui apps** updated to **4.0.2**
+
 ## New packages
 
 * `app-misc/kalm`
