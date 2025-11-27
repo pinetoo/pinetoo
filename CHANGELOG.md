@@ -26,6 +26,8 @@
 
 * `dev-libs/deviceinfo-0.2.4`
 
+* `dev-libs/libgbinder-1.1.43`
+
 * `dev-python/gbinder-python-1.3.0`
 
 * `kde-apps/plasma-camera-2.1.0`
