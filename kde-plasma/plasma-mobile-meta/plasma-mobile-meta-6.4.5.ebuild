@@ -32,6 +32,7 @@ RDEPEND="
 	>=kde-apps/ktrip-${GEAR_MIN}
 	>=kde-apps/marble-${GEAR_MIN}
 	>=kde-apps/okular-${GEAR_MIN}:${SLOT}[mobile]
+	>=kde-apps/qrca-${GEAR_MIN}
 	kde-apps/plasma-phonebook
 	kde-apps/plasma-camera
 	>=kde-apps/qmlkonsole-${GEAR_MIN}

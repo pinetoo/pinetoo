@@ -14,6 +14,8 @@
 
 * `app-text/arianna`
 
+* `kde-apps/qrca`
+
 * `sys-apps/kjournald`
 
 ## Package updates
