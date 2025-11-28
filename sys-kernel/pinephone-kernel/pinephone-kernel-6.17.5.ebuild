@@ -6,7 +6,7 @@ EAPI=8
 EGIT_REPO_URI="https://gitlab.postmarketos.org/postmarketOS/pmaports.git"
 EGIT_COMMIT="b80d00118d5094e2ad0318866ded8d7907ec363d"
 
-KERNEL_TAG="20250710-2218"
+KERNEL_TAG="20251026-1441"
 
 inherit git-r3 kernel-build
 

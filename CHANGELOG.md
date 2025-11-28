@@ -48,6 +48,8 @@
 
 * `sys-boot/p-boot-20240320`
 
+* `sys-kernel/pinephone-kernel-6.17.5`
+
 ## Removed
 
 * `kde-frameworks/qqc2-breeze-style`
