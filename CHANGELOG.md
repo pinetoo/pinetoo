@@ -50,6 +50,8 @@
 
 * `sys-kernel/pinephone-kernel-6.17.5`
 
+* `sys-kernel/pinephonepro-kernel-6.17.7`
+
 ## Removed
 
 * `kde-frameworks/qqc2-breeze-style`

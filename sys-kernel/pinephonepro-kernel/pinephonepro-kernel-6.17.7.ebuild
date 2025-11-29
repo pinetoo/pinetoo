@@ -3,8 +3,8 @@
 
 EAPI=8
 
-KERNEL_TAG="20250127-1224"
-CONFIG_COMMIT="70ca0ebe8ec0b70b16d8ac5cb9c04b9015779aec"
+KERNEL_TAG="20251104-2007"
+CONFIG_COMMIT="8dc1e78cf778405dee27d93d5482760b9f0e5cb6"
 
 inherit kernel-build
 
@@ -25,7 +25,10 @@ src_prepare() {
 	default
 	cp "${DISTDIR}/${MY_PV}.config" .config || die
 
-	echo "CONFIG_IP_NF_RAW=y" > "${T}"/wireguard.config || die
+	cat <<-EOF > "${T}"/wireguard.config || die
+	CONFIG_IP_NF_RAW=y
+	CONFIG_NETFILTER_XT_CONNMARK=y
+	EOF
 
 	echo "CONFIG_LOCALVERSION=\"-${MY_PV}\"" > "${T}"/version.config || die
 
