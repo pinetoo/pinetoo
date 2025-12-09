@@ -15,11 +15,12 @@ CONF="${XDG_CONFIG_HOME:-${HOME}/.config}/gentoo-pipewire-launcher.conf"
 if [ -f "${CONF}" ]
 then
     . "${CONF}"
-else
-    GENTOO_PIPEWIRE_LOG='/dev/null'
-    GENTOO_PIPEWIRE_PULSE_LOG='/dev/null'
-    GENTOO_WIREPLUMBER_LOG='/dev/null'
 fi
+
+: "${GENTOO_PIPEWIRE_LOG:=/dev/null}"
+: "${GENTOO_PIPEWIRE_PULSE_LOG:=/dev/null}"
+: "${GENTOO_WIREPLUMBER_LOG:=/dev/null}"
+
 for L in \
     "${GENTOO_PIPEWIRE_LOG}" \
     "${GENTOO_PIPEWIRE_PULSE_LOG}" \

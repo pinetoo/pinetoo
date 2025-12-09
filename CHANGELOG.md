@@ -42,6 +42,8 @@
 
 * `media-sound/callaudiod-0.1.99`
 
+* `media-video/pipewire-1.4.7-r2`
+
 ## Removed
 
 * `kde-frameworks/qqc2-breeze-style`
