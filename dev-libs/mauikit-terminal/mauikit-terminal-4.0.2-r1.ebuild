@@ -26,7 +26,3 @@ DEPEND="
 	>=kde-frameworks/ki18n-${KFMIN}:6
 	>=kde-frameworks/kpty-${KFMIN}:6
 "
-
-RDEPEND="${DEPEND}
-	x11-libs/qmltermwidget
-"

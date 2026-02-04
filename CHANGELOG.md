@@ -1,5 +1,11 @@
 # 6.5.5.25.08.3.4.0.2.0
 
+## Removed
+
+* `x11-libs/qmltermwidget`
+  It was added as a dependency for `dev-libs/mauikit-terminal`.
+  But that seems to be wrong and `dev-libs/mauikit-terminal` is instead an implementation of `x11-libs/qmltermwidget`.
+
 ## Other changes
 
 * `dev-libs/amber-mpris`
