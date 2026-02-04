@@ -18,7 +18,7 @@ IUSE="+haptic +lockscreen"
 DEPEND="
 	dev-libs/kirigami-addons:6
 	dev-libs/libphonenumber
-	dev-libs/mpris-qt5
+	dev-libs/amber-mpris
 	>=dev-qt/qtbase-${QTMIN}:6[dbus,gui,sql,widgets]
 	>=dev-qt/qtdeclarative-${QTMIN}:6
 	>=kde-frameworks/kconfig-${KFMIN}:6

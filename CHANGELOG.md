@@ -1,3 +1,10 @@
+# 6.5.5.25.08.3.4.0.2.0
+
+## Other changes
+
+* `dev-libs/amber-mpris`
+  Renamed from `dev-libs/mpris-qt5` to match upstream rename.
+
 # 6.4.5.25.04.3.4.0.2.0
 
 **KDE Plasma** updated to **6.4.5**
