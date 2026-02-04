@@ -1,13 +1,15 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit gnome2 cmake
 
 DESCRIPTION="Maliit framework core libraries and server"
 HOMEPAGE="https://maliit.github.io/"
 SRC_URI="https://github.com/${PN}/framework/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+
+S="${WORKDIR}/framework-${PV}"
 
 LICENSE="LGPL-3 CC-BY-3.0"
 SLOT="0"
@@ -40,13 +42,11 @@ RDEPEND="
 "
 
 DEPEND="${RDEPEND}
-	doc? ( app-doc/doxygen )
+	doc? ( app-text/doxygen )
 	test? (
 		dev-qt/qttest:5
 	)
 "
-
-S="${WORKDIR}/framework-${PV}"
 
 src_prepare() {
 	default
