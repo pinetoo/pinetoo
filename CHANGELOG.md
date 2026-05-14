@@ -1,6 +1,9 @@
-# 6.5.5.25.08.3.4.0.2.0
+# 6.5.5.25.12.3.4.0.2.0
 
 ## Removed
+
+* `media-libs/libcamera`
+  Now provided by ::gentoo.
 
 * `x11-libs/qmltermwidget`
   It was added as a dependency for `dev-libs/mauikit-terminal`.
