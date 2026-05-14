@@ -1,11 +1,11 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 ECM_TEST="true"
-KFMIN=6.16.0
-QTMIN=6.8.1
+KFMIN=6.18.0
+QTMIN=6.10.1
 inherit ecm plasma.kde.org xdg
 
 DESCRIPTION="KDE Plasma applet for NetworkManager"
@@ -15,7 +15,7 @@ SLOT="6"
 KEYWORDS="~arm64"
 IUSE="mobile openconnect teamd"
 
-DEPEND="
+COMMON_DEPEND="
 	>=app-crypt/qca-2.3.7:2[qt6(+)]
 	dev-libs/qcoro[dbus]
 	>=dev-qt/qtbase-${QTMIN}:6[dbus,gui,network,widgets,xml]
@@ -52,10 +52,13 @@ DEPEND="
 		net-vpn/openconnect:=
 	)
 "
-RDEPEND="${DEPEND}
+RDEPEND="${COMMON_DEPEND}
 	>=kde-frameworks/kdeclarative-${KFMIN}:6
 	>=kde-frameworks/kirigami-${KFMIN}:6
 	>=kde-frameworks/kquickcharts-${KFMIN}:6
+"
+DEPEND="${COMMON_DEPEND}
+	>=net-misc/modemmanager-1.20
 "
 BDEPEND="
 	>=kde-frameworks/kcmutils-${KFMIN}:6
