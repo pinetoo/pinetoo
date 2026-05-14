@@ -2,6 +2,9 @@
 
 ## Removed
 
+* `kde-misc/plymouth-shim`
+  Not updated in years. Depends on outdated `kde-frameworks/kirigami:5`.
+
 * `media-libs/libcamera`
   Now provided by ::gentoo.
 

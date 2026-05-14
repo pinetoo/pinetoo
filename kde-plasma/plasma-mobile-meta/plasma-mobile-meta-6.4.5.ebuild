@@ -39,7 +39,6 @@ RDEPEND="
 	>=kde-misc/kclock-${GEAR_MIN}
 	>=kde-misc/kdeconnect-${GEAR_MIN}:${SLOT}
 	>=kde-misc/kweather-${GEAR_MIN}:${SLOT}
-	kde-misc/plymouth-shim
 	>=kde-plasma/discover-${PV}:${SLOT}
 	>=kde-plasma/kscreen-${PV}:${SLOT}
 	>=kde-plasma/kwayland-integration-${PV}:5
