@@ -5,6 +5,10 @@
 * `media-libs/libcamera`
   Now provided by ::gentoo.
 
+* `media-video/pipewire`
+  Originally added to enable support for `media-libs/libcamera`.
+  No longer required as this support has now been added in ::gentoo.
+
 * `x11-libs/qmltermwidget`
   It was added as a dependency for `dev-libs/mauikit-terminal`.
   But that seems to be wrong and `dev-libs/mauikit-terminal` is instead an implementation of `x11-libs/qmltermwidget`.
