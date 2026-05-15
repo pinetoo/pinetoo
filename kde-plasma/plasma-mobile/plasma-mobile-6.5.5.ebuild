@@ -1,10 +1,10 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-KFMIN=6.14.0
-QTMIN=6.8.0
+KFMIN=6.18.0
+QTMIN=6.9.0
 inherit ecm plasma.kde.org
 
 DESCRIPTION="General UI components for Plasma Phone"
@@ -16,12 +16,15 @@ KEYWORDS="~arm64"
 
 DEPEND="
 	dev-libs/glib:2
-	dev-libs/qcoro[dbus]
 	dev-libs/kirigami-addons:${SLOT}
+	dev-libs/plasma-wayland-protocols
+	dev-libs/qcoro[dbus,qml]
+	dev-libs/wayland
 	>=dev-qt/qtbase-${QTMIN}:${SLOT}[dbus,gui]
 	>=dev-qt/qtdeclarative-${QTMIN}:${SLOT}
 	>=dev-qt/qtsensors-${QTMIN}:${SLOT}
 	>=dev-qt/qtwayland-${QTMIN}:${SLOT}
+	>=kde-frameworks/kauth-${KFMIN}:${SLOT}
 	>=kde-frameworks/kcmutils-${KFMIN}:${SLOT}
 	>=kde-frameworks/kconfig-${KFMIN}:${SLOT}
 	>=kde-frameworks/kcoreaddons-${KFMIN}:${SLOT}
