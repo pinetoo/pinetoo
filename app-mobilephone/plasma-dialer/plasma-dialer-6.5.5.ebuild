@@ -3,8 +3,8 @@
 
 EAPI=8
 
-KFMIN=6.14.0
-QTMIN=6.8.0
+KFMIN=6.18.0
+QTMIN=6.9.0
 inherit ecm plasma.kde.org
 
 DESCRIPTION="Dialer for Plasma Mobile"
@@ -24,6 +24,7 @@ DEPEND="
 	>=kde-frameworks/kconfig-${KFMIN}:6
 	>=kde-frameworks/kcontacts-${KFMIN}:6
 	>=kde-frameworks/kcoreaddons-${KFMIN}:6
+	>=kde-frameworks/kcrash-${KFMIN}:6
 	>=kde-frameworks/kdbusaddons-${KFMIN}:6
 	>=kde-frameworks/ki18n-${KFMIN}:6
 	>=kde-frameworks/kio-${KFMIN}:6
@@ -35,7 +36,6 @@ DEPEND="
 	lockscreen? (
 		dev-libs/plasma-wayland-protocols
 		>=dev-qt/qtwayland-${QTMIN}:6
-		dev-qt/qtwaylandscanner
 		>=kde-frameworks/kwindowsystem-${KFMIN}:6
 	)
 "
