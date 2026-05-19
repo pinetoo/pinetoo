@@ -1,10 +1,10 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 QTMIN=6.6.0
-KFMIN=5.240.0
+KFMIN=6.0.0
 inherit ecm gear.kde.org
 
 DESCRIPTION="Handling of digital vaccination, test and recovery certificates"
@@ -21,8 +21,7 @@ DEPEND="
 	>=kde-frameworks/karchive-${KFMIN}:${SLOT}
 	>=kde-frameworks/kcodecs-${KFMIN}:${SLOT}
 	>=kde-frameworks/ki18n-${KFMIN}:${SLOT}
-	sys-libs/zlib
-	!dev-libs/khealthcertificate:5
+	virtual/zlib
 "
 
 RDEPEND="${DEPEND}
