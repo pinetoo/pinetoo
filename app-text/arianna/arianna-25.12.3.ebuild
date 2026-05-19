@@ -1,20 +1,22 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 ECM_TEST="forceoptional"
 KDE_ORG_CATEGORY="graphics"
-KFMIN=6.3.0
+KFMIN=6.12.0
 QTMIN=6.6.0
 inherit ecm gear.kde.org xdg
 
 DESCRIPTION="Ebook reader for mobile devices"
-HOMEPAGE="https://apps.kde.org/org.kde.arianna"
+HOMEPAGE="https://apps.kde.org/org.kde.arianna/"
 
 LICENSE="|| ( GPL-2 GPL-3 ) || ( LGPL-2.1 LGPL-3 ) || ( MIT GPL-3 ) BSD CC0-1.0 CC-BY-SA-4.0 GPL-3 GPL-3+ LGPL-2+ LGPL-2.1+ LGPL-3+ MIT"
 SLOT="0"
 KEYWORDS="~arm64"
+
+PATCHES=( "${FILESDIR}/${PV}-cmake_ecm_qml_module.patch" )
 
 DEPEND="
 	dev-libs/kirigami-addons:6
