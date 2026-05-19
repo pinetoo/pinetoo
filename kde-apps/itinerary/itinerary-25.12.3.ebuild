@@ -1,11 +1,11 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-KFMIN=6.11
+KFMIN=6.15
 QTMIN=6.7.0
-inherit ecm gear.kde.org
+inherit ecm gear.kde.org xdg
 
 DESCRIPTION="Itinerary and boarding pass management application"
 HOMEPAGE="https://apps.kde.org/itinerary/"
@@ -22,6 +22,7 @@ DEPEND="
 	>=dev-libs/kosmindoormap-${PV}:6
 	>=dev-libs/kpublictransport-${PV}:6
 	dev-libs/libical:0/3
+	dev-libs/qcoro
 	dev-libs/qtkeychain
 	>=dev-qt/qtbase-${QTMIN}:6[dbus,network,widgets]
 	>=dev-qt/qtdeclarative-${QTMIN}:6
@@ -46,8 +47,8 @@ DEPEND="
 	>=kde-frameworks/prison-${KFMIN}:6
 	>=kde-frameworks/qqc2-desktop-style-${KFMIN}:6
 	>=kde-frameworks/solid-${KFMIN}:6
-	sys-libs/zlib
 	x11-misc/shared-mime-info
+	virtual/zlib
 	matrix? ( net-libs/libquotient )
 	metadata? ( >=kde-frameworks/kfilemetadata-${KFMIN}:6 )
 	thumbnail? ( >=kde-frameworks/kio-${KFMIN}:6 )
