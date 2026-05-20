@@ -1,10 +1,10 @@
-# Copyright 1998-2025 Gentoo Authors
+# Copyright 1998-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-KFMIN=6.1.0
-QTMIN=6.5.0
+KFMIN=6.15.0
+QTMIN=6.8.0
 inherit ecm gear.kde.org
 
 DESCRIPTION="Companion application for conferences"
