@@ -1,11 +1,12 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 KFMIN=5.240.0
 QTMIN=6.4.0
-inherit ecm gear.kde.org
+RUST_OPTIONAL=1
+inherit ecm gear.kde.org rust
 
 DESCRIPTION="Web browser for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/angelfish/"
@@ -27,6 +28,7 @@ DEPEND="
 	>=dev-qt/qtwebengine-${QTMIN}:6[qml]
 	>=kde-frameworks/kconfig-${KFMIN}:6
 	>=kde-frameworks/kcoreaddons-${KFMIN}:6
+	>=kde-frameworks/kcrash-${KFMIN}:6
 	>=kde-frameworks/kdbusaddons-${KFMIN}:6
 	>=kde-frameworks/ki18n-${KFMIN}:6
 	>=kde-frameworks/kirigami-${KFMIN}:6
@@ -34,9 +36,22 @@ DEPEND="
 	>=kde-frameworks/kwindowsystem-${KFMIN}:6
 	>=kde-frameworks/purpose-${KFMIN}:6
 	>=kde-frameworks/qqc2-desktop-style-${KFMIN}:6
-	adblocker? ( dev-build/corrosion )
 "
+
+BDEPEND="adblocker? (
+	${RUST_DEPEND}
+	dev-build/corrosion
+)"
 
 RDEPEND="${DEPEND}
 	>=dev-qt/qt5compat-${QTMIN}:6
 "
+
+src_prepare()
+{
+	if ! use adblocker; then
+		sed -i 's/find_package(Corrosion)/#&/' "${S}/CMakeLists.txt" || die
+	fi
+	default
+	ecm_src_prepare
+}
