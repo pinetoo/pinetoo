@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -17,7 +17,8 @@ KEYWORDS="~arm64"
 
 DEPEND="
 	media-gfx/exiv2:=
-	>=dev-qt/qtbase-${QTMIN}:6[sql,widgets]
+	dev-libs/kirigami-addons
+	>=dev-qt/qtbase-${QTMIN}:6[gui,sql,widgets]
 	>=dev-qt/qtdeclarative-${QTMIN}:6
 	>=dev-qt/qtpositioning-${QTMIN}:6
 	>=dev-qt/qtsvg-${QTMIN}:6
@@ -27,7 +28,6 @@ DEPEND="
 	>=kde-frameworks/kdeclarative-${KFMIN}:6
 	>=kde-frameworks/kdbusaddons-${KFMIN}:6
 	>=kde-frameworks/kfilemetadata-${KFMIN}:6
-	>=kde-frameworks/kguiaddons-${KFMIN}:6
 	>=kde-frameworks/ki18n-${KFMIN}:6
 	>=kde-frameworks/kio-${KFMIN}:6
 	>=kde-frameworks/kirigami-${KFMIN}:6
@@ -39,15 +39,8 @@ DEPEND="
 "
 
 RDEPEND="${DEPEND}
-	dev-libs/kirigami-addons
 	>=dev-qt/qtmultimedia-${QTMIN}:6"
 
 BDEPEND="app-arch/unzip"
 
 PATCHES=( "${FILESDIR}/24.12.3-cmake_ecm_qml_module.patch" )
-
-src_prepare() {
-	cmake_src_prepare
-
-	cp "${FILESDIR}"/{cities1000.zip,admin1CodesASCII.txt,admin2Codes.txt} "${S}/src" || die
-}
