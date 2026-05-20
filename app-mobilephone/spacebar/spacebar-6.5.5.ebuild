@@ -1,11 +1,11 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-QTMIN=6.8.0
-KFMIN=6.14.0
-inherit ecm plasma.kde.org
+QTMIN=6.9.0
+KFMIN=6.18.0
+inherit ecm plasma.kde.org xdg
 
 DESCRIPTION="SMS Application for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/spacebar/"
