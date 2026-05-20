@@ -1,9 +1,9 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-KFMIN=5.240.0
+KFMIN=6.12
 QTMIN=6.5.0
 inherit ecm gear.kde.org
 
