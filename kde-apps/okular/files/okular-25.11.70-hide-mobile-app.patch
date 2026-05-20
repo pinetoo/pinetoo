@@ -14,14 +14,11 @@ diff --git a/mobile/app/package/metadata.desktop b/mobile/app/package/metadata.d
 index f9432748b..0fcf20843 100644
 --- a/mobile/app/package/metadata.desktop
 +++ b/mobile/app/package/metadata.desktop
-@@ -110,6 +110,7 @@ GenericName[zh_TW]=文件檢視器
+@@ -110,3 +110,4 @@ GenericName[zh_TW]=文件檢視器
  Type=Application
  Exec=okularkirigami
  Icon=okular
 +NoDisplay=true
- X-KDE-ParentApp=
- X-KDE-PluginInfo-Author=Marco Martin
- X-KDE-PluginInfo-Email=mart@kde.org
 -- 
 2.28.0
 

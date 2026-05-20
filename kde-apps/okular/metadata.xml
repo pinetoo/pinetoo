@@ -6,7 +6,8 @@
 		<name>Jesus Perez Rey</name>
 	</maintainer>
 	<upstream>
-		<bugs-to>https://bugs.kde.org/</bugs-to>
+		<bugs-to>https://bugs.kde.org/enter_bug.cgi?product=okular</bugs-to>
+		<remote-id type="kde-invent">graphics/okular</remote-id>
 		<remote-id type="cpe">cpe:/a:kde:okular</remote-id>
 	</upstream>
 	<use>
@@ -15,7 +16,6 @@
 		<flag name="markdown">Enable Markdown support via <pkg>app-text/discount</pkg></flag>
 		<flag name="mobi">Enable mobipocket support via <pkg>kde-apps/kdegraphics-mobipocket</pkg></flag>
 		<flag name="mobile">Build the mobile version only</flag>
-		<flag name="phonon">Enable sound support via <pkg>media-libs/phonon</pkg></flag>
 		<flag name="qml">Install Okular Qml components</flag>
 		<flag name="share">Enable support for a share menu using <pkg>kde-frameworks/purpose</pkg></flag>
 	</use>
