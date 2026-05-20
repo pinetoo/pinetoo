@@ -1,9 +1,9 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-GEAR_MIN=25.04.3
+GEAR_MIN=25.12.3
 
 inherit optfeature
 
@@ -41,7 +41,6 @@ RDEPEND="
 	>=kde-misc/kweather-${GEAR_MIN}:${SLOT}
 	>=kde-plasma/discover-${PV}:${SLOT}
 	>=kde-plasma/kscreen-${PV}:${SLOT}
-	>=kde-plasma/kwayland-integration-${PV}:5
 	>=kde-plasma/oxygen-${PV}:${SLOT}
 	>=kde-plasma/oxygen-sounds-${PV}:${SLOT}
 	>=kde-plasma/plasma-mobile-${PV}:${SLOT}

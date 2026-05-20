@@ -1,5 +1,9 @@
 # 6.5.5.25.12.3.4.0.2.0
 
+**KDE Plasma** updated to **6.5.5**
+
+**KDE Gear** updated to **25.12.3**
+
 ## Removed
 
 * `kde-misc/plymouth-shim`
