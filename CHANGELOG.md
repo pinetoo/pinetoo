@@ -28,6 +28,8 @@
 
 * `sys-firmware/rtl8723bt-firmware-megi-20250113`
 
+* `sys-firmware/trusted-firmware-a-2.14.2`
+
 ## Removed
 
 * `kde-misc/plymouth-shim`
