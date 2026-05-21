@@ -1,4 +1,4 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -26,6 +26,7 @@ DEPEND="
 	>=kde-frameworks/ki18n-${KFMIN}:6
 	>=kde-frameworks/kirigami-${KFMIN}:6
 	media-gfx/exiv2
+	media-libs/libyuv
 "
 RDEPEND="${DEPEND}
 	dev-libs/kirigami-addons:6

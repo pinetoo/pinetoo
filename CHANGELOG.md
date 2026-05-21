@@ -4,6 +4,10 @@
 
 **KDE Gear** updated to **25.12.3**
 
+## Package updates
+
+* `kde-apps/plasma-camera-2.1.1`
+
 ## Removed
 
 * `kde-misc/plymouth-shim`
