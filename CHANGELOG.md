@@ -12,6 +12,8 @@
 
 * `app-misc/klevernotes-1.3.1`
 
+* `dev-libs/libgbinder-1.1.45`
+
 * `kde-apps/plasma-camera-2.1.1`
 
 * `sys-firmware/brcmfmac_sdio-firmware-20251211`
