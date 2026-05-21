@@ -6,6 +6,8 @@
 
 ## Package updates
 
+* `app-containers/waydroid-1.6.2`
+
 * `kde-apps/plasma-camera-2.1.1`
 
 * `sys-firmware/brcmfmac_sdio-firmware-20251211`
