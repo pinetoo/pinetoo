@@ -10,6 +10,8 @@
 
 * `sys-firmware/brcmfmac_sdio-firmware-20251211`
 
+* `sys-firmware/rtl8723bt-firmware-megi-20250113`
+
 ## Removed
 
 * `kde-misc/plymouth-shim`
