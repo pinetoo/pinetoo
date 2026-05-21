@@ -8,6 +8,8 @@
 
 * `app-containers/waydroid-1.6.2`
 
+* `app-misc/iio-sensor-proxy-3.9`
+
 * `kde-apps/plasma-camera-2.1.1`
 
 * `sys-firmware/brcmfmac_sdio-firmware-20251211`
