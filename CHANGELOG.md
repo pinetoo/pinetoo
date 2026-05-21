@@ -14,6 +14,8 @@
 
 * `dev-libs/libgbinder-1.1.45`
 
+* `dev-libs/libglibutil-1.0.81`
+
 * `kde-apps/plasma-camera-2.1.1`
 
 * `sys-firmware/brcmfmac_sdio-firmware-20251211`
