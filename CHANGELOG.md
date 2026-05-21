@@ -20,6 +20,8 @@
 
 * `kde-apps/plasma-camera-2.1.1`
 
+* `media-gfx/megapixels-2.1.0`
+
 * `sys-firmware/brcmfmac_sdio-firmware-20251211`
 
 * `sys-firmware/rtl8723bt-firmware-megi-20250113`

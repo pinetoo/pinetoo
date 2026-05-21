@@ -14,7 +14,6 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~arm64"
 IUSE="+exif +jpeg wayland X"
-# REQUIRED_USE="|| ( wayland X )"
 
 DEPEND="
 	dev-libs/feedbackd
@@ -40,6 +39,8 @@ RDEPEND="${DEPEND}
 	exif? ( media-libs/exiftool )
 	jpeg? ( media-gfx/imagemagick[jpeg,tiff] )
 "
+
+BDEPEND="dev-util/gperf"
 
 src_prepare() {
 	sed -i \
