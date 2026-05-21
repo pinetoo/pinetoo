@@ -1,17 +1,18 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-PYTHON_COMPAT=( python3_{10..13} )
+PYTHON_COMPAT=( python3_{11..14} )
 inherit bash-completion-r1 meson python-any-r1 optfeature systemd udev vala xdg
 
 DESCRIPTION="Modem and mobile broadband management libraries"
 HOMEPAGE="https://www.freedesktop.org/wiki/Software/ModemManager/ https://gitlab.freedesktop.org/mobile-broadband/ModemManager"
 SRC_URI="https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/archive/${PV}/ModemManager-${PV}.tar.bz2"
+S="${WORKDIR}/ModemManager-${PV}"
 
 LICENSE="GPL-2+"
 SLOT="0/1" # subslot = dbus interface version, i.e. N in org.freedesktop.ModemManager${N}
-KEYWORDS="~alpha amd64 arm arm64 ~loong ~mips ppc ppc64 ~riscv ~sparc x86"
+KEYWORDS="~arm64"
 
 IUSE="elogind gtk-doc +introspection +mbim policykit +qmi +qrtr selinux systemd test +udev vala"
 REQUIRED_USE="
@@ -23,11 +24,12 @@ RESTRICT="!test? ( test )"
 
 DEPEND="
 	>=dev-libs/glib-2.56.0:2
+	sys-apps/dbus
 	udev? ( >=dev-libs/libgudev-232:= )
-	introspection? ( >=dev-libs/gobject-introspection-1.38:= )
-	mbim? ( >=net-libs/libmbim-1.28.0 )
+	introspection? ( >=dev-libs/gobject-introspection-1.82.0-r2:= )
+	mbim? ( >=net-libs/libmbim-1.32.0 )
 	policykit? ( >=sys-auth/polkit-0.106[introspection?] )
-	qmi? ( >=net-libs/libqmi-1.32.0:=[qrtr?] )
+	qmi? ( >=net-libs/libqmi-1.36.0:=[qrtr?] )
 	qrtr? ( >=net-libs/libqrtr-glib-1.0.0:= )
 	elogind? ( sys-auth/elogind )
 	systemd? ( >=sys-apps/systemd-209 )
@@ -36,7 +38,8 @@ RDEPEND="${DEPEND}
 	selinux? ( sec-policy/selinux-modemmanager )
 "
 BDEPEND="
-	dev-util/gdbus-codegen
+	dev-libs/libxslt
+	>=dev-util/gdbus-codegen-2.80.5-r1
 	dev-util/glib-utils
 	>=sys-devel/gettext-0.19.8
 	virtual/pkgconfig
@@ -50,8 +53,6 @@ BDEPEND="
 	)
 	vala? ( $(vala_depend) )
 "
-
-S="${WORKDIR}/ModemManager-${PV}"
 
 python_check_deps() {
 	python_has_version "dev-python/dbus-python[${PYTHON_USEDEP}]" &&

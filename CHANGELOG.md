@@ -22,6 +22,8 @@
 
 * `media-gfx/megapixels-2.1.0`
 
+* `net-misc/modemmanager-1.24.2`
+
 * `sys-firmware/brcmfmac_sdio-firmware-20251211`
 
 * `sys-firmware/rtl8723bt-firmware-megi-20250113`
