@@ -30,6 +30,8 @@
 
 * `sys-firmware/trusted-firmware-a-2.14.2`
 
+* `sys-kernel/pinephone-kernel-6.18.3`
+
 ## Removed
 
 * `kde-misc/plymouth-shim`

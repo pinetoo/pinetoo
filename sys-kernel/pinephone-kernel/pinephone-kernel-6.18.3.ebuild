@@ -1,19 +1,19 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 EGIT_REPO_URI="https://gitlab.postmarketos.org/postmarketOS/pmaports.git"
-EGIT_COMMIT="b80d00118d5094e2ad0318866ded8d7907ec363d"
+EGIT_COMMIT="ec2040aad260f21efbfc51e8f536506f8c2a8e6e"
 
-KERNEL_TAG="20251026-1441"
+KERNEL_TAG="20260105-0049"
 
 inherit git-r3 kernel-build
 
 DESCRIPTION="Linux kernel for the PinePhone"
 HOMEPAGE="https://xff.cz/git/linux"
-SRC_URI="https://codeberg.org/megi/linux/archive/orange-pi-$(ver_cut 1).$(ver_cut 2)-${KERNEL_TAG}.tar.gz"
-S="${WORKDIR}/linux"
+SRC_URI="https://github.com/Arnavion/linux/archive/refs/tags/orange-pi-$(ver_cut 1).$(ver_cut 2)-${KERNEL_TAG}.tar.gz"
+S="${WORKDIR}/linux-orange-pi-$(ver_cut 1).$(ver_cut 2)-${KERNEL_TAG}"
 
 LICENSE="GPL-2"
 KEYWORDS="~arm64"
@@ -33,6 +33,7 @@ PATCHES=(
 	"${WORKDIR}/${P}/${GIT_ROOT}/0009-ARM-dts-sun6i-Add-Lark-FreeMe-70.2S-tablet.patch"
 	"${WORKDIR}/${P}/${GIT_ROOT}/0010-eMMC-workaround.patch"
 	"${WORKDIR}/${P}/${GIT_ROOT}/0011-arm64-dts-allwinner-orangepi-3-fix-ethernet.patch"
+	"${WORKDIR}/${P}/${GIT_ROOT}/0012-staging-rtl8723cs-fix-CFI-signature-of-rtw_xmit_ent.patch"
 )
 
 src_unpack() {
@@ -45,16 +46,18 @@ src_prepare() {
 	cp "${WORKDIR}/${P}/${GIT_ROOT}/config-postmarketos-allwinner.aarch64" .config || die
 
 	echo 'CONFIG_LOCALVERSION="-pinetoo"' > "${T}"/version.config || die
-	echo "CONFIG_UEVENT_HELPER_PATH=" >> "${T}"/systemd.config || die
+	echo "CONFIG_UEVENT_HELPER_PATH=" > "${T}"/systemd.config || die
 	cat <<-EOF > "${T}"/lxc.config || die
 	CONFIG_UNIX_DIAG=m
 	CONFIG_PACKET_DIAG=m
 	CONFIG_NETLINK_DIAG=m
 	EOF
+	echo "CONFIG_IP_NF_RAW=m" > "${T}"/wireguard.config
 	local merge_configs=(
 		"${T}"/version.config
 		"${T}"/systemd.config
 		"${T}"/lxc.config
+		"${T}"/wireguard.config
 	)
 
 	kernel-build_merge_configs "${merge_configs[@]}"
