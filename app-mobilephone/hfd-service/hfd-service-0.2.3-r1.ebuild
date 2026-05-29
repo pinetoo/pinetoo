@@ -16,6 +16,7 @@ IUSE="android qt5"
 
 RDEPEND="
 	dev-libs/deviceinfo
+	dev-qt/qtfeedback:5
 	sys-apps/accountsservice
 	sys-apps/dbus
 	virtual/libudev

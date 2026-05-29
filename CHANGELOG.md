@@ -53,6 +53,9 @@
 * `dev-libs/amber-mpris`
   Renamed from `dev-libs/mpris-qt5` to match upstream rename.
 
+* ` app-mobilephone/hfd-service`
+  Added missing dependency on `dev-qt/qtfeedback:5`.
+
 # 6.4.5.25.04.3.4.0.2.0
 
 **KDE Plasma** updated to **6.4.5**
