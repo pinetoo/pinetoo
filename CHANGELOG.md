@@ -32,6 +32,8 @@
 
 * `sys-kernel/pinephone-kernel-6.18.3`
 
+* `sys-kernel/pinephonepro-kernel-7.0.0`
+
 ## Removed
 
 * `kde-misc/plymouth-shim`

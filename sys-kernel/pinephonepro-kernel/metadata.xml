@@ -9,6 +9,6 @@
     <flag name='initramfs'>Build initramfs along with the kernel.</flag>
   </use>
   <upstream>
-    <remote-id type="gitlab">pine64-org/linux</remote-id>
+    <remote-id type="codeberg">LogicalErzor/linux</remote-id>
   </upstream>
 </pkgmetadata>
