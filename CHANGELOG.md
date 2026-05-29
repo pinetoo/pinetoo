@@ -56,6 +56,9 @@
 * ` app-mobilephone/hfd-service`
   Added missing dependency on `dev-qt/qtfeedback:5`.
 
+* `maui-apps/clip`
+  Doesn't build with `>=media-video/ffmpeg-8`
+
 # 6.4.5.25.04.3.4.0.2.0
 
 **KDE Plasma** updated to **6.4.5**
