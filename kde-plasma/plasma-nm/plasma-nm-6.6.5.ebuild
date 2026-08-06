@@ -4,7 +4,7 @@
 EAPI=8
 
 ECM_TEST="true"
-KFMIN=6.18.0
+KFMIN=6.22.0
 QTMIN=6.10.1
 inherit ecm plasma.kde.org xdg
 
@@ -27,8 +27,9 @@ COMMON_DEPEND="
 	>=kde-frameworks/kcoreaddons-${KFMIN}:6
 	>=kde-frameworks/kdbusaddons-${KFMIN}:6
 	>=kde-frameworks/ki18n-${KFMIN}:6
-	>=kde-frameworks/kio-${KFMIN}:6
+	>=kde-frameworks/kio-6.22.1:6
 	>=kde-frameworks/kitemviews-${KFMIN}:6
+	>=kde-frameworks/kjobwidgets-${KFMIN}:6
 	>=kde-frameworks/knotifications-${KFMIN}:6
 	>=kde-frameworks/kservice-${KFMIN}:6
 	>=kde-frameworks/ksvg-${KFMIN}:6
@@ -39,7 +40,7 @@ COMMON_DEPEND="
 	>=kde-frameworks/modemmanager-qt-${KFMIN}:6
 	>=kde-frameworks/networkmanager-qt-${KFMIN}:6[teamd=]
 	>=kde-frameworks/solid-${KFMIN}:6
-	>=kde-plasma/libplasma-${KDE_CATV}:6
+	>=kde-plasma/libplasma-${KDE_CATV}:6=
 	!<kde-plasma/plasma-mobile-6.4.5
 	net-misc/mobile-broadband-provider-info
 	net-misc/networkmanager[teamd=]
