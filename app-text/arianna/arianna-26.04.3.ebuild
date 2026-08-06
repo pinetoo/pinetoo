@@ -16,7 +16,7 @@ LICENSE="|| ( GPL-2 GPL-3 ) || ( LGPL-2.1 LGPL-3 ) || ( MIT GPL-3 ) BSD CC0-1.0 
 SLOT="0"
 KEYWORDS="~arm64"
 
-PATCHES=( "${FILESDIR}/${PV}-cmake_ecm_qml_module.patch" )
+PATCHES=( "${FILESDIR}/25.12.3-cmake_ecm_qml_module.patch" )
 
 DEPEND="
 	dev-libs/kirigami-addons:6
