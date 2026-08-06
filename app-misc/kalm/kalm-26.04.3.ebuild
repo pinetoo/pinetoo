@@ -7,7 +7,7 @@ KFMIN=6.3.0
 QTMIN=6.6.0
 inherit ecm gear.kde.org xdg
 
-DESCRIPTION="Kalm can teach you different breathing techniques."
+DESCRIPTION="Kalm can teach you different breathing techniques"
 HOMEPAGE="https://apps.kde.org/kalm/"
 
 LICENSE="LGPL-2.1+"
