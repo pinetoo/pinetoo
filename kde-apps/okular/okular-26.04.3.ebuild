@@ -6,7 +6,7 @@ EAPI=8
 ECM_HANDBOOK="optional"
 ECM_TEST="forceoptional"
 PVCUT=$(ver_cut 1-3)
-KFMIN=6.19.0
+KFMIN=6.22.0
 QTMIN=6.10.1
 inherit ecm gear.kde.org xdg
 
@@ -17,6 +17,8 @@ LICENSE="GPL-2" # TODO: CHECK
 SLOT="6"
 KEYWORDS="~arm64"
 IUSE="crypt djvu epub markdown mobi mobile +pdf +postscript qml share speech +tiff"
+
+PATCHES=( "${FILESDIR}/${PV}-cmake_ecm_qml_module.patch" )
 
 # slot op: Uses Qt6::CorePrivate
 DEPEND="
