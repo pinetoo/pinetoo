@@ -3,8 +3,8 @@
 
 EAPI=8
 
-KFMIN=6.18.0
-QTMIN=6.9.0
+KFMIN=6.22.0
+QTMIN=6.10.0
 inherit ecm plasma.kde.org
 
 DESCRIPTION="General UI components for Plasma Phone"
@@ -15,7 +15,6 @@ SLOT="6"
 KEYWORDS="~arm64"
 
 DEPEND="
-	dev-libs/glib:2
 	dev-libs/kirigami-addons:${SLOT}
 	dev-libs/plasma-wayland-protocols
 	dev-libs/qcoro[dbus,qml]
@@ -50,8 +49,6 @@ DEPEND="
 	>=kde-plasma/libplasma-${PV}:${SLOT}
 	>=kde-plasma/plasma-pa-${PV}:${SLOT}
 	>=kde-plasma/plasma-workspace-${PV}:${SLOT}
-	media-libs/fontconfig
-	media-libs/freetype
 	media-libs/libepoxy
 	x11-libs/libxcb
 	virtual/libudev
