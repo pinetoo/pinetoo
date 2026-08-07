@@ -9,7 +9,6 @@ inherit ecm gear.kde.org
 
 DESCRIPTION="Settings application for Plasma Mobile"
 HOMEPAGE="https://invent.kde.org/plasma-mobile/plasma-settings"
-SRC_URI="mirror://kde/stable/${PN}/${P}.tar.xz"
 
 LICENSE="|| ( GPL-2 GPL-3 ) LGPL-2.1"
 SLOT="0"
