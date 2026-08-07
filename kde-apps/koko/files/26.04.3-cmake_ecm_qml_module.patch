@@ -1,0 +1,19 @@
+diff '--color=auto' -ur koko-26.04.3.orig/CMakeLists.txt koko-26.04.3/CMakeLists.txt
+--- koko-26.04.3.orig/CMakeLists.txt	2026-08-07 11:08:36.940318409 +0200
++++ koko-26.04.3/CMakeLists.txt	2026-08-07 11:09:14.695681052 +0200
+@@ -30,6 +30,7 @@
+ include(KDEClangFormat)
+ include(KDEGitCommitHooks)
+ include(ECMSetupVersion)
++include(ECMQmlModule)
+ 
+ ecm_setup_version(${PROJECT_VERSION}
+     VARIABLE_PREFIX KOKO
+@@ -90,7 +91,6 @@
+ 
+ feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
+ 
+-qt_policy(SET QTP0001 NEW)
+ qt_policy(SET QTP0004 OLD)
+ 
+ include_directories(

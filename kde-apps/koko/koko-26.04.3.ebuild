@@ -4,7 +4,7 @@
 EAPI=8
 
 QTMIN=6.5.0
-KFMIN=5.240.0
+KFMIN=6.20.0
 
 inherit ecm gear.kde.org
 
@@ -25,6 +25,7 @@ DEPEND="
 	>=kde-frameworks/kconfig-${KFMIN}:6
 	>=kde-frameworks/kconfigwidgets-${KFMIN}:6
 	>=kde-frameworks/kcoreaddons-${KFMIN}:6
+	>=kde-frameworks/kcrash-${KFMIN}:6
 	>=kde-frameworks/kdeclarative-${KFMIN}:6
 	>=kde-frameworks/kdbusaddons-${KFMIN}:6
 	>=kde-frameworks/kfilemetadata-${KFMIN}:6
@@ -43,4 +44,4 @@ RDEPEND="${DEPEND}
 
 BDEPEND="app-arch/unzip"
 
-PATCHES=( "${FILESDIR}/24.12.3-cmake_ecm_qml_module.patch" )
+PATCHES=( "${FILESDIR}/${PV}-cmake_ecm_qml_module.patch" )
