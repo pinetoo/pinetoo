@@ -9,6 +9,9 @@
 * `x11-apps/maliit-keyboard`
   Unmaintained. Depends on Qt5.
 
+* `x11-libs/maliit`
+  Unmaintained. Depends on Qt5. No consumers left.
+
 # 6.5.5.25.12.3.4.0.2.0
 
 **KDE Plasma** updated to **6.5.5**
