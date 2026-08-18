@@ -14,6 +14,8 @@
 
 * `dev-libs/libglibutil-1.0.82`
 
+* `kde-plasma/plasma-mobile-sounds-1.0-r1`
+
 * `sys-firmware/brcmfmac_sdio-firmware-20260701`
 
 ## Removed
