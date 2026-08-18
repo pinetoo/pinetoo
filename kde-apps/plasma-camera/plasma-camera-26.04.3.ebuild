@@ -5,11 +5,10 @@ EAPI=8
 
 KFMIN=6.0.0
 QTMIN=6.6.0
-inherit ecm kde.org
+inherit ecm gear.kde.org
 
 DESCRIPTION="Camera application for Plasma Mobile"
 HOMEPAGE="https://apps.kde.org/plasma.camera/"
-SRC_URI="mirror://kde/stable/${PN}/${P}.tar.xz"
 
 LICENSE="GPL-3+"
 SLOT="5"
