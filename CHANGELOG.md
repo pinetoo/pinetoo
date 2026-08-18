@@ -6,6 +6,9 @@
 
 ## Removed
 
+* `app-mobilephone/hfd-service`
+  Depends on Qt5. No consumers left.
+
 * `x11-apps/maliit-keyboard`
   Unmaintained. Depends on Qt5.
 
