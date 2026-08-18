@@ -8,6 +8,8 @@
 
 * `app-containers/waydroid-1.6.3`
 
+* `dev-build/cmake-extras-1.10`
+
 ## Removed
 
 * `app-mobilephone/hfd-service`
