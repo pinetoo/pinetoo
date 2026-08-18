@@ -12,6 +12,7 @@ SRC_URI="https://github.com/mer-hybris/${PN}/archive/refs/tags/${PV}.tar.gz -> $
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~arm64"
+IUSE="tools"
 
 DEPEND="
 	dev-libs/glib:2
@@ -26,10 +27,18 @@ CONFIG_CHECK="
 
 src_compile() {
 	emake LIBDIR=/usr/$(get_libdir)
+	if use tools; then
+		cd tools || die
+		emake
+	fi
 }
 
 src_install() {
 	emake LIBDIR=/usr/$(get_libdir) DESTDIR="${D}" install-dev
 	insinto /etc
 	doins "${FILESDIR}/gbinder.conf"
+	if use tools; then
+		cd tools || die
+		emake DESTDIR="${D}" install
+	fi
 }

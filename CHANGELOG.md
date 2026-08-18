@@ -10,6 +10,8 @@
 
 * `dev-build/cmake-extras-1.10`
 
+* `dev-libs/libgbinder-1.1.52`
+
 ## Removed
 
 * `app-mobilephone/hfd-service`
