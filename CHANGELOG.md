@@ -14,6 +14,8 @@
 
 * `dev-libs/libglibutil-1.0.82`
 
+* `sys-firmware/brcmfmac_sdio-firmware-20260701`
+
 ## Removed
 
 * `app-mobilephone/hfd-service`
