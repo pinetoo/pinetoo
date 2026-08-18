@@ -12,6 +12,8 @@
 
 * `dev-libs/libgbinder-1.1.52`
 
+* `dev-libs/libglibutil-1.0.82`
+
 ## Removed
 
 * `app-mobilephone/hfd-service`
