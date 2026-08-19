@@ -20,6 +20,8 @@
 
 * `sys-firmware/trusted-firmware-a-2.14.6`
 
+* `sys-kernel/pinephonepro-kernel-7.1.0`
+
 ## Removed
 
 * `app-mobilephone/hfd-service`
