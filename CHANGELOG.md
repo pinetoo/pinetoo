@@ -18,6 +18,8 @@
 
 * `sys-firmware/brcmfmac_sdio-firmware-20260701`
 
+* `sys-firmware/trusted-firmware-a-2.14.6`
+
 ## Removed
 
 * `app-mobilephone/hfd-service`
