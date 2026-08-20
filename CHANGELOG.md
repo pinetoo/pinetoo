@@ -30,6 +30,9 @@
 * `app-text/presage`
   Unmaintained. No consumers left.
 
+* `dev-qt/qtfeedback`
+  Unmaintained. Depends on Qt5. No consumers left.
+
 * `x11-apps/maliit-keyboard`
   Unmaintained. Depends on Qt5.
 
