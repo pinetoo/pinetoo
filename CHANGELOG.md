@@ -36,6 +36,9 @@
 * `dev-qt/qtsystems`
   Unmaintained. Depends on Qt5. No consumers left.
 
+* `media-libs/zxing-cpp`
+  Outdated. Already provided by ::gentoo.
+
 * `x11-apps/maliit-keyboard`
   Unmaintained. Depends on Qt5.
 
