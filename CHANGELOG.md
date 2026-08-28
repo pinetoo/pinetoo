@@ -30,6 +30,9 @@
 * `app-text/presage`
   Unmaintained. No consumers left.
 
+* `dev-build/corrosion`
+  Now provided by `::gentoo`.
+
 * `dev-qt/qtfeedback`
   Unmaintained. Depends on Qt5. No consumers left.
 
