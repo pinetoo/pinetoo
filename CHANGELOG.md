@@ -4,6 +4,10 @@
 
 **KDE Gear** updated to **26.04.3**
 
+## Package updates
+
+* `app-containers/waydroid-1.6.3`
+
 ## Removed
 
 * `app-mobilephone/hfd-service`
