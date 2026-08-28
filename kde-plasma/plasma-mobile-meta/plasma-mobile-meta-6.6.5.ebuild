@@ -3,7 +3,7 @@
 
 EAPI=7
 
-GEAR_MIN=25.12.3
+GEAR_MIN=26.04.3
 
 inherit optfeature
 
@@ -43,6 +43,7 @@ RDEPEND="
 	>=kde-plasma/kscreen-${PV}:${SLOT}
 	>=kde-plasma/oxygen-${PV}:${SLOT}
 	>=kde-plasma/oxygen-sounds-${PV}:${SLOT}
+	>=kde-plasma/plasma-keyboard-${PV}
 	>=kde-plasma/plasma-mobile-${PV}:${SLOT}
 	kde-plasma/plasma-mobile-sounds
 	kde-plasma/plasma-settings
@@ -59,7 +60,6 @@ RDEPEND="
 	>=net-im/tokodon-${GEAR_MIN}
 	>=net-news/alligator-${GEAR_MIN}
 	>=www-client/angelfish-${GEAR_MIN}
-	x11-apps/maliit-keyboard
 	x11-misc/sddm
 	accessibility? ( >=app-accessibility/kontrast-${GEAR_MIN}:${SLOT} )
 	bluetooth? ( >=kde-plasma/bluedevil-${PV}:${SLOT} )
@@ -72,7 +72,6 @@ RDEPEND="
 	games? ( games-kids/gcompris )
 	gtk? ( >=kde-plasma/breeze-gtk-${PV}:${SLOT} )
 	handbook? ( >=kde-apps/khelpcenter-${PV}:${SLOT} )
-	haptic? ( app-mobilephone/hfd-service )
 	kwallet? ( >=kde-plasma/kwallet-pam-${PV}:${SLOT} )
 	pulseaudio? ( >=kde-plasma/plasma-pa-${PV}:${SLOT} )
 	sms? ( >=app-mobilephone/spacebar-${PV} )

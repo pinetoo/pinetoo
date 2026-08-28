@@ -1,3 +1,9 @@
+# 6.6.5.26.04.3.4.0.2.0
+
+**KDE Plasma** updated to **6.6.5**
+
+**KDE Gear** updated to **26.04.3**
+
 # 6.5.5.25.12.3.4.0.2.0
 
 **KDE Plasma** updated to **6.5.5**
