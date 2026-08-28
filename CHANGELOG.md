@@ -39,6 +39,10 @@
 * `dev-qt/qtsystems`
   Unmaintained. Depends on Qt5. No consumers left.
 
+* `kde-apps/qrca`
+  Removed. Now provided by `::gentoo` as `media-gfx/qrca`.
+  Rename existing installations.
+
 * `media-libs/zxing-cpp`
   Outdated. Already provided by ::gentoo.
 

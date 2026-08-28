@@ -32,7 +32,6 @@ RDEPEND="
 	>=kde-apps/ktrip-${GEAR_MIN}
 	>=kde-apps/marble-${GEAR_MIN}
 	>=kde-apps/okular-${GEAR_MIN}:${SLOT}[mobile]
-	>=kde-apps/qrca-${GEAR_MIN}
 	kde-apps/plasma-phonebook
 	kde-apps/plasma-camera
 	>=kde-apps/qmlkonsole-${GEAR_MIN}
@@ -49,6 +48,7 @@ RDEPEND="
 	kde-plasma/plasma-settings
 	>=kde-plasma/powerdevil-${PV}:${SLOT}
 	media-gfx/megapixels
+	>=media-gfx/qrca-${GEAR_MIN}
 	>=media-sound/audiotube-${GEAR_MIN}
 	>=media-sound/kasts-${GEAR_MIN}
 	>=media-sound/elisa-${GEAR_MIN}:${SLOT}
