@@ -4,6 +4,11 @@
 
 **KDE Gear** updated to **26.04.3**
 
+## Removed
+
+* `x11-apps/maliit-keyboard`
+  Unmaintained. Depends on Qt5.
+
 # 6.5.5.25.12.3.4.0.2.0
 
 **KDE Plasma** updated to **6.5.5**
