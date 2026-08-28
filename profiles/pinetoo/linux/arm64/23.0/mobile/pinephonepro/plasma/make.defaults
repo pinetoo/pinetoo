@@ -1,0 +1,2 @@
+# Fixes black screen when task switching in Plasma Mobile with <media-libs/mesa-26.2.0
+USE="gles2-only"

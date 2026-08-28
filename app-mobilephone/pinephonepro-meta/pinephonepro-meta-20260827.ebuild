@@ -9,7 +9,7 @@ HOMEPAGE="https://pine64.org/devices/pinephone_pro/"
 LICENSE="metapackage"
 SLOT="5"
 KEYWORDS="~arm64"
-IUSE="geolocation +policykit"
+IUSE="geolocation kde"
 
 RDEPEND="
 	app-misc/pinephonepro-manjaro-tweaks
@@ -23,4 +23,10 @@ RDEPEND="
 	sys-boot/pinetoo-bootsplash
 	sys-kernel/pinephonepro-kernel
 	geolocation? ( sci-geosciences/gpsd )
+	kde? (
+		|| (
+			>=kde-plasma/kwin-${PV}:${SLOT}[gles2-only]
+			>=media-libs/mesa-26.2.0
+		)
+	)
 "
