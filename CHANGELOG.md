@@ -39,6 +39,9 @@
 * `media-libs/zxing-cpp`
   Outdated. Already provided by ::gentoo.
 
+* `sys-kernel/pinephonepro-manjaro-kernel`
+  Unmaintained.
+
 * `x11-apps/maliit-keyboard`
   Unmaintained. Depends on Qt5.
 

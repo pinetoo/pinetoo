@@ -1,12 +1,10 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
-KDE_MIN=21.08
-
 DESCRIPTION="Meta package for packages required to support the PinePhone Pro"
-HOMEPAGE="https://manjaro.org/laptops/pine64/pinephone/"
+HOMEPAGE="https://pine64.org/devices/pinephone_pro/"
 
 LICENSE="metapackage"
 SLOT="5"
@@ -23,9 +21,6 @@ RDEPEND="
 	sys-apps/zswap
 	sys-boot/u-boot
 	sys-boot/pinetoo-bootsplash
-	|| (
-		sys-kernel/pinephonepro-kernel
-		sys-kernel/pinephonepro-manjaro-kernel
-	)
+	sys-kernel/pinephonepro-kernel
 	geolocation? ( sci-geosciences/gpsd )
 "
