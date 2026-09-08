@@ -10,6 +10,8 @@
 
 * `dev-libs/ktactilefeedback-20250725`
 
+* `sys-firmware/brcmfmac_sdio-firmware-20260823`
+
 # 6.6.5.26.04.3.4.0.2.0
 
 **KDE Plasma** updated to **6.6.5**

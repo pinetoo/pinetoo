@@ -6,7 +6,7 @@ EAPI=7
 inherit git-r3
 
 EGIT_REPO_URI="https://github.com/LibreELEC/brcmfmac_sdio-firmware.git"
-EGIT_COMMIT="5987820e4ff88a5626536f66257165fe3a781b73"
+EGIT_COMMIT="033a1d96765752aa8c1ea63b65656afb16bedd2c"
 
 DESCRIPTION="Broadcom SDIO firmware"
 HOMEPAGE="https://github.com/LibreELEC/brcmfmac_sdio-firmware"
