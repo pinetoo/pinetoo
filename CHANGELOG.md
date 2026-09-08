@@ -2,6 +2,10 @@
 
 **KDE Plasma** updated to **6.6.6**
 
+## Package updates
+
+* `dev-libs/amber-mpris-1.2.10`
+
 # 6.6.5.26.04.3.4.0.2.0
 
 **KDE Plasma** updated to **6.6.5**
