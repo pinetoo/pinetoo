@@ -8,6 +8,8 @@
 
 * `dev-libs/gmobile-0.7.3`
 
+* `dev-libs/ktactilefeedback-20250725`
+
 # 6.6.5.26.04.3.4.0.2.0
 
 **KDE Plasma** updated to **6.6.5**
