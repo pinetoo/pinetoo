@@ -4,8 +4,8 @@
 EAPI=8
 
 ECM_TEST="true"
-KFMIN=6.22.0
-QTMIN=6.10.1
+KFMIN=6.26.0
+QTMIN=6.11.2
 inherit ecm plasma.kde.org xdg
 
 DESCRIPTION="KDE Plasma applet for NetworkManager"
@@ -16,8 +16,9 @@ KEYWORDS="~arm64"
 IUSE="mobile openconnect teamd"
 
 COMMON_DEPEND="
-	>=app-crypt/qca-2.3.7:2[qt6(+)]
+	dev-libs/openssl:=
 	dev-libs/qcoro[dbus]
+	>=dev-libs/qtkeychain-0.16.0:=
 	>=dev-qt/qtbase-${QTMIN}:6[dbus,gui,network,widgets,xml]
 	>=dev-qt/qtdeclarative-${QTMIN}:6[widgets]
 	>=kde-frameworks/kcmutils-${KFMIN}:6
@@ -27,13 +28,12 @@ COMMON_DEPEND="
 	>=kde-frameworks/kcoreaddons-${KFMIN}:6
 	>=kde-frameworks/kdbusaddons-${KFMIN}:6
 	>=kde-frameworks/ki18n-${KFMIN}:6
-	>=kde-frameworks/kio-6.22.1:6
+	>=kde-frameworks/kio-${KFMIN}:6
 	>=kde-frameworks/kitemviews-${KFMIN}:6
 	>=kde-frameworks/kjobwidgets-${KFMIN}:6
 	>=kde-frameworks/knotifications-${KFMIN}:6
 	>=kde-frameworks/kservice-${KFMIN}:6
 	>=kde-frameworks/ksvg-${KFMIN}:6
-	>=kde-frameworks/kwallet-${KFMIN}:6
 	>=kde-frameworks/kwidgetsaddons-${KFMIN}:6
 	>=kde-frameworks/kwindowsystem-${KFMIN}:6
 	>=kde-frameworks/kxmlgui-${KFMIN}:6
@@ -54,9 +54,11 @@ COMMON_DEPEND="
 	)
 "
 RDEPEND="${COMMON_DEPEND}
+	dev-libs/kirigami-addons:6
 	>=kde-frameworks/kdeclarative-${KFMIN}:6
 	>=kde-frameworks/kirigami-${KFMIN}:6
 	>=kde-frameworks/kquickcharts-${KFMIN}:6
+	>=kde-frameworks/prison-${KFMIN}:6
 "
 DEPEND="${COMMON_DEPEND}
 	>=net-misc/modemmanager-1.20
