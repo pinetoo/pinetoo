@@ -1,3 +1,10 @@
+# 6.7.5.26.04.3.4.0.2.0
+
+## Removed
+
+* `kde-plasma/plasma-nano``
+  Now provided by `::gentoo`.
+
 # 6.6.6.26.04.3.4.0.2.0
 
 **KDE Plasma** updated to **6.6.6**
