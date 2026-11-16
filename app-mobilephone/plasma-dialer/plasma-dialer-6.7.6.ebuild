@@ -1,9 +1,9 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-KFMIN=6.18.0
+KFMIN=6.26.0
 QTMIN=6.9.0
 inherit ecm plasma.kde.org xdg
 
@@ -21,6 +21,7 @@ DEPEND="
 	dev-libs/amber-mpris
 	>=dev-qt/qtbase-${QTMIN}:6[dbus,gui,sql,widgets]
 	>=dev-qt/qtdeclarative-${QTMIN}:6
+	>=dev-qt/qtmultimedia-${QTMIN}:6
 	>=kde-frameworks/kconfig-${KFMIN}:6
 	>=kde-frameworks/kcontacts-${KFMIN}:6
 	>=kde-frameworks/kcoreaddons-${KFMIN}:6
