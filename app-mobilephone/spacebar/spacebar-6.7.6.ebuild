@@ -4,11 +4,11 @@
 EAPI=8
 
 QTMIN=6.10.0
-KFMIN=6.22.0
+KFMIN=6.26.0
 inherit ecm plasma.kde.org xdg
 
 DESCRIPTION="SMS Application for Plasma Mobile"
-HOMEPAGE="https://apps.kde.org/spacebar/"
+HOMEPAGE="https://invent.kde.org/plasma-mobile/spacebar"
 
 LICENSE="GPL-2+"
 SLOT="0"
