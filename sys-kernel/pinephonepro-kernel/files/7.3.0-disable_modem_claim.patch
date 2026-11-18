@@ -1,0 +1,10 @@
+--- a/arch/arm64/boot/dts/rockchip/rk3399-pinephone-pro.dts	2026-11-18 11:36:36.018900460 +0100
++++ b/arch/arm64/boot/dts/rockchip/rk3399-pinephone-pro.dts	2026-11-18 11:36:57.222426256 +0100
+@@ -1073,6 +1073,7 @@
+ 	status = "okay";
+ 
+ 	modem {
++		status = "disabled";
+ 		compatible = "quectel,eg25";
+ 		char-device-name = "modem-power";
+ 

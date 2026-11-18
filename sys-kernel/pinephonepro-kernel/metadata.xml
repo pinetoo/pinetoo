@@ -6,7 +6,7 @@
     <name>Jesus Perez Rey</name>
   </maintainer>
   <use>
-    <flag name='initramfs'>Build initramfs along with the kernel.</flag>
+    <flag name='efi'>Make an image to be booted by an EFI bootloader.</flag>
   </use>
   <upstream>
     <remote-id type="codeberg">LogicalErzor/linux</remote-id>

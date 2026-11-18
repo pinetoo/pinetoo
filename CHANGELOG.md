@@ -1,5 +1,9 @@
 # 6.7.5.26.04.3.4.0.2.0
 
+## Package updates
+
+* `sys-kernel/pinephonepro-kernel-7.3.0`
+
 ## Removed
 
 * `kde-plasma/plasma-nano``
