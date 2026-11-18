@@ -6,11 +6,13 @@
 
 * `dev-libs/libglibutil-1.0.82`
 
+* `sys-firmware/brcmfmac_sdio-firmware-20260823`
+
 * `sys-kernel/pinephonepro-kernel-7.3.0`
 
 ## Removed
 
-* `kde-plasma/plasma-nano``
+* `kde-plasma/plasma-nano`
   Now provided by `::gentoo`.
 
 # 6.6.6.26.04.3.4.0.2.0
