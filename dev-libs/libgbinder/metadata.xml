@@ -5,6 +5,9 @@
     <email>pinetoo@chuso.net</email>
     <name>Jesus Perez Rey</name>
   </maintainer>
+  <use>
+    <flag name="tools">Build and install the binder-bridge, binder-call, binder-list and binder-ping tools</flag>
+  </use>
   <upstream>
     <remote-id type="github">mer-hybris/libgbinder</remote-id>
   </upstream>

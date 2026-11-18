@@ -16,7 +16,7 @@ IUSE="tools"
 
 DEPEND="
 	dev-libs/glib:2
-	dev-libs/libglibutil
+	>=dev-libs/libglibutil-1.0.83
 	"
 RDEPEND="${DEPEND}"
 

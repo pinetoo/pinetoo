@@ -2,6 +2,8 @@
 
 ## Package updates
 
+* `dev-libs/libgbinder-1.1.55`
+
 * `dev-libs/libglibutil-1.0.82`
 
 * `sys-kernel/pinephonepro-kernel-7.3.0`
