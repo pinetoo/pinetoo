@@ -21,6 +21,7 @@ RDEPEND="
 	sys-apps/zswap
 	sys-boot/u-boot
 	sys-boot/pinetoo-bootsplash
+	sys-firmware/brcmfmac_sdio-firmware
 	sys-kernel/pinephonepro-kernel
 	geolocation? ( sci-geosciences/gpsd )
 	kde? (

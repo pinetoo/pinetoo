@@ -15,6 +15,11 @@
 * `kde-plasma/plasma-nano`
   Now provided by `::gentoo`.
 
+## Other changes
+
+* `app-mobilephone/pinephonepro-meta`
+  Add missing dependency on `sys-firmware/brcmfmac_sdio-firmware`.
+
 # 6.6.6.26.04.3.4.0.2.0
 
 **KDE Plasma** updated to **6.6.6**
