@@ -13,7 +13,7 @@ HOMEPAGE="https://plasma-mobile.org/"
 LICENSE="metapackage"
 SLOT="6"
 KEYWORDS="~arm64"
-IUSE="accessibility +bluetooth +desktop-portal +dialer education games +gtk handbook haptic kwallet +pulseaudio +sms systemd thumbnail webengine"
+IUSE="accessibility +bluetooth +desktop-portal +dialer education games +gtk handbook kwallet +pulseaudio +sms systemd thumbnail webengine"
 
 RDEPEND="
 	>=app-crypt/keysmith-${GEAR_MIN}
@@ -60,7 +60,10 @@ RDEPEND="
 	>=net-im/tokodon-${GEAR_MIN}
 	>=net-news/alligator-${GEAR_MIN}
 	>=www-client/angelfish-${GEAR_MIN}
-	x11-misc/sddm
+	|| (
+		>=kde-plasma/plasma-login-manager-${PV}
+		gui-apps/sddm
+	)
 	accessibility? ( >=app-accessibility/kontrast-${GEAR_MIN}:${SLOT} )
 	bluetooth? ( >=kde-plasma/bluedevil-${PV}:${SLOT} )
 	desktop-portal? ( >=kde-plasma/xdg-desktop-portal-kde-${PV}:${SLOT} )

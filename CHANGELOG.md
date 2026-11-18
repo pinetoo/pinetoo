@@ -1,4 +1,6 @@
-# 6.7.5.26.04.3.4.0.2.0
+# 6.7.6.26.04.3.4.0.2.0
+
+**KDE Plasma** updated to **6.7.6**
 
 ## Package updates
 
@@ -19,6 +21,9 @@
 
 * `app-mobilephone/pinephonepro-meta`
   Add missing dependency on `sys-firmware/brcmfmac_sdio-firmware`.
+
+* `kde-plasma/plasma-mobile-meta`
+  Add `kde-plasma/plasma-login-manager` as an alternative to `gui-apps/sddm`.
 
 # 6.6.6.26.04.3.4.0.2.0
 
