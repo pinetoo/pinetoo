@@ -8,6 +8,8 @@
 
 * `dev-libs/libglibutil-1.0.82`
 
+* `kde-apps/okular-26.04.3-r1`
+
 * `sys-firmware/brcmfmac_sdio-firmware-20260823`
 
 * `sys-kernel/pinephonepro-kernel-7.3.0`

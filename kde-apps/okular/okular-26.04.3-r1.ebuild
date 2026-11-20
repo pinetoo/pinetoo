@@ -18,8 +18,6 @@ SLOT="6"
 KEYWORDS="~arm64"
 IUSE="crypt djvu epub markdown mobi mobile +pdf +postscript qml share speech +tiff"
 
-PATCHES=( "${FILESDIR}/${PV}-cmake_ecm_qml_module.patch" )
-
 # slot op: Uses Qt6::CorePrivate
 DEPEND="
 	>=dev-qt/qtbase-${QTMIN}:6=[dbus,gui,widgets,X,xml]
@@ -64,6 +62,7 @@ RDEPEND="${DEPEND}
 
 PATCHES=(
 	"${FILESDIR}/${PN}-23.08.5-implicit-vasprintf.patch" # bug 922345; pending upstream
+	"${FILESDIR}/${P}-fix-pdf-forms-crash.patch" # in 26.08.1; bug 983730
 )
 
 CMAKE_SKIP_TESTS=(
